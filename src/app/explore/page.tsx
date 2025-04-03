@@ -23,16 +23,16 @@ const formatYear = (dateString: string) => new Date(dateString).getFullYear();
 const cardData = [
   { 
     id: 1, 
-    title: "Goal One", 
+    title: "USDA Strategic Plan", 
     topic: "Topic A",
-    orgAcronym: "ABC",
-    orgFullName: "Acme Business Corporation",
+    orgAcronym: "USDA",
+    orgFullName: "U.S. Department of Agriculture",
     orgAvatar: "/org1.png",
     cardType: "Plan",
     startDate: "2023-01-01",
     endDate: "2023-06-30",
-    totalIndicators: 10,
-    indicatorsProgressed: 6,
+    totalIndicators: 100,
+    indicatorsProgressed: 64,
     changeIndicatorsProgressed: 2,
     artwork: "wheat",
     patternOption: "tile",
@@ -40,11 +40,11 @@ const cardData = [
   },
   { 
     id: 2, 
-    title: "Goal Two", 
+    title: "American households with consistent, dependable access to food", 
     topic: "Topic B",
     orgAcronym: "XYZ",
-    orgFullName: "Xylophone Youth Zone",
-    orgAvatar: "/org2.png",
+    orgFullName: "U.S. Department of Agriculture",
+    orgAvatar: "usda",
     cardType: "Indicator",
     startDate: "2023-03-01",
     endDate: "2023-09-30",
@@ -53,19 +53,23 @@ const cardData = [
     dataPercentChanges: [-2, 2, -1, 1, -2, 1, 2],
     progressPercent: 95,
     progressed: true,
-    targetDirection: "increase"
+    targetDirection: "increase",
+    orgAcronym: "USDA",
+    orgFullName: "U.S. Department of Agriculture",
   },
   { 
     id: 3, 
-    title: "Goal Three", 
+    title: "Facilitate Rural Prosperity and Economic Development", 
     topic: "Topic C",
-    orgAcronym: "DEF",
-    orgFullName: "Delta Enterprise Foundation",
-    orgAvatar: "/org3.png",
+    orgAcronym: "USDA",
+    orgFullName: "U.S. Department of Agriculture",
+    orgAvatar: "usda",
     cardType: "Goal",
     startDate: "2023-05-01",
     endDate: "2023-12-31",
-    artwork: "farmer"
+    artwork: "farmer",
+    orgAcronym: "USDA",
+    orgFullName: "U.S. Department of Agriculture",
   },
   // ...more dummy data as needed
 ];
@@ -351,7 +355,7 @@ export default function ExplorePage() {
   return (
     <div>
       <Header />
-      <main className="bg-[#F5F5F5]">
+      <main className="bg-[#F5F5F5] pb-12">
         <div className="flex items-center space-x-4 p-4 bg-white">
           <FilterSidebar
             possibleFilters={possibleFilters}
