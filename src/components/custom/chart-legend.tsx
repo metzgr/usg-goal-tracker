@@ -64,11 +64,11 @@ export default function ChartLegend({
         <div className="flex justify-center mt-[10px]">
           <p className="inline-flex items-center text-xs text-gray-950">
             <svg
-              className={`w-[16px] h-[16px] ${colorClass}`}
+              className= {`w-[16px] h-[16px] fill-red-600`}
               viewBox="0 0 16 16"
               aria-hidden="true"
             >
-              <circle cx="8" cy="8" r="4" />
+              <circle cx="8" cy="8" r="4" className="stroke-indigo-600" strokeWidth="2" />
             </svg>
             <span className="font-medium">Actual</span>
           </p>

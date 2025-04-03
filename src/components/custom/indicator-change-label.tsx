@@ -20,32 +20,32 @@ export default function IndicatorChangeLabel({
   // For arrow rotation, we use posPctChange.
   const posPctChange = changeValue > 0;
 
-  // For text color, determine whether the most recent value moved in the right direction.
+  // Determine if target data exists.
+  const hasTarget = dataTargets && dataTargets.length > 0;
+
+  // Determine if the metric moved in the "right direction" (if target data is available).
   let movedCorrectly = false;
-  if (dataTargets.length >= 2 && dataActuals.length >= 2) {
+  if (hasTarget && dataActuals.length >= 2 && dataTargets.length >= 2) {
     const prevTarget = dataTargets[dataTargets.length - 2];
     const finalTarget = dataTargets[dataTargets.length - 1];
     const prevActual = dataActuals[dataActuals.length - 2];
     const finalActual = dataActuals[dataActuals.length - 1];
 
-    // If target is increasing, then actual should increase.
     if (finalTarget > prevTarget) {
       movedCorrectly = finalActual > prevActual;
-    } 
-    // If target is decreasing, then actual should decrease.
-    else if (finalTarget < prevTarget) {
+    } else if (finalTarget < prevTarget) {
       movedCorrectly = finalActual < prevActual;
-    } 
-    // Otherwise, if targets haven't changed, fallback to posPctChange.
-    else {
+    } else {
       movedCorrectly = posPctChange;
     }
   } else {
     movedCorrectly = posPctChange;
   }
 
-  // Set text color based on whether the metric moved in the right direction.
-  const colorClass = movedCorrectly ? "text-indigo-600" : "text-red-600";
+  // For text color, if targets exist use computed colors; otherwise, default to gray.
+  const colorClass = hasTarget
+    ? (movedCorrectly ? "text-indigo-600" : "text-red-600")
+    : "text-gray-950";
 
   // Arrow rotation: if positive percent change then rotate -90°, else rotate 90°.
   const arrowRotation = posPctChange ? "rotate-[-90deg]" : "rotate-[90deg]";
