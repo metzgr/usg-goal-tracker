@@ -12,82 +12,80 @@ import { ScrollArea } from "src/components/ui/scroll-area";
 import UsgBanner from "src/components/custom/usg-banner";
 import CardHeader from "src/components/custom/card-header";
 import CardFooter from "src/components/custom/card-footer";
+import CardBody from "src/components/custom/card-body";
 import Placard from "src/components/custom/placard";
 
-// Format date
-
+// Format date helper.
 const formatYear = (dateString: string) => new Date(dateString).getFullYear();
 
 // Dummy card data for demonstration
 const cardData = [
-    { 
-      id: 1, 
-      title: "Goal One", 
-      // No longer using 'description' for card body; using new fields.
-      topic: "Topic A",
-      orgAcronym: "ABC",
-      orgFullName: "Acme Business Corporation",
-      orgAvatar: "/org1.png",
-      cardType: "Plan",
-      startDate: "2023-01-01",
-      endDate: "2023-06-30",
-      totalIndicators: 10,
-      indicatorsProgressed: 6,
-      changeIndicatorsProgressed: 2,
-      artwork: "plan1.jpg",
-      patternOption: "fill",
-      avatar1: "usda",
-    },
-    { 
-      id: 2, 
-      title: "Goal Two", 
-      topic: "Topic B",
-      orgAcronym: "XYZ",
-      orgFullName: "Xylophone Youth Zone",
-      orgAvatar: "/org2.png",
-      cardType: "Indicator",
-      startDate: "2023-03-01",
-      endDate: "2023-09-30",
-      dataTargets: [100, 105, 110, 115, 120, 125, 130],
-      dataActuals: [98, 107, 108, 116, 118, 127, 132],
-      dataPercentChanges: [-2, 2, -1, 1, -2, 1, 2],
-      progressPercent: 95,
-      progressed: true,
-      targetDirection: "increase"
-    },
-    { 
-      id: 3, 
-      title: "Goal Three", 
-      topic: "Topic C",
-      orgAcronym: "DEF",
-      orgFullName: "Delta Enterprise Foundation",
-      orgAvatar: "/org3.png",
-      cardType: "Goal",
-      startDate: "2023-05-01",
-      endDate: "2023-12-31",
-      artwork: "goal1.jpg"
-    },
-  // ...more data as needed
+  { 
+    id: 1, 
+    title: "Goal One", 
+    topic: "Topic A",
+    orgAcronym: "ABC",
+    orgFullName: "Acme Business Corporation",
+    orgAvatar: "/org1.png",
+    cardType: "Plan",
+    startDate: "2023-01-01",
+    endDate: "2023-06-30",
+    totalIndicators: 10,
+    indicatorsProgressed: 6,
+    changeIndicatorsProgressed: 2,
+    artwork: "plan1.jpg",
+    patternOption: "fill",
+    avatar1: "usda",
+  },
+  { 
+    id: 2, 
+    title: "Goal Two", 
+    topic: "Topic B",
+    orgAcronym: "XYZ",
+    orgFullName: "Xylophone Youth Zone",
+    orgAvatar: "/org2.png",
+    cardType: "Indicator",
+    startDate: "2023-03-01",
+    endDate: "2023-09-30",
+    dataTargets: [100, 105, 110, 115, 120, 125, 130],
+    dataActuals: [98, 107, 108, 116, 118, 127, 132],
+    dataPercentChanges: [-2, 2, -1, 1, -2, 1, 2],
+    progressPercent: 95,
+    progressed: true,
+    targetDirection: "increase"
+  },
+  { 
+    id: 3, 
+    title: "Goal Three", 
+    topic: "Topic C",
+    orgAcronym: "DEF",
+    orgFullName: "Delta Enterprise Foundation",
+    orgAvatar: "/org3.png",
+    cardType: "Goal",
+    startDate: "2023-05-01",
+    endDate: "2023-12-31",
+    artwork: "goal1.jpg"
+  },
+  // ...more dummy data as needed
 ];
 
 // Header Component
 function Header() {
   return (
-
     <header>
-        <UsgBanner />
-        <div className="flex items-center justify-between p-4 border-b">
-      <div className="flex items-center">
-        <img src="/logo.svg" alt="Logo" className="h-8 w-8 mr-2" />
-        <span className="font-bold">MyApp</span>
-      </div>
-      <nav>
-        <ul className="flex space-x-4">
-          <li><a href="/">Home</a></li>
-          <li><a href="/explore">Explore</a></li>
-          <li><a href="/profile">Profile</a></li>
-        </ul>
-      </nav>
+      <UsgBanner />
+      <div className="flex items-center justify-between p-4 border-b">
+        <div className="flex items-center">
+          <img src="/logo.svg" alt="Logo" className="h-8 w-8 mr-2" />
+          <span className="font-bold">MyApp</span>
+        </div>
+        <nav>
+          <ul className="flex space-x-4">
+            <li><a href="/">Home</a></li>
+            <li><a href="/explore">Explore</a></li>
+            <li><a href="/profile">Profile</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
   );
@@ -228,72 +226,80 @@ function ActiveFilters({
 
 // CardCatalog Component that displays filtered cards
 function CardCatalog({ cards }: { cards: typeof cardData }) {
-    if (cards.length === 0) {
-      return <p className="p-4">No results found.</p>;
-    }
-    return (
-      <div className="columns-1 sm:columns-2 md:columns-3 gap-5">
-        {cards.map((card) => (
-          <div key={card.id} style={{ breakInside: 'avoid' }} className="mb-5">
-            <Placard>
+  if (cards.length === 0) {
+    return <p className="p-4">No results found.</p>;
+  }
+  return (
+    <div className="columns-1 sm:columns-2 md:columns-3 gap-5">
+      {cards.map((card) => (
+        <div key={card.id} style={{ breakInside: "avoid" }} className="mb-5">
+          <Placard>
             <Card className="">
-              {/* Card Header: badge with card type and date range */}
+              {/* Card Header */}
               <CardHeader
-  title={card.title}
-  startDate={formatYear(card.startDate)}
-  endDate={formatYear(card.endDate)}
-  cardType= {card.cardType}
-
-/>
+                title={card.title}
+                startDate={formatYear(card.startDate)}
+                endDate={formatYear(card.endDate)}
+                cardType={card.cardType}
+              />
               <h3 className="font-bold mb-2">{card.title}</h3>
-              {/* Conditional Card Body based on card type */}
+              {/* Card Body */}
               {card.cardType === "Plan" && (
                 <div>
-                  <p>Total Indicators: {card.totalIndicators}</p>
-                  <p>Indicators Progressed: {card.indicatorsProgressed}</p>
-                  <p>Change in Progressed: {card.changeIndicatorsProgressed}</p>
-                  <p>
-                    % Progressed:{" "}
-                    {card.totalIndicators
-                      ? ((card.indicatorsProgressed / card.totalIndicators) * 100).toFixed(1)
-                      : 0}
-                    %
-                  </p>
-                  <p>Artwork: {card.artwork}</p>
-                  <p>Pattern: {card.patternOption}</p>
+                  <CardBody
+                    cardType={card.cardType}
+                    artwork={card.artwork}
+                    patternOption={card.patternOption}
+                    totalIndicators={card.totalIndicators}
+                    indicatorsProgressed={card.indicatorsProgressed}
+                    changeIndicatorsProgressed={card.changeIndicatorsProgressed}
+                    dataActuals={card.dataActuals}
+                    dataTargets={card.dataTargets}
+                  />
                 </div>
               )}
               {card.cardType === "Indicator" && (
-                <div>
-                  <p>Last 7 Targets: {card.dataTargets.join(", ")}</p>
-                  <p>Last 7 Actuals: {card.dataActuals.join(", ")}</p>
-                  <p>Last 7 % Change: {card.dataPercentChanges.join(", ")}%</p>
-                  <p>% Progress: {card.progressPercent}%</p>
-                  <p>Progressed: {card.progressed ? "Yes" : "No"}</p>
-                  <p>Target Direction: {card.targetDirection}</p>
-                </div>
+                <CardBody
+                  cardType={card.cardType}
+                  artwork={card.artwork}
+                  patternOption={card.patternOption}
+                  totalIndicators={card.totalIndicators}
+                  indicatorsProgressed={card.indicatorsProgressed}
+                  changeIndicatorsProgressed={card.changeIndicatorsProgressed}
+                  dataActuals={card.dataActuals}
+                  dataTargets={card.dataTargets}
+                />
               )}
               {card.cardType === "Goal" && (
                 <div>
-                  <p>Artwork: {card.artwork}</p>
+                  <CardBody
+                    cardType={card.cardType}
+                    artwork={card.artwork}
+                    patternOption={card.patternOption}
+                    totalIndicators={card.totalIndicators}
+                    indicatorsProgressed={card.indicatorsProgressed}
+                    changeIndicatorsProgressed={card.changeIndicatorsProgressed}
+                    dataActuals={card.dataActuals}
+                    dataTargets={card.dataTargets}
+                  />
                 </div>
               )}
-              {/* Card Footer: organization details */}
+              {/* Card Footer */}
               <CardFooter
-    orgFullName={card.orgFullName}
-    orgAcronym={card.orgAcronym}
-    avatar1={card.avatar1}
-    avatar2={card.avatar2}
-    avatar3={card.avatar3}
-    avatar4={card.avatar4}
-  />
+                orgFullName={card.orgFullName}
+                orgAcronym={card.orgAcronym}
+                avatar1={card.avatar1}
+                avatar2={card.avatar2}
+                avatar3={card.avatar3}
+                avatar4={card.avatar4}
+              />
             </Card>
-            </Placard>
-          </div>
-        ))}
-      </div>
-    );
-  }
+          </Placard>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 // Explore Page
 export default function ExplorePage() {
@@ -306,11 +312,10 @@ export default function ExplorePage() {
   // Filter cards based on search query and active topic filters
   const filteredCards = cardData.filter((card) => {
     const query = searchQuery.toLowerCase();
-    const matchesSearch = (
+    const matchesSearch =
       card.title.toLowerCase().includes(query) ||
       card.orgFullName.toLowerCase().includes(query) ||
-      card.orgAcronym.toLowerCase().includes(query)
-    );
+      card.orgAcronym.toLowerCase().includes(query);
     const matchesTopic = activeFilters.length === 0 || activeFilters.includes(card.topic);
     return matchesSearch && matchesTopic;
   });
@@ -319,26 +324,25 @@ export default function ExplorePage() {
     <div>
       <Header />
       <main className="bg-[#F5F5F5]">
-    
-      <div className="flex items-center space-x-4 p-4">
-        <FilterSidebar
-          possibleFilters={possibleFilters}
-          activeFilters={activeFilters}
-          setActiveFilters={setActiveFilters}
-        />
-        <SearchBar
-          searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
-          filterOption={filterOption}
-          setFilterOption={setFilterOption}
-          statusOption={statusOption}
-          setStatusOption={setStatusOption}
-        />
-      </div>
-      <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
-      <div className="max-w-[1280px] mx-auto">
-      <CardCatalog cards={filteredCards} />
-      </div>
+        <div className="flex items-center space-x-4 p-4">
+          <FilterSidebar
+            possibleFilters={possibleFilters}
+            activeFilters={activeFilters}
+            setActiveFilters={setActiveFilters}
+          />
+          <SearchBar
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            filterOption={filterOption}
+            setFilterOption={setFilterOption}
+            statusOption={statusOption}
+            setStatusOption={setStatusOption}
+          />
+        </div>
+        <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
+        <div className="max-w-[1280px] mx-auto">
+          <CardCatalog cards={filteredCards} />
+        </div>
       </main>
     </div>
   );

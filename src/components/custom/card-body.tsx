@@ -6,6 +6,7 @@ import PieChart from "src/components/custom/pie-chart";
 import LineChart from "src/components/custom/line-chart";
 import ChartLegend from "src/components/custom/chart-legend";
 import StatHeader from "src/components/custom/stat-header";
+import ProgressBarChart from "src/components/custom/progress-bar-chart";
 
 type CardBodyProps = {
   cardType: string;
@@ -16,17 +17,21 @@ type CardBodyProps = {
   changeIndicatorsProgressed?: number;
   dataActuals?: number[];
   dataTargets?: number[];
+  dataPercentChanges?: number[]; // Added this prop
+  patternOption?: string; // or patternOption: string;
 };
 
 export default function CardBody({
   cardType,
   artwork,
+  patternOption, // <-- Make sure this is included
   children,
   totalIndicators,
   indicatorsProgressed,
   changeIndicatorsProgressed,
   dataActuals,
   dataTargets,
+  dataPercentChanges, // Destructure dataPercentChanges
 }: CardBodyProps) {
   if (cardType === "Goal") {
     return (
@@ -40,13 +45,24 @@ export default function CardBody({
   return (
     <div className="px-6 py-4 bg-gray-50 mx-5">
       {cardType === "Indicator" ? (
-  <>
-    <StatHeader 
-      dataActuals={dataActuals || []} 
-      dataPercentChanges={dataPercentChanges || []} 
-    />
-    <LineChart dataActuals={dataActuals || []} dataTargets={dataTargets || []} />
-  </>
+        <>
+          <StatHeader 
+            dataActuals={dataActuals || []} 
+            dataPercentChanges={dataPercentChanges || []} 
+          />
+          <LineChart dataActuals={dataActuals || []} dataTargets={dataTargets || []} />
+          <ProgressBarChart 
+            dataActuals={dataActuals || []} 
+            dataTargets={dataTargets || []} 
+          />
+          <ChartLegend 
+            cardType={cardType} 
+            indicatorsProgressed={indicatorsProgressed || 0}
+            changeIndicatorsProgressed={changeIndicatorsProgressed || 0}
+            dataActuals={dataActuals || []}
+            dataTargets={dataTargets || []}
+          />
+        </>
       ) : cardType === "Plan" ? (
         <>
           <div className="relative">
@@ -70,11 +86,17 @@ export default function CardBody({
   
           <div className="flex justify-center mt-2">
             <div className="w-[188px] h-[188px]"> 
-              <PieChart artworkFile="wheat" patternOption="tile" />
+              <PieChart artwork={artwork} patternOption={patternOption} />
             </div>
           </div>
   
-          <ChartLegend total={indicatorsProgressed || 0} posDifference={changeIndicatorsProgressed || 0} />
+          <ChartLegend 
+            cardType={cardType} 
+            indicatorsProgressed={indicatorsProgressed || 0}
+            changeIndicatorsProgressed={changeIndicatorsProgressed || 0}
+            dataActuals={dataActuals || []}
+            dataTargets={dataTargets || []}
+          />
         </>
       ) : (
         // Fallback: render children if no specific type matches.

@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 
 export default function PieChart({
-  artworkFile = "",
+  artwork = "",
   patternOption = "tile", // "tile" or "fill"
 }) {
   const containerRef = useRef(null);
@@ -63,7 +63,7 @@ export default function PieChart({
     const data = [75, 25];
 
     // If an artwork file is provided, define a pattern in defs.
-    if (artworkFile) {
+    if (artwork) {
         // Define different tile dimensions for horizontal vs. vertical spacing.
         const patternTileWidth = patternOption === "tile" ? 30 : 1;
         const patternTileHeight = patternOption === "tile" ? 25 : 1;
@@ -97,7 +97,7 @@ export default function PieChart({
           const offsetY = (patternTileHeight - imgHeight) / 2; // centers image vertically
           pattern
             .append("image")
-            .attr("xlink:href", `/artwork/pattern/${artworkFile}.jpg`)
+            .attr("xlink:href", `/artwork/pattern/${artwork}.jpg`)
             .attr("x", offsetX)
             .attr("y", offsetY)
             .attr("width", imgWidth)
@@ -107,7 +107,7 @@ export default function PieChart({
           // For "fill", let the image fill the shape
           pattern
             .append("image")
-            .attr("xlink:href", `/artwork/pattern/${artworkFile}.jpg`)
+            .attr("xlink:href", `/artwork/pattern/${artwork}.jpg`)
             .attr("width", radius * 2)
             .attr("height", radius * 2)
             .attr("preserveAspectRatio", "xMidYMid slice");
@@ -135,13 +135,13 @@ export default function PieChart({
       .attr("fill", (d, i) => {
         // The first slice (75%) uses either the pattern or fallback orange,
         // the second slice (25%) is white.
-        if (i === 0 && artworkFile) {
+        if (i === 0 && artwork) {
           return `url(#${patternId})`;
         }
         return i === 0 ? "var(--color-orange-200)" : "white";
       })
       .attr("stroke", "none");
-  }, [dimensions, artworkFile, patternOption]);
+  }, [dimensions, artwork, patternOption]);
 
   return <div ref={containerRef} style={{ width: "100%", height: "100%" }} />;
 }
