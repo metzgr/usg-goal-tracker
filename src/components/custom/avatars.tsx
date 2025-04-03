@@ -9,7 +9,7 @@ export default function Avatars({
     const avatars = [avatar1, avatar2, avatar3, avatar4].filter(Boolean).slice(0, count);
   
     // Conditional sizing: if count <= 2, use larger dimensions (w-8 h-8), else use smaller (w-6 h-6)
-    const sizeClass = count <= 2 ? "w-8 h-8" : "w-6 h-6";
+    const sizeClass = count <= 2 ? "w-7 h-7" : "w-6 h-6";
   
     return (
       <div className="flex -space-x-1 overflow-hidden">

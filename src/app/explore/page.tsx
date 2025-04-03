@@ -48,24 +48,11 @@ const cardData = [
     cardType: "Indicator",
     startDate: "2023-03-01",
     endDate: "2023-09-30",
-    dataTargets: [1800, 1200, 1600, 500, 1300, 700, 1700],
-    dataActuals: [200, 600, 1300, 700, 1800, 2000, 1000],
+    dataTargets: [1000, 1000, 1000, 1000, 1000, 1000, 1000],
+    dataActuals: [200, 600, 1300, 700, 1800, 800, 600],
     progressPercent: 95,
     progressed: true,
     targetDirection: "increase",
-    avatar1: "usda",
-  },
-  { 
-    id: 3, 
-    title: "Facilitate Rural Prosperity and Economic Development", 
-    topic: "Topic C",
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
-    orgAvatar: "usda",
-    cardType: "Goal",
-    startDate: "2023-05-01",
-    endDate: "2023-12-31",
-    artwork: "farmer",
     avatar1: "usda",
   },
   { 
@@ -81,6 +68,31 @@ const cardData = [
     artwork: "veteran",
     orgAcronym: "VA",
     avatar1: "va",
+  },
+  { 
+    id: 3, 
+    title: "Facilitate Rural Prosperity and Economic Development", 
+    topic: "Topic C",
+    orgAcronym: "USDA",
+    orgFullName: "U.S. Department of Agriculture",
+    orgAvatar: "usda",
+    cardType: "Goal",
+    startDate: "2023-05-01",
+    endDate: "2023-12-31",
+    artwork: "farmer",
+    avatar1: "usda",
+  },
+  { 
+    id: 8, 
+    title: "Combat Human Traffiking", 
+    topic: "Topic A",
+    orgAcronym: "DHS",
+    orgFullName: "U.S. Department of Homeland Security",
+    avatar1: "dhs",
+    cardType: "Goal",
+    startDate: "2023-05-01",
+    endDate: "2023-12-31",
+    artwork: "hands",
   },
 
   { 
@@ -101,9 +113,21 @@ const cardData = [
     avatar1: "sba",
   },
   { 
+    id: 7, 
+    title: "Safeguard and Improve National Health", 
+    topic: "Topic C",
+    orgAcronym: "HHS",
+    orgFullName: "U.S. Department of Health and Human Services",
+    cardType: "Goal",
+    startDate: "2023-05-01",
+    endDate: "2023-12-31",
+    artwork: "ambulance",
+    avatar1: "hhs",
+  },
+  { 
     id: 6, 
     title: "Consumer Price Index", 
-    topic: "Topic B",
+    topic: "Topic A",
     orgAcronym: "DOL",
     orgFullName: "U.S. Department of Labor",
     orgAvatar: "dol",
@@ -116,6 +140,34 @@ const cardData = [
     progressed: true,
     targetDirection: "increase",
     avatar1: "dol",
+  },
+  { 
+    id: 9, 
+    title: "Strategic Plan", 
+    topic: "Topic C",
+    orgAcronym: "HUD",
+    orgFullName: "U.S. Department of Housing and Urban Development",
+    cardType: "Plan",
+    startDate: "2023-01-01",
+    endDate: "2023-06-30",
+    totalIndicators: 100,
+    indicatorsProgressed: 75,
+    changeIndicatorsProgressed: 2,
+    artwork: "house",
+    patternOption: "tile",
+    avatar1: "hud",
+  },
+  { 
+    id: 10, 
+    title: "Highway Safety", 
+    topic: "Topic C",
+    orgAcronym: "DOT",
+    orgFullName: "U.S. Department of Transportation",
+    avatar1: "dot",
+    cardType: "Goal",
+    startDate: "2023-05-01",
+    endDate: "2023-12-31",
+    artwork: "highway",
   },
   
   // ...more dummy data as needed
@@ -313,8 +365,8 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
     <div className="columns-1 sm:columns-2 md:columns-3 gap-5">
       {cards.map((card) => (
         <div key={card.id} style={{ breakInside: "avoid" }} className="mb-5">
-          <Placard>
-            <Card className="">
+          <Placard className="group-hover:border-gray-700">
+            <Card className="group-hover:border-gray-700">
               {/* Card Header */}
               <CardHeader
                 title={card.title}
