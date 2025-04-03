@@ -1,0 +1,44 @@
+/* Light (weight 300) */
+@font-face {
+  font-family: 'GT America';
+  src: url('/fonts/gt-america/GT-America-Standard-Light-Trial.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular (weight 400) */
+@font-face {
+  font-family: 'GT America';
+  src: url('/fonts/gt-america/GT-America-Standard-Regular-Trial.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium (weight 500) */
+@font-face {
+  font-family: 'GT America';
+  src: url('/fonts/gt-america/GT-America-Standard-Medium-Trial.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold (weight 700) */
+@font-face {
+  font-family: 'GT America';
+  src: url('/fonts/gt-america/GT-America-Standard-Bold-Trial.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Black (weight 900) */
+@font-face {
+  font-family: 'GT America';
+  src: url('/fonts/gt-america/GT-America-Compressed-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

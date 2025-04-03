@@ -9,6 +9,7 @@ import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle } from "src/
 import { Checkbox } from "src/components/ui/checkbox";
 import { Label } from "src/components/ui/label";
 import { ScrollArea } from "src/components/ui/scroll-area";
+import UsgBanner from "src/components/custom/usg-banner";
 
 // Format date
 
@@ -19,38 +20,48 @@ const cardData = [
     { 
       id: 1, 
       title: "Goal One", 
-      description: "Description for goal one", 
+      // No longer using 'description' for card body; using new fields.
       topic: "Topic A",
       orgAcronym: "ABC",
       orgFullName: "Acme Business Corporation",
       orgAvatar: "/org1.png",
       cardType: "Plan",
       startDate: "2023-01-01",
-      endDate: "2023-06-30"
+      endDate: "2023-06-30",
+      totalIndicators: 10,
+      indicatorsProgressed: 6,
+      changeIndicatorsProgressed: 2,
+      artwork: "plan1.jpg",
+      patternType: "fill"
     },
     { 
       id: 2, 
       title: "Goal Two", 
-      description: "Description for goal two", 
       topic: "Topic B",
       orgAcronym: "XYZ",
       orgFullName: "Xylophone Youth Zone",
       orgAvatar: "/org2.png",
-      cardType: "Goal",
+      cardType: "Indicator",
       startDate: "2023-03-01",
-      endDate: "2023-09-30"
+      endDate: "2023-09-30",
+      last7Targets: [100, 105, 110, 115, 120, 125, 130],
+      last7Actuals: [98, 107, 108, 116, 118, 127, 132],
+      last7PercentChange: [-2, 2, -1, 1, -2, 1, 2],
+      progressPercent: 95,
+      progressed: true,
+      targetDirection: "increase"
     },
     { 
       id: 3, 
       title: "Goal Three", 
-      description: "Description for goal three", 
       topic: "Topic C",
       orgAcronym: "DEF",
       orgFullName: "Delta Enterprise Foundation",
       orgAvatar: "/org3.png",
-      cardType: "Indicator",
+      cardType: "Goal",
       startDate: "2023-05-01",
-      endDate: "2023-12-31"
+      endDate: "2023-12-31",
+      artwork: "goal1.jpg"
     },
   // ...more data as needed
 ];
@@ -58,7 +69,10 @@ const cardData = [
 // Header Component
 function Header() {
   return (
-    <header className="flex items-center justify-between p-4 border-b">
+
+    <header>
+        <UsgBanner />
+        <div className="flex items-center justify-between p-4 border-b">
       <div className="flex items-center">
         <img src="/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
         <span className="font-bold">MyApp</span>
@@ -70,6 +84,7 @@ function Header() {
           <li><a href="/profile">Profile</a></li>
         </ul>
       </nav>
+      </div>
     </header>
   );
 }
@@ -209,36 +224,70 @@ function ActiveFilters({
 
 // CardCatalog Component that displays filtered cards
 function CardCatalog({ cards }: { cards: typeof cardData }) {
-  if (cards.length === 0) {
-    return <p className="p-4">No results found.</p>;
+    if (cards.length === 0) {
+      return <p className="p-4">No results found.</p>;
+    }
+    return (
+      <div className="columns-1 sm:columns-2 md:columns-3 gap-4 p-4">
+        {cards.map((card) => (
+          <div key={card.id} style={{ breakInside: 'avoid' }} className="mb-4">
+            <Card className="p-4">
+              {/* Card Header: badge with card type and date range */}
+              <div className="flex items-center justify-between mb-2">
+                <span className="bg-gray-300 text-gray-700 text-xs font-semibold px-2 py-1 rounded">
+                  {card.cardType}
+                </span>
+                <span className="text-sm text-gray-500">
+                  {formatYear(card.startDate)}&ndash;{formatYear(card.endDate)}
+                </span>
+              </div>
+              <h3 className="font-bold mb-2">{card.title}</h3>
+              {/* Conditional Card Body based on card type */}
+              {card.cardType === "Plan" && (
+                <div>
+                  <p>Total Indicators: {card.totalIndicators}</p>
+                  <p>Indicators Progressed: {card.indicatorsProgressed}</p>
+                  <p>Change in Progressed: {card.changeIndicatorsProgressed}</p>
+                  <p>
+                    % Progressed:{" "}
+                    {card.totalIndicators
+                      ? ((card.indicatorsProgressed / card.totalIndicators) * 100).toFixed(1)
+                      : 0}
+                    %
+                  </p>
+                  <p>Artwork: {card.artwork}</p>
+                  <p>Pattern: {card.patternType}</p>
+                </div>
+              )}
+              {card.cardType === "Indicator" && (
+                <div>
+                  <p>Last 7 Targets: {card.last7Targets.join(", ")}</p>
+                  <p>Last 7 Actuals: {card.last7Actuals.join(", ")}</p>
+                  <p>Last 7 % Change: {card.last7PercentChange.join(", ")}%</p>
+                  <p>% Progress: {card.progressPercent}%</p>
+                  <p>Progressed: {card.progressed ? "Yes" : "No"}</p>
+                  <p>Target Direction: {card.targetDirection}</p>
+                </div>
+              )}
+              {card.cardType === "Goal" && (
+                <div>
+                  <p>Artwork: {card.artwork}</p>
+                </div>
+              )}
+              {/* Card Footer: organization details */}
+              <div className="flex items-center justify-between mt-4">
+                <div>
+                  <p className="font-bold">{card.orgAcronym}</p>
+                  <p className="text-sm text-gray-500">{card.orgFullName}</p>
+                </div>
+                <img src={card.orgAvatar} alt="Org avatar" className="h-8 w-8 rounded-full" />
+              </div>
+            </Card>
+          </div>
+        ))}
+      </div>
+    );
   }
-  return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
-      {cards.map((card) => (
-        <Card key={card.id} className="p-4">
-  {/* New header row with card type badge and dates */}
-  <div className="flex items-center justify-between mb-2">
-    <span className="bg-gray-300 text-gray-700 text-xs font-semibold px-2 py-1 rounded">
-      {card.cardType}
-    </span>
-    <span className="text-sm text-gray-500">
-  {formatYear(card.startDate)}&ndash;{formatYear(card.endDate)}
-</span>
-  </div>
-  <h3 className="font-bold mb-2">{card.title}</h3>
-  <p>{card.description}</p>
-  <div className="flex items-center justify-between mt-4">
-    <div>
-      <p className="font-bold">{card.orgAcronym}</p>
-      <p className="text-sm text-gray-500">{card.orgFullName}</p>
-    </div>
-    <img src={card.orgAvatar} alt="Org avatar" className="h-8 w-8 rounded-full" />
-  </div>
-</Card>
-      ))}
-    </div>
-  );
-}
 
 // Explore Page
 export default function ExplorePage() {

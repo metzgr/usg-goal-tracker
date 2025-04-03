@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./fonts.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -41,9 +42,80 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-gt-america);
+  --font-serif: var(--font-century-old-style);
+
+
+  --color-gray-50: #FAFAFA;
+  --color-gray-100: #F5F5F5;
+  --color-gray-200: #E9EAEB;
+  --color-gray-300: #D5D7DA;
+  --color-gray-400: #A4A7AE;
+  --color-gray-500: #717680;
+  --color-gray-600: #535862;
+  --color-gray-700: #414651;
+  --color-gray-800: #252B37;
+  --color-gray-900: #181D27;
+  --color-gray-950: #0A0D12;
+
+  --color-red-50: #FEF3F2;
+  --color-red-100: #FEE4E2;
+  --color-red-200: #FECDCA;
+  --color-red-300: #FDA29B;
+  --color-red-400: #F97066;
+  --color-red-500: #F04438;
+  --color-red-600: #D92D20;
+  --color-red-700: #B42318;
+  --color-red-800: #912018;
+  --color-red-900: #7A271A;
+  --color-red-950: #55160C;
+
+  --color-indigo-50: #EEF4FF;
+  --color-indigo-100: #E0EAFF;
+  --color-indigo-200: #C7D7FE;
+  --color-indigo-300: #A4BCFD;
+  --color-indigo-400: #8098F9;
+  --color-indigo-500: #6172F3;
+  --color-indigo-600: #444CE7;
+  --color-indigo-700: #3538CD;
+  --color-indigo-800: #2D31A6;
+  --color-indigo-900: #2D3282;
+  --color-indigo-950: #1F235B;
+
+  --color-orange-50: #FFF4ED;
+  --color-orange-100: #FFE6D5;
+  --color-orange-200: #FFD6AE;
+  --color-orange-300: #FF9C66;
+  --color-orange-400: #FF692E;
+  --color-orange-500: #FF4405;
+  --color-orange-600: #E62E05;
+  --color-orange-700: #BC1B06;
+  --color-orange-800: #97180C;
+  --color-orange-900: #771A0D;
+  --color-orange-950: #57130A;
+
+  --color-green-50: #ECFDF3;
+  --color-green-100: #DCFAE6;
+  --color-green-200: #ABEFC6;
+  --color-green-300: #75E0A7;
+  --color-green-400: #47CD89;
+  --color-green-500: #17B26A;
+  --color-green-600: #079455;
+  --color-green-700: #067647;
+  --color-green-800: #085D3A;
+  --color-green-900: #074D31;
+  --color-green-950: #053321;
+
+  --font-sans: var(--font-gt-america);
+  --font-serif: var(--font-century-old-style);
 }
 
 :root {
+  --font-century-old-style: "Century Old Style Std", Georgia, serif;
+  --font-gt-america: "GT America", Arial, sans-serif;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.13 0.028 261.692);
