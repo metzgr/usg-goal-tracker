@@ -10,11 +10,48 @@ import { Checkbox } from "src/components/ui/checkbox";
 import { Label } from "src/components/ui/label";
 import { ScrollArea } from "src/components/ui/scroll-area";
 
+// Format date
+
+const formatYear = (dateString: string) => new Date(dateString).getFullYear();
+
 // Dummy card data for demonstration
 const cardData = [
-  { id: 1, title: "Goal One", description: "Description for goal one", topic: "Topic A" },
-  { id: 2, title: "Goal Two", description: "Description for goal two", topic: "Topic B" },
-  { id: 3, title: "Goal Three", description: "Description for goal three", topic: "Topic C" },
+    { 
+      id: 1, 
+      title: "Goal One", 
+      description: "Description for goal one", 
+      topic: "Topic A",
+      orgAcronym: "ABC",
+      orgFullName: "Acme Business Corporation",
+      orgAvatar: "/org1.png",
+      cardType: "Plan",
+      startDate: "2023-01-01",
+      endDate: "2023-06-30"
+    },
+    { 
+      id: 2, 
+      title: "Goal Two", 
+      description: "Description for goal two", 
+      topic: "Topic B",
+      orgAcronym: "XYZ",
+      orgFullName: "Xylophone Youth Zone",
+      orgAvatar: "/org2.png",
+      cardType: "Goal",
+      startDate: "2023-03-01",
+      endDate: "2023-09-30"
+    },
+    { 
+      id: 3, 
+      title: "Goal Three", 
+      description: "Description for goal three", 
+      topic: "Topic C",
+      orgAcronym: "DEF",
+      orgFullName: "Delta Enterprise Foundation",
+      orgAvatar: "/org3.png",
+      cardType: "Indicator",
+      startDate: "2023-05-01",
+      endDate: "2023-12-31"
+    },
   // ...more data as needed
 ];
 
@@ -179,9 +216,25 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
       {cards.map((card) => (
         <Card key={card.id} className="p-4">
-          <h3 className="font-bold mb-2">{card.title}</h3>
-          <p>{card.description}</p>
-        </Card>
+  {/* New header row with card type badge and dates */}
+  <div className="flex items-center justify-between mb-2">
+    <span className="bg-gray-300 text-gray-700 text-xs font-semibold px-2 py-1 rounded">
+      {card.cardType}
+    </span>
+    <span className="text-sm text-gray-500">
+  {formatYear(card.startDate)}&ndash;{formatYear(card.endDate)}
+</span>
+  </div>
+  <h3 className="font-bold mb-2">{card.title}</h3>
+  <p>{card.description}</p>
+  <div className="flex items-center justify-between mt-4">
+    <div>
+      <p className="font-bold">{card.orgAcronym}</p>
+      <p className="text-sm text-gray-500">{card.orgFullName}</p>
+    </div>
+    <img src={card.orgAvatar} alt="Org avatar" className="h-8 w-8 rounded-full" />
+  </div>
+</Card>
       ))}
     </div>
   );
