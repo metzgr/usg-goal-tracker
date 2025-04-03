@@ -22,7 +22,7 @@ export default function CardHeader({
 
   // If cardType is "plan" and an orgAcronym is provided, prepend it (with a backslash separator) to the title.
   const displayTitle =
-    cardType === "plan" && orgAcronym
+    cardType === "Plan" && orgAcronym
       ? (
         <>
           <span>{orgAcronym} <span className="text-gray-400 font-normal">\</span> </span>

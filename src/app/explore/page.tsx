@@ -23,7 +23,7 @@ const formatYear = (dateString: string) => new Date(dateString).getFullYear();
 const cardData = [
   { 
     id: 1, 
-    title: "USDA Strategic Plan", 
+    title: "Strategic Plan", 
     topic: "Topic A",
     orgAcronym: "USDA",
     orgFullName: "U.S. Department of Agriculture",
@@ -56,6 +56,7 @@ const cardData = [
     targetDirection: "increase",
     orgAcronym: "USDA",
     orgFullName: "U.S. Department of Agriculture",
+    avatar1: "usda",
   },
   { 
     id: 3, 
@@ -70,6 +71,7 @@ const cardData = [
     artwork: "farmer",
     orgAcronym: "USDA",
     orgFullName: "U.S. Department of Agriculture",
+    avatar1: "usda",
   },
   // ...more dummy data as needed
 ];
@@ -274,6 +276,7 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                 startDate={formatYear(card.startDate)}
                 endDate={formatYear(card.endDate)}
                 cardType={card.cardType}
+                orgAcronym={card.orgAcronym}
               />
               {/* Card Body */}
               {card.cardType === "Plan" && (
