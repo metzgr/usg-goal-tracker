@@ -54,8 +54,6 @@ const cardData = [
     progressPercent: 95,
     progressed: true,
     targetDirection: "increase",
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
     avatar1: "usda",
   },
   { 
@@ -69,10 +67,42 @@ const cardData = [
     startDate: "2023-05-01",
     endDate: "2023-12-31",
     artwork: "farmer",
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
     avatar1: "usda",
   },
+  { 
+    id: 4, 
+    title: "Veteran Customer Experience", 
+    topic: "Topic C",
+    orgAcronym: "USDA",
+    orgFullName: "U.S. Department of Veterans Affairs",
+    orgAvatar: "usda",
+    cardType: "Goal",
+    startDate: "2023-05-01",
+    endDate: "2023-12-31",
+    artwork: "veteran",
+    orgAcronym: "VA",
+    avatar1: "va",
+  },
+
+  { 
+    id: 5, 
+    title: "New small businesses", 
+    topic: "Topic B",
+    orgAcronym: "USDA",
+    orgFullName: "U.S. Department of Agriculture",
+    orgAvatar: "usda",
+    cardType: "Indicator",
+    startDate: "2023-03-01",
+    endDate: "2023-09-30",
+    dataTargets: [200, 600, 1300, 700, 1800, 1000, 3000],
+    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 1700],
+    dataPercentChanges: [-2, 2, -1, 1, -2, 1, 2],
+    progressPercent: 95,
+    progressed: true,
+    targetDirection: "increase",
+    avatar1: "usda",
+  },
+  
   // ...more dummy data as needed
 ];
 

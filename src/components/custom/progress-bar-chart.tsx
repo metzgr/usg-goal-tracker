@@ -41,7 +41,7 @@ export default function ProgressBarChart({ dataActuals, dataTargets = [] }: Prog
   // Build the progress bar using d3.
   useEffect(() => {
     const { width, height } = dimensions;
-    const container = d3.select("#barChartContainer");
+    const container = d3.select(containerRef.current);
     container.selectAll("*").remove();
 
     if (progressPercent <= 0) return;
