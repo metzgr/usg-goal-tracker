@@ -302,7 +302,8 @@ export default function ExplorePage() {
     const query = searchQuery.toLowerCase();
     const matchesSearch = (
       card.title.toLowerCase().includes(query) ||
-      card.description.toLowerCase().includes(query)
+      card.orgFullName.toLowerCase().includes(query) ||
+      card.orgAcronym.toLowerCase().includes(query)
     );
     const matchesTopic = activeFilters.length === 0 || activeFilters.includes(card.topic);
     return matchesSearch && matchesTopic;
