@@ -10,6 +10,9 @@ import { Checkbox } from "src/components/ui/checkbox";
 import { Label } from "src/components/ui/label";
 import { ScrollArea } from "src/components/ui/scroll-area";
 import UsgBanner from "src/components/custom/usg-banner";
+import CardHeader from "src/components/custom/card-header";
+import CardFooter from "src/components/custom/card-footer";
+import Placard from "src/components/custom/placard";
 
 // Format date
 
@@ -32,7 +35,8 @@ const cardData = [
       indicatorsProgressed: 6,
       changeIndicatorsProgressed: 2,
       artwork: "plan1.jpg",
-      patternType: "fill"
+      patternOption: "fill",
+      avatar1: "usda",
     },
     { 
       id: 2, 
@@ -44,9 +48,9 @@ const cardData = [
       cardType: "Indicator",
       startDate: "2023-03-01",
       endDate: "2023-09-30",
-      last7Targets: [100, 105, 110, 115, 120, 125, 130],
-      last7Actuals: [98, 107, 108, 116, 118, 127, 132],
-      last7PercentChange: [-2, 2, -1, 1, -2, 1, 2],
+      dataTargets: [100, 105, 110, 115, 120, 125, 130],
+      dataActuals: [98, 107, 108, 116, 118, 127, 132],
+      dataPercentChanges: [-2, 2, -1, 1, -2, 1, 2],
       progressPercent: 95,
       progressed: true,
       targetDirection: "increase"
@@ -74,7 +78,7 @@ function Header() {
         <UsgBanner />
         <div className="flex items-center justify-between p-4 border-b">
       <div className="flex items-center">
-        <img src="/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
+        <img src="/logo.svg" alt="Logo" className="h-8 w-8 mr-2" />
         <span className="font-bold">MyApp</span>
       </div>
       <nav>
@@ -228,19 +232,19 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
       return <p className="p-4">No results found.</p>;
     }
     return (
-      <div className="columns-1 sm:columns-2 md:columns-3 gap-4 p-4">
+      <div className="columns-1 sm:columns-2 md:columns-3 gap-5">
         {cards.map((card) => (
-          <div key={card.id} style={{ breakInside: 'avoid' }} className="mb-4">
-            <Card className="p-4">
+          <div key={card.id} style={{ breakInside: 'avoid' }} className="mb-5">
+            <Placard>
+            <Card className="">
               {/* Card Header: badge with card type and date range */}
-              <div className="flex items-center justify-between mb-2">
-                <span className="bg-gray-300 text-gray-700 text-xs font-semibold px-2 py-1 rounded">
-                  {card.cardType}
-                </span>
-                <span className="text-sm text-gray-500">
-                  {formatYear(card.startDate)}&ndash;{formatYear(card.endDate)}
-                </span>
-              </div>
+              <CardHeader
+  title={card.title}
+  startDate={formatYear(card.startDate)}
+  endDate={formatYear(card.endDate)}
+  cardType= {card.cardType}
+
+/>
               <h3 className="font-bold mb-2">{card.title}</h3>
               {/* Conditional Card Body based on card type */}
               {card.cardType === "Plan" && (
@@ -256,14 +260,14 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                     %
                   </p>
                   <p>Artwork: {card.artwork}</p>
-                  <p>Pattern: {card.patternType}</p>
+                  <p>Pattern: {card.patternOption}</p>
                 </div>
               )}
               {card.cardType === "Indicator" && (
                 <div>
-                  <p>Last 7 Targets: {card.last7Targets.join(", ")}</p>
-                  <p>Last 7 Actuals: {card.last7Actuals.join(", ")}</p>
-                  <p>Last 7 % Change: {card.last7PercentChange.join(", ")}%</p>
+                  <p>Last 7 Targets: {card.dataTargets.join(", ")}</p>
+                  <p>Last 7 Actuals: {card.dataActuals.join(", ")}</p>
+                  <p>Last 7 % Change: {card.dataPercentChanges.join(", ")}%</p>
                   <p>% Progress: {card.progressPercent}%</p>
                   <p>Progressed: {card.progressed ? "Yes" : "No"}</p>
                   <p>Target Direction: {card.targetDirection}</p>
@@ -275,14 +279,16 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                 </div>
               )}
               {/* Card Footer: organization details */}
-              <div className="flex items-center justify-between mt-4">
-                <div>
-                  <p className="font-bold">{card.orgAcronym}</p>
-                  <p className="text-sm text-gray-500">{card.orgFullName}</p>
-                </div>
-                <img src={card.orgAvatar} alt="Org avatar" className="h-8 w-8 rounded-full" />
-              </div>
+              <CardFooter
+    orgFullName={card.orgFullName}
+    orgAcronym={card.orgAcronym}
+    avatar1={card.avatar1}
+    avatar2={card.avatar2}
+    avatar3={card.avatar3}
+    avatar4={card.avatar4}
+  />
             </Card>
+            </Placard>
           </div>
         ))}
       </div>
@@ -312,6 +318,8 @@ export default function ExplorePage() {
   return (
     <div>
       <Header />
+      <main className="bg-[#F5F5F5]">
+    
       <div className="flex items-center space-x-4 p-4">
         <FilterSidebar
           possibleFilters={possibleFilters}
@@ -328,7 +336,10 @@ export default function ExplorePage() {
         />
       </div>
       <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
+      <div className="max-w-[1280px] mx-auto">
       <CardCatalog cards={filteredCards} />
+      </div>
+      </main>
     </div>
   );
 }
