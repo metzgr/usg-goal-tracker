@@ -1,4 +1,4 @@
-import { Navbar, NavbarItem, NavbarSection } from '@/components/navbar'
+import { Navbar, NavbarItem, NavbarSection } from 'src/components/custom/navbar'
 
 function Navigation() {
   return (

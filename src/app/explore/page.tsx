@@ -14,6 +14,7 @@ import CardHeader from "src/components/custom/card-header";
 import CardFooter from "src/components/custom/card-footer";
 import CardBody from "src/components/custom/card-body";
 import Placard from "src/components/custom/placard";
+import Navigation from "src/components/custom/navigation";
 
 // Format date helper.
 const formatYear = (dateString: string) => new Date(dateString).getFullYear();
@@ -33,8 +34,8 @@ const cardData = [
     totalIndicators: 10,
     indicatorsProgressed: 6,
     changeIndicatorsProgressed: 2,
-    artwork: "plan1.jpg",
-    patternOption: "fill",
+    artwork: "wheat",
+    patternOption: "tile",
     avatar1: "usda",
   },
   { 
@@ -47,8 +48,8 @@ const cardData = [
     cardType: "Indicator",
     startDate: "2023-03-01",
     endDate: "2023-09-30",
-    dataTargets: [100, 105, 110, 115, 120, 125, 130],
-    dataActuals: [98, 107, 108, 116, 118, 127, 132],
+    dataTargets: [200, 600, 1300, 700, 1800, 1000, 3000],
+    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 1700],
     dataPercentChanges: [-2, 2, -1, 1, -2, 1, 2],
     progressPercent: 95,
     progressed: true,
@@ -64,7 +65,7 @@ const cardData = [
     cardType: "Goal",
     startDate: "2023-05-01",
     endDate: "2023-12-31",
-    artwork: "goal1.jpg"
+    artwork: "farmer"
   },
   // ...more dummy data as needed
 ];
@@ -74,19 +75,7 @@ function Header() {
   return (
     <header>
       <UsgBanner />
-      <div className="flex items-center justify-between p-4 border-b">
-        <div className="flex items-center">
-          <img src="/logo.svg" alt="Logo" className="h-8 w-8 mr-2" />
-          <span className="font-bold">MyApp</span>
-        </div>
-        <nav>
-          <ul className="flex space-x-4">
-            <li><a href="/">Home</a></li>
-            <li><a href="/explore">Explore</a></li>
-            <li><a href="/profile">Profile</a></li>
-          </ul>
-        </nav>
-      </div>
+      <Navigation />
     </header>
   );
 }
@@ -109,31 +98,62 @@ function SearchBar({
 }) {
   return (
     <div className="flex items-center flex-grow space-x-4">
-      <Input
-        placeholder="Search..."
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-        className="flex-grow"
-      />
-      <Select value={statusOption} onValueChange={setStatusOption}>
-        <SelectTrigger className="w-[100px]">
-          <SelectValue placeholder="Select status" />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectItem value="Active">Active</SelectItem>
-          <SelectItem value="Inactive">Inactive</SelectItem>
-        </SelectContent>
-      </Select>
-      <Select value={filterOption} onValueChange={setFilterOption}>
-        <SelectTrigger className="w-[180px]">
-          <SelectValue placeholder="Select filter" />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectItem value="Trending">Trending</SelectItem>
-          <SelectItem value="Latest">Latest</SelectItem>
-          <SelectItem value="Popular">Popular</SelectItem>
-        </SelectContent>
-      </Select>
+      <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-6">
+        <div className="flex items-center">
+          <div className="grid w-full grid-cols-1">
+            <input
+              name="search"
+              type="search"
+              placeholder="Search the U.S. government at work"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="col-start-1 row-start-1 block w-full rounded-[3px] bg-gray-50 py-1.5 pr-3 pl-13.5 text-base text-gray-950 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-950 font-bold placeholder:font-bold placeholder:text-[16px] focus:outline-2 focus:-outline-offset-2 focus:outline-gray-600 sm:text-[16px]/6 h-[48px]"
+            />
+            <img
+              src="/icons/search-icon.svg"
+              alt="Magnify glass"
+              width={20}
+              height={20}
+              className="pointer-events-none col-start-1 row-start-1 ml-7 self-center"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="relative flex items-stretch h-[48px]">
+        <div className="absolute left-[22px] -top-[7px] h-[18px] px-[5px] bg-white text-xs text-gray-500 font-medium leading-none z-10">
+          Status
+        </div>
+        <button
+          type="button"
+          className="inline-flex items-center gap-x-1.5 rounded-[3px] px-[28px] py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 w-full"
+        >
+          {statusOption}
+          <img
+            src="/icons/arrow-dropdown.svg"
+            alt="Arrow Dropdown"
+            width={20}
+            height={20}
+          />
+        </button>
+      </div>
+
+      <div className="relative flex items-stretch h-[48px]">
+        <div className="absolute left-[22px] -top-[7px] h-[18px] px-[5px] bg-white text-xs text-gray-500 font-medium leading-none z-10">
+          Sort
+        </div>
+        <button
+          type="button"
+          className="inline-flex items-center gap-x-1.5 rounded-[3px] px-[28px] py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 w-full"
+        >
+          {filterOption}
+          <img
+            src="/icons/arrow-dropdown.svg"
+            alt="Arrow Dropdown"
+            width={20}
+            height={20}
+          />
+        </button>
+      </div>
     </div>
   );
 }
@@ -159,12 +179,21 @@ function FilterSidebar({
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="outline" className="relative">
+        <button
+          type="button"
+          className="inline-flex items-center gap-x-1.5 h-[48px] rounded-[3px] px-[28px] py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300"
+        >
+          <img
+            src="/icons/filter-icon.svg"
+            alt="Filter"
+            width={20}
+            height={20}
+          />
           Topics
           {activeFilters.length > 0 && (
             <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
           )}
-        </Button>
+        </button>
       </SheetTrigger>
       <SheetContent side="left" className="w-64">
         <SheetHeader>
@@ -242,7 +271,6 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                 endDate={formatYear(card.endDate)}
                 cardType={card.cardType}
               />
-              <h3 className="font-bold mb-2">{card.title}</h3>
               {/* Card Body */}
               {card.cardType === "Plan" && (
                 <div>
@@ -324,7 +352,7 @@ export default function ExplorePage() {
     <div>
       <Header />
       <main className="bg-[#F5F5F5]">
-        <div className="flex items-center space-x-4 p-4">
+        <div className="flex items-center space-x-4 p-4 bg-white">
           <FilterSidebar
             possibleFilters={possibleFilters}
             activeFilters={activeFilters}

@@ -6,11 +6,13 @@ import * as d3 from "d3";
 export default function PieChart({
   artwork = "",
   patternOption = "tile", // "tile" or "fill"
+  totalIndicators = 0,
+  indicatorsProgressed = 0,
 }) {
   const containerRef = useRef(null);
   const [dimensions, setDimensions] = useState({ width: 200, height: 200 });
 
-  // Update container dimensions on mount and window resize.
+  // Update container dimensions on mount and on window resize.
   useEffect(() => {
     function updateDimensions() {
       if (containerRef.current) {
@@ -25,13 +27,18 @@ export default function PieChart({
 
   useEffect(() => {
     if (dimensions.width === 0 || dimensions.height === 0) return;
+
+    // Calculate progress percentage
+    const progressPercent = totalIndicators ? (indicatorsProgressed / totalIndicators) * 100 : 0;
+    // Create pie data: one slice for progress, the other for the remainder.
+    const data = [progressPercent, 100 - progressPercent];
+
     const patternId = `artwork-pattern-${Math.random().toString(36).substr(2, 9)}`;
 
-    // Clear any previous SVG content.
+    // Clear previous SVG content.
     d3.select(containerRef.current).select("svg").remove();
 
     const { width, height } = dimensions;
-    // Use the smaller dimension as the diameter.
     const radius = Math.min(width, height) / 2;
 
     // Create an SVG element and center the group.
@@ -43,7 +50,7 @@ export default function PieChart({
       .append("g")
       .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-    // Append the base black circle (filled with fill-gray-950).
+    // Append the base black circle.
     svg
       .append("circle")
       .attr("cx", 0)
@@ -59,67 +66,61 @@ export default function PieChart({
       .attr("r", radius - 1)
       .attr("fill", "white");
 
-    // Dummy data for the pie chart: 75% and 25%.
-    const data = [75, 25];
-
-    // If an artwork file is provided, define a pattern in defs.
+    // If artwork is provided, define a pattern.
     if (artwork) {
-        // Define different tile dimensions for horizontal vs. vertical spacing.
-        const patternTileWidth = patternOption === "tile" ? 30 : 1;
-        const patternTileHeight = patternOption === "tile" ? 25 : 1;
-        const patternUnits = patternOption === "tile" ? "userSpaceOnUse" : "objectBoundingBox";
-      
-        const defs = svg.append("defs");
-        const pattern = defs
-          .append("pattern")
-          .attr("id", patternId)
-          .attr("patternUnits", patternUnits)
-          .attr("width", patternOption === "tile" ? patternTileWidth : 1)
-          .attr("height", patternOption === "tile" ? patternTileHeight : 1);
-      
-        // Draw a background rectangle in the pattern tile (orange)
+      const patternTileWidth = patternOption === "tile" ? 30 : 1;
+      const patternTileHeight = patternOption === "tile" ? 25 : 1;
+      const patternUnits = patternOption === "tile" ? "userSpaceOnUse" : "objectBoundingBox";
+
+      const defs = svg.append("defs");
+      const pattern = defs
+        .append("pattern")
+        .attr("id", patternId)
+        .attr("patternUnits", patternUnits)
+        .attr("width", patternTileWidth)
+        .attr("height", patternTileHeight);
+
+      // Background rectangle for the pattern (orange)
+      pattern
+        .append("rect")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", patternTileWidth)
+        .attr("height", patternTileHeight)
+        .attr("fill", "var(--color-orange-200)");
+
+      if (patternOption === "tile") {
+        // Adjust image size for tile option.
+        const marginX = 0;
+        const marginY = 2;
+        const imgWidth = patternTileWidth - marginX;
+        const imgHeight = patternTileHeight - marginY;
+        const offsetX = (patternTileWidth - imgWidth) / 2;
+        const offsetY = (patternTileHeight - imgHeight) / 2;
         pattern
-          .append("rect")
-          .attr("x", 0)
-          .attr("y", 0)
-          .attr("width", patternTileWidth)
-          .attr("height", patternTileHeight)
-          .attr("fill", "var(--color-orange-200)");
-      
-        // For the "tile" option, set the image dimensions smaller than the tile
-        if (patternOption === "tile") {
-          // For example, image size is reduced so there's some gap around it.
-          const marginX = 0; // extra horizontal gap (tile width minus image width)
-          const marginY = 2; // extra vertical gap (tile height minus image height)
-          const imgWidth = patternTileWidth - marginX;  // 30 - 4 = 26px
-          const imgHeight = patternTileHeight - marginY; // 20 - 2 = 18px
-          const offsetX = (patternTileWidth - imgWidth) / 2; // centers image horizontally
-          const offsetY = (patternTileHeight - imgHeight) / 2; // centers image vertically
-          pattern
-            .append("image")
-            .attr("xlink:href", `/artwork/pattern/${artwork}.jpg`)
-            .attr("x", offsetX)
-            .attr("y", offsetY)
-            .attr("width", imgWidth)
-            .attr("height", imgHeight)
-            .attr("preserveAspectRatio", "xMidYMid slice");
-        } else {
-          // For "fill", let the image fill the shape
-          pattern
-            .append("image")
-            .attr("xlink:href", `/artwork/pattern/${artwork}.jpg`)
-            .attr("width", radius * 2)
-            .attr("height", radius * 2)
-            .attr("preserveAspectRatio", "xMidYMid slice");
-            
-        }
+          .append("image")
+          .attr("xlink:href", `/artwork/pattern/${artwork}.jpg`)
+          .attr("x", offsetX)
+          .attr("y", offsetY)
+          .attr("width", imgWidth)
+          .attr("height", imgHeight)
+          .attr("preserveAspectRatio", "xMidYMid slice");
+      } else {
+        // For "fill", let the image fill the shape.
+        pattern
+          .append("image")
+          .attr("xlink:href", `/artwork/pattern/${artwork}.jpg`)
+          .attr("width", radius * 2)
+          .attr("height", radius * 2)
+          .attr("preserveAspectRatio", "xMidYMid slice");
       }
+    }
 
     // Create a pie generator.
     const pie = d3.pie();
 
     // Create an arc generator for the pie slices.
-    // Outer radius is set to (radius - 6) to leave a 6px white border.
+    // Outer radius is set to (radius - 6) to leave a white border.
     const arcGenerator = d3
       .arc()
       .innerRadius(0)
@@ -133,15 +134,13 @@ export default function PieChart({
       .append("path")
       .attr("d", arcGenerator)
       .attr("fill", (d, i) => {
-        // The first slice (75%) uses either the pattern or fallback orange,
-        // the second slice (25%) is white.
         if (i === 0 && artwork) {
           return `url(#${patternId})`;
         }
         return i === 0 ? "var(--color-orange-200)" : "white";
       })
       .attr("stroke", "none");
-  }, [dimensions, artwork, patternOption]);
+  }, [dimensions, artwork, patternOption, totalIndicators, indicatorsProgressed]);
 
   return <div ref={containerRef} style={{ width: "100%", height: "100%" }} />;
 }

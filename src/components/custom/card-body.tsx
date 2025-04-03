@@ -51,16 +51,17 @@ export default function CardBody({
             dataPercentChanges={dataPercentChanges || []} 
           />
           <LineChart dataActuals={dataActuals || []} dataTargets={dataTargets || []} />
-          <ProgressBarChart 
-            dataActuals={dataActuals || []} 
-            dataTargets={dataTargets || []} 
-          />
+         
           <ChartLegend 
             cardType={cardType} 
             indicatorsProgressed={indicatorsProgressed || 0}
             changeIndicatorsProgressed={changeIndicatorsProgressed || 0}
             dataActuals={dataActuals || []}
             dataTargets={dataTargets || []}
+          />
+           <ProgressBarChart 
+            dataActuals={dataActuals || []} 
+            dataTargets={dataTargets || []} 
           />
         </>
       ) : cardType === "Plan" ? (
@@ -86,7 +87,7 @@ export default function CardBody({
   
           <div className="flex justify-center mt-2">
             <div className="w-[188px] h-[188px]"> 
-              <PieChart artwork={artwork} patternOption={patternOption} />
+              <PieChart artwork={artwork} patternOption={patternOption} indicatorsProgressed={indicatorsProgressed || 0} totalIndicators={totalIndicators || 0}  />
             </div>
           </div>
   

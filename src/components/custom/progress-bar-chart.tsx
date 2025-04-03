@@ -110,7 +110,7 @@ export default function ProgressBarChart({ dataActuals, dataTargets = [] }: Prog
   }
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center mt-3">
       {/* Left: Display "Target 7" since there are 7 target values (if available) */}
       <p className="flex-none whitespace-nowrap text-gray-950 font-medium text-sm mr-3">
         Target {hasTarget ? dataTargets.length : "-"}

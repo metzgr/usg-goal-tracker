@@ -1,33 +1,53 @@
 "use client";
 
 type IndicatorChangeLabelProps = {
-  dataActuals: number[];
-  dataTargets: number[];
-  dataPercentChanges: number[];
+  dataActuals?: number[];
+  dataTargets?: number[];
 };
 
 export default function IndicatorChangeLabel({
-  dataActuals,
-  dataTargets,
-  dataPercentChanges,
+  dataActuals = [],
+  dataTargets = [],
 }: IndicatorChangeLabelProps) {
-  // Determine the most recent percent change value
-  const changeValue = dataPercentChanges && dataPercentChanges.length > 0
-    ? dataPercentChanges[dataPercentChanges.length - 1]
-    : 0;
+  // Calculate percent change from the two most recent actual values.
+  const changeValue =
+    dataActuals.length >= 2
+      ? ((dataActuals[dataActuals.length - 1] - dataActuals[dataActuals.length - 2]) /
+          dataActuals[dataActuals.length - 2]) *
+        100
+      : 0;
 
-  // Determine if targets are provided
-  const hasTarget = dataTargets && dataTargets.length > 0;
-
-  // Simplified: posPctChange is true if the most recent percent change is positive
+  // For arrow rotation, we use posPctChange.
   const posPctChange = changeValue > 0;
 
-  // Set color based on whether there's a target and if the percent change is positive
-  const colorClass = hasTarget
-    ? (posPctChange ? "text-indigo-600" : "text-red-600")
-    : "text-gray-950";
+  // For text color, determine whether the most recent value moved in the right direction.
+  let movedCorrectly = false;
+  if (dataTargets.length >= 2 && dataActuals.length >= 2) {
+    const prevTarget = dataTargets[dataTargets.length - 2];
+    const finalTarget = dataTargets[dataTargets.length - 1];
+    const prevActual = dataActuals[dataActuals.length - 2];
+    const finalActual = dataActuals[dataActuals.length - 1];
 
-  // Arrow rotation: if percent change is positive then rotate -90°, otherwise rotate 90°
+    // If target is increasing, then actual should increase.
+    if (finalTarget > prevTarget) {
+      movedCorrectly = finalActual > prevActual;
+    } 
+    // If target is decreasing, then actual should decrease.
+    else if (finalTarget < prevTarget) {
+      movedCorrectly = finalActual < prevActual;
+    } 
+    // Otherwise, if targets haven't changed, fallback to posPctChange.
+    else {
+      movedCorrectly = posPctChange;
+    }
+  } else {
+    movedCorrectly = posPctChange;
+  }
+
+  // Set text color based on whether the metric moved in the right direction.
+  const colorClass = movedCorrectly ? "text-indigo-600" : "text-red-600";
+
+  // Arrow rotation: if positive percent change then rotate -90°, else rotate 90°.
   const arrowRotation = posPctChange ? "rotate-[-90deg]" : "rotate-[90deg]";
 
   return (
@@ -36,7 +56,7 @@ export default function IndicatorChangeLabel({
         play_arrow
       </span>
       <span className={`text-sm font-medium text-center ${colorClass}`}>
-        {changeValue}%
+        {Math.abs(changeValue).toFixed(0)}%
       </span>
     </div>
   );

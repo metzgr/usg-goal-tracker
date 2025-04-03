@@ -84,7 +84,7 @@ export default function ChartLegend({
               viewBox="0 0 16 16"
               aria-hidden="true"
             >
-              <circle cx="8" cy="8" r="4" className="stroke-current" strokeWidth="2" />
+              <circle cx="8" cy="8" r="4" />
             </svg>
             <span className="font-medium">Actual</span>
           </p>
