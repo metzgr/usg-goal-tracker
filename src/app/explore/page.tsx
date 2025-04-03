@@ -2,9 +2,12 @@
 
 import React, { useState } from "react";
 import { Button } from "src/components/ui/button";
-import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from "src/components/ui/dropdown-menu";
 import { Input } from "src/components/ui/input";
 import { Card } from "src/components/ui/card";
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "src/components/ui/select";
+import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle } from "src/components/ui/sheet";
+import { Checkbox } from "src/components/ui/checkbox";
+import { Label } from "src/components/ui/label";
 
 // Dummy card data for demonstration
 const cardData = [
@@ -39,30 +42,117 @@ function SearchBar({
   setSearchQuery,
   filterOption,
   setFilterOption,
+  statusOption,
+  setStatusOption,
 }: {
   searchQuery: string;
   setSearchQuery: (query: string) => void;
   filterOption: string;
   setFilterOption: (option: string) => void;
+  statusOption: string;
+  setStatusOption: (option: string) => void;
 }) {
   return (
-    <div className="flex items-center p-4">
+    <div className="flex items-center flex-grow space-x-4">
       <Input
         placeholder="Search..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
-        className="flex-grow mr-2"
+        className="flex-grow"
       />
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <Button variant="outline">{filterOption}</Button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent>
-          <DropdownMenuItem onClick={() => setFilterOption("Trending")}>Trending</DropdownMenuItem>
-          <DropdownMenuItem onClick={() => setFilterOption("Latest")}>Latest</DropdownMenuItem>
-          <DropdownMenuItem onClick={() => setFilterOption("Popular")}>Popular</DropdownMenuItem>
-        </DropdownMenuContent>
-      </DropdownMenu>
+      <Select value={statusOption} onValueChange={setStatusOption}>
+        <SelectTrigger className="w-[100px]">
+          <SelectValue placeholder="Select status" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="Active">Active</SelectItem>
+          <SelectItem value="Inactive">Inactive</SelectItem>
+        </SelectContent>
+      </Select>
+      <Select value={filterOption} onValueChange={setFilterOption}>
+        <SelectTrigger className="w-[180px]">
+          <SelectValue placeholder="Select filter" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="Trending">Trending</SelectItem>
+          <SelectItem value="Latest">Latest</SelectItem>
+          <SelectItem value="Popular">Popular</SelectItem>
+        </SelectContent>
+      </Select>
+    </div>
+  );
+}
+
+// FilterSidebar Component with checkable filters
+function FilterSidebar({
+  possibleFilters,
+  activeFilters,
+  setActiveFilters,
+}: {
+  possibleFilters: string[];
+  activeFilters: string[];
+  setActiveFilters: (filters: string[]) => void;
+}) {
+  const toggleFilter = (filter: string) => {
+    if (activeFilters.includes(filter)) {
+      setActiveFilters(activeFilters.filter((f) => f !== filter));
+    } else {
+      setActiveFilters([...activeFilters, filter]);
+    }
+  };
+
+  return (
+    <Sheet>
+      <SheetTrigger asChild>
+        <Button variant="outline" className="relative">
+          Topics
+          {activeFilters.length > 0 && (
+            <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
+          )}
+        </Button>
+      </SheetTrigger>
+      <SheetContent side="left" className="w-64">
+        <SheetHeader>
+          <SheetTitle>Topics</SheetTitle>
+        </SheetHeader>
+        <div className="p-4 space-y-2">
+          {possibleFilters.map((filter) => (
+            <div key={filter} className="flex items-center space-x-2">
+              <Checkbox
+                checked={activeFilters.includes(filter)}
+                onCheckedChange={() => toggleFilter(filter)}
+              />
+              <Label>{filter}</Label>
+            </div>
+          ))}
+        </div>
+      </SheetContent>
+    </Sheet>
+  );
+}
+
+// ActiveFilters Component displays selected filters above the catalog
+function ActiveFilters({
+  activeFilters,
+  setActiveFilters,
+}: {
+  activeFilters: string[];
+  setActiveFilters: (filters: string[]) => void;
+}) {
+  const removeFilter = (filter: string) => {
+    setActiveFilters(activeFilters.filter((f) => f !== filter));
+  };
+
+  return (
+    <div className="flex flex-wrap gap-2 p-4">
+      {activeFilters.map((filter) => (
+        <div key={filter} className="flex items-center space-x-1 bg-gray-200 px-2 py-1 rounded">
+          <span>{filter}</span>
+          <button onClick={() => removeFilter(filter)} className="text-sm text-red-500">
+            x
+          </button>
+        </div>
+      ))}
     </div>
   );
 }
@@ -88,8 +178,11 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
 export default function ExplorePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filterOption, setFilterOption] = useState("Trending");
+  const [statusOption, setStatusOption] = useState("Active");
+  const [activeFilters, setActiveFilters] = useState<string[]>([]);
+  const possibleFilters = ["Topic A", "Topic B", "Topic C"];
 
-  // Filter cards based on search query (ignoring filterOption for now)
+  // Filter cards based on search query (active filters not applied to catalog yet)
   const filteredCards = cardData.filter((card) => {
     const query = searchQuery.toLowerCase();
     return (
@@ -101,12 +194,22 @@ export default function ExplorePage() {
   return (
     <div>
       <Header />
-      <SearchBar
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-        filterOption={filterOption}
-        setFilterOption={setFilterOption}
-      />
+      <div className="flex items-center space-x-4 p-4">
+        <FilterSidebar
+          possibleFilters={possibleFilters}
+          activeFilters={activeFilters}
+          setActiveFilters={setActiveFilters}
+        />
+        <SearchBar
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+          filterOption={filterOption}
+          setFilterOption={setFilterOption}
+          statusOption={statusOption}
+          setStatusOption={setStatusOption}
+        />
+      </div>
+      <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
       <CardCatalog cards={filteredCards} />
     </div>
   );
