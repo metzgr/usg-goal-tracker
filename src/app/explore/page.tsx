@@ -8,12 +8,13 @@ import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "s
 import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle } from "src/components/ui/sheet";
 import { Checkbox } from "src/components/ui/checkbox";
 import { Label } from "src/components/ui/label";
+import { ScrollArea } from "src/components/ui/scroll-area";
 
 // Dummy card data for demonstration
 const cardData = [
-  { id: 1, title: "Goal One", description: "Description for goal one" },
-  { id: 2, title: "Goal Two", description: "Description for goal two" },
-  { id: 3, title: "Goal Three", description: "Description for goal three" },
+  { id: 1, title: "Goal One", description: "Description for goal one", topic: "Topic A" },
+  { id: 2, title: "Goal Two", description: "Description for goal two", topic: "Topic B" },
+  { id: 3, title: "Goal Three", description: "Description for goal three", topic: "Topic C" },
   // ...more data as needed
 ];
 
@@ -115,17 +116,29 @@ function FilterSidebar({
         <SheetHeader>
           <SheetTitle>Topics</SheetTitle>
         </SheetHeader>
-        <div className="p-4 space-y-2">
-          {possibleFilters.map((filter) => (
-            <div key={filter} className="flex items-center space-x-2">
-              <Checkbox
-                checked={activeFilters.includes(filter)}
-                onCheckedChange={() => toggleFilter(filter)}
-              />
-              <Label>{filter}</Label>
-            </div>
-          ))}
-        </div>
+        <ScrollArea className="h-64">
+          <div className="p-4 space-y-2">
+            {possibleFilters.map((filter) => (
+              <div key={filter} className="flex items-center space-x-2">
+                <Checkbox
+                  checked={activeFilters.includes(filter)}
+                  onCheckedChange={() => toggleFilter(filter)}
+                />
+                <Label>{filter}</Label>
+              </div>
+            ))}
+          </div>
+        </ScrollArea>
+        {activeFilters.length > 0 && (
+          <div className="p-4">
+            <button
+              onClick={() => setActiveFilters([])}
+              className="bg-red-500 text-white px-2 py-1 rounded w-full"
+            >
+              Clear All
+            </button>
+          </div>
+        )}
       </SheetContent>
     </Sheet>
   );
@@ -144,7 +157,7 @@ function ActiveFilters({
   };
 
   return (
-    <div className="flex flex-wrap gap-2 p-4">
+    <div className="h-12 flex items-center gap-2 p-2 overflow-auto">
       {activeFilters.map((filter) => (
         <div key={filter} className="flex items-center space-x-1 bg-gray-200 px-2 py-1 rounded">
           <span>{filter}</span>
@@ -182,13 +195,15 @@ export default function ExplorePage() {
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const possibleFilters = ["Topic A", "Topic B", "Topic C"];
 
-  // Filter cards based on search query (active filters not applied to catalog yet)
+  // Filter cards based on search query and active topic filters
   const filteredCards = cardData.filter((card) => {
     const query = searchQuery.toLowerCase();
-    return (
+    const matchesSearch = (
       card.title.toLowerCase().includes(query) ||
       card.description.toLowerCase().includes(query)
     );
+    const matchesTopic = activeFilters.length === 0 || activeFilters.includes(card.topic);
+    return matchesSearch && matchesTopic;
   });
 
   return (
