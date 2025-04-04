@@ -365,7 +365,7 @@ function ActiveFilters({
       {activeFilters.map((filter) => (
         <span
           key={filter}
-          className="inline-flex items-center gap-x-0.5 rounded-md bg-gray-800 px-2 py-1 text-xs text-gray-50 ring-1 ring-gray-500/10 ring-inset"
+          className="mt-2 inline-flex items-center gap-x-0.5 rounded-md bg-gray-800 px-2 py-1 text-xs text-gray-50"
         >
           {filter}
           <button
