@@ -95,7 +95,6 @@ const cardData = [
     endDate: "2028-12-31",
     artwork: "hands",
   },
-
   { 
     id: 5, 
     title: "New small businesses", 
@@ -247,13 +246,10 @@ const cardData = [
     dataTargets: [80, 80, 80, 80, 80, 80, 80],
     dataActuals: [40, 56, 68, 72, 65, 88, 95],
     avatar1: "gsa",
-    unitFormat: "%",
+    unitFormat: "%"
   },
-  
-  // ...more dummy data as needed
 ];
 
-// Header Component
 function Header() {
   return (
     <header>
@@ -263,7 +259,6 @@ function Header() {
   );
 }
 
-// SearchBar Component
 function SearchBar({
   searchQuery,
   setSearchQuery,
@@ -341,7 +336,6 @@ function SearchBar({
   );
 }
 
-// FilterSidebar Component with checkable filters
 function FilterSidebar({
   possibleFilters,
   activeFilters,
@@ -410,7 +404,6 @@ function FilterSidebar({
   );
 }
 
-// ActiveFilters Component displays selected filters above the catalog
 function ActiveFilters({
   activeFilters,
   setActiveFilters,
@@ -452,7 +445,6 @@ function ActiveFilters({
 
 export { ActiveFilters };
 
-// CardCatalog Component that displays filtered cards
 function CardCatalog({ cards }: { cards: typeof cardData }) {
   if (cards.length === 0) {
     return <p className="p-4">No results found.</p>;
@@ -463,7 +455,6 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
         <div key={card.id} style={{ breakInside: "avoid" }} className="mb-5">
           <Placard>
             <Card className="group">
-              {/* Card Header */}
               <CardHeader
                 title={card.title}
                 startDate={formatYear(card.startDate)}
@@ -471,7 +462,6 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                 cardType={card.cardType}
                 orgAcronym={card.orgAcronym}
               />
-              {/* Card Body */}
               {card.cardType === "Plan" && (
                 <div>
                   <CardBody
@@ -513,7 +503,6 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                   />
                 </div>
               )}
-              {/* Card Footer */}
               <CardFooter
                 orgFullName={card.orgFullName}
                 orgAcronym={card.orgAcronym}
@@ -529,16 +518,17 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
     </div>
   );
 }
+
 export default function ExplorePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filterOption, setFilterOption] = useState("Trending");
   const [statusOption, setStatusOption] = useState("Active");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
-  const [activeTab, setActiveTab] = useState("Everything"); // <-- Add this line
+  const [activeTab, setActiveTab] = useState("Everything"); // default tab
 
   const possibleFilters = ["Topic A", "Topic B", "Topic C"];
 
-  // Filter cards based on search query and active topic filters
+  // Filter cards based on search query, active topic filters, and activeTab.
   const filteredCards = cardData.filter((card) => {
     const query = searchQuery.toLowerCase();
     const matchesSearch =
@@ -547,7 +537,19 @@ export default function ExplorePage() {
       card.orgAcronym.toLowerCase().includes(query);
     const matchesTopic =
       activeFilters.length === 0 || activeFilters.includes(card.topic);
-    return matchesSearch && matchesTopic;
+
+    let matchesTab = true;
+    if (activeTab.toLowerCase() !== "everything") {
+      if (activeTab.toLowerCase() === "plans") {
+        matchesTab = card.cardType === "Plan";
+      } else if (activeTab.toLowerCase() === "goals") {
+        matchesTab = card.cardType === "Goal";
+      } else if (activeTab.toLowerCase() === "indicators") {
+        matchesTab = card.cardType === "Indicator";
+      }
+    }
+
+    return matchesSearch && matchesTopic && matchesTab;
   });
 
   return (
