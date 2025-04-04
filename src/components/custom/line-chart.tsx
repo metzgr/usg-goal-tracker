@@ -180,14 +180,22 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       const prevTarget = dataTargets[secondLastIndex];
       const finalTarget = dataTargets[lastIndex];
       
-      const targetCallsForIncrease = finalTarget > prevTarget;
-      const targetCallsForDecrease = finalTarget < prevTarget;
-      const actualIncreased = finalActual > prevActual;
-      const actualDecreased = finalActual < prevActual;
-      
       let actualColor = "#D92D20"; // default red
-      if ((targetCallsForIncrease && actualIncreased) || (targetCallsForDecrease && actualDecreased)) {
-        actualColor = "#444CE7"; // blue if moving in the correct direction
+      
+      if (finalTarget === prevTarget) {
+        // When targets are constant, consider it moving correctly if actual increased and is at least at the target.
+        if (finalActual > prevActual && finalActual >= finalTarget) {
+          actualColor = "#444CE7";
+        }
+      } else {
+        const targetCallsForIncrease = finalTarget > prevTarget;
+        const targetCallsForDecrease = finalTarget < prevTarget;
+        const actualIncreased = finalActual > prevActual;
+        const actualDecreased = finalActual < prevActual;
+        
+        if ((targetCallsForIncrease && actualIncreased) || (targetCallsForDecrease && actualDecreased)) {
+          actualColor = "#444CE7";
+        }
       }
       
       // Scales with padding for dots

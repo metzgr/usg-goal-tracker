@@ -43,19 +43,26 @@ export default function ChartLegend({
       const prevTarget = dataTargets[secondLastIndex];
       const finalTarget = dataTargets[lastIndex];
 
-      const targetCallsForIncrease = finalTarget > prevTarget;
-      const targetCallsForDecrease = finalTarget < prevTarget;
-      const actualIncreased = finalActual > prevActual;
-      const actualDecreased = finalActual < prevActual;
+      if (finalTarget === prevTarget) {
+        // When targets are constant, consider it moved correctly if the final actual is at or above the target.
+        movedCorrectly = finalActual >= finalTarget;
+      } else {
+        const targetCallsForIncrease = finalTarget > prevTarget;
+        const targetCallsForDecrease = finalTarget < prevTarget;
+        const actualIncreased = finalActual > prevActual;
+        const actualDecreased = finalActual < prevActual;
 
-      movedCorrectly =
-        (targetCallsForIncrease && actualIncreased) ||
-        (targetCallsForDecrease && actualDecreased);
+        movedCorrectly =
+          (targetCallsForIncrease && actualIncreased) ||
+          (targetCallsForDecrease && actualDecreased);
+      }
+    } else {
+      movedCorrectly = false; // or fallback logic if needed
     }
 
-    // Compute color class based on whether the metric moved correctly.
+    // Use hex color #444ec7 for correct movement.
     const colorClass = hasTarget
-      ? (movedCorrectly ? "fill-indigo-600" : "fill-red-600")
+      ? (movedCorrectly ? "fill-[#444ec7]" : "fill-red-600")
       : "fill-gray-950";
 
     if (!hasTarget) {
@@ -64,7 +71,7 @@ export default function ChartLegend({
         <div className="flex justify-center mt-[10px]">
           <p className="inline-flex items-center text-xs text-gray-950">
             <svg
-              className= {`w-[16px] h-[16px] fill-red-600`}
+              className="w-[16px] h-[16px] fill-red-600"
               viewBox="0 0 16 16"
               aria-hidden="true"
             >

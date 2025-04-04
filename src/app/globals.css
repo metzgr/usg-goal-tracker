@@ -178,7 +178,7 @@
 }
 
 .bg-green-striped {
-  background-color: var(--color-green-600);
+  background-color: var(--color-green-700);
 }
 
 @layer base {

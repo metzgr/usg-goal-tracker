@@ -19,6 +19,7 @@ type CardBodyProps = {
   dataTargets?: number[];
   dataPercentChanges?: number[]; // Added this prop
   patternOption?: string; // or patternOption: string;
+  unitFormat?: string;
 };
 
 export default function CardBody({
@@ -32,6 +33,7 @@ export default function CardBody({
   dataActuals,
   dataTargets,
   dataPercentChanges, // Destructure dataPercentChanges
+  unitFormat,
 }: CardBodyProps) {
   if (cardType === "Goal") {
     return (
@@ -49,6 +51,7 @@ export default function CardBody({
           <StatHeader 
             dataActuals={dataActuals || []}
             dataTargets={dataTargets || []} 
+            unitFormat={unitFormat}
           />
           <LineChart 
             dataActuals={dataActuals || []} 

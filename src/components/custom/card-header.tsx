@@ -6,29 +6,40 @@ export default function CardHeader({
   endDate,
   cardType,      // e.g., "Plan" or undefined
   orgAcronym = ""
+}: {
+  title: string;
+  startDate: string;
+  endDate: string;
+  cardType: string;
+  orgAcronym?: string;
 }) {
-  // Determine if the title is "short" based on a character limit (15 characters ~ 2.5 words)
-  const isShort = title.length <= 15;
-  const sizeClass = isShort ? "text-3xl" : "text-2xl";
+  // Only for Plan cards do we check if the title is "short".
+  const isShort = cardType === "Plan" ? title.length <= 30 : false;
+  const sizeClass = cardType === "Plan" 
+    ? (isShort ? "text-3xl" : "text-2xl")
+    : "text-2xl";
 
-  // If plan, title renders bold and uppercase; otherwise, normal.
+  // For Plan cards, title renders bold and uppercase; otherwise, normal.
   const weightClass = cardType === "Plan" ? "font-bold uppercase" : "";
-
-  // Determine text alignment: center for plan, left otherwise.
+  
+  // For Plan cards, center; for others, left-align.
   const alignClass = cardType === "Plan" ? "text-center" : "text-left";
-
+  
   // Build the complete class string.
   const h2Classes = `mt-4 font-serif text-gray-950 ${sizeClass} ${weightClass} ${alignClass}`;
 
-  // If cardType is "plan" and an orgAcronym is provided, prepend it (with a backslash separator) to the title.
+  // For a Plan card, prepend the orgAcronym (with a backslash separator)
+  // unless orgAcronym equals "Multiple Owners".
   const displayTitle =
-    cardType === "Plan" && orgAcronym
+    cardType === "Plan" && orgAcronym && orgAcronym !== "Multiple Owners"
       ? (
-        <>
-          <span>{orgAcronym} <span className="text-gray-400 font-normal">\</span> </span>
-          {title}
-        </>
-      )
+          <>
+            <span>
+              {orgAcronym} <span className="text-gray-400 font-normal">\</span>{" "}
+            </span>
+            {title}
+          </>
+        )
       : title;
 
   return (
