@@ -15,6 +15,7 @@ import CardFooter from "src/components/custom/card-footer";
 import CardBody from "src/components/custom/card-body";
 import Placard from "src/components/custom/placard";
 import Navigation from "src/components/custom/navigation";
+import FilterTabs from "src/components/custom/filter-tabs";
 
 // Format date helper.
 const formatYear = (dateString: string) => new Date(dateString).getFullYear();
@@ -134,8 +135,8 @@ const cardData = [
     cardType: "Indicator",
     startDate: "2023-03-01",
     endDate: "2023-09-30",
-    dataTargets: [],
-    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 1700],
+    dataTargets: [200, 600, 1300, 700, 1800, 1000, 3000],
+    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 4000],
     progressPercent: 95,
     progressed: true,
     targetDirection: "increase",
@@ -168,6 +169,23 @@ const cardData = [
     startDate: "2023-05-01",
     endDate: "2023-12-31",
     artwork: "highway",
+  },
+  { 
+    id: 11, 
+    title: "Consumer Price Index", 
+    topic: "Topic A",
+    orgAcronym: "DOL",
+    orgFullName: "U.S. Department of Labor",
+    orgAvatar: "dol",
+    cardType: "Indicator",
+    startDate: "2023-03-01",
+    endDate: "2023-09-30",
+    dataTargets: [],
+    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 1700],
+    progressPercent: 95,
+    progressed: true,
+    targetDirection: "increase",
+    avatar1: "dol",
   },
   
   // ...more dummy data as needed
@@ -343,18 +361,34 @@ function ActiveFilters({
   };
 
   return (
-    <div className="h-12 flex items-center gap-2 p-2 overflow-auto">
+    <div className="h-12 flex items-center gap-2 p-4 overflow-auto">
       {activeFilters.map((filter) => (
-        <div key={filter} className="flex items-center space-x-1 bg-gray-200 px-2 py-1 rounded">
-          <span>{filter}</span>
-          <button onClick={() => removeFilter(filter)} className="text-sm text-red-500">
-            x
+        <span
+          key={filter}
+          className="inline-flex items-center gap-x-0.5 rounded-md bg-gray-800 px-2 py-1 text-xs text-gray-50 ring-1 ring-gray-500/10 ring-inset"
+        >
+          {filter}
+          <button
+            type="button"
+            onClick={() => removeFilter(filter)}
+            className="group relative -mr-1 size-3.5 rounded-xs hover:bg-gray-500/20"
+          >
+            <span className="sr-only">Remove</span>
+            <svg
+              viewBox="0 0 14 14"
+              className="size-3.5 stroke-white/75 group-hover:stroke-white/75"
+            >
+              <path d="M4 4l6 6m0-6l-6 6" />
+            </svg>
+            <span className="absolute -inset-1" />
           </button>
-        </div>
+        </span>
       ))}
     </div>
   );
 }
+
+export { ActiveFilters };
 
 // CardCatalog Component that displays filtered cards
 function CardCatalog({ cards }: { cards: typeof cardData }) {
@@ -365,8 +399,8 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
     <div className="columns-1 sm:columns-2 md:columns-3 gap-5">
       {cards.map((card) => (
         <div key={card.id} style={{ breakInside: "avoid" }} className="mb-5">
-          <Placard className="group-hover:border-gray-700">
-            <Card className="group-hover:border-gray-700">
+          <Placard>
+            <Card className="group">
               {/* Card Header */}
               <CardHeader
                 title={card.title}
@@ -432,13 +466,13 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
     </div>
   );
 }
-
-// Explore Page
 export default function ExplorePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filterOption, setFilterOption] = useState("Trending");
   const [statusOption, setStatusOption] = useState("Active");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
+  const [activeTab, setActiveTab] = useState("Everything"); // <-- Add this line
+
   const possibleFilters = ["Topic A", "Topic B", "Topic C"];
 
   // Filter cards based on search query and active topic filters
@@ -448,7 +482,8 @@ export default function ExplorePage() {
       card.title.toLowerCase().includes(query) ||
       card.orgFullName.toLowerCase().includes(query) ||
       card.orgAcronym.toLowerCase().includes(query);
-    const matchesTopic = activeFilters.length === 0 || activeFilters.includes(card.topic);
+    const matchesTopic =
+      activeFilters.length === 0 || activeFilters.includes(card.topic);
     return matchesSearch && matchesTopic;
   });
 
@@ -473,6 +508,9 @@ export default function ExplorePage() {
         </div>
         <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
         <div className="max-w-[1280px] mx-auto">
+          <div className="flex justify-center mb-[28px]">
+            <FilterTabs activeTab={activeTab} setActiveTab={setActiveTab} />
+          </div>
           <CardCatalog cards={filteredCards} />
         </div>
       </main>

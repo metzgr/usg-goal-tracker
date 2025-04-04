@@ -14,7 +14,9 @@ export default function ProgressBarChart({ dataActuals, dataTargets = [] }: Prog
   const hasTarget = dataTargets && dataTargets.length > 0;
   const latestTarget = hasTarget ? dataTargets[dataTargets.length - 1] : 0;
   
-  // Calculate progress ratio (capped at 1) and percentage.
+  // Calculate the raw progress percentage (can be > 100%)
+  const rawProgressPercent = hasTarget ? (latestActual / latestTarget) * 100 : 100;
+  // Calculate progress ratio (capped at 1) and percentage for the bar width.
   const progressRatio = hasTarget ? Math.min(latestActual / latestTarget, 1) : 1;
   const progressPercent = progressRatio * 100;
 
@@ -46,6 +48,23 @@ export default function ProgressBarChart({ dataActuals, dataTargets = [] }: Prog
 
     if (progressPercent <= 0) return;
 
+    // If progressPercent is 100 or more, don't append a progress bar div.
+    if (progressPercent >= 100) {
+      container
+        .classed("bg-gray-200", false)
+        .classed("bg-green-700", false)
+        .classed("bg-green-striped", true);
+      let label = container.select("span.progress-label");
+      if (label.empty()) {
+        label = container
+          .append("span")
+          .attr("class", "progress-label absolute font-medium text-sm text-white leading-1 pr-[6px] right-0 mt-[4px]");
+      }
+      label.text(`${Math.round(rawProgressPercent)}%`);
+      return;
+    }
+
+    // Otherwise, progress is less than 100%
     // Calculate the filled width in pixels.
     const filledWidthPx = progressRatio * width;
     // Only add a cap if targets exist and the filled width is greater than capWidth.
@@ -66,8 +85,12 @@ export default function ProgressBarChart({ dataActuals, dataTargets = [] }: Prog
       const barRect = progressBar.node()?.getBoundingClientRect();
       if (!barRect) return;
 
-      // Append or update the data label only if progress is less than 86%.
       if (progressPercent < 86) {
+        // For progress less than 86%, use left alignment and green text.
+        container
+          .classed("bg-green-striped", false)
+          .classed("bg-green-700", false)
+          .classed("bg-gray-200", true);
         let label = container.select("span.progress-label");
         if (label.empty()) {
           label = container
@@ -75,12 +98,13 @@ export default function ProgressBarChart({ dataActuals, dataTargets = [] }: Prog
             .attr("class", "progress-label absolute font-medium text-sm text-green-800 leading-1 pt-[6px] ml-[9px]");
         }
         label
-          .text(`${Math.round(progressPercent)}%`)
+          .text(`${Math.round(rawProgressPercent)}%`)
           .style("left", `${barRect.width}px`)
           .style("top", "calc(50% - 0.5rem)");
       } else {
-        // Remove label if progress is 86% or higher.
+        // For progressPercent between 86 and 100, remove the label.
         container.select("span.progress-label").remove();
+        container.classed("bg-green-striped", false);
       }
 
       // Append the triangle cap as inline SVG if applicable and if targets exist.
@@ -95,10 +119,10 @@ export default function ProgressBarChart({ dataActuals, dataTargets = [] }: Prog
           .style("top", "6px") // 6px top padding.
           .append("polygon")
           .attr("points", `0,0 ${capWidth},${capHeight / 2} 0,${capHeight}`)
-          .attr("fill", "#067647"); // Use your desired color.
+          .attr("fill", "#067647");
       }
     }, 0);
-  }, [progressPercent, dimensions, hasTarget]);
+  }, [progressPercent, dimensions, hasTarget, rawProgressPercent, progressRatio]);
 
   // Helper to format numbers.
   function formatNumber(num: number) {
@@ -119,7 +143,6 @@ export default function ProgressBarChart({ dataActuals, dataTargets = [] }: Prog
       {/* Middle: Progress bar container */}
       <div className="flex flex-1 h-auto mr-1 relative">
         <div
-          id="barChartContainer"
           ref={containerRef}
           className="relative h-6 w-full bg-gray-200 py-[6px]"
         ></div>

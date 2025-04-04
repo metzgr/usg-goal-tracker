@@ -340,5 +340,5 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
     }
   }, [dimensions, dataActuals, dataTargets]);
 
-  return <div ref={containerRef} className="w-full h-[108px]" />;
+  return <div ref={containerRef} className="w-full h-[108px] cursor-default" />;
 }

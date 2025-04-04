@@ -177,6 +177,10 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+.bg-green-striped {
+  background-color: var(--color-green-600);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

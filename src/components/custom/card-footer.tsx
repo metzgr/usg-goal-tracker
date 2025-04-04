@@ -6,7 +6,7 @@ export default function CardFooter({ orgFullName, orgAcronym, avatar1, avatar2, 
 
     return (
       <div className="py-4">
-        <hr className="border-t-1 border-gray-200 mx-[1px]">
+        <hr className="border-t-1 border-gray-200 mx-[1px] group-hover:border-gray-400">
         </hr>
         <div className="flex justify-between items-center mt-3 mx-5">
 

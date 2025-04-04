@@ -50,9 +50,12 @@ export default function IndicatorChangeLabel({
   // Arrow rotation: if positive percent change then rotate -90°, else rotate 90°.
   const arrowRotation = posPctChange ? "rotate-[-90deg]" : "rotate-[90deg]";
 
+  // Adjust margin: if the arrow is rotated (pointing down), add extra margin-top.
+  const arrowMargin = posPctChange ? "mt-[4px]" : "mt-[-4px]";
+
   return (
     <div className="flex items-center">
-      <span className={`material-icons-sharp !text-[18px] ${arrowRotation} mt-[4px] ${colorClass}`}>
+      <span className={`material-icons-sharp !text-[18px] ${arrowRotation} ${arrowMargin} ${colorClass}`}>
         play_arrow
       </span>
       <span className={`text-sm font-medium text-center ${colorClass}`}>
