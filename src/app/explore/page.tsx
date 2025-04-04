@@ -71,19 +71,6 @@ const cardData = [
     avatar1: "va",
   },
   { 
-    id: 3, 
-    title: "Facilitate Rural Prosperity and Economic Development", 
-    topic: "Topic C",
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
-    orgAvatar: "usda",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "farmer",
-    avatar1: "usda",
-  },
-  { 
     id: 8, 
     title: "Combat Human Traffiking", 
     topic: "Topic A",
@@ -113,6 +100,19 @@ const cardData = [
     avatar1: "sba",
   },
   { 
+    id: 3, 
+    title: "Facilitate Rural Prosperity and Economic Development", 
+    topic: "Topic C",
+    orgAcronym: "USDA",
+    orgFullName: "U.S. Department of Agriculture",
+    orgAvatar: "usda",
+    cardType: "Goal",
+    startDate: "2025-05-01",
+    endDate: "2028-12-31",
+    artwork: "farmer",
+    avatar1: "usda",
+  },
+  { 
     id: 7, 
     title: "Safeguard and Improve National Health", 
     topic: "Topic C",
@@ -126,7 +126,7 @@ const cardData = [
   },
   { 
     id: 6, 
-    title: "Consumer Price Index", 
+    title: "Monthly jobs added", 
     topic: "Topic A",
     orgAcronym: "DOL",
     orgFullName: "U.S. Department of Labor",
@@ -180,10 +180,11 @@ const cardData = [
     startDate: "2025-03-01",
     endDate: "2028-09-30",
     dataTargets: [],
-    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 1700],
+    dataActuals: [2, 3, 2, 5, 3, 7, 2],
     progressPercent: 95,
     progressed: true,
     targetDirection: "increase",
+    unitFormat: "%",
     avatar1: "dol",
   },
   { 
@@ -570,6 +571,31 @@ export default function ExplorePage() {
             statusOption={statusOption}
             setStatusOption={setStatusOption}
           />
+
+<div className="flex items-stretch h-[48px]">
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-none rounded-l-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full"
+  >
+    <img
+      src="/icons/card-filter-icon.svg"
+      alt="Dropdown Arrow"
+      width={20}
+      height={20}
+    />
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-none rounded-r-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full -ml-px"
+  >
+    <img
+      src="/icons/table-filter-icon.svg"
+      alt="Dropdown Arrow"
+      width={20}
+      height={20}
+    />
+  </button>
+</div>
         </div>
         <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
         <div className="max-w-[1280px] mx-auto">
