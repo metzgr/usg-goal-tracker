@@ -1,21 +1,33 @@
 "use client";
 
 import React, { useState } from "react";
-import { Button } from "src/components/ui/button";
+import {
+  Table,
+  TableHeader,
+  TableRow,
+  TableHead,
+  TableBody,
+  TableCell,
+} from "src/components/ui/table";
 import { Input } from "src/components/ui/input";
-import { Card } from "src/components/ui/card";
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "src/components/ui/select";
-import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle } from "src/components/ui/sheet";
+import UsgBanner from "src/components/custom/usg-banner";
+import Navigation from "src/components/custom/navigation";
+import {
+  Sheet,
+  SheetTrigger,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from "src/components/ui/sheet";
 import { Checkbox } from "src/components/ui/checkbox";
 import { Label } from "src/components/ui/label";
 import { ScrollArea } from "src/components/ui/scroll-area";
-import UsgBanner from "src/components/custom/usg-banner";
 import CardHeader from "src/components/custom/card-header";
 import CardFooter from "src/components/custom/card-footer";
 import CardBody from "src/components/custom/card-body";
 import Placard from "src/components/custom/placard";
-import Navigation from "src/components/custom/navigation";
 import FilterTabs from "src/components/custom/filter-tabs";
+import { Button } from "src/components/ui/button";
 
 // Format date helper.
 const formatYear = (dateString: string) => new Date(dateString).getFullYear();
@@ -23,26 +35,9 @@ const formatYear = (dateString: string) => new Date(dateString).getFullYear();
 // Dummy card data for demonstration
 const cardData = [
   { 
-    id: 1, 
-    title: "Strategic Plan", 
-    topic: "Topic A",
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
-    orgAvatar: "/org1.png",
-    cardType: "Plan",
-    startDate: "2025-01-01",
-    endDate: "2028-06-30",
-    totalIndicators: 100,
-    indicatorsProgressed: 64,
-    changeIndicatorsProgressed: 2,
-    artwork: "wheat",
-    patternOption: "tile",
-    avatar1: "usda",
-  },
-  { 
     id: 2, 
     title: "American households with consistent, dependable access to food", 
-    topic: "Topic B",
+    topic: ["Topic A", "Program A"],
     orgAcronym: "USDA",
     orgFullName: "U.S. Department of Agriculture",
     orgAvatar: "usda",
@@ -55,32 +50,6 @@ const cardData = [
     progressed: true,
     targetDirection: "increase",
     avatar1: "usda",
-  },
-  { 
-    id: 4, 
-    title: "Veteran Customer Experience", 
-    topic: "Topic C",
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Veterans Affairs",
-    orgAvatar: "usda",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "veteran",
-    orgAcronym: "VA",
-    avatar1: "va",
-  },
-  { 
-    id: 8, 
-    title: "Combat Human Traffiking", 
-    topic: "Topic A",
-    orgAcronym: "DHS",
-    orgFullName: "U.S. Department of Homeland Security",
-    avatar1: "dhs",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "hands",
   },
   { 
     id: 5, 
@@ -100,31 +69,6 @@ const cardData = [
     avatar1: "sba",
   },
   { 
-    id: 3, 
-    title: "Facilitate Rural Prosperity and Economic Development", 
-    topic: "Topic C",
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
-    orgAvatar: "usda",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "farmer",
-    avatar1: "usda",
-  },
-  { 
-    id: 7, 
-    title: "Safeguard and Improve National Health", 
-    topic: "Topic C",
-    orgAcronym: "HHS",
-    orgFullName: "U.S. Department of Health and Human Services",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "ambulance",
-    avatar1: "hhs",
-  },
-  { 
     id: 6, 
     title: "Monthly jobs added", 
     topic: "Topic A",
@@ -140,34 +84,7 @@ const cardData = [
     progressed: true,
     targetDirection: "increase",
     avatar1: "dol",
-  },
-  { 
-    id: 9, 
-    title: "Strategic Plan", 
-    topic: "Topic C",
-    orgAcronym: "HUD",
-    orgFullName: "U.S. Department of Housing and Urban Development",
-    cardType: "Plan",
-    startDate: "2025-01-01",
-    endDate: "2028-06-30",
-    totalIndicators: 100,
-    indicatorsProgressed: 75,
-    changeIndicatorsProgressed: 2,
-    artwork: "house",
-    patternOption: "tile",
-    avatar1: "hud",
-  },
-  { 
-    id: 10, 
-    title: "Improve Highway Safety", 
-    topic: "Topic C",
-    orgAcronym: "DOT",
-    orgFullName: "U.S. Department of Transportation",
-    avatar1: "dot",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "highway",
+    unitFormat: "%",
   },
   { 
     id: 11, 
@@ -188,53 +105,6 @@ const cardData = [
     avatar1: "dol",
   },
   { 
-    id: 12, 
-    title: "Strategic Plan", 
-    topic: "Topic C",
-    orgAcronym: "GSA",
-    orgFullName: "General Services Administration",
-    cardType: "Plan",
-    startDate: "2025-01-01",
-    endDate: "2028-06-30",
-    totalIndicators: 88,
-    indicatorsProgressed: 75,
-    changeIndicatorsProgressed: 2,
-    artwork: "thunderbolt",
-    patternOption: "tile",
-    avatar1: "gsa",
-  },
-  { 
-    id: 13, 
-    title: "National Drug Control Strategy", 
-    topic: "Topic C",
-    orgAcronym: "Multiple Owners",
-    orgFullName: "ONDCP • DHS • DOD • DOC",
-    cardType: "Plan",
-    startDate: "2025-01-01",
-    endDate: "2028-06-30",
-    totalIndicators: 100,
-    indicatorsProgressed: 100,
-    changeIndicatorsProgressed: 2,
-    artwork: "pills",
-    patternOption: "fill",
-    avatar1: "omb",
-    avatar2: "dhs",
-    avatar3: "dod",
-    avatar4: "doc",
-  },
-  { 
-    id: 14, 
-    title: "Optimize Our Federal Buildings Portfolio", 
-    topic: "Topic C",
-    orgAcronym: "GSA",
-    orgFullName: "General Services Administration",
-    avatar1: "gsa",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "building",
-  },
-  { 
     id: 15, 
     title: "Office occupancy rate", 
     topic: "Topic A",
@@ -247,7 +117,7 @@ const cardData = [
     dataTargets: [80, 80, 80, 80, 80, 80, 80],
     dataActuals: [40, 56, 68, 72, 65, 88, 95],
     avatar1: "gsa",
-    unitFormat: "%"
+    unitFormat: "%",
   },
 ];
 
@@ -255,7 +125,7 @@ function Header() {
   return (
     <header>
       <UsgBanner />
-      <Navigation activeItem="Analyze" />
+      <Navigation activeItem="Explore" />
     </header>
   );
 }
@@ -367,7 +237,7 @@ function FilterSidebar({
             width={20}
             height={20}
           />
-          Topics
+          Filters
           {activeFilters.length > 0 && (
             <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
           )}
@@ -375,7 +245,7 @@ function FilterSidebar({
       </SheetTrigger>
       <SheetContent side="left" className="w-64">
         <SheetHeader>
-          <SheetTitle>Topics</SheetTitle>
+          <SheetTitle>Filters</SheetTitle>
         </SheetHeader>
         <ScrollArea className="h-64">
           <div className="p-4 space-y-2">
@@ -451,47 +321,31 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
     return <p className="p-4">No results found.</p>;
   }
   return (
-    <div className="columns-1 sm:columns-2 md:columns-3 gap-5">
-      {cards.map((card) => (
-        <div key={card.id} style={{ breakInside: "avoid" }} className="mb-5">
-          <Placard>
-            <Card className="group">
-              <CardHeader
-                title={card.title}
-                startDate={formatYear(card.startDate)}
-                endDate={formatYear(card.endDate)}
-                cardType={card.cardType}
-                orgAcronym={card.orgAcronym}
-              />
-              {card.cardType === "Plan" && (
-                <div>
-                  <CardBody
-                    cardType={card.cardType}
-                    artwork={card.artwork}
-                    patternOption={card.patternOption}
-                    totalIndicators={card.totalIndicators}
-                    indicatorsProgressed={card.indicatorsProgressed}
-                    changeIndicatorsProgressed={card.changeIndicatorsProgressed}
-                    dataActuals={card.dataActuals}
-                    dataTargets={card.dataTargets}
-                  />
-                </div>
-              )}
-              {card.cardType === "Indicator" && (
-                <CardBody
-                  cardType={card.cardType}
-                  artwork={card.artwork}
-                  patternOption={card.patternOption}
-                  totalIndicators={card.totalIndicators}
-                  indicatorsProgressed={card.indicatorsProgressed}
-                  changeIndicatorsProgressed={card.changeIndicatorsProgressed}
-                  dataActuals={card.dataActuals}
-                  dataTargets={card.dataTargets}
-                  unitFormat={card.unitFormat}
+    <div className="max-w-[1280px] mx-auto">
+      <Table>
+        <TableHeader>
+          <TableRow>
+            <TableHead>Organization</TableHead>
+            <TableHead>Indicator</TableHead>
+            <TableHead>Chart</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {cards.map((card) => (
+            <TableRow key={card.id}>
+              <TableCell>
+                <CardFooter
+                  orgFullName={card.orgFullName}
+                  orgAcronym={card.orgAcronym}
+                  avatar1={card.avatar1}
+                  avatar2={card.avatar2}
+                  avatar3={card.avatar3}
+                  avatar4={card.avatar4}
                 />
-              )}
-              {card.cardType === "Goal" && (
-                <div>
+              </TableCell>
+              <TableCell className="font-bold">{card.title}</TableCell>
+              <TableCell>
+                <div className="p-0">
                   <CardBody
                     cardType={card.cardType}
                     artwork={card.artwork}
@@ -501,21 +355,14 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                     changeIndicatorsProgressed={card.changeIndicatorsProgressed}
                     dataActuals={card.dataActuals}
                     dataTargets={card.dataTargets}
+                    unitFormat={card.unitFormat}
                   />
                 </div>
-              )}
-              <CardFooter
-                orgFullName={card.orgFullName}
-                orgAcronym={card.orgAcronym}
-                avatar1={card.avatar1}
-                avatar2={card.avatar2}
-                avatar3={card.avatar3}
-                avatar4={card.avatar4}
-              />
-            </Card>
-          </Placard>
-        </div>
-      ))}
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
     </div>
   );
 }
@@ -525,7 +372,7 @@ export default function ExplorePage() {
   const [filterOption, setFilterOption] = useState("Trending");
   const [statusOption, setStatusOption] = useState("Active");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
-  const [activeTab, setActiveTab] = useState("Everything"); // default tab
+  const [activeTab, setActiveTab] = useState("Everything");
 
   const possibleFilters = ["Topic A", "Topic B", "Topic C"];
 
@@ -537,8 +384,7 @@ export default function ExplorePage() {
       card.orgFullName.toLowerCase().includes(query) ||
       card.orgAcronym.toLowerCase().includes(query);
     const matchesTopic =
-      activeFilters.length === 0 || activeFilters.includes(card.topic);
-
+      activeFilters.length === 0 || activeFilters.some((topic) => card.topic?.includes(topic));
     let matchesTab = true;
     if (activeTab.toLowerCase() !== "everything") {
       if (activeTab.toLowerCase() === "plans") {
@@ -572,30 +418,30 @@ export default function ExplorePage() {
             setStatusOption={setStatusOption}
           />
 
-<div className="flex items-stretch h-[48px]">
-  <button
-    type="button"
-    className="inline-flex items-center gap-x-2 rounded-none rounded-l-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full"
-  >
-    <img
-      src="/icons/card-filter-icon.svg"
-      alt="Dropdown Arrow"
-      width={20}
-      height={20}
-    />
-  </button>
-  <button
-    type="button"
-    className="inline-flex items-center gap-x-2 rounded-none rounded-r-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full -ml-px"
-  >
-    <img
-      src="/icons/table-filter-icon.svg"
-      alt="Dropdown Arrow"
-      width={20}
-      height={20}
-    />
-  </button>
-</div>
+          <div className="flex items-stretch h-[48px]">
+            <button
+              type="button"
+              className="inline-flex items-center gap-x-2 rounded-none rounded-l-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full"
+            >
+              <img
+                src="/icons/card-filter-icon.svg"
+                alt="Dropdown Arrow"
+                width={20}
+                height={20}
+              />
+            </button>
+            <button
+              type="button"
+              className="inline-flex items-center gap-x-2 rounded-none rounded-r-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full -ml-px"
+            >
+              <img
+                src="/icons/table-filter-icon.svg"
+                alt="Dropdown Arrow"
+                width={20}
+                height={20}
+              />
+            </button>
+          </div>
         </div>
         <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
         <div className="max-w-[1280px] mx-auto">

@@ -25,7 +25,7 @@ const cardData = [
   { 
     id: 1, 
     title: "Strategic Plan", 
-    topic: "Topic A",
+    tags: ["Topic A", "Program A", "Priority 1"],
     orgAcronym: "USDA",
     orgFullName: "U.S. Department of Agriculture",
     orgAvatar: "/org1.png",
@@ -42,7 +42,7 @@ const cardData = [
   { 
     id: 2, 
     title: "American households with consistent, dependable access to food", 
-    topic: "Topic B",
+    tags: ["Topic B", "Program B", "Priority 2"],
     orgAcronym: "USDA",
     orgFullName: "U.S. Department of Agriculture",
     orgAvatar: "usda",
@@ -59,7 +59,7 @@ const cardData = [
   { 
     id: 4, 
     title: "Veteran Customer Experience", 
-    topic: "Topic C",
+    tags: ["Topic C", "Program C", "Priority 3"],
     orgAcronym: "USDA",
     orgFullName: "U.S. Department of Veterans Affairs",
     orgAvatar: "usda",
@@ -73,7 +73,7 @@ const cardData = [
   { 
     id: 8, 
     title: "Combat Human Traffiking", 
-    topic: "Topic A",
+    tags: ["Topic A", "Program A", "Priority 1"],
     orgAcronym: "DHS",
     orgFullName: "U.S. Department of Homeland Security",
     avatar1: "dhs",
@@ -85,7 +85,7 @@ const cardData = [
   { 
     id: 5, 
     title: "New small businesses", 
-    topic: "Topic B",
+    tags: ["Topic B", "Program B", "Priority 2"],
     orgAcronym: "SBA",
     orgFullName: "Small Business Administration",
     orgAvatar: "usda",
@@ -102,7 +102,7 @@ const cardData = [
   { 
     id: 3, 
     title: "Facilitate Rural Prosperity and Economic Development", 
-    topic: "Topic C",
+    tags: ["Topic C", "Program C", "Priority 3"],
     orgAcronym: "USDA",
     orgFullName: "U.S. Department of Agriculture",
     orgAvatar: "usda",
@@ -115,7 +115,7 @@ const cardData = [
   { 
     id: 7, 
     title: "Safeguard and Improve National Health", 
-    topic: "Topic C",
+    tags: ["Topic C", "Program C", "Priority 3"],
     orgAcronym: "HHS",
     orgFullName: "U.S. Department of Health and Human Services",
     cardType: "Goal",
@@ -127,7 +127,7 @@ const cardData = [
   { 
     id: 6, 
     title: "Monthly jobs added", 
-    topic: "Topic A",
+    tags: ["Topic A", "Program A", "Priority 1"],
     orgAcronym: "DOL",
     orgFullName: "U.S. Department of Labor",
     orgAvatar: "dol",
@@ -144,7 +144,7 @@ const cardData = [
   { 
     id: 9, 
     title: "Strategic Plan", 
-    topic: "Topic C",
+    tags: ["Topic B", "Program B", "Priority 2"],
     orgAcronym: "HUD",
     orgFullName: "U.S. Department of Housing and Urban Development",
     cardType: "Plan",
@@ -160,7 +160,7 @@ const cardData = [
   { 
     id: 10, 
     title: "Improve Highway Safety", 
-    topic: "Topic C",
+    tags: ["Topic C", "Program C", "Priority 3"],
     orgAcronym: "DOT",
     orgFullName: "U.S. Department of Transportation",
     avatar1: "dot",
@@ -172,7 +172,7 @@ const cardData = [
   { 
     id: 11, 
     title: "Consumer Price Index", 
-    topic: "Topic A",
+    tags: ["Topic A", "Program A", "Priority 1"],
     orgAcronym: "DOL",
     orgFullName: "U.S. Department of Labor",
     orgAvatar: "dol",
@@ -190,7 +190,7 @@ const cardData = [
   { 
     id: 12, 
     title: "Strategic Plan", 
-    topic: "Topic C",
+    tags: ["Topic C", "Program C", "Priority 3"],
     orgAcronym: "GSA",
     orgFullName: "General Services Administration",
     cardType: "Plan",
@@ -206,7 +206,7 @@ const cardData = [
   { 
     id: 13, 
     title: "National Drug Control Strategy", 
-    topic: "Topic C",
+    tags: ["Topic C", "Program C", "Priority 3"],
     orgAcronym: "Multiple Owners",
     orgFullName: "ONDCP • DHS • DOD • DOC",
     cardType: "Plan",
@@ -225,7 +225,7 @@ const cardData = [
   { 
     id: 14, 
     title: "Optimize Our Federal Buildings Portfolio", 
-    topic: "Topic C",
+    tags: ["Topic B", "Program B", "Priority 2"],
     orgAcronym: "GSA",
     orgFullName: "General Services Administration",
     avatar1: "gsa",
@@ -237,7 +237,7 @@ const cardData = [
   { 
     id: 15, 
     title: "Office occupancy rate", 
-    topic: "Topic A",
+    tags: ["Topic A", "Program A", "Priority 1"],
     orgAcronym: "GSA",
     orgFullName: "General Services Administration",
     orgAvatar: "dol",
@@ -367,7 +367,7 @@ function FilterSidebar({
             width={20}
             height={20}
           />
-          Topics
+          Filters
           {activeFilters.length > 0 && (
             <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
           )}
@@ -375,7 +375,7 @@ function FilterSidebar({
       </SheetTrigger>
       <SheetContent side="left" className="w-64">
         <SheetHeader>
-          <SheetTitle>Topics</SheetTitle>
+          <SheetTitle>Filters</SheetTitle>
         </SheetHeader>
         <ScrollArea className="h-64">
           <div className="p-4 space-y-2">
@@ -527,7 +527,7 @@ export default function ExplorePage() {
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("Everything"); // default tab
 
-  const possibleFilters = ["Topic A", "Topic B", "Topic C"];
+  const possibleFilters = ["Topic A", "Topic B", "Topic C", "Program A", "Program B", "Program C", "Priority 1", "Priority 2", "Priority 3"];
 
   // Filter cards based on search query, active topic filters, and activeTab.
   const filteredCards = cardData.filter((card) => {
@@ -536,8 +536,8 @@ export default function ExplorePage() {
       card.title.toLowerCase().includes(query) ||
       card.orgFullName.toLowerCase().includes(query) ||
       card.orgAcronym.toLowerCase().includes(query);
-    const matchesTopic =
-      activeFilters.length === 0 || activeFilters.includes(card.topic);
+      const matchesTags =
+      activeFilters.length === 0 || activeFilters.some((tags) => card.tags?.includes(tags));
 
     let matchesTab = true;
     if (activeTab.toLowerCase() !== "everything") {
@@ -550,7 +550,7 @@ export default function ExplorePage() {
       }
     }
 
-    return matchesSearch && matchesTopic && matchesTab;
+    return matchesSearch && matchesTags && matchesTab;
   });
 
   return (
