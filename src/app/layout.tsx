@@ -1,16 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { NavigationProvider } from "src/context/navigation-context";
 
 export const metadata: Metadata = {
   title: "Performance.gov",
@@ -19,22 +9,22 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-        <head>
+      <head>
         <link
           href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
           rel="stylesheet"
         />
         <link rel="stylesheet" href="https://use.typekit.net/rdu1aqt.css" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className="antialiased">
+        <NavigationProvider>
+          {children}
+        </NavigationProvider>
       </body>
     </html>
   );

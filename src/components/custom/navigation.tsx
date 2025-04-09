@@ -1,22 +1,28 @@
-import { Navbar, NavbarItem, NavbarSection } from 'src/components/custom/navbar'
+import { Navbar, NavbarItem, NavbarSection } from 'src/components/custom/navbar';
 
-function Navigation() {
+type NavigationProps = {
+  activeItem: 'Explore' | 'Analyze';
+};
+
+function Navigation({ activeItem }: NavigationProps) {
   return (
     <Navbar className="flex justify-between">
       <div className="flex">
-      <a href="/" aria-label="Home">
-      <img src="logo.svg" alt="Logo" className="height-[32px] mr-6" />
-      </a>
-      <NavbarSection>
-        <NavbarItem href="/designsystem" current>
-          Explore
-        </NavbarItem>
-        <NavbarItem href="/designsystem">Analyze</NavbarItem>
-      </NavbarSection>
+        <a href="/" aria-label="Home">
+          <img src="logo.svg" alt="Logo" className="h-[32px] mr-6" />
+        </a>
+        <NavbarSection>
+          <NavbarItem href="/designsystem" current={activeItem === 'Explore'}>
+            Explore
+          </NavbarItem>
+          <NavbarItem href="/designsystem" current={activeItem === 'Analyze'}>
+            Analyze
+          </NavbarItem>
+        </NavbarSection>
       </div>
-      <img src="/icons/share-arrow.svg" alt="Logo" className="height-[32px]" />
+      <img src="/icons/share-arrow.svg" alt="Share" className="h-[32px]" />
     </Navbar>
-  )
+  );
 }
 
 export default Navigation;
