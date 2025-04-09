@@ -12,10 +12,10 @@ function Navigation({ activeItem }: NavigationProps) {
           <img src="logo.svg" alt="Logo" className="h-[32px] mr-6" />
         </a>
         <NavbarSection>
-          <NavbarItem href="/designsystem" current={activeItem === 'Explore'}>
+          <NavbarItem href="/explore" current={activeItem === 'Explore'}>
             Explore
           </NavbarItem>
-          <NavbarItem href="/designsystem" current={activeItem === 'Analyze'}>
+          <NavbarItem href="/analyze" current={activeItem === 'Analyze'}>
             Analyze
           </NavbarItem>
         </NavbarSection>

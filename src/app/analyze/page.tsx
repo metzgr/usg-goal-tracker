@@ -255,7 +255,7 @@ function Header() {
   return (
     <header>
       <UsgBanner />
-      <Navigation />
+      <Navigation activeItem="Analyze" />
     </header>
   );
 }
