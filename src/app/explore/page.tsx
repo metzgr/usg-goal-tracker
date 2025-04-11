@@ -16,6 +16,7 @@ import CardBody from "src/components/custom/card-body";
 import Placard from "src/components/custom/placard";
 import Navigation from "src/components/custom/navigation";
 import FilterTabs from "src/components/custom/filter-tabs";
+import FilterScreen from "src/components/custom/filter-screen"; // Updated import
 
 // Format date helper.
 const formatYear = (dateString: string) => new Date(dateString).getFullYear();
@@ -140,34 +141,7 @@ const cardData = [
     progressed: true,
     targetDirection: "increase",
     avatar1: "dol",
-  },
-  { 
-    id: 9, 
-    title: "Strategic Plan", 
-    tags: ["Topic B", "Program B", "Priority 2"],
-    orgAcronym: "HUD",
-    orgFullName: "U.S. Department of Housing and Urban Development",
-    cardType: "Plan",
-    startDate: "2025-01-01",
-    endDate: "2028-06-30",
-    totalIndicators: 100,
-    indicatorsProgressed: 75,
-    changeIndicatorsProgressed: 2,
-    artwork: "house",
-    patternOption: "tile",
-    avatar1: "hud",
-  },
-  { 
-    id: 10, 
-    title: "Improve Highway Safety", 
-    tags: ["Topic C", "Program C", "Priority 3"],
-    orgAcronym: "DOT",
-    orgFullName: "U.S. Department of Transportation",
-    avatar1: "dot",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "highway",
+    unitFormat: "%",
   },
   { 
     id: 11, 
@@ -464,18 +438,16 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                 orgAcronym={card.orgAcronym}
               />
               {card.cardType === "Plan" && (
-                <div>
-                  <CardBody
-                    cardType={card.cardType}
-                    artwork={card.artwork}
-                    patternOption={card.patternOption}
-                    totalIndicators={card.totalIndicators}
-                    indicatorsProgressed={card.indicatorsProgressed}
-                    changeIndicatorsProgressed={card.changeIndicatorsProgressed}
-                    dataActuals={card.dataActuals}
-                    dataTargets={card.dataTargets}
-                  />
-                </div>
+                <CardBody
+                  cardType={card.cardType}
+                  artwork={card.artwork}
+                  patternOption={card.patternOption}
+                  totalIndicators={card.totalIndicators}
+                  indicatorsProgressed={card.indicatorsProgressed}
+                  changeIndicatorsProgressed={card.changeIndicatorsProgressed}
+                  dataActuals={card.dataActuals}
+                  dataTargets={card.dataTargets}
+                />
               )}
               {card.cardType === "Indicator" && (
                 <CardBody
@@ -491,18 +463,16 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
                 />
               )}
               {card.cardType === "Goal" && (
-                <div>
-                  <CardBody
-                    cardType={card.cardType}
-                    artwork={card.artwork}
-                    patternOption={card.patternOption}
-                    totalIndicators={card.totalIndicators}
-                    indicatorsProgressed={card.indicatorsProgressed}
-                    changeIndicatorsProgressed={card.changeIndicatorsProgressed}
-                    dataActuals={card.dataActuals}
-                    dataTargets={card.dataTargets}
-                  />
-                </div>
+                <CardBody
+                  cardType={card.cardType}
+                  artwork={card.artwork}
+                  patternOption={card.patternOption}
+                  totalIndicators={card.totalIndicators}
+                  indicatorsProgressed={card.indicatorsProgressed}
+                  changeIndicatorsProgressed={card.changeIndicatorsProgressed}
+                  dataActuals={card.dataActuals}
+                  dataTargets={card.dataTargets}
+                />
               )}
               <CardFooter
                 orgFullName={card.orgFullName}
@@ -525,9 +495,19 @@ export default function ExplorePage() {
   const [filterOption, setFilterOption] = useState("Trending");
   const [statusOption, setStatusOption] = useState("Active");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
-  const [activeTab, setActiveTab] = useState("Everything"); // default tab
+  const [activeTab, setActiveTab] = useState("Everything");
 
-  const possibleFilters = ["Topic A", "Topic B", "Topic C", "Program A", "Program B", "Program C", "Priority 1", "Priority 2", "Priority 3"];
+  const possibleFilters = [
+    "Topic A",
+    "Topic B",
+    "Topic C",
+    "Program A",
+    "Program B",
+    "Program C",
+    "Priority 1",
+    "Priority 2",
+    "Priority 3",
+  ];
 
   // Filter cards based on search query, active topic filters, and activeTab.
   const filteredCards = cardData.filter((card) => {
@@ -536,8 +516,9 @@ export default function ExplorePage() {
       card.title.toLowerCase().includes(query) ||
       card.orgFullName.toLowerCase().includes(query) ||
       card.orgAcronym.toLowerCase().includes(query);
-      const matchesTags =
-      activeFilters.length === 0 || activeFilters.some((tags) => card.tags?.includes(tags));
+    const matchesTags =
+      activeFilters.length === 0 ||
+      activeFilters.some((tag) => card.tags?.includes(tag));
 
     let matchesTab = true;
     if (activeTab.toLowerCase() !== "everything") {
@@ -558,7 +539,7 @@ export default function ExplorePage() {
       <Header />
       <main className="bg-[#F5F5F5] pb-12">
         <div className="flex items-center space-x-4 p-4 bg-white">
-          <FilterSidebar
+          <FilterScreen
             possibleFilters={possibleFilters}
             activeFilters={activeFilters}
             setActiveFilters={setActiveFilters}
@@ -572,30 +553,30 @@ export default function ExplorePage() {
             setStatusOption={setStatusOption}
           />
 
-<div className="flex items-stretch h-[48px]">
-  <button
-    type="button"
-    className="inline-flex items-center gap-x-2 rounded-none rounded-l-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full"
-  >
-    <img
-      src="/icons/card-filter-icon.svg"
-      alt="Dropdown Arrow"
-      width={20}
-      height={20}
-    />
-  </button>
-  <button
-    type="button"
-    className="inline-flex items-center gap-x-2 rounded-none rounded-r-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full -ml-px"
-  >
-    <img
-      src="/icons/table-filter-icon.svg"
-      alt="Dropdown Arrow"
-      width={20}
-      height={20}
-    />
-  </button>
-</div>
+          <div className="flex items-stretch h-[48px]">
+            <button
+              type="button"
+              className="inline-flex items-center gap-x-2 rounded-none rounded-l-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full"
+            >
+              <img
+                src="/icons/card-filter-icon.svg"
+                alt="Dropdown Arrow"
+                width={20}
+                height={20}
+              />
+            </button>
+            <button
+              type="button"
+              className="inline-flex items-center gap-x-2 rounded-none rounded-r-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full -ml-px"
+            >
+              <img
+                src="/icons/table-filter-icon.svg"
+                alt="Dropdown Arrow"
+                width={20}
+                height={20}
+              />
+            </button>
+          </div>
         </div>
         <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
         <div className="max-w-[1280px] mx-auto">
