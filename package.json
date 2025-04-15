@@ -1,12 +1,14 @@
 {
   "name": "usg-goal-tracker",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update-data": "ts-node scripts/updateData.ts"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
@@ -25,6 +27,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "d3": "^7.9.0",
+    "dotenv": "^16.5.0",
     "framer-motion": "^12.6.3",
     "lucide-react": "^0.487.0",
     "next": "15.2.4",
@@ -36,6 +39,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/dotenv": "^6.1.1",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
