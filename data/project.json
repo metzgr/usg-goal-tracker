@@ -1,0 +1,2594 @@
+[
+  {
+    "id": "recgtgh9fijU48h1u",
+    "name": "Review and repeal outdated agricultural compliance requirements",
+    "milestone": [
+      "rec3Uw66xmTrVg7cx",
+      "recF39S8LnVLkzSkl",
+      "reczJLBwIrRETFOhq"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Cut Burdensome Regulations on Producers"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recSpqBMrC6VK40F1",
+    "name": "Promote U.S. farm exports through new trade missions",
+    "milestone": [
+      "recJU4VdhrVLaCFTc",
+      "recCPYr3F0hCTaI86",
+      "recuERaqWNiHwTznW"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Expand Market Access for U.S. Agriculture"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec6YnbScYx5FaQBS",
+    "name": "Modernize disaster relief application and tracking systems",
+    "milestone": [
+      "recphYDFrYmZc1TV7",
+      "recXI84OQ3KSbZWRc",
+      "rec93x1NyveBwz2Y7"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Strengthen Risk and Disaster Support"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recZ8AbBiL3Pwjp6p",
+    "name": "Launch rural broadband deployment grants",
+    "milestone": [
+      "recCNyWQJOy4JNIcQ",
+      "recKzpq9vzSN0zQRJ",
+      "recDtpca47duEIWIn"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Expand High-Speed Internet in Rural Areas"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "reczZGCygu1onwS1x",
+    "name": "Expand microloan access for rural entrepreneurs",
+    "milestone": [
+      "rec9yc8k2Xc0b1HbJ",
+      "reciPGHbrcblTC7Ad",
+      "recPQEEPXgnUtHszt"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Support Small Businesses and Local Jobs"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recZSruHw573meHdB",
+    "name": "Modernize water and wastewater systems in rural towns",
+    "milestone": [
+      "recc8p7651xzyuUVq",
+      "rec9EdcbRPp5E9l1n",
+      "recwe7BlXT5ng87Pc"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Improve Infrastructure to Attract Investment"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "reccE3LBp69cBh0L5",
+    "name": "Implement real-time fraud detection systems in benefit delivery",
+    "milestone": [
+      "recfergA4P9ACOZBX",
+      "rec2rndksH7D9H7F0",
+      "recPGFc9ex0RmgmSG"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Cut Fraud and Program Misuse"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recrvmSZ6dwENQ41l",
+    "name": "Redesign digital application portals for mobile use",
+    "milestone": [
+      "rec5Akcx6Ee9RNrql",
+      "recr23hLw4CB4hw9n",
+      "rec7dMAWyPdIuveyd"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Simplify Access and Delivery"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recU0gPlYUoBB8g1W",
+    "name": "Integrate SNAP referrals with job training and wellness programs",
+    "milestone": [
+      "recMT1pwcNUZGKcQr",
+      "recBP5gzb9H0XAFdt",
+      "rec9JnkNJrFRVTb8G"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Align Support with Work and Wellness"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "reco86HPI56Ls3Z9b",
+    "name": "Expand local control waivers for HUD block grants",
+    "milestone": [
+      "rec15AenZQMwisO3l",
+      "recJqIokCkaHghCsE",
+      "recLGVJHrlytfEgHG"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Shift Decision-Making to the Local Level"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recUMNyVkatPnY31W",
+    "name": "Launch regulatory reform task force with state and local input",
+    "milestone": [
+      "reciGaOWJUThZIEbv",
+      "recJ1o2ilojU6jCxS",
+      "recWTFukKVTCnyLJb"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Reduce Federal Rules and Requirements"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recBkBANWfQC83kGt",
+    "name": "Redesign funding formulas to reflect performance outcomes",
+    "milestone": [
+      "recT5MA4Q4UcPOfJP",
+      "rec0584swk8Sj0N2B",
+      "recv74xVmBFqVE9gt"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Reward Results, Not Red Tape"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recZzHWJ35Gx7NSHZ",
+    "name": "Automate initial eligibility screening across HUD programs",
+    "milestone": [
+      "recdArz0e8YyHAZgi",
+      "recvOh0V3qvGTAwU4",
+      "recVMhQPvwVUQtSLB"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Speed Up Application and Approval Times"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recl63SIL0JYRmzKW",
+    "name": "Review and eliminate outdated program regulations",
+    "milestone": [
+      "recTmLrbgonQwG8Lz",
+      "recyJau5J6nsa2QLZ",
+      "reczZ1K5MMRT43HsF"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Cut Complex Rules and Requirements"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recxlfJJiJotV7Sax",
+    "name": "Develop self-service tools for local housing administrators",
+    "milestone": [
+      "recvsvAmcEknX64aC",
+      "recrlCFr9YVcLAdZi",
+      "recPvP8dgfgix2gO6"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Make Programs Easier to Manage Locally"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recI4NcglELoqbQ6r",
+    "name": "Expand partnerships with job training and education providers",
+    "milestone": [
+      "rec45UiwYdvrzBWeC",
+      "recOlb4GgTrJTLteh",
+      "recdNHft03Lm9qibK"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Link Housing Support to Work and Education"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 3,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 1,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "rec3ldjtkGq0q4nn0",
+    "name": "Launch time-limited assistance pilots with wraparound support",
+    "milestone": [
+      "rec179IJ1usb7P66Q",
+      "recZiKl5IBmfXKJeI",
+      "recGv7qwqoMQ821kT"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Transition Families Off Long-Term Assistance"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recIMKXYxhCn8lCVN",
+    "name": "Update program rules to support accountability and goal-setting",
+    "milestone": [
+      "recrhtB4ZUuE1RdQ4",
+      "recJkp4TMl55CQ8ZU",
+      "reccLx0ZQ5qxkwrIu"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Align Programs Around Personal Responsibility"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec0UKAluZ5z4b7Aq",
+    "name": "Conduct nationwide workspace utilization study",
+    "milestone": [
+      "rec5wGxWKppcWunKA",
+      "recMfzKjC8KzlDlrz",
+      "recxza51mg6HgCUz9"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Optimize Underused Federal Space"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "reckpCoXuuN5AFZn5",
+    "name": "Streamline property disposal approval workflows",
+    "milestone": [
+      "recoB8tptPYbrvhTv",
+      "recIR0GpOVYlFG5TB",
+      "rec3joGqw2v5PRfeU"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Speed Up Disposal of Excess Properties"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recSqEfZqXM9FIVhE",
+    "name": "Upgrade HVAC systems in aging federal buildings",
+    "milestone": [
+      "recW64MaPMxmnE9fi",
+      "recQzGKDWaaaiVYQs",
+      "recPkDLt9PHWlndWp"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Lower Energy and Maintenance Costs"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recRxiOFDiKADke5f",
+    "name": "Launch cross-agency procurement coordination task force",
+    "milestone": [
+      "reczDTqeV1lDFVZo4",
+      "recXBx9PLiHJ0KWiR",
+      "recqSvdEs2v8cBNDx"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Centralize Government Procurement"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec2deBAwjhlAkabV",
+    "name": "Implement AI-based contract monitoring",
+    "milestone": [
+      "recOL5tkdScJ58WYX",
+      "recn1WDa3pw5jH1O2",
+      "recnZkVr8uEpQA0gK"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Cut Waste and Fraud in Federal Purchasing"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec0HfucYuleRP8RM",
+    "name": "Identify top 10 categories for consolidated purchasing",
+    "milestone": [
+      "recaiUYgRJBKty4FP",
+      "rec2EMxnj56b85yKJ",
+      "recgvUZYAGdZPTT41"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Consolidate Common Purchases Across Agencies"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recrmx924M8iq7Yjm",
+    "name": "Create shared AI infrastructure for agency use",
+    "milestone": [
+      "recEH2lnr9MF3hco7",
+      "recBRWj6vqYaRQkW2",
+      "recNW6pOvuT7N9IlE"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Scale AI Tools Across Government"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recZjgmn2hREWK3o6",
+    "name": "Deploy AI chatbots for top citizen-facing services",
+    "milestone": [
+      "recRIrgVTkbagMObN",
+      "recDwqx5QqdhGzGVD",
+      "rechERi079AvTNaKx"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Speed Up Government Response Times"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 3,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recT6kfyYixVt2QG1",
+    "name": "Launch AI pilots in benefit eligibility and claims processing",
+    "milestone": [
+      "rece0u9PtsufWZ2DU",
+      "recqMdrlerwDU8h7M",
+      "recawv2YqFfAwEAoI"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Test AI Where It Can Save the Most"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recqnPckBm7HYlh8C",
+    "name": "Launch ag industry working group on regulatory reform",
+    "milestone": [
+      "recWZE23dlLjPfN0P",
+      "recN01UgWHRZjCS1y",
+      "recW2eWVG3Myzn448"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Cut Burdensome Regulations on Producers"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recz4jkGgh86grBIk",
+    "name": "Expand USDA market access grants for specialty crops",
+    "milestone": [
+      "recQjkepBSQR8rU0A",
+      "recrGyW3HwkzFaDPX",
+      "rectREVd8S5rbjqux"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Expand Market Access for U.S. Agriculture"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec7HshaBPopqbWyZ",
+    "name": "Expand outreach on crop insurance options to underserved regions",
+    "milestone": [
+      "recVupkhdzGATVmjH",
+      "rec5oXbJrlr5RDmGY",
+      "recwXaPJkLZfva2zi"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Strengthen Risk and Disaster Support"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "reccMsZ1ViLOdyXlg",
+    "name": "Partner with telecom providers to extend rural fiber access",
+    "milestone": [
+      "rec6dc5pYsORYZifd",
+      "recszLzRWVRp9kvOT",
+      "recIGvYx8pMLMBsJ9"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Expand High-Speed Internet in Rural Areas"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recL4QdHYjTyxJtRt",
+    "name": "Provide startup grants for rural business incubators",
+    "milestone": [
+      "recTvE5J05HeM2EZO",
+      "recMWlbVAvuK4wI3L",
+      "rec5w5mSiBg3ePrRp"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Support Small Businesses and Local Jobs"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "reczL8jHtw2QOpOQO",
+    "name": "Rebuild roads and transit links to rural job centers",
+    "milestone": [
+      "rec8tBYxKVVuZcMw0",
+      "recVYYUlHlAjk7ArM",
+      "recNZNfkrFEz6bF8D"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Improve Infrastructure to Attract Investment"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 3,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recdNuNK0N0ji4xeC",
+    "name": "Standardize audit procedures across state partners",
+    "milestone": [
+      "recE19yUARFH4ZmrW",
+      "rectygTlmiVPSsdak",
+      "recRtzgPLumKfih9X"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Cut Fraud and Program Misuse"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recaVQJsCyFk3ePnX",
+    "name": "Streamline renewal process across USDA-administered programs",
+    "milestone": [
+      "recO7KhDPSAUfKRRs",
+      "rec8gWOc9onVWphtF",
+      "recDzDRVerJVCSehZ"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Simplify Access and Delivery"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recE2WnzHzurnzyIV",
+    "name": "Launch nutrition assistance incentives for healthy food choices",
+    "milestone": [
+      "recBADo4wT5XJPOjR",
+      "recuM1UxFCGhga1pj",
+      "recKycK8WTD1M3Li3"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Align Support with Work and Wellness"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recg41tci7IhNIAXL",
+    "name": "Create a HUD-local coordination council for program design",
+    "milestone": [
+      "recJHu3L6acWTs60e",
+      "receZoYzPXy6hrXmj",
+      "rec4pZhXJjlL6Ul1T"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Shift Decision-Making to the Local Level"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recp2a6cWtElHSHSk",
+    "name": "Eliminate duplicative reporting across HUD grant programs",
+    "milestone": [
+      "rechw9JWC7PSk3q49",
+      "recD3t32w0386YCNd",
+      "rec1jFgnYnYvYI719"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Reduce Federal Rules and Requirements"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "receiBFzkOdq55FWZ",
+    "name": "Develop a results-based grant evaluation framework",
+    "milestone": [
+      "reccBaQPN0VPYbhmz",
+      "recTaOTM3UHVEYHXx",
+      "recaBUPJ01UFWO52N"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Reward Results, Not Red Tape"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recabfikTkjYUT7NZ",
+    "name": "Pilot fast-track approval process for high-need applicants",
+    "milestone": [
+      "recmgNAZZy7sB1mOe",
+      "recqzq2u1hvX2oC7Q",
+      "rec13MghUMQWXxgRn"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Speed Up Application and Approval Times"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recs87oEnHv68eWu3",
+    "name": "Redesign housing forms using plain language principles",
+    "milestone": [
+      "recu9GEObWTsw8h02",
+      "recmK3iUTFdJs6bKt",
+      "recqACJ9nHACUFxNn"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Cut Complex Rules and Requirements"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec2nZWHrAqYjYqXa",
+    "name": "Create a central resource hub for local implementation support",
+    "milestone": [
+      "recqM9iUuqnWY2Dsb",
+      "rec7i2Vg74CT7W0Lt",
+      "recv5fGqWZ6OdKLIN"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Make Programs Easier to Manage Locally"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "rec6QpHHQsjduUPuK",
+    "name": "Integrate workforce referrals into housing application systems",
+    "milestone": [
+      "rec569Rhw6TNlGS95",
+      "recW6myW5eN4XXALk",
+      "recvl8lJOKbjh3ylj"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Link Housing Support to Work and Education"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "reca8UBZpfLokp6XV",
+    "name": "Develop transition plans for long-term assisted households",
+    "milestone": [
+      "rec0KENUEUEJpM96J",
+      "recWA5qxvy93X1qhj",
+      "recAiUdqf0QMamuTX"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Transition Families Off Long-Term Assistance"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recptUB2a4rWY7eZz",
+    "name": "Launch pilot for self-sufficiency incentives in housing aid",
+    "milestone": [
+      "recQLMpZl0a7yGeze",
+      "recNBrr9mEjnkOXRz",
+      "recBxKzhrqHKwogv6"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Align Programs Around Personal Responsibility"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recDtk1JJWDIe12gh",
+    "name": "Consolidate leased office space in priority cities",
+    "milestone": [
+      "recq6VKojk2D0yGTa",
+      "recDXV51iCAFu0Xlr",
+      "recDcb4VZpD0nIf0X"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Optimize Underused Federal Space"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recH9vSxO1vbbY65z",
+    "name": "Launch fast-track disposal program for small assets",
+    "milestone": [
+      "recqU7c2v5qjiI5FS",
+      "recChrS7Fwqy0xeD5",
+      "recpDSf1kDU6JmSUL"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Speed Up Disposal of Excess Properties"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recD1u3fGJ9LCXGEd",
+    "name": "Implement energy performance tracking dashboards",
+    "milestone": [
+      "reclVEyEmsfy7ouq4",
+      "recq22juoGvKoVwml",
+      "rech8BWSMkyPAsxjL"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Lower Energy and Maintenance Costs"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec2Fw2jiGaMY6YqZ",
+    "name": "Develop a centralized procurement data hub",
+    "milestone": [
+      "recpmAYjVJMRrrkb4",
+      "recz9DO5fQn9ezcYI",
+      "rec0NulqTcxvkO4x4"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Centralize Government Procurement"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recpFy9PxRhvukoiv",
+    "name": "Launch procurement integrity training initiative",
+    "milestone": [
+      "recpgRmKtJ8lqnhb0",
+      "recu6e5Hrvgh31VK1",
+      "rechA5u0SJY9V40Dx"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Cut Waste and Fraud in Federal Purchasing"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recIBbhS8WkQ28lPj",
+    "name": "Develop shared purchasing templates and tools",
+    "milestone": [
+      "rec4KTUDUk1TlVbY5",
+      "recEQjfAy9QsK4chm",
+      "reca78VR0jBOVAGAg"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Consolidate Common Purchases Across Agencies"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec1wJwuRBIQ3T2zo",
+    "name": "Develop AI governance and implementation playbook",
+    "milestone": [
+      "rec2QVoeBDr3tuI0x",
+      "recFR8QlD83vXOgN8",
+      "recm5LOvexbiA2fuJ"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Scale AI Tools Across Government"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "rec5JejFPAVbisnsV",
+    "name": "Automate intake and triage for high-volume agency workflows",
+    "milestone": [
+      "recpCs6br9ENGSWQN",
+      "recfQLsUZJvdFjR48",
+      "recGHfjJfaRxYvtEN"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Speed Up Government Response Times"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recErkqmN8uXhME4r",
+    "name": "Identify top cost drivers for AI experimentation",
+    "milestone": [
+      "recSr5TxiBcrP77FC",
+      "recqZANPCIGqkInps",
+      "rec9z7jsmdsqnVWnz"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Test AI Where It Can Save the Most"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rece9eU0yTmuHrqRU",
+    "name": "Digitize and streamline permitting and certification processes",
+    "milestone": [
+      "rec0Sr3tenbzVuJeB",
+      "recPjQrIBYWUxvAiF",
+      "recrg04Tnar8OcbOL"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Cut Burdensome Regulations on Producers"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recXCyej5MvqEw6iy",
+    "name": "Partner with states to open new regional export hubs",
+    "milestone": [
+      "reck149VAnQfybBW4",
+      "rec5R11yKRgAoCNYw",
+      "rec2QbnfO0clcQawL"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Expand Market Access for U.S. Agriculture"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recl45y5Tc7p2Ny5R",
+    "name": "Speed up payments through automated claims processing",
+    "milestone": [
+      "rec1zLV8HMgLvoOpA",
+      "recSGhpbVKjvFT8KM",
+      "rec0bJPFRpZcNvUWO"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Strengthen Risk and Disaster Support"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recIwbKGssSaxOlzn",
+    "name": "Develop broadband mapping and gap analysis tools",
+    "milestone": [
+      "rec9V2NfBcnRVj3Q4",
+      "recJAo4WzR31BwuUN",
+      "rec8JfaZKBTIKDMcs"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Expand High-Speed Internet in Rural Areas"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rectnQfqauvl8TJoG",
+    "name": "Deliver small business training through local extension offices",
+    "milestone": [
+      "recEi7sm9xpKwskZm",
+      "recjH0SjN05sO5sPQ",
+      "recm1d1cAdXivQfmL"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Support Small Businesses and Local Jobs"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recz8kGGnqWEq5wC9",
+    "name": "Launch public-private investment challenge for rural projects",
+    "milestone": [
+      "rec2lyE7LN72jE1Gf",
+      "recpCk2QF0eyAeAFw",
+      "recgUnxSHyIe205kk"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Improve Infrastructure to Attract Investment"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recne8s1VMuykclur",
+    "name": "Create centralized database to track disqualifications",
+    "milestone": [
+      "recBGdxBvjJysw9wW",
+      "recxjq75oqoFdUQZ8",
+      "recHKfCFw49BNeu2Y"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Cut Fraud and Program Misuse"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recMN0VpRhSjmrC74",
+    "name": "Help schools navigate the National School Lunch Program (NSLP)",
+    "milestone": [
+      "rec90TmCLB9nFwJtc",
+      "recCqusGzAuF6iazl",
+      "recHwrvaQjunLfGHD"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Simplify Access and Delivery"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec24vKfOa2AQ17mC",
+    "name": "Pilot work-supportive case management models in rural areas",
+    "milestone": [
+      "rec9Mp8gI4G2JAwJ0",
+      "rec8jILQoB1pGMIuE",
+      "recXocWc32L5Z6xSo"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Align Support with Work and Wellness"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recIvrAQQBzqdIsCN",
+    "name": "Train local leaders on flexible program implementation",
+    "milestone": [
+      "recjrXolDUqDJwJeU",
+      "recqInJxrwVMEyBcg",
+      "recgqtJZE2UbUW08t"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Shift Decision-Making to the Local Level"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "rec1SRyOvMuqYfyuQ",
+    "name": "Simplify compliance checklists for grantees",
+    "milestone": [
+      "rec5m3yX1eYSiMdbR",
+      "recBM631MUPAbZXcW",
+      "rec2VsjGjWhnRVNd7"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Reduce Federal Rules and Requirements"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recomFZgdaMjz3CgV",
+    "name": "Pilot outcome-based contracts with local housing providers",
+    "milestone": [
+      "recrwR4FqeoulO9HV",
+      "recSxcdiVYKmLEsYB",
+      "recIhtQ5yGNcAZWhw"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Reward Results, Not Red Tape"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recmUqXCaQGJlH2MD",
+    "name": "Redesign application workflow to reduce manual review steps",
+    "milestone": [
+      "recm2PfaoGAZ7uK2W",
+      "rec4gtqpQZpcTClhW",
+      "rec9n0Qy8Yj3FvDRf"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Speed Up Application and Approval Times"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recDVyMWBBpb71BvC",
+    "name": "Launch initiative to simplify eligibility criteria",
+    "milestone": [
+      "reckMKuLhQBUltXOO",
+      "recU2PokQsvv47aJw",
+      "recSIpwTWIvsByzRY"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Cut Complex Rules and Requirements"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recpf07LhdBhmEO3O",
+    "name": "Pilot flexible program delivery models in select jurisdictions",
+    "milestone": [
+      "reco7mvzP8PjEhxLB",
+      "recOJKjGX2hNSAKaZ",
+      "rec9xxpJoi2V7FLd2"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Make Programs Easier to Manage Locally"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recBPgV3AISCNX1HB",
+    "name": "Track employment outcomes among assisted households",
+    "milestone": [
+      "recDNzihqM1BK2Sv4",
+      "reciNzmQRjjSCiUfM",
+      "recCQDdJuyApbuKCp"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Link Housing Support to Work and Education"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recIGuTP6xecZFfnA",
+    "name": "Analyze post-exit stability trends and barriers",
+    "milestone": [
+      "recfYZxGbZIFUUwNt",
+      "recnpfrnQ5K0xpjeH",
+      "recZdEC4eX27MEQXK"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Transition Families Off Long-Term Assistance"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recktYDhtsoDD663w",
+    "name": "Develop a client progress tracking tool for local agencies",
+    "milestone": [
+      "rec71vtRVh0vBgRwB",
+      "recPSr7NFz4pMLEC1",
+      "recaEN7N8FlRYlgYI"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Align Programs Around Personal Responsibility"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recTbgPXXWmE1tMX3",
+    "name": "Develop agency space optimization playbook",
+    "milestone": [
+      "recZ2H5CZWN0qjipa",
+      "reclQdnVZpgrRwIz8",
+      "rec4AY96YDCcWrfEM"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Optimize Underused Federal Space"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec8DsqKNylC0fsRX",
+    "name": "Partner with local governments for surplus reuse",
+    "milestone": [
+      "recEo5a4bsvEqfJ7x",
+      "recJ3IfJdSlyGB6Vx",
+      "reccIJ2jRm2r2YMgo"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Speed Up Disposal of Excess Properties"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recvRYDgYwPUg7Q3E",
+    "name": "Launch preventive maintenance pilot for high-cost sites",
+    "milestone": [
+      "recak1hjqjDaeLfrl",
+      "recjn8KIDcKjq7mjE",
+      "recka2C6HW0JlgBxN"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Lower Energy and Maintenance Costs"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec4eJmjQ2vD0bHqW",
+    "name": "Expand use of governmentwide acquisition contracts (GWACs)",
+    "milestone": [
+      "recZdKOrRUeI1IKRs",
+      "recnDsDrC2wRxwzal",
+      "recD1FJHGwFcbLqvT"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Centralize Government Procurement"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 2,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.6666666666666666,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recS3sprdjjFttqiC",
+    "name": "Audit high-risk contracts across key spending categories",
+    "milestone": [
+      "recbTWA8FfPWLYcSB",
+      "recn1Ynsz3XNLdOjG",
+      "recabLB8pHbwva7hY"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Cut Waste and Fraud in Federal Purchasing"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 0,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recxi4ARPtykjjPzk",
+    "name": "Pilot bulk buying agreements across multiple agencies",
+    "milestone": [
+      "recUaoDDFl1pAXexF",
+      "rec5DHKGhU0CNUIEz",
+      "recIhBsVViI9soHF3"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Consolidate Common Purchases Across Agencies"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "rec6uAcIlozKRNGqE",
+    "name": "Host AI accelerator program for federal service delivery",
+    "milestone": [
+      "recwUjISuUdxa1uym",
+      "recXyp8cAcc42vVu3",
+      "rec1VYPsRolUfT4CZ"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Scale AI Tools Across Government"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 1,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 1,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  },
+  {
+    "id": "recKIoZk3rxvjlBon",
+    "name": "Integrate AI into contact centers for faster resolution",
+    "milestone": [
+      "recAMvR7SMW514UTe",
+      "recDnIjBr8qIzi7Lf",
+      "recIVWcfC2MStPFI9"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Speed Up Government Response Times"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 2,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 0,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 0
+  },
+  {
+    "id": "recIDqloLl2sSMVT4",
+    "name": "Publish results from first wave of AI pilot programs",
+    "milestone": [
+      "rec6qis7oxemF7zBQ",
+      "recEsyaVP4ST8QMug",
+      "recUVyxX0bNRqwmyk"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Test AI Where It Can Save the Most"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "milestoneCount": 3,
+    "milestoneIsBlockedCount": 0,
+    "milestoneIsCompletedCount": 1,
+    "milestoneIsProgressedCount": 2,
+    "milestoneIsNotStartedCount": 0,
+    "percentProgress": 0.3333333333333333,
+    "trendIsImproved": 1
+  }
+]

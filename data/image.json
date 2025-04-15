@@ -1,0 +1,40 @@
+[
+  {
+    "id": "rectq3GGTbU7127Za",
+    "name": "farmer",
+    "altText": "Abstract illustration of a farmer standing among wheat",
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "type": "artwork"
+  },
+  {
+    "id": "rec3qi4z8w6MaROAS",
+    "name": "building",
+    "type": "artwork"
+  },
+  {
+    "id": "recy0JHpNRKuJGJQR",
+    "name": "house",
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "type": "artwork"
+  },
+  {
+    "id": "recVAZIfBVTCQwHs6",
+    "name": "wheat",
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "type": "artwork"
+  },
+  {
+    "id": "recNgFvd5CI9i3gxY",
+    "name": "thunderbolt",
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "type": "artwork"
+  }
+]

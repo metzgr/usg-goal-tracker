@@ -1,0 +1,110 @@
+[
+  {
+    "id": "recOMj2QaHVSXQHj9",
+    "name": "Strategic Plan",
+    "status": "Active",
+    "orgId": [
+      "recnGvKRcRqww0bnX"
+    ],
+    "startDate": "2025-10-01",
+    "endDate": "2030-09-30",
+    "goal": [
+      "recE1G2OnThbIl1Ll",
+      "rec2hvyBWPQ9yhrRD",
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "type": "strategic-plan",
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "startFiscalYear": 2026,
+    "endFiscalYear": 2030,
+    "goalCount": 3,
+    "image": [
+      "recVAZIfBVTCQwHs6"
+    ],
+    "objectiveCount": 9,
+    "indicatorCount": 54,
+    "indicatorImprovedCount": 48,
+    "indicatorImprovedPercent": 0.8888888888888888,
+    "metricCount": 27,
+    "projectCount": 27,
+    "milestoneCount": 81,
+    "targetCount": 153
+  },
+  {
+    "id": "recfde4xeJB6AjiKp",
+    "name": "Strategic Plan",
+    "status": "Active",
+    "orgId": [
+      "recHD6eR7iIOtErtj"
+    ],
+    "startDate": "2025-10-01",
+    "endDate": "2030-09-30",
+    "goal": [
+      "reckzwb3ajnkrFaPr",
+      "reclbSVnJ5w3IDoMT",
+      "reciWMgbpWKFIDQMw"
+    ],
+    "type": "strategic-plan",
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "startFiscalYear": 2026,
+    "endFiscalYear": 2030,
+    "goalCount": 3,
+    "image": [
+      "recy0JHpNRKuJGJQR"
+    ],
+    "objectiveCount": 9,
+    "indicatorCount": 54,
+    "indicatorImprovedCount": 46,
+    "indicatorImprovedPercent": 0.8518518518518519,
+    "metricCount": 27,
+    "projectCount": 27,
+    "milestoneCount": 81,
+    "targetCount": 153
+  },
+  {
+    "id": "recOkgPAU7Ek1YAZh",
+    "name": "Strategic Plan",
+    "status": "Active",
+    "orgId": [
+      "recaTbkkzqqA7qzsJ"
+    ],
+    "startDate": "2025-10-01",
+    "endDate": "2030-09-30",
+    "goal": [
+      "recpHCd3DDokR8jMV",
+      "recgQ7Lm3qWG8O8O2",
+      "rechpz3iEn2BuEgnB"
+    ],
+    "type": "strategic-plan",
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "startFiscalYear": 2026,
+    "endFiscalYear": 2030,
+    "goalCount": 3,
+    "image": [
+      "recNgFvd5CI9i3gxY"
+    ],
+    "objectiveCount": 9,
+    "indicatorCount": 54,
+    "indicatorImprovedCount": 48,
+    "indicatorImprovedPercent": 0.8888888888888888,
+    "metricCount": 27,
+    "projectCount": 27,
+    "milestoneCount": 81,
+    "targetCount": 153
+  }
+]

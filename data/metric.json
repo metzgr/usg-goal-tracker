@@ -1,0 +1,4538 @@
+[
+  {
+    "id": "recFwgTwvR502jZQQ",
+    "name": "Number of regulations modified or eliminated for producers",
+    "metricMeasurement": [
+      "recKp97mvyEPQUlxl",
+      "recAsokal719lBftA",
+      "recX69oUHLnsO2AtC",
+      "recqYZCWpAnOzcFep",
+      "rec2PkGzuOUOlUeRH",
+      "recYOP0qLaaPCwyCb",
+      "recEcIPMWkqz7btLK",
+      "recjUeWxFxiHAOkva"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Cut Burdensome Regulations on Producers"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1600
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": -0.06,
+    "mostRecentPercentProgress": [
+      0.48
+    ],
+    "mostRecentResultTrend": [
+      "Worsened"
+    ],
+    "resultTrendIsImproved": 0
+  },
+  {
+    "id": "recKxFS9YfC5NRo6E",
+    "name": "Number of new or expanded agricultural export markets",
+    "metricMeasurement": [
+      "recyPYaUsrYP3gPsW",
+      "recB5hdCccTq5wuDb",
+      "recIJhHu3AiBoUYMH",
+      "recvOSHGZwZ7lOOyE",
+      "recutcGfg0LPlEhQo",
+      "recQfjFjgTW1BxEJN",
+      "rec1jOvMuIjNQoIjL",
+      "recDdQjH0uPs1tQhO"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Expand Market Access for U.S. Agriculture"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recgtdDHapmiVg98T",
+    "name": "Average time to deliver disaster assistance after application",
+    "metricMeasurement": [
+      "recpuU52GsYrsb8RZ",
+      "recFtCCV9eCVGP4sE",
+      "recVgdp9aFJve9NiD",
+      "reczluc5OSMOVg124",
+      "recEoHvwhLXVloGNS",
+      "recraN88pt5P0ITPh",
+      "reccHZVkT9eVGxzRQ",
+      "recaduNyqZkHUXNLe"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Strengthen Risk and Disaster Support"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "reci6SgvEYDWSGuK1",
+    "name": "Number of new broadband connections funded",
+    "metricMeasurement": [
+      "reciNfv0nKwARVg5d",
+      "recfx6xQGHts88lM1",
+      "recRYHZG5myRaZJ1l",
+      "reccofo6a5UgaTXUy",
+      "recZToUQIrgCprnIz",
+      "rec4HKuXWlluLxUJO",
+      "recQ7TYVR1Je0GMyJ",
+      "recvgrAOjbeoKIvxb"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Expand High-Speed Internet in Rural Areas"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "reclxsPODoHt1GtK2",
+    "name": "Number of rural small businesses receiving USDA support",
+    "metricMeasurement": [
+      "recf5BEHyxNUzRFxu",
+      "recPiI3Tj1WPEa7PS",
+      "recw8RUgsDPkjuvxW",
+      "rectsaOueUjSj2ycX",
+      "reclrQVt78ucauZk8",
+      "recMQKj7d6isnrclV",
+      "recN6a8qwaU8FynKv",
+      "rec7X8exBR384bjxM"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Support Small Businesses and Local Jobs"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recjyf0y2pRIOW7qg",
+    "name": "Number of infrastructure projects completed in rural areas",
+    "metricMeasurement": [
+      "rectWhAmVRCRxZqbg",
+      "recdGqQDWoyFD427O",
+      "recCfI2kJAPcpwhcq",
+      "recAGunF0j1Yywgy0",
+      "recQT1CNbJFFZ2hpc",
+      "recn8Azj8LF3YL4QF",
+      "recHVKvjWLUh4bkhm",
+      "recJ63BEJW6LE2HIU"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Improve Infrastructure to Attract Investment"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "reczs3R36Zp10dKHQ",
+    "name": "Number of fraud investigations initiated",
+    "metricMeasurement": [
+      "rechQtoe28Kj2BLCW",
+      "recZb6wksbXcxf1aI",
+      "recD30K5igxhS6vCU",
+      "rec7wqwKYmiM9YQdM",
+      "recl2CJqdeqz3JvRZ",
+      "reckvBbJo84jA2JP7",
+      "recpyxNONykBvt0L1",
+      "recDQslRgbsmZQfYj"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Cut Fraud and Program Misuse"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recaOZutLhCARxZ8l",
+    "name": "Average time from application to benefit issuance",
+    "metricMeasurement": [
+      "recRUoaFxBX16GJrX",
+      "recVK3PRRjqniYW1Q",
+      "recMVVEZxeZRWRcTZ",
+      "recrplTq5F8q1s897",
+      "recJdxjqEdnkBIQdA",
+      "rec1RGhOMeXPlhGUI",
+      "recQNjzdQqQpeULEV",
+      "recUg0H8TrOi9iOSh"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Simplify Access and Delivery"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recnp2PLQrMvKv9DM",
+    "name": "Percentage of recipients participating in work or training programs",
+    "metricMeasurement": [
+      "recB8qZKq4bKhrEcz",
+      "recGa9a5RZEQu81Zx",
+      "rec3VW85WjhLBYgU0",
+      "recExt9MVUjDo1wXn",
+      "recW9DMwylNKE7PBV",
+      "recEiRKlw70yZk1Fl",
+      "recbDQDd6x6IoDoWK",
+      "recVGFfETWJatBMCK"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Align Support with Work and Wellness"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recH44ZTcvJQEg2jS",
+    "name": "Percentage of program decisions delegated to local entities",
+    "metricMeasurement": [
+      "rec1do1T1Ur1qVPt1",
+      "recldSR94Y4f7tBvt",
+      "reccwAcotarQiTKSU",
+      "rec5fVkr8RX0GRzNB",
+      "recoL83JRoZuTOfys",
+      "recnEI5gBMRw478yH",
+      "recmlfqRjHVh0tUVw",
+      "rec9bQ0XkamvIQyly"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Shift Decision-Making to the Local Level"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recENH1xiv11OJTUE",
+    "name": "Number of federal requirements waived or streamlined",
+    "metricMeasurement": [
+      "recBFMeyU8olsHlut",
+      "reckexAZSPE34id2W",
+      "recoGUdoIxT7TjVKU",
+      "rec3BMdlO9rb4tLgN",
+      "recG6L3U0sODTAyIY",
+      "recbIt58w8RChOANF",
+      "recci1Tv560gJ72NT",
+      "recLAJewHneTcpalt"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Reduce Federal Rules and Requirements"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recvaOhfjUlickFpm",
+    "name": "Percentage of funding tied to performance outcomes",
+    "metricMeasurement": [
+      "recsoeSZdCFACdBuD",
+      "recP0GfSkKViTEd5V",
+      "recSrh8YJO9y1iLkB",
+      "recxhBsBep7wHRKkP",
+      "reczxtH8WMcmkP736",
+      "recsinW9zrEtgFwaM",
+      "recGGOSeY0nHm89wz",
+      "recqfKKwf0EgyEhv5"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Reward Results, Not Red Tape"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recpd4R9aW33RwPLq",
+    "name": "Average number of days from application to approval",
+    "metricMeasurement": [
+      "recyqp7M3WGdhF7WB",
+      "recwWcOwyBbDadCBH",
+      "recovhG5i3jDtBueC",
+      "recbwKP8YcwSAHmEJ",
+      "recLHLfMq2qiEV5y4",
+      "recVxsmjO3GnNEz87",
+      "rec59c7hHAd1StIP2",
+      "reczsHOTbt0jv0TMu"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Speed Up Application and Approval Times"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec1deqrvOrUyylqh",
+    "name": "Number of program requirements reduced or eliminated",
+    "metricMeasurement": [
+      "recuqx6lxiXGB6lpr",
+      "rec7AgKtV4zCOdVRw",
+      "recmuISfmWPJs651L",
+      "recbut8UoX2aooG5h",
+      "recYYLKVgENw1hjsy",
+      "recHx3OhWMeAvDF4h",
+      "rect0WuN4tZk6JbpF",
+      "recPyRb50ZMTxzl5p"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Cut Complex Rules and Requirements"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recwTSyFh1djV2zKv",
+    "name": "Percentage of local administrators reporting reduced burden",
+    "metricMeasurement": [
+      "recQNHx9XeEaoiYLz",
+      "rec58RNIhp8s4EVik",
+      "recSjCgZGWjE0FfI7",
+      "recjBNb1Cky8RIlqW",
+      "rec0SiDhEpTzff78F",
+      "recu9aXzMJDyRekoh",
+      "rec2myy5MWniyrQmp",
+      "recc4MrFVm0z6hv2m"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Make Programs Easier to Manage Locally"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recH1N9jwZjZ1iHrk",
+    "name": "Percentage of housing recipients enrolled in work or education programs",
+    "metricMeasurement": [
+      "recLiQt7JpcGwLPzy",
+      "recFxE5xklgdOe0qS",
+      "recHGifUdx7bpr7xu",
+      "reciNWFe2nWrfJAXc",
+      "recA1hFkei4BOOUGI",
+      "recZWBPlq6MjzYuwD",
+      "recu0AV7OzM3nwqNi",
+      "rec0QgK4VaQK280Na"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Link Housing Support to Work and Education"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recs9KrdapXvk9Gg0",
+    "name": "Percentage of families exiting assistance within 5 years",
+    "metricMeasurement": [
+      "receJqBXhMo5ZxhGo",
+      "recI3JqaZJvMyNoWf",
+      "recDnYaYEG7d1BmXH",
+      "recVVlhQTDMS7H2MU",
+      "recqwR1jEfVtX5fT5",
+      "recLx5q67YNG1VCF5",
+      "reci2lAM7gdaQPLLn",
+      "recTyJhcVNLQZJR3q"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Transition Families Off Long-Term Assistance"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recTfcwcZ8vPXnFv7",
+    "name": "Percentage of participants meeting work or training requirements",
+    "metricMeasurement": [
+      "recgiDkeHmftFcRFU",
+      "reciMwyLNZOgrQeNh",
+      "recviYco5GqDBVIEx",
+      "recBqtgCk5qXs5wvD",
+      "recP00LRlQVG4nBAf",
+      "recoqkc24tB9raNoL",
+      "recfHQUk7tvZiImLv",
+      "recVytRWLaPWk5pum"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Align Programs Around Personal Responsibility"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recLVnXE52MD7UdxL",
+    "name": "Square footage of unoccupied or underused space",
+    "metricMeasurement": [
+      "recTawenNpuHdlwSK",
+      "rec5sFkxxyQWRokG6",
+      "recjA9A3bokg66rMa",
+      "recqLMLqRP1VzI2iv",
+      "recCDsC8weCIkd1f5",
+      "recLy29iHssfUC3SP",
+      "recVYmaTT2pvA1nzw",
+      "rec20bTrpWpzsouFg"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Optimize Underused Federal Space"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recMDRxtzSIH8gYdJ",
+    "name": "Average time to dispose of excess properties",
+    "metricMeasurement": [
+      "recqoaDz1XTYkPqn3",
+      "reckbNW8MjnI6ocFY",
+      "recVe9RmrFONdxoPj",
+      "recFeWAy79Y4wuNCG",
+      "rec2nVxU9FxoMjRKG",
+      "rec1weUcBKwr6yLbQ",
+      "recpg8LDHDZWZvQF0",
+      "recGB0X5UEsWCW02I"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Speed Up Disposal of Excess Properties"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec5D999C2vTUHpeN",
+    "name": "Average energy cost per square foot",
+    "metricMeasurement": [
+      "rece9SkTMIA8ANWor",
+      "recu1lTKFAPc2Gj60",
+      "recWCkZPFjsVI0PIV",
+      "recXm9daVNx7ha6Q7",
+      "rectCoXc9jojlGgL3",
+      "recplT8XpXtgQPQok",
+      "recB6emGgng4pTM8K",
+      "recGqioTSrtdkFq7x"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Lower Energy and Maintenance Costs"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recUHgQbbA0yelZcx",
+    "name": "Percentage of federal contracts managed through GSA",
+    "metricMeasurement": [
+      "recVu6v3YT0fVuRLo",
+      "recmyLSRqUUBlx2TW",
+      "recB1CVnZcjfHEhMf",
+      "rec3Vwp4M8PLB6p0E",
+      "recZBTRXRN6y0OaAL",
+      "recqGtoT4JBlulS27",
+      "recPLjrDWR7IukSQv",
+      "rec4lB77Bk6EGyQxC"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Centralize Government Procurement"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recDlV7NIlxbt5zUB",
+    "name": "Number of randomly investigated procurement transactions",
+    "metricMeasurement": [
+      "rec4Lgylb9rO4m9P3",
+      "recZCjSMDcUq7J3nC",
+      "recc9E3qhasAe3UAv",
+      "reccxLzRL1t4GteNS",
+      "rec2iUB2iMpC2Pgbp",
+      "reccE9FGsYmHogIuP",
+      "recclf3bEGZnnEmY3",
+      "recOt7biKZ40sUSnS"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Cut Waste and Fraud in Federal Purchasing"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recMZddgHEmjnfPZv",
+    "name": "Number of consolidated purchasing agreements in use",
+    "metricMeasurement": [
+      "rec7M3P4RPwVLUkBN",
+      "recm57xQ0u7j1RQa9",
+      "recK3TgQUuTQevO6q",
+      "recZK5MfV9116ZgiG",
+      "recsV8d1WaEdLtsIX",
+      "recezQWHlTXXl9Z66",
+      "reclpf8oSzckLok5C",
+      "recEcZRvPnxF84a7S"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Consolidate Common Purchases Across Agencies"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recxFQfkk9jWXvoWe",
+    "name": "Number of agencies using GSAi",
+    "metricMeasurement": [
+      "recBb9lUBM0bxn4i0",
+      "recW51GLThQgSZUol",
+      "recAKCdWkmRAwz1ln",
+      "rec0sKQXU2jlbZkRW",
+      "recwCjBw0ibjlzMtP",
+      "recehxPh5EsyeQYxB",
+      "rec2Zry2iSSI2WYtK",
+      "recvCnapONOsRkyTg"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Scale AI Tools Across Government"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recP4QV6W115uw7so",
+    "name": "Average response time for AI-assisted service requests",
+    "metricMeasurement": [
+      "rech7fcSYghiP8NZ8",
+      "reci9erMscGYz76ot",
+      "recS3av4G6ilfkadY",
+      "recW8RAdKEN2dN7uK",
+      "recaKiggxb3RGU5TY",
+      "recVoa6J411smfVjo",
+      "recfT0io6fs2FxyyH",
+      "recZ6dIFm5ijOpCv5"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Speed Up Government Response Times"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec0BrOeNntixgZUP",
+    "name": "Number of AI pilot projects launched in high-cost programs",
+    "metricMeasurement": [
+      "recmoeY7d6KKUELID",
+      "recg8X0KqNKqfewED",
+      "recG88p5qs6IxAmwG",
+      "rect4z7cbJ9CxLb0l",
+      "recZfqdmACq9QwaDK",
+      "recqZtpUuVstmuDtS",
+      "recAb88JG6pqNNSjc",
+      "recC3saiXIInc25AM"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "sequence": 1,
+    "objectiveName": [
+      "Test AI Where It Can Save the Most"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recRv7EC5VjLRtSkp",
+    "name": "Time saved in compliance processes for agricultural operations",
+    "metricMeasurement": [
+      "rec6EQ76CaGvMYFzr",
+      "recGnOw0eVoimWX2C",
+      "rechJIF8HfGjCUZLU",
+      "rec0yxaJtQpIlGqrN",
+      "recQYt1s2EuJKfZ1k",
+      "recN5yqkVshP29IWM",
+      "recfK2BgOG1QgNE3t",
+      "recyyiWN5J9cLccrR"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Cut Burdensome Regulations on Producers"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recJpyQ6IbaP5EeLz",
+    "name": "Value of agricultural exports supported by USDA programs",
+    "metricMeasurement": [
+      "recSJoowgtmS5xVQH",
+      "recGEeNmJ3UjLizgw",
+      "recA6gtZ7pkFwNdE6",
+      "reczLqzAqOzkZU5W8",
+      "recg7CngS2ywCxcLv",
+      "rec3Cuh5gHc2jeYyr",
+      "recjAVhH3hqWlH8Vo",
+      "rec3MF3XgpCjcMAcy"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Expand Market Access for U.S. Agriculture"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "reccphKdNbpm5RJsP",
+    "name": "Number of producers receiving risk management support",
+    "metricMeasurement": [
+      "recSLBrpG666UywlT",
+      "recRrusPIfftS5agL",
+      "recVeWpJcT3nnPsbA",
+      "recqhchymu30dsBD6",
+      "recUxIHXijG7lYdCy",
+      "recFrhEHdVanUKkxf",
+      "recRH4qTiSy0iaVoI",
+      "recNccBTNlpFH0l9a"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Strengthen Risk and Disaster Support"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recS1XUn6HedOcCxY",
+    "name": "Percentage of rural households with access to high-speed internet",
+    "metricMeasurement": [
+      "rechCMffQlfr8nws5",
+      "recMnVJJzJJyP61pq",
+      "recfYiP7JJHk7sOlX",
+      "recwNNC2WBJwW8QCZ",
+      "recYXoI4T5PRGFCPd",
+      "rec1qLoVyoApw5yi3",
+      "recSjfQwYVL3kKtRe",
+      "recXMjLsCCYveevJK"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Expand High-Speed Internet in Rural Areas"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recRWsuOQgcYovG2m",
+    "name": "Number of jobs created or retained through USDA programs",
+    "metricMeasurement": [
+      "recfPqHnwLgIeUozZ",
+      "recj2RldzlubmFym8",
+      "rec3fjPG4EmaC444E",
+      "reczS267kOLn6trum",
+      "rec20GypBgOFj8c9F",
+      "recNWjmQY3nApxTos",
+      "recl7cWxAI8CkrYPV",
+      "rec4Elzb00fR3zK5Z"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Support Small Businesses and Local Jobs"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec0PpdOpWN97jwcY",
+    "name": "Total investment dollars in rural infrastructure",
+    "metricMeasurement": [
+      "recq44yI9yvaZJpah",
+      "recccSxrsDV9ityM8",
+      "recwVulv0oRBLygVx",
+      "rec64cioiLpcHEhhu",
+      "recZEFeFZBbx9IVEL",
+      "recMKM3ucOoc0XlHv",
+      "recVJlNa2vpImGeYg",
+      "recpU03pdD4prC3cV"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Improve Infrastructure to Attract Investment"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recUaYjZA9Y3RPBgb",
+    "name": "Dollars recovered from improper payments",
+    "metricMeasurement": [
+      "recQi8m406R0CSbFZ",
+      "recflz3yidTMeWOwz",
+      "recOLW3z5X8bhl2oS",
+      "recmCK3WrS8yDpFHk",
+      "rec3X6j12J8GNNzZi",
+      "recegANoNtpSlOyir",
+      "recTWc1bmof0fgIxs",
+      "recdro8sMdCxdiExL"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Cut Fraud and Program Misuse"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recBY4R0eunqwiWj1",
+    "name": "User satisfaction with enrollment and renewal process",
+    "metricMeasurement": [
+      "recNbuPc9EEmxYAM5",
+      "reciP93DjWwu0VfQv",
+      "recOs926LOqO1jCn2",
+      "recFLxRy6k8aW8PHS",
+      "recEEg24zzvE70lKd",
+      "recVfJMq8sCLh3US0",
+      "rec87Si9kfHg8EKQv",
+      "recJ0VizalK4D51sw"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Simplify Access and Delivery"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recnajsS4M8LUNOzx",
+    "name": "Percentage of nutrition program funds supporting health-focused initiatives",
+    "metricMeasurement": [
+      "receMFYXdU7UGR01q",
+      "recx9qFOlI9lud5NC",
+      "recA7snSCNCvHo0i2",
+      "recVy664WeoB6JC7Z",
+      "recHuCgOKWB2Ky7O2",
+      "reco7fslEsVCpMyIr",
+      "recXkSHLI4097yyry",
+      "recrKwRnhFurQvKdU"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Align Support with Work and Wellness"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recvH40jaqJvHAJVH",
+    "name": "Number of new flexibilities granted to local governments",
+    "metricMeasurement": [
+      "recH6IBiZKfhvMBIg",
+      "rec5y5qhz6YT4RwBj",
+      "recdio2LJMfqQb6Cf",
+      "recd7IsokRznm2S7D",
+      "recf1PJca7jXuhByZ",
+      "recfqEzA0Q4iMkLso",
+      "recik3dZSInMGZuKp",
+      "recZ72MVsN45CMY6g"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Shift Decision-Making to the Local Level"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recIPS60JkNoqjSzz",
+    "name": "Percentage reduction in reporting or compliance burden",
+    "metricMeasurement": [
+      "recmeIFpr8z7B8gPT",
+      "recelu5VEeHWflQzC",
+      "recPzdCszDmhiyBgA",
+      "rec7d4kxWXBeB5oTo",
+      "recJl5Q0fn3EKkJ7b",
+      "recmSBtaFOmz5prt9",
+      "rec625WOaSEacooMM",
+      "recw7jAhFKCY85MiQ"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Reduce Federal Rules and Requirements"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recWFsfcqFRgw6yXe",
+    "name": "Number of programs using outcome-based metrics",
+    "metricMeasurement": [
+      "rectMkcGQdOCx5d5n",
+      "rectds8KnUyXNcIoP",
+      "reczRwieqWkQ1zvf9",
+      "rec0f2bDno9KEaQaC",
+      "recCKsqAp7COZiu7T",
+      "recuLqt9kI6ReohvJ",
+      "recTtiLMJuI66dC4j",
+      "recI66erT8VnXXX8t"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Reward Results, Not Red Tape"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec9NsBjKtzYkHO98",
+    "name": "Percentage of applications processed within target timeframe",
+    "metricMeasurement": [
+      "rec1Kp1OtPdoN9ijR",
+      "reczvrt0f4MJ7numk",
+      "recHmNCtOXByUpaqP",
+      "recGuWE0jnGGj41ux",
+      "recHWFWkNKKaY54r7",
+      "recZbPNxZCSbMDSky",
+      "recrMWu3pQdhbLOoJ",
+      "rec5PUjTKzuglhe3z"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Speed Up Application and Approval Times"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recXLFZrwS6G7iQOM",
+    "name": "Average time to complete housing aid application",
+    "metricMeasurement": [
+      "recOTKgn88VdbXdmA",
+      "recCGmHHIqb98xLar",
+      "recuigJPl0npqt7wB",
+      "rec2UHJyvm1H8AhLz",
+      "reccwJJ3fAb3DcRST",
+      "recOMP9J1mFxz7X5a",
+      "recfB8aM6Z7Xgwxbi",
+      "recDdG2ovRj0abqIo"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Cut Complex Rules and Requirements"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recjxeUPZxy4xqOjr",
+    "name": "Number of waivers or flexibilities granted to local programs",
+    "metricMeasurement": [
+      "recLOEkL2Tvc1G4M3",
+      "recFbSuGtqdMdBO61",
+      "recbiDWBp4HWh2iAD",
+      "recNKR232zbBSnOMd",
+      "rectQM97FzSSQrhCr",
+      "rec6Vkx5O0nJg1W9h",
+      "recDs6cWd8bXd6vas",
+      "recPSUZ9qqPNoaOlw"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Make Programs Easier to Manage Locally"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec9ySMWKw9AqE6Su",
+    "name": "Employment rate among assisted households",
+    "metricMeasurement": [
+      "recyK9J309ryp0noX",
+      "recauonCg3L6pB0Y8",
+      "rec8txsFM56IkKVsK",
+      "recOz2e28eAI05FeN",
+      "rec8jcFG7Lhg1t782",
+      "rec4u0HuTLSv5u7Lq",
+      "recAfENwc3NvdV1qZ",
+      "recCWri3TEpyA1KCz"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Link Housing Support to Work and Education"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recjqA80I0tmTblok",
+    "name": "Average duration of housing assistance per household",
+    "metricMeasurement": [
+      "recn1XrhZ1awtFOsd",
+      "recpdiS4hpoYYQamM",
+      "recxji1G6ssufMDi5",
+      "recdz2u0OIg7MoEIK",
+      "recUvzVLzip8jwmBW",
+      "recHB9k99Ph9Dif6E",
+      "recSH6CPyIpVbffEB",
+      "rec6902Lf5Wwe2DxX"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Transition Families Off Long-Term Assistance"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec9ntW2YPwd4HJUG",
+    "name": "Number of families progressing toward program-defined goals",
+    "metricMeasurement": [
+      "rec3LiTfbRt0wLEfK",
+      "recsls91qXjXBB102",
+      "reckpXaKu77y9egvb",
+      "recJv0HA3NkpJPGWr",
+      "recsjJgAkraZEDWUl",
+      "recwnHrQvb1OW50gY",
+      "recSQfO6sCggzLo9M",
+      "recLQYy1Hr2mWh6Oj"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Align Programs Around Personal Responsibility"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec6nNeIMURO0WZKU",
+    "name": "Cost savings from space consolidation",
+    "metricMeasurement": [
+      "recGHW2r5FJf1dmuv",
+      "recSdn1YP4WBha0FH",
+      "receVBRm5ZO7oyd3Q",
+      "reczKVjdoBDaXkoqS",
+      "recy1W7qG2HDiHc5s",
+      "recgBsT2jFK9Fnyon",
+      "recrFGVDLbv0gr2WY",
+      "recXVvbGO9MYh3IS9"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Optimize Underused Federal Space"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recNER90ePiGKOs4E",
+    "name": "Number of properties disposed per quarter",
+    "metricMeasurement": [
+      "recPOLDbOEPU6eogu",
+      "recikvHMrrrtm6an6",
+      "rectV3jBHBw4Wqlge",
+      "reclXCRSfxRF8S7lH",
+      "recDIJUZaSIIQ6LZA",
+      "recJQyFQKYCZ7HyGv",
+      "rec00nSNhNsz9bJsR",
+      "reca7Xzit6Ao2wqxZ"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Speed Up Disposal of Excess Properties"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recximCdRT6DK6BAK",
+    "name": "Total annual maintenance spend",
+    "metricMeasurement": [
+      "recGRm8H31FSzfgtm",
+      "recEdeVama9WhMJHe",
+      "recYsU3qZfTnOD7jR",
+      "recdUXYjDGRjxwSgD",
+      "reczeGDQjAA3OYxtm",
+      "recQGX1jtw1ZUXAhb",
+      "recWq5fi5Ipca2ccu",
+      "recwu41diOa9OKbPf"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Lower Energy and Maintenance Costs"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec2UVGPEsAbTGwfb",
+    "name": "Number of agency procurement functions consolidated into GSA",
+    "metricMeasurement": [
+      "recdv3IMHMrjnJJOy",
+      "recBCV1oxvZ4byx5V",
+      "recHaez7uwA62sIe4",
+      "recLAmiovjj4gJjT3",
+      "recuDtIwcx0TyYTZ0",
+      "recbrvE3F5baAJA7K",
+      "recTcnYqS4qAmSX1s",
+      "rece3rqbQUH1n6ex8"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Centralize Government Procurement"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recOA7CK8UNAxTWaA",
+    "name": "Percentage of contracts reviewed for compliance",
+    "metricMeasurement": [
+      "recendpnnTeEflzSS",
+      "recJ8fu4CG34ommGB",
+      "recxhuDW0LzfryPyR",
+      "receJXsZcK3A8Anfo",
+      "recIzGUpJKvbCP6AR",
+      "recCBrQUFLTAsT3g3",
+      "reczLRZA9Rcyb2DIR",
+      "recnDMbXGneYSAGpH"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Cut Waste and Fraud in Federal Purchasing"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recgcZ5rlSQCpnmuw",
+    "name": "Percentage of common goods purchased through shared contracts",
+    "metricMeasurement": [
+      "recOqnMH0eIE69zJ8",
+      "rec4YhFDMpwAAGaM7",
+      "rec1bNU3LjeBTqn7U",
+      "recAjLkT9yqZTpsbx",
+      "recWS41TpyLb3zEQZ",
+      "rec8GwoWU8sU12wIk",
+      "recZGYeVcX6vvPogW",
+      "rechtslvFTPRdseSp"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Consolidate Common Purchases Across Agencies"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec4Mx1Pfo7mFrERN",
+    "name": "Number of AI applications deployed governmentwide",
+    "metricMeasurement": [
+      "recsQvBHhyl4KpXSp",
+      "recPzKXk5KyeR4JLk",
+      "rec1G60DntX9rIcLg",
+      "rec51zhJ4pIulgsoc",
+      "recMMI06VBZ3zJWY2",
+      "rec8YY3Mtxcm2Ingp",
+      "recL26tNVkeCSs6sA",
+      "recRqXdggP76jKtWU"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Scale AI Tools Across Government"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recuU8U02Eqr9PT2N",
+    "name": "Percentage of inquiries resolved within target timeframes",
+    "metricMeasurement": [
+      "recrRisLGqGsV9l9X",
+      "recPtIwWRcKs1Yt95",
+      "recAM4IW4vTYpLzef",
+      "recT3kuIS69vCVBGL",
+      "rec8RprcwU3rOv9Bl",
+      "recMoamnn7qboh5DM",
+      "recyc3UeaOdGWcXBe",
+      "recrC5hjmU9VfN6A7"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Speed Up Government Response Times"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recIHqxyoMghgW6J3",
+    "name": "Estimated cost savings from AI pilot implementations",
+    "metricMeasurement": [
+      "recsu5wpwRMQ9PHiy",
+      "rec62SQdszIPmlpTY",
+      "recIl4uiQywJfG3Oa",
+      "rec1f2JHI34kOcns6",
+      "rece0VeWkVOE3NIAZ",
+      "recnUv7rPR9uGS89f",
+      "recFA2eVzqmXL55wV",
+      "recv6VsIt2Z0NbP2K"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "sequence": 2,
+    "objectiveName": [
+      "Test AI Where It Can Save the Most"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recziteF01wdwpBSu",
+    "name": "Producer satisfaction with regulatory burden",
+    "metricMeasurement": [
+      "recT7DlIc0jMQNPvw",
+      "recsH9My8trn07O9S",
+      "recEjYngOBIplRixm",
+      "rec9RexC4vzz5ok5c",
+      "reco0VP3i2G7JNMfM",
+      "recb72TZSfp86tjpa",
+      "recMEYyUmyvglb3xR",
+      "recyb21ge5GaCdgjG"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Cut Burdensome Regulations on Producers"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recXejjzkYd5Uad6H",
+    "name": "Number of trade barriers addressed or reduced",
+    "metricMeasurement": [
+      "recwv9mhFqTNTXupk",
+      "rec69PNXL5idVK4Xf",
+      "recLnplgd84BvcBt5",
+      "recwjXBUx8CwJbkwT",
+      "recSe0TABQItHWB4d",
+      "recdRLR2PSdndvQa0",
+      "receYgJ13sAfAAwCF",
+      "recwwj4fvCluJVHJy"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Expand Market Access for U.S. Agriculture"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recHxohM5W22iCHkU",
+    "name": "Percentage of claims processed within target timeframe",
+    "metricMeasurement": [
+      "recyHWhbELmmJ8ta7",
+      "rec5Vnvy8PzISduGD",
+      "recxcDNhQRLYDRodw",
+      "rec4yvV9Hb3ur1DQa",
+      "recBmMeY5E8XaCM6V",
+      "recEdSalkeYis5o0I",
+      "recDgVipjx1eyMqLp",
+      "recwMNyDcQSRsPx1A"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Strengthen Risk and Disaster Support"
+    ],
+    "goalName": [
+      "Stand Behind American Farmers"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recw5fW7yVApDrX1n",
+    "name": "Average cost per household to deploy broadband infrastructure",
+    "metricMeasurement": [
+      "rec1uxFcOXubAxrWO",
+      "recXR0B7IobKagTTk",
+      "recbmBEwIvTSOoqcw",
+      "recqucuyHBFlRg6uo",
+      "reczLz016LARbD6qF",
+      "reccWBSG2QJET7mJV",
+      "recHzuMGT4W3tfEVw",
+      "rectjEwzLgS8NttPy"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Expand High-Speed Internet in Rural Areas"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recxc8jsp6Bo6AkSL",
+    "name": "Loan or grant dollars awarded to rural entrepreneurs",
+    "metricMeasurement": [
+      "recBd3drPpUR7YgK3",
+      "rec4Ebs7AGtQXnVsY",
+      "recTsuIuhi6OeTWLr",
+      "recQDJHR74gL0YT5X",
+      "recKS1nwVan2Zq3YO",
+      "recJJdVNX0SbWS25h",
+      "rec2WTYODcdiSTRHy",
+      "recaXPn1WHWO5h2Wp"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Support Small Businesses and Local Jobs"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recUtm64fOIY3zLnn",
+    "name": "Increase in private investment following public improvements",
+    "metricMeasurement": [
+      "reckD2FCLM5uCjGI9",
+      "recmUePmplQLXeldd",
+      "recMLUvA2qxlkGXsa",
+      "recZSyLcEyKyCjW67",
+      "reclvKOXMzs8AmIqm",
+      "recQfGZFisTRY08fn",
+      "recBFQyHkfeOlVAx6",
+      "recfYZStkYwwQP3vX"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Improve Infrastructure to Attract Investment"
+    ],
+    "goalName": [
+      "Grow the Rural Economy"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recHHX5991zvQTQbb",
+    "name": "Percentage of transactions flagged by automated fraud detection systems",
+    "metricMeasurement": [
+      "recCWTNVCFQhCXjdZ",
+      "recRNOJ0zIN3z1KDF",
+      "recdx9esUKZwmfxr4",
+      "rec1j3os6D4okE7zo",
+      "recNDGUcxBNpgRJti",
+      "recn1wNwZGu8G2zcD",
+      "recH9xrKMcjdN4nXX",
+      "rece3NBdV344Y7rxi"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Cut Fraud and Program Misuse"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recy30u2WNOJoaSLV",
+    "name": "Number of applicants assisted through simplified application channels",
+    "metricMeasurement": [
+      "reccvgSa4m3ws2PuI",
+      "reccNVaxaDjCoOZUB",
+      "rec61hPM3riGSV4GH",
+      "recRnDw7rGk8J4Htd",
+      "recrPGOz45Bkhy3do",
+      "reccZEcqxUcuDo0aD",
+      "recKrJBjJqmdhQOyp",
+      "recQY5tswORERZeXb"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Simplify Access and Delivery"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recNMNKlYTuLvvJNN",
+    "name": "Rate of participation in wellness or nutrition education services",
+    "metricMeasurement": [
+      "recb4XumRBPlBpFRJ",
+      "recEV3ajnu751SzT8",
+      "rec1Sa7idxoKJfrWi",
+      "recU3BE5KfK1ztZYT",
+      "recxA04H4RUqE4PHV",
+      "recXoS0Dg9QtegLDr",
+      "recCHFcyCam2ACNvZ",
+      "recyewInNQqZqBgha"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Align Support with Work and Wellness"
+    ],
+    "goalName": [
+      "Make Nutrition Programs Work Smarter"
+    ],
+    "orgName": [
+      "U.S. Department of Agriculture"
+    ],
+    "orgAcronym": [
+      "USDA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recK0sIRwJ6gXSgY8",
+    "name": "Local satisfaction with autonomy in program delivery",
+    "metricMeasurement": [
+      "rechxcaNQLkoJWA0A",
+      "recIaxqhfNvWtVnKg",
+      "receLOXvoYCnYTEoJ",
+      "recSrTdw5ZzcCT5Ha",
+      "recsbDJZdtwecQeWC",
+      "recnhrIqqiRpZXnyW",
+      "recYFYtcUC3gtMW50",
+      "recZSu3pXlXnpZeFK"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Shift Decision-Making to the Local Level"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recbDsGEhK3efdF26",
+    "name": "Time saved by local grantees due to simplified processes",
+    "metricMeasurement": [
+      "recrdUNZehFlSn86G",
+      "recGw5aI7wp41icSx",
+      "recur7TeaTJR4XzlD",
+      "recwqk8I6j2PR8P2e",
+      "recZoxJPX5fBxhvmP",
+      "recGmEia2dbmmpDqu",
+      "recZtgVbxdFLKU8lK",
+      "recmBhBUzqR0fmKQe"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Reduce Federal Rules and Requirements"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recmQvjm1uBCKWOwU",
+    "name": "Share of grantees meeting or exceeding performance targets",
+    "metricMeasurement": [
+      "recTvkNi71qN2mw4E",
+      "recEhYTkb2sC5gYu5",
+      "recpxgIz3Q96QAZw6",
+      "recCnl7ywob3m1FYn",
+      "recPAnlxGAE0ANlxj",
+      "recaQxvvA15yCWN8Y",
+      "recVuvTg9FyMGQF9M",
+      "recZ7hityommrkndy"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Reward Results, Not Red Tape"
+    ],
+    "goalName": [
+      "Put Local Communities in Charge"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recLaGvkkkKPaqF9i",
+    "name": "Application backlog volume",
+    "metricMeasurement": [
+      "recVm2iTehMkHV3IQ",
+      "recsXk5VymbYdBGTs",
+      "recAwGQqYNAbKTVLj",
+      "recEXCpqr0eYZTQah",
+      "recdi65Iye0jdzi33",
+      "recB3yTigtoQCDO0C",
+      "recVmraxCFpkW2sev",
+      "rec6ZA6ITOOoweru8"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Speed Up Application and Approval Times"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recPLDnv66Xs3XhCy",
+    "name": "User satisfaction with clarity of program guidance",
+    "metricMeasurement": [
+      "recOGJCeNlGva7RpF",
+      "recScT54H2MH8Wsgm",
+      "recN6Lv9JXDLF5jWl",
+      "recgE9pgXSJ6CNY6D",
+      "recA4CT4ykVNEwVXN",
+      "recLlH4NhkEAOxC88",
+      "recwJ9TzlUtbKycpk",
+      "recEklkjQKDA5fCHx"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Cut Complex Rules and Requirements"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recHzNPtMAiaYhGZX",
+    "name": "Average time to process program updates or changes",
+    "metricMeasurement": [
+      "recRfFuNp7aHgZ4tN",
+      "recqNj47RPu2NY79R",
+      "rechfZD4Mf3gypIuS",
+      "recKmzlFOgBDKXrkD",
+      "recbqukUSTmpJ2q03",
+      "reccBBEYAm7nkePC3",
+      "recBZQ4H4y0tXDkjc",
+      "recKJnDZSLQspsQtR"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Make Programs Easier to Manage Locally"
+    ],
+    "goalName": [
+      "Make Housing Aid Simple and Fast"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recWLLkdBOjXcsu1O",
+    "name": "Percentage of eligible residents referred to workforce or education services",
+    "metricMeasurement": [
+      "recKsY2SE0FJD0zfU",
+      "rec8i827edzkqt2QC",
+      "recCcZVnVyk03miaF",
+      "recqNA2X0KCQDpv6B",
+      "recBt1W8Uoc00mtjR",
+      "recorLP4plPA9jgZG",
+      "recMBr80djbdfmaJ2",
+      "recmSJusSWeNmX6iZ"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Link Housing Support to Work and Education"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recvVYJerXpZBqSut",
+    "name": "Post-exit stability rate (households not reapplying within 12 months)",
+    "metricMeasurement": [
+      "recls9w9SrqcQybZ4",
+      "rec7TYWPj7Zk5EXbh",
+      "recBZGy35oo4JvDrA",
+      "recmHpbfAjXKX43fW",
+      "recbMmTB8yF3r1AnZ",
+      "recG57y7umyUPyzyt",
+      "rec0QoSjFTIilFoSY",
+      "recFo6PN4ND56N0ir"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Transition Families Off Long-Term Assistance"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec8mLXEc5NqDLwRD",
+    "name": "Reduction in repeat or extended housing assistance usage",
+    "metricMeasurement": [
+      "recJAqNxgtQAC1xIt",
+      "recm2FJpEXVG3IYl5",
+      "recWgLepoaUPLAyFR",
+      "recCeKFshsZmT2uNU",
+      "recHDPYIZmQ3g6UB1",
+      "receLdGMmNBBEkxiH",
+      "rectasMu861LsJ5L2",
+      "rec9p1IWiezJnbNpR"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Align Programs Around Personal Responsibility"
+    ],
+    "goalName": [
+      "Help Families Build Independence"
+    ],
+    "orgName": [
+      "U.S. Department of Housing and Urban Development"
+    ],
+    "orgAcronym": [
+      "HUD"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec3YkEQBM4tAUXu3",
+    "name": "Percentage of buildings with updated space utilization plans",
+    "metricMeasurement": [
+      "recSqkzQv9sWINOJ6",
+      "recC9CmnY5tSFBjd6",
+      "recRbZAcHKNBKwhq4",
+      "recvqgoL4L3JFIcep",
+      "rec7UkCNwzwN6vAPn",
+      "recdGdmAcPAf2ae62",
+      "recooioWU0aCZOjMB",
+      "rectv5qsHDrHmcc2e"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Optimize Underused Federal Space"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recXWQPcumOtqjYyE",
+    "name": "Total proceeds from property sales",
+    "metricMeasurement": [
+      "rec75gVwkHx2j0QkC",
+      "recl1QkrIc2T3cHIs",
+      "recTs8edOBEFbsFKU",
+      "recugRhUT37cVigkF",
+      "recNKFif9lnGUdwck",
+      "recHcroSVVEMlyRX2",
+      "rece0FFpjBIwJut4x",
+      "reck16OUaD3U6R0N1"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Speed Up Disposal of Excess Properties"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "reclfP4JSP0MU24KW",
+    "name": "Percentage of facilities meeting energy efficiency standards",
+    "metricMeasurement": [
+      "recJyaRecD8iHUT9b",
+      "recE1KtCFwEFsy8Zn",
+      "recTWTXRKoKbCdu7I",
+      "recsvxxnSP2xyhHpW",
+      "recUrRGttPZzT8Ubi",
+      "recuYnYLWON739wV0",
+      "recrrYdDHCPNlzUz3",
+      "recEHxYDJzHcTxKZc"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Lower Energy and Maintenance Costs"
+    ],
+    "goalName": [
+      "Cut Waste in Federal Buildings"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec9Db5aoUZueJlrR",
+    "name": "Cost savings from centralized purchasing agreements",
+    "metricMeasurement": [
+      "recwtgs2uQ6iN95Im",
+      "rec1aosVJNhp4AfhB",
+      "recI5fa02VGLyx0YI",
+      "recFFpkogu6aPgihi",
+      "rec6MeuF1Ej1WQTOB",
+      "recAI5GXFekfBLPFg",
+      "recHwDtTWHpbtBYIa",
+      "recC0ZS1swudxdX4G"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Centralize Government Procurement"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recUaCtFWHE85Ujq6",
+    "name": "Dollars recovered through waste and fraud prevention efforts",
+    "metricMeasurement": [
+      "recDyrQVNExBiskUp",
+      "rec9hHyZhLTrwU6tv",
+      "recschXJTGFZh5jJT",
+      "recG8RuUWkYQL7p4F",
+      "recK0HNWLPGG5dHwr",
+      "rec7nZJNTB5mCNQQQ",
+      "recBeGj4Xq8FT33R2",
+      "recR553PeHGym8GqN"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Cut Waste and Fraud in Federal Purchasing"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "rec564srTcqs3VdCX",
+    "name": "Estimated annual savings from purchase consolidation",
+    "metricMeasurement": [
+      "reccJRZrpW84KhEA9",
+      "recEd5q61M0tbJZuM",
+      "recVOSQSZ2EzkbyIt",
+      "reczreR4EOcddTWbC",
+      "recpjHKIEd77k6ZK8",
+      "rectUsfmMrWCuj7jF",
+      "rec0qLfxtxhGno8q7",
+      "rec7Y7XACiRNuldMM"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Consolidate Common Purchases Across Agencies"
+    ],
+    "goalName": [
+      "Save Money with Smarter Buying"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recjDVHXffW9ejd9f",
+    "name": "Percentage of legacy processes replaced or improved by AI",
+    "metricMeasurement": [
+      "recJdBNeogLSWhBvF",
+      "recqjvc71FVnSactR",
+      "recF4dffzuuLpZOzP",
+      "recCR8oPkOusgcHJW",
+      "recnNUUATIPj9OBZX",
+      "recj8GWtHb8QY5eZq",
+      "rec20bl2iVibGoaX3",
+      "recY5AXV3xXon6aAQ"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Scale AI Tools Across Government"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1800
+    ],
+    "mostRecentTargetResult": [
+      3300
+    ],
+    "mostRecentTargetDirection": [
+      "Increase"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      1700
+    ],
+    "percentChangeActualResult": 0.06,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "reclikXrIYSPidv5A",
+    "name": "Reduction in processing time for high-volume transactions",
+    "metricMeasurement": [
+      "recMxBOGiC1F5uTgx",
+      "reczkF8KjooyTOGI4",
+      "recxb1OcQRDFRGbEF",
+      "rec79qJxNA0apg3zp",
+      "reccRJ7yKjUQMHdIP",
+      "recqheQTv1DGn08x2",
+      "recI0HuO8N0ahiy9D",
+      "recmdRSbjxF3dxDfw"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Speed Up Government Response Times"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      3300
+    ],
+    "mostRecentTargetResult": [
+      1800
+    ],
+    "mostRecentTargetDirection": [
+      "Decrease"
+    ],
+    "mostRecentTargetLevel": [
+      8
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      3000
+    ],
+    "percentChangeActualResult": 0.1,
+    "mostRecentPercentProgress": [
+      0.55
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  },
+  {
+    "id": "recTikCoOvJs1UwPD",
+    "name": "Time to deploy AI solutions from pilot to production",
+    "metricMeasurement": [
+      "recJBmeIWVIKSIMzH",
+      "recBjGYr8iVBgJn9J",
+      "recA9JKLMdw40sJCd",
+      "recq1zgiWstMPksTU",
+      "rec3R734Cu0O4DXST",
+      "rec9PrAYzdtSsbsTs",
+      "reckvk6sHhJSRwq4S",
+      "reczbld1kRy7RrhMb"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "sequence": 3,
+    "objectiveName": [
+      "Test AI Where It Can Save the Most"
+    ],
+    "goalName": [
+      "Use AI to Speed Up Services"
+    ],
+    "orgName": [
+      "General Services Administration"
+    ],
+    "orgAcronym": [
+      "GSA"
+    ],
+    "metricMeasurementCount": 8,
+    "mostRecentEndDate": "2027-09-30",
+    "mostRecentActualResult": [
+      1100
+    ],
+    "mostRecentTargetResult": [
+      1000
+    ],
+    "mostRecentTargetDirection": [
+      "Maintain at or above"
+    ],
+    "mostRecentTargetLevel": [
+      1
+    ],
+    "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
+    "previousActualResult": [
+      600
+    ],
+    "percentChangeActualResult": 0.83,
+    "mostRecentPercentProgress": [
+      1.1
+    ],
+    "mostRecentResultTrend": [
+      "Improved"
+    ],
+    "resultTrendIsImproved": 1
+  }
+]
