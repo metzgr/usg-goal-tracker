@@ -31,10 +31,10 @@ const tableNames = [
   'goal',
   'objective',
   'metric',
-  'metricMeasurement',
+  'metricResult',
   'project',
   'milestone',
-  'milestoneMeasurement',
+  'milestoneResult',
   'image',
   'tag',
   'fpiProgram'
