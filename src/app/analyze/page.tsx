@@ -252,7 +252,6 @@ function CardCatalog({ tableData }: { tableData: typeof tableData }) {
             <TableHead>Direction</TableHead>
             <TableHead>Metric</TableHead>
             <TableHead>Progress</TableHead>
-            <TableHead>Trend</TableHead>
             <TableHead>Trendline</TableHead> {/* Added TableHead for Trendline */}
           </TableRow>
         </TableHeader>
@@ -275,7 +274,7 @@ function CardCatalog({ tableData }: { tableData: typeof tableData }) {
 
             return (
               <TableRow key={data.id}>
-                <TableCell>{data.orgAcronym[0]}</TableCell><TableCell>{data.goalName[0]}</TableCell><TableCell>{data.objectiveName[0]}</TableCell><TableCell>{data.mostRecentTargetDirection}</TableCell><TableCell>{data.name}</TableCell><TableCell>{data.mostRecentPercentProgress}</TableCell><TableCell>{data.resultTrendIsImproved ? "🟢" : "🔴"}</TableCell><TableCell>
+                <TableCell>{data.orgAcronym[0]}</TableCell><TableCell>{data.goalName[0]}</TableCell><TableCell>{data.objectiveName[0]}</TableCell><TableCell>{data.mostRecentTargetDirection}</TableCell><TableCell>{data.name}</TableCell><TableCell>{data.mostRecentPercentProgress}</TableCell><TableCell>
                   <svg width="100" height="40">
                     <polyline points={points} fill="none" stroke="blue" strokeWidth="2" />
                   </svg>
