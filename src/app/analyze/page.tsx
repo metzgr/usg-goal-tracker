@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import tags from "@/data/tag.json";
-import metrics from "@/data/metricResult.json";
-import milestones from "@/data/milestoneResult.json";
+import metrics from "@/data/metric.json";
+import metricResults from "@/data/metricResult.json"; // Added import for metricResults
 import {
   Table,
   TableHeader,
@@ -25,11 +25,24 @@ import {
 import { Checkbox } from "src/components/ui/checkbox";
 import { Label } from "src/components/ui/label";
 import { ScrollArea } from "src/components/ui/scroll-area";
-import FilterTabs from "src/components/custom/filter-tabs";
 import { Button } from "src/components/ui/button";
 
 // Format date helper.
 const formatYear = (dateString: string) => new Date(dateString).getFullYear();
+
+// Helper function to group metricResults by metric ID
+const groupMetricResultsById = (results: any[]) => {
+  return results.reduce((acc, result) => {
+    const metricId = result.metric[0];
+    if (!acc[metricId]) {
+      acc[metricId] = [];
+    }
+    acc[metricId].push(result);
+    return acc;
+  }, {});
+};
+
+const groupedMetricResults = groupMetricResultsById(metricResults);
 
 function Header() {
   return (
@@ -229,29 +242,47 @@ function CardCatalog({ tableData }: { tableData: typeof tableData }) {
     return <p className="p-4">No results found.</p>;
   }
   return (
-    <div className="max-w-[1280px] mx-auto">
+    <div className="mx-3">
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead>Type</TableHead>
-            <TableHead>Name</TableHead>
             <TableHead>Org</TableHead>
             <TableHead>Goal</TableHead>
             <TableHead>Objective</TableHead>
+            <TableHead>Direction</TableHead>
+            <TableHead>Metric</TableHead>
+            <TableHead>Progress</TableHead>
             <TableHead>Trend</TableHead>
+            <TableHead>Trendline</TableHead> {/* Added TableHead for Trendline */}
           </TableRow>
         </TableHeader>
         <TableBody>
-          {tableData.map((data) => (
-            <TableRow key={data.id}>
-              <TableCell>{data.type === "metric" ? "Metric" : "Milestone"}</TableCell>
-              <TableCell>{data.name}</TableCell>
-              <TableCell>{data.orgAcronym[0]}</TableCell>
-              <TableCell>{data.goalName[0]}</TableCell>
-              <TableCell>{data.objectiveName[0]}</TableCell>
-              <TableCell>{data.resultTrendIsImproved ? "🔺" : "🔻"}</TableCell>
-            </TableRow>
-          ))}
+          {tableData.map((data) => {
+          const results = groupedMetricResults[data.id] || [];
+            const actualResults = results
+              .sort((a, b) => {
+                const yearDiff = a.fiscalYear - b.fiscalYear;
+                return yearDiff !== 0 ? yearDiff : a.fiscalQuarter - b.fiscalQuarter;
+              })
+              .map((r) => r.result);
+            const maxY = Math.max(...actualResults);
+            const minY = Math.min(...actualResults);
+            const points = actualResults.map((value, index) => {
+              const x = (index / (actualResults.length - 1)) * 100; // Scale to width
+              const y = ((value - minY) / (maxY - minY)) * 40; // Scale to height
+              return `${x},${40 - y}`; // Invert y for SVG coordinate system
+            }).join(" ");
+
+            return (
+              <TableRow key={data.id}>
+                <TableCell>{data.orgAcronym[0]}</TableCell><TableCell>{data.goalName[0]}</TableCell><TableCell>{data.objectiveName[0]}</TableCell><TableCell>{data.mostRecentTargetDirection}</TableCell><TableCell>{data.name}</TableCell><TableCell>{data.mostRecentPercentProgress}</TableCell><TableCell>{data.resultTrendIsImproved ? "🟢" : "🔴"}</TableCell><TableCell>
+                  <svg width="100" height="40">
+                    <polyline points={points} fill="none" stroke="blue" strokeWidth="2" />
+                  </svg>
+                </TableCell>
+              </TableRow>
+            );
+          })}
         </TableBody>
       </Table>
     </div>
@@ -263,32 +294,22 @@ export default function ExplorePage() {
   const [filterOption, setFilterOption] = useState("Trending");
   const [statusOption, setStatusOption] = useState("Active");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
-  const [activeTab, setActiveTab] = useState("Everything");
   // Use possible filters imported from tag.json
   const possibleFilters = tags;
 
-  // Merge metrics and milestones data and add type field
-  const tableData = [
-    ...metrics.map(metric => ({ ...metric, type: "metric" })),
-    ...milestones.map(milestone => ({ ...milestone, type: "milestone" })),
-  ];
+  // Merge metrics data and add type field
+  const tableData = metrics.map((m) => ({ ...m, type: "metric" }));
 
   // Filter table data based on search query, active filters, and active tab.
   const filteredTableData = tableData.filter((data) => {
     const query = searchQuery.toLowerCase();
     const matchesSearch =
-      (data.name?.toLowerCase().includes(query) ?? false) ||
       (data.orgAcronym?.[0]?.toLowerCase().includes(query) ?? false) ||
-      (data.goalName?.[0]?.toLowerCase().includes(query) ?? false) ||
-      (data.objectiveName?.[0]?.toLowerCase().includes(query) ?? false);
+      (data.name?.toLowerCase().includes(query) ?? false);
     const matchesFilters =
       activeFilters.length === 0 ||
       activeFilters.some((filter) => data.tags?.includes(filter));
-    const matchesTab =
-      activeTab === "Everything" ||
-      (activeTab === "Metrics" && data.type === "metric") ||
-      (activeTab === "Milestones" && data.type === "milestone");
-    return matchesSearch && matchesFilters && matchesTab;
+    return matchesSearch && matchesFilters;
   });
 
   return (
@@ -336,10 +357,7 @@ export default function ExplorePage() {
           </div>
         </div>
         <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
-        <div className="max-w-[1280px] mx-auto">
-          <div className="flex justify-center mb-[28px]">
-            <FilterTabs activeTab={activeTab} setActiveTab={setActiveTab} />
-          </div>
+        <div className="">
           <CardCatalog tableData={filteredTableData} />
         </div>
       </main>
