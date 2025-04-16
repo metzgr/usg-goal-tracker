@@ -1,3 +1,15 @@
+// ──────────────────────────────────────────────
+// HOW TO RUN:
+//   node scripts/updateData.mjs
+// 
+// DESCRIPTION:
+//   Fetches data from usPerformance base in Airtable and outputs one JSON per table.
+//   Run this manually when quarterly data updates are published.
+// 
+// ENVIRONMENT:
+//   Requires AIRTABLE_API_KEY and AIRTABLE_BASE_ID in .env.local
+// ──────────────────────────────────────────────
+
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 

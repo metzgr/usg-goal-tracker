@@ -29,7 +29,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recSpqBMrC6VK40F1",
@@ -61,7 +61,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec6YnbScYx5FaQBS",
@@ -93,7 +93,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recZ8AbBiL3Pwjp6p",
@@ -125,7 +125,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "reczZGCygu1onwS1x",
@@ -157,7 +157,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recZSruHw573meHdB",
@@ -189,7 +189,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "reccE3LBp69cBh0L5",
@@ -221,7 +221,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recrvmSZ6dwENQ41l",
@@ -253,7 +253,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recU0gPlYUoBB8g1W",
@@ -285,7 +285,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "reco86HPI56Ls3Z9b",
@@ -317,7 +317,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recUMNyVkatPnY31W",
@@ -349,7 +349,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recBkBANWfQC83kGt",
@@ -381,7 +381,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recZzHWJ35Gx7NSHZ",
@@ -413,7 +413,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recl63SIL0JYRmzKW",
@@ -445,7 +445,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recxlfJJiJotV7Sax",
@@ -477,7 +477,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recI4NcglELoqbQ6r",
@@ -509,7 +509,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 1,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "rec3ldjtkGq0q4nn0",
@@ -541,7 +541,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recIMKXYxhCn8lCVN",
@@ -573,7 +573,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec0UKAluZ5z4b7Aq",
@@ -605,7 +605,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "reckpCoXuuN5AFZn5",
@@ -637,7 +637,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recSqEfZqXM9FIVhE",
@@ -669,7 +669,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recRxiOFDiKADke5f",
@@ -701,7 +701,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec2deBAwjhlAkabV",
@@ -733,7 +733,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec0HfucYuleRP8RM",
@@ -765,7 +765,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recrmx924M8iq7Yjm",
@@ -797,7 +797,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recZjgmn2hREWK3o6",
@@ -829,7 +829,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recT6kfyYixVt2QG1",
@@ -861,7 +861,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recqnPckBm7HYlh8C",
@@ -893,7 +893,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recz4jkGgh86grBIk",
@@ -925,7 +925,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec7HshaBPopqbWyZ",
@@ -957,7 +957,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "reccMsZ1ViLOdyXlg",
@@ -989,7 +989,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recL4QdHYjTyxJtRt",
@@ -1021,7 +1021,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "reczL8jHtw2QOpOQO",
@@ -1053,7 +1053,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recdNuNK0N0ji4xeC",
@@ -1085,7 +1085,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recaVQJsCyFk3ePnX",
@@ -1117,7 +1117,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recE2WnzHzurnzyIV",
@@ -1149,7 +1149,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recg41tci7IhNIAXL",
@@ -1181,7 +1181,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recp2a6cWtElHSHSk",
@@ -1213,7 +1213,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "receiBFzkOdq55FWZ",
@@ -1245,7 +1245,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recabfikTkjYUT7NZ",
@@ -1277,7 +1277,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recs87oEnHv68eWu3",
@@ -1309,7 +1309,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec2nZWHrAqYjYqXa",
@@ -1341,7 +1341,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "rec6QpHHQsjduUPuK",
@@ -1373,7 +1373,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "reca8UBZpfLokp6XV",
@@ -1405,7 +1405,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recptUB2a4rWY7eZz",
@@ -1437,7 +1437,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recDtk1JJWDIe12gh",
@@ -1469,7 +1469,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recH9vSxO1vbbY65z",
@@ -1501,7 +1501,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recD1u3fGJ9LCXGEd",
@@ -1533,7 +1533,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec2Fw2jiGaMY6YqZ",
@@ -1565,7 +1565,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recpFy9PxRhvukoiv",
@@ -1597,7 +1597,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recIBbhS8WkQ28lPj",
@@ -1629,7 +1629,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec1wJwuRBIQ3T2zo",
@@ -1661,7 +1661,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "rec5JejFPAVbisnsV",
@@ -1693,7 +1693,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recErkqmN8uXhME4r",
@@ -1725,7 +1725,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rece9eU0yTmuHrqRU",
@@ -1757,7 +1757,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recXCyej5MvqEw6iy",
@@ -1789,7 +1789,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recl45y5Tc7p2Ny5R",
@@ -1821,7 +1821,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recIwbKGssSaxOlzn",
@@ -1853,7 +1853,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rectnQfqauvl8TJoG",
@@ -1885,7 +1885,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recz8kGGnqWEq5wC9",
@@ -1917,7 +1917,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recne8s1VMuykclur",
@@ -1949,7 +1949,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recMN0VpRhSjmrC74",
@@ -1981,7 +1981,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec24vKfOa2AQ17mC",
@@ -2013,7 +2013,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recIvrAQQBzqdIsCN",
@@ -2045,7 +2045,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "rec1SRyOvMuqYfyuQ",
@@ -2077,7 +2077,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recomFZgdaMjz3CgV",
@@ -2109,7 +2109,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recmUqXCaQGJlH2MD",
@@ -2141,7 +2141,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recDVyMWBBpb71BvC",
@@ -2173,7 +2173,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recpf07LhdBhmEO3O",
@@ -2205,7 +2205,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recBPgV3AISCNX1HB",
@@ -2237,7 +2237,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recIGuTP6xecZFfnA",
@@ -2269,7 +2269,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recktYDhtsoDD663w",
@@ -2301,7 +2301,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recTbgPXXWmE1tMX3",
@@ -2333,7 +2333,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec8DsqKNylC0fsRX",
@@ -2365,7 +2365,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recvRYDgYwPUg7Q3E",
@@ -2397,7 +2397,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec4eJmjQ2vD0bHqW",
@@ -2429,7 +2429,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.6666666666666666,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recS3sprdjjFttqiC",
@@ -2461,7 +2461,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recxi4ARPtykjjPzk",
@@ -2493,7 +2493,7 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec6uAcIlozKRNGqE",
@@ -2525,7 +2525,7 @@
     "milestoneIsProgressedCount": 1,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recKIoZk3rxvjlBon",
@@ -2557,7 +2557,7 @@
     "milestoneIsProgressedCount": 0,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 0
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recIDqloLl2sSMVT4",
@@ -2589,6 +2589,6 @@
     "milestoneIsProgressedCount": 2,
     "milestoneIsNotStartedCount": 0,
     "percentProgress": 0.3333333333333333,
-    "trendIsImproved": 1
+    "resultTrendIsImproved": 1
   }
 ]
