@@ -257,7 +257,7 @@ function CardCatalog({ tableData }: { tableData: typeof tableData }) {
         </TableHeader>
         <TableBody>
           {tableData.map((data) => {
-          const results = groupedMetricResults[data.id] || [];
+            const results = groupedMetricResults[data.id] || [];
             const actualResults = results
               .sort((a, b) => {
                 const yearDiff = a.fiscalYear - b.fiscalYear;
@@ -274,9 +274,28 @@ function CardCatalog({ tableData }: { tableData: typeof tableData }) {
 
             return (
               <TableRow key={data.id}>
-                <TableCell>{data.orgAcronym[0]}</TableCell><TableCell>{data.goalName[0]}</TableCell><TableCell>{data.objectiveName[0]}</TableCell><TableCell>{data.mostRecentTargetDirection}</TableCell><TableCell>{data.name}</TableCell><TableCell>{data.mostRecentPercentProgress}</TableCell><TableCell>
+                <TableCell>{data.orgAcronym?.[0]}</TableCell>
+                <TableCell>{data.goalName?.[0]}</TableCell>
+                <TableCell>{data.objectiveName?.[0]}</TableCell>
+                <TableCell>{data.mostRecentTargetDirection}</TableCell>
+                <TableCell>{data.name}</TableCell>
+                <TableCell>
+                  {typeof data.mostRecentPercentProgress === "number"
+                    ? `${Math.round(data.mostRecentPercentProgress * 100)}%`
+                    : "—"}
+                </TableCell>
+                <TableCell>
                   <svg width="100" height="40">
                     <polyline points={points} fill="none" stroke="blue" strokeWidth="2" />
+                    {results.map((r, i) => {
+                      const x = (i / (actualResults.length - 1)) * 100;
+                      const y = 40 - ((r.result - minY) / (maxY - minY || 1)) * 40;
+                      return (
+                        <circle key={i} cx={x} cy={y} r="2.5" fill="blue">
+                          <title>{`${r.result} (Q${r.fiscalQuarter} FY${r.fiscalYear})`}</title>
+                        </circle>
+                      );
+                    })}
                   </svg>
                 </TableCell>
               </TableRow>
