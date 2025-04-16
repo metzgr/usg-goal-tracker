@@ -1,6 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
+import tags from "@/data/tag.json";
+import metrics from "@/data/metricResult.json";
+import milestones from "@/data/milestoneResult.json";
 import {
   Table,
   TableHeader,
@@ -22,104 +25,11 @@ import {
 import { Checkbox } from "src/components/ui/checkbox";
 import { Label } from "src/components/ui/label";
 import { ScrollArea } from "src/components/ui/scroll-area";
-import CardHeader from "src/components/custom/card-header";
-import CardFooter from "src/components/custom/card-footer";
-import CardBody from "src/components/custom/card-body";
-import Placard from "src/components/custom/placard";
 import FilterTabs from "src/components/custom/filter-tabs";
 import { Button } from "src/components/ui/button";
 
 // Format date helper.
 const formatYear = (dateString: string) => new Date(dateString).getFullYear();
-
-// Dummy card data for demonstration
-const cardData = [
-  { 
-    id: 2, 
-    title: "American households with consistent, dependable access to food", 
-    topic: ["Topic A", "Program A"],
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
-    orgAvatar: "usda",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [1000, 1000, 1000, 1000, 1000, 1000, 1000],
-    dataActuals: [200, 600, 1300, 700, 1800, 800, 600],
-    progressPercent: 95,
-    progressed: true,
-    targetDirection: "increase",
-    avatar1: "usda",
-  },
-  { 
-    id: 5, 
-    title: "New small businesses", 
-    topic: "Topic B",
-    orgAcronym: "SBA",
-    orgFullName: "Small Business Administration",
-    orgAvatar: "usda",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [200, 600, 1300, 700, 1800, 1000, 3000],
-    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 1700],
-    progressPercent: 95,
-    progressed: true,
-    targetDirection: "increase",
-    avatar1: "sba",
-  },
-  { 
-    id: 6, 
-    title: "Monthly jobs added", 
-    topic: "Topic A",
-    orgAcronym: "DOL",
-    orgFullName: "U.S. Department of Labor",
-    orgAvatar: "dol",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [200, 600, 1300, 700, 1800, 1000, 3000],
-    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 4000],
-    progressPercent: 95,
-    progressed: true,
-    targetDirection: "increase",
-    avatar1: "dol",
-    unitFormat: "%",
-  },
-  { 
-    id: 11, 
-    title: "Consumer Price Index", 
-    topic: "Topic A",
-    orgAcronym: "DOL",
-    orgFullName: "U.S. Department of Labor",
-    orgAvatar: "dol",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [],
-    dataActuals: [2, 3, 2, 5, 3, 7, 2],
-    progressPercent: 95,
-    progressed: true,
-    targetDirection: "increase",
-    unitFormat: "%",
-    avatar1: "dol",
-  },
-  { 
-    id: 15, 
-    title: "Office occupancy rate", 
-    topic: "Topic A",
-    orgAcronym: "GSA",
-    orgFullName: "General Services Administration",
-    orgAvatar: "dol",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [80, 80, 80, 80, 80, 80, 80],
-    dataActuals: [40, 56, 68, 72, 65, 88, 95],
-    avatar1: "gsa",
-    unitFormat: "%",
-  },
-];
 
 function Header() {
   return (
@@ -314,10 +224,8 @@ function ActiveFilters({
   );
 }
 
-export { ActiveFilters };
-
-function CardCatalog({ cards }: { cards: typeof cardData }) {
-  if (cards.length === 0) {
+function CardCatalog({ tableData }: { tableData: typeof tableData }) {
+  if (tableData.length === 0) {
     return <p className="p-4">No results found.</p>;
   }
   return (
@@ -325,40 +233,23 @@ function CardCatalog({ cards }: { cards: typeof cardData }) {
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead>Organization</TableHead>
-            <TableHead>Indicator</TableHead>
-            <TableHead>Chart</TableHead>
+            <TableHead>Type</TableHead>
+            <TableHead>Name</TableHead>
+            <TableHead>Org</TableHead>
+            <TableHead>Goal</TableHead>
+            <TableHead>Objective</TableHead>
+            <TableHead>Trend</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
-          {cards.map((card) => (
-            <TableRow key={card.id}>
-              <TableCell>
-                <CardFooter
-                  orgFullName={card.orgFullName}
-                  orgAcronym={card.orgAcronym}
-                  avatar1={card.avatar1}
-                  avatar2={card.avatar2}
-                  avatar3={card.avatar3}
-                  avatar4={card.avatar4}
-                />
-              </TableCell>
-              <TableCell className="font-bold">{card.title}</TableCell>
-              <TableCell>
-                <div className="p-0">
-                  <CardBody
-                    cardType={card.cardType}
-                    artwork={card.artwork}
-                    patternOption={card.patternOption}
-                    totalIndicators={card.totalIndicators}
-                    indicatorsProgressed={card.indicatorsProgressed}
-                    changeIndicatorsProgressed={card.changeIndicatorsProgressed}
-                    dataActuals={card.dataActuals}
-                    dataTargets={card.dataTargets}
-                    unitFormat={card.unitFormat}
-                  />
-                </div>
-              </TableCell>
+          {tableData.map((data) => (
+            <TableRow key={data.id}>
+              <TableCell>{data.type === "metric" ? "Metric" : "Milestone"}</TableCell>
+              <TableCell>{data.name}</TableCell>
+              <TableCell>{data.orgAcronym[0]}</TableCell>
+              <TableCell>{data.goalName[0]}</TableCell>
+              <TableCell>{data.objectiveName[0]}</TableCell>
+              <TableCell>{data.resultTrendIsImproved ? "🔺" : "🔻"}</TableCell>
             </TableRow>
           ))}
         </TableBody>
@@ -373,30 +264,31 @@ export default function ExplorePage() {
   const [statusOption, setStatusOption] = useState("Active");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("Everything");
+  // Use possible filters imported from tag.json
+  const possibleFilters = tags;
 
-  const possibleFilters = ["Topic A", "Topic B", "Topic C"];
+  // Merge metrics and milestones data and add type field
+  const tableData = [
+    ...metrics.map(metric => ({ ...metric, type: "metric" })),
+    ...milestones.map(milestone => ({ ...milestone, type: "milestone" })),
+  ];
 
-  // Filter cards based on search query, active topic filters, and activeTab.
-  const filteredCards = cardData.filter((card) => {
+  // Filter table data based on search query, active filters, and active tab.
+  const filteredTableData = tableData.filter((data) => {
     const query = searchQuery.toLowerCase();
     const matchesSearch =
-      card.title.toLowerCase().includes(query) ||
-      card.orgFullName.toLowerCase().includes(query) ||
-      card.orgAcronym.toLowerCase().includes(query);
-    const matchesTopic =
-      activeFilters.length === 0 || activeFilters.some((topic) => card.topic?.includes(topic));
-    let matchesTab = true;
-    if (activeTab.toLowerCase() !== "everything") {
-      if (activeTab.toLowerCase() === "plans") {
-        matchesTab = card.cardType === "Plan";
-      } else if (activeTab.toLowerCase() === "goals") {
-        matchesTab = card.cardType === "Goal";
-      } else if (activeTab.toLowerCase() === "indicators") {
-        matchesTab = card.cardType === "Indicator";
-      }
-    }
-
-    return matchesSearch && matchesTopic && matchesTab;
+      (data.name?.toLowerCase().includes(query) ?? false) ||
+      (data.orgAcronym?.[0]?.toLowerCase().includes(query) ?? false) ||
+      (data.goalName?.[0]?.toLowerCase().includes(query) ?? false) ||
+      (data.objectiveName?.[0]?.toLowerCase().includes(query) ?? false);
+    const matchesFilters =
+      activeFilters.length === 0 ||
+      activeFilters.some((filter) => data.tags?.includes(filter));
+    const matchesTab =
+      activeTab === "Everything" ||
+      (activeTab === "Metrics" && data.type === "metric") ||
+      (activeTab === "Milestones" && data.type === "milestone");
+    return matchesSearch && matchesFilters && matchesTab;
   });
 
   return (
@@ -448,7 +340,7 @@ export default function ExplorePage() {
           <div className="flex justify-center mb-[28px]">
             <FilterTabs activeTab={activeTab} setActiveTab={setActiveTab} />
           </div>
-          <CardCatalog cards={filteredCards} />
+          <CardCatalog tableData={filteredTableData} />
         </div>
       </main>
     </div>

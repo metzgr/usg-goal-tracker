@@ -68,7 +68,7 @@ async function fetchTable(tableName) {
 }
 
 async function updateAllTables() {
-  const outputDir = path.join(__dirname, '..', 'data');
+  const outputDir = path.join(__dirname, "..", "src", "data");
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
   for (const table of tableNames) {
