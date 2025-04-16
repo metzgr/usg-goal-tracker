@@ -26,8 +26,8 @@ const __dirname = path.dirname(__filename);
 const apiKey = process.env.AIRTABLE_API_KEY;
 const baseId = process.env.AIRTABLE_BASE_ID;
 const tableNames = [
-  'organization',
-  'strategicPlan',
+  'org',
+  'plan',
   'goal',
   'objective',
   'metric',

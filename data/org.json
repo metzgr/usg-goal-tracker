@@ -84,7 +84,7 @@
       "recj5PFddT976dDjA"
     ],
     "fpiProgramCount": 77,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -193,7 +193,7 @@
       "recg0ZePKAYxXEPav"
     ],
     "fpiProgramCount": 90,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -294,7 +294,7 @@
       "recYLSOlyDRZFMHlr"
     ],
     "fpiProgramCount": 82,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -362,7 +362,7 @@
       "recqRDzJ4oM9rEX1s"
     ],
     "fpiProgramCount": 49,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -689,7 +689,7 @@
       "recJkVvEysmMixFO9"
     ],
     "fpiProgramCount": 308,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -974,7 +974,7 @@
       "reclO3be74obZgEYO"
     ],
     "fpiProgramCount": 266,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -1037,7 +1037,7 @@
       "recC2G2oqv7jfO8DG"
     ],
     "fpiProgramCount": 44,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -1155,7 +1155,7 @@
       "recBm4cc2C7Dx4FXJ"
     ],
     "fpiProgramCount": 99,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -1172,7 +1172,7 @@
     "status": "Active",
     "acronym": "DOT",
     "fpiProgramCount": 0,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -1303,7 +1303,7 @@
       "recaCu8iIgh86OFiB"
     ],
     "fpiProgramCount": 112,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -1446,7 +1446,7 @@
       "rec0lYysPgZmNibLQ"
     ],
     "fpiProgramCount": 124,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -1462,7 +1462,7 @@
     "name": "General Services Administration",
     "status": "Active",
     "acronym": "GSA",
-    "strategicPlan": [
+    "plan": [
       "recOkgPAU7Ek1YAZh"
     ],
     "fpiProgram": [
@@ -1471,7 +1471,7 @@
       "recJ7V3ZKa0zACiaE"
     ],
     "fpiProgramCount": 3,
-    "strategicPlanCount": 1,
+    "planCount": 1,
     "goalCount": 3,
     "objectiveCount": 9,
     "indicatorCount": 54,
@@ -1921,7 +1921,7 @@
       "recYyJgI63TsPrZqN"
     ],
     "fpiProgramCount": 433,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -1937,7 +1937,7 @@
     "name": "U.S. Department of Housing and Urban Development",
     "status": "Active",
     "acronym": "HUD",
-    "strategicPlan": [
+    "plan": [
       "recfde4xeJB6AjiKp"
     ],
     "fpiProgram": [
@@ -2043,7 +2043,7 @@
       "rec7T01hz7ellAHhq"
     ],
     "fpiProgramCount": 100,
-    "strategicPlanCount": 1,
+    "planCount": 1,
     "goalCount": 3,
     "objectiveCount": 9,
     "indicatorCount": 54,
@@ -2068,7 +2068,7 @@
       "recZrBPZzCbb4l1BF"
     ],
     "fpiProgramCount": 8,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2090,7 +2090,7 @@
       "recLwN2LYSzGz5tWd"
     ],
     "fpiProgramCount": 3,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2120,7 +2120,7 @@
       "recpbsvAwtEu00mVu"
     ],
     "fpiProgramCount": 11,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2137,7 +2137,7 @@
     "status": "Active",
     "acronym": "OPM",
     "fpiProgramCount": 0,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2188,7 +2188,7 @@
       "recEGVkxmwjXgyeCB"
     ],
     "fpiProgramCount": 32,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2218,7 +2218,7 @@
       "recq8GYDanVZs4prr"
     ],
     "fpiProgramCount": 11,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2249,7 +2249,7 @@
       "rec1AIXZRrjqfm737"
     ],
     "fpiProgramCount": 12,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2265,7 +2265,7 @@
     "name": "U.S. Department of Agriculture",
     "status": "Active",
     "acronym": "USDA",
-    "strategicPlan": [
+    "plan": [
       "recOMj2QaHVSXQHj9"
     ],
     "fpiProgram": [
@@ -2680,7 +2680,7 @@
       "recZqgjyOSCKn3vUF"
     ],
     "fpiProgramCount": 409,
-    "strategicPlanCount": 1,
+    "planCount": 1,
     "goalCount": 3,
     "objectiveCount": 9,
     "indicatorCount": 54,
@@ -2898,7 +2898,7 @@
       "recHCzXr7eXgktTGN"
     ],
     "fpiProgramCount": 201,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2961,7 +2961,7 @@
       "recFBDC6jMflcjP3W"
     ],
     "fpiProgramCount": 44,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -2987,7 +2987,7 @@
       "reczoeJnrhR6sb91S"
     ],
     "fpiProgramCount": 7,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -3015,7 +3015,7 @@
       "recrKNDwegNy6D6wx"
     ],
     "fpiProgramCount": 9,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
@@ -3046,7 +3046,7 @@
       "recklOxKsR0ApfJN7"
     ],
     "fpiProgramCount": 13,
-    "strategicPlanCount": 0,
+    "planCount": 0,
     "goalCount": 0,
     "objectiveCount": 0,
     "indicatorCount": 0,
