@@ -44,7 +44,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recJU4VdhrVLaCFTc",
@@ -91,7 +103,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recphYDFrYmZc1TV7",
@@ -138,7 +162,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recCNyWQJOy4JNIcQ",
@@ -185,7 +221,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec9yc8k2Xc0b1HbJ",
@@ -232,7 +280,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recc8p7651xzyuUVq",
@@ -279,7 +339,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recfergA4P9ACOZBX",
@@ -326,7 +398,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec5Akcx6Ee9RNrql",
@@ -373,7 +457,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recMT1pwcNUZGKcQr",
@@ -420,7 +516,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec15AenZQMwisO3l",
@@ -467,7 +575,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "reciGaOWJUThZIEbv",
@@ -514,7 +634,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recT5MA4Q4UcPOfJP",
@@ -561,7 +693,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recdArz0e8YyHAZgi",
@@ -608,7 +752,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recTmLrbgonQwG8Lz",
@@ -655,7 +811,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recvsvAmcEknX64aC",
@@ -702,7 +870,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec45UiwYdvrzBWeC",
@@ -749,7 +929,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec179IJ1usb7P66Q",
@@ -796,7 +988,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recrhtB4ZUuE1RdQ4",
@@ -843,7 +1047,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec5wGxWKppcWunKA",
@@ -890,7 +1106,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recoB8tptPYbrvhTv",
@@ -937,7 +1165,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recW64MaPMxmnE9fi",
@@ -984,7 +1224,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "reczDTqeV1lDFVZo4",
@@ -1031,7 +1283,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recOL5tkdScJ58WYX",
@@ -1078,7 +1342,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recaiUYgRJBKty4FP",
@@ -1125,7 +1401,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recEH2lnr9MF3hco7",
@@ -1172,7 +1460,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recRIrgVTkbagMObN",
@@ -1219,7 +1519,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rece0u9PtsufWZ2DU",
@@ -1266,7 +1578,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recWZE23dlLjPfN0P",
@@ -1313,7 +1637,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recQjkepBSQR8rU0A",
@@ -1360,7 +1696,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recVupkhdzGATVmjH",
@@ -1407,7 +1755,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec6dc5pYsORYZifd",
@@ -1454,7 +1814,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recTvE5J05HeM2EZO",
@@ -1501,7 +1873,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec8tBYxKVVuZcMw0",
@@ -1548,7 +1932,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recE19yUARFH4ZmrW",
@@ -1595,7 +1991,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recO7KhDPSAUfKRRs",
@@ -1642,7 +2050,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recBADo4wT5XJPOjR",
@@ -1689,7 +2109,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recJHu3L6acWTs60e",
@@ -1736,7 +2168,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rechw9JWC7PSk3q49",
@@ -1783,7 +2227,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "reccBaQPN0VPYbhmz",
@@ -1830,7 +2286,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recmgNAZZy7sB1mOe",
@@ -1877,7 +2345,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recu9GEObWTsw8h02",
@@ -1924,7 +2404,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recqM9iUuqnWY2Dsb",
@@ -1971,7 +2463,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec569Rhw6TNlGS95",
@@ -2018,7 +2522,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec0KENUEUEJpM96J",
@@ -2065,7 +2581,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recQLMpZl0a7yGeze",
@@ -2112,7 +2640,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recq6VKojk2D0yGTa",
@@ -2159,7 +2699,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recqU7c2v5qjiI5FS",
@@ -2206,7 +2758,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "reclVEyEmsfy7ouq4",
@@ -2253,7 +2817,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recpmAYjVJMRrrkb4",
@@ -2300,7 +2876,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recpgRmKtJ8lqnhb0",
@@ -2347,7 +2935,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec4KTUDUk1TlVbY5",
@@ -2394,7 +2994,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec2QVoeBDr3tuI0x",
@@ -2441,7 +3053,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recpCs6br9ENGSWQN",
@@ -2488,7 +3112,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recSr5TxiBcrP77FC",
@@ -2535,7 +3171,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec0Sr3tenbzVuJeB",
@@ -2582,7 +3230,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "reck149VAnQfybBW4",
@@ -2629,7 +3289,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec1zLV8HMgLvoOpA",
@@ -2676,7 +3348,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec9V2NfBcnRVj3Q4",
@@ -2723,7 +3407,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recEi7sm9xpKwskZm",
@@ -2770,7 +3466,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec2lyE7LN72jE1Gf",
@@ -2817,7 +3525,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recBGdxBvjJysw9wW",
@@ -2864,7 +3584,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec90TmCLB9nFwJtc",
@@ -2911,7 +3643,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec9Mp8gI4G2JAwJ0",
@@ -2958,7 +3702,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recjrXolDUqDJwJeU",
@@ -3005,7 +3761,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec5m3yX1eYSiMdbR",
@@ -3052,7 +3820,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recrwR4FqeoulO9HV",
@@ -3099,7 +3879,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recm2PfaoGAZ7uK2W",
@@ -3146,7 +3938,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "reckMKuLhQBUltXOO",
@@ -3193,7 +3997,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "reco7mvzP8PjEhxLB",
@@ -3240,7 +4056,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recDNzihqM1BK2Sv4",
@@ -3287,7 +4115,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recfYZxGbZIFUUwNt",
@@ -3334,7 +4174,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec71vtRVh0vBgRwB",
@@ -3381,7 +4233,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recZ2H5CZWN0qjipa",
@@ -3428,7 +4292,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recEo5a4bsvEqfJ7x",
@@ -3475,7 +4351,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recak1hjqjDaeLfrl",
@@ -3522,7 +4410,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recZdKOrRUeI1IKRs",
@@ -3569,7 +4469,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recbTWA8FfPWLYcSB",
@@ -3616,7 +4528,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recUaoDDFl1pAXexF",
@@ -3663,7 +4587,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recwUjISuUdxa1uym",
@@ -3710,7 +4646,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recAMvR7SMW514UTe",
@@ -3757,7 +4705,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec6qis7oxemF7zBQ",
@@ -3804,7 +4764,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recF39S8LnVLkzSkl",
@@ -3851,7 +4823,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recCPYr3F0hCTaI86",
@@ -3898,7 +4882,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recXI84OQ3KSbZWRc",
@@ -3945,7 +4941,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recKzpq9vzSN0zQRJ",
@@ -3992,7 +5000,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "reciPGHbrcblTC7Ad",
@@ -4039,7 +5059,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec9EdcbRPp5E9l1n",
@@ -4086,7 +5118,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec2rndksH7D9H7F0",
@@ -4133,7 +5177,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recr23hLw4CB4hw9n",
@@ -4180,7 +5236,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recBP5gzb9H0XAFdt",
@@ -4227,7 +5295,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recJqIokCkaHghCsE",
@@ -4274,7 +5354,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recJ1o2ilojU6jCxS",
@@ -4321,7 +5413,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec0584swk8Sj0N2B",
@@ -4368,7 +5472,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recvOh0V3qvGTAwU4",
@@ -4415,7 +5531,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recyJau5J6nsa2QLZ",
@@ -4462,7 +5590,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recrlCFr9YVcLAdZi",
@@ -4509,7 +5649,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recOlb4GgTrJTLteh",
@@ -4556,7 +5708,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recZiKl5IBmfXKJeI",
@@ -4603,7 +5767,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recJkp4TMl55CQ8ZU",
@@ -4650,7 +5826,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recMfzKjC8KzlDlrz",
@@ -4697,7 +5885,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recIR0GpOVYlFG5TB",
@@ -4744,7 +5944,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recQzGKDWaaaiVYQs",
@@ -4791,7 +6003,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recXBx9PLiHJ0KWiR",
@@ -4838,7 +6062,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recn1WDa3pw5jH1O2",
@@ -4885,7 +6121,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec2EMxnj56b85yKJ",
@@ -4932,7 +6180,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recBRWj6vqYaRQkW2",
@@ -4979,7 +6239,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recDwqx5QqdhGzGVD",
@@ -5026,7 +6298,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recqMdrlerwDU8h7M",
@@ -5073,7 +6357,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recN01UgWHRZjCS1y",
@@ -5120,7 +6416,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recrGyW3HwkzFaDPX",
@@ -5167,7 +6475,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec5oXbJrlr5RDmGY",
@@ -5214,7 +6534,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recszLzRWVRp9kvOT",
@@ -5261,7 +6593,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recMWlbVAvuK4wI3L",
@@ -5308,7 +6652,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recVYYUlHlAjk7ArM",
@@ -5355,7 +6711,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rectygTlmiVPSsdak",
@@ -5402,7 +6770,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec8gWOc9onVWphtF",
@@ -5449,7 +6829,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recuM1UxFCGhga1pj",
@@ -5496,7 +6888,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "receZoYzPXy6hrXmj",
@@ -5543,7 +6947,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recD3t32w0386YCNd",
@@ -5590,7 +7006,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recTaOTM3UHVEYHXx",
@@ -5637,7 +7065,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recqzq2u1hvX2oC7Q",
@@ -5684,7 +7124,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recmK3iUTFdJs6bKt",
@@ -5731,7 +7183,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec7i2Vg74CT7W0Lt",
@@ -5778,7 +7242,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recW6myW5eN4XXALk",
@@ -5825,7 +7301,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recWA5qxvy93X1qhj",
@@ -5872,7 +7360,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recNBrr9mEjnkOXRz",
@@ -5919,7 +7419,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recDXV51iCAFu0Xlr",
@@ -5966,7 +7478,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recChrS7Fwqy0xeD5",
@@ -6013,7 +7537,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recq22juoGvKoVwml",
@@ -6060,7 +7596,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recz9DO5fQn9ezcYI",
@@ -6107,7 +7655,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recu6e5Hrvgh31VK1",
@@ -6154,7 +7714,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recEQjfAy9QsK4chm",
@@ -6201,7 +7773,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recFR8QlD83vXOgN8",
@@ -6248,7 +7832,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recfQLsUZJvdFjR48",
@@ -6295,7 +7891,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recqZANPCIGqkInps",
@@ -6342,7 +7950,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recPjQrIBYWUxvAiF",
@@ -6389,7 +8009,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec5R11yKRgAoCNYw",
@@ -6436,7 +8068,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recSGhpbVKjvFT8KM",
@@ -6483,7 +8127,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recJAo4WzR31BwuUN",
@@ -6530,7 +8186,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recjH0SjN05sO5sPQ",
@@ -6577,7 +8245,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recpCk2QF0eyAeAFw",
@@ -6624,7 +8304,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recxjq75oqoFdUQZ8",
@@ -6671,7 +8363,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recCqusGzAuF6iazl",
@@ -6718,7 +8422,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec8jILQoB1pGMIuE",
@@ -6765,7 +8481,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recqInJxrwVMEyBcg",
@@ -6812,7 +8540,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recBM631MUPAbZXcW",
@@ -6859,7 +8599,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recSxcdiVYKmLEsYB",
@@ -6906,7 +8658,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec4gtqpQZpcTClhW",
@@ -6953,7 +8717,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recU2PokQsvv47aJw",
@@ -7000,7 +8776,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recOJKjGX2hNSAKaZ",
@@ -7047,7 +8835,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "reciNzmQRjjSCiUfM",
@@ -7094,7 +8894,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recnpfrnQ5K0xpjeH",
@@ -7141,7 +8953,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recPSr7NFz4pMLEC1",
@@ -7188,7 +9012,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "reclQdnVZpgrRwIz8",
@@ -7235,7 +9071,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recJ3IfJdSlyGB6Vx",
@@ -7282,7 +9130,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recjn8KIDcKjq7mjE",
@@ -7329,7 +9189,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recnDsDrC2wRxwzal",
@@ -7376,7 +9248,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recn1Ynsz3XNLdOjG",
@@ -7423,7 +9307,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec5DHKGhU0CNUIEz",
@@ -7470,7 +9366,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recXyp8cAcc42vVu3",
@@ -7517,7 +9425,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recDnIjBr8qIzi7Lf",
@@ -7564,7 +9484,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recEsyaVP4ST8QMug",
@@ -7611,7 +9543,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "reczJLBwIrRETFOhq",
@@ -7658,7 +9602,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recuERaqWNiHwTznW",
@@ -7705,7 +9661,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec93x1NyveBwz2Y7",
@@ -7752,7 +9720,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recDtpca47duEIWIn",
@@ -7799,7 +9779,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recPQEEPXgnUtHszt",
@@ -7846,7 +9838,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recwe7BlXT5ng87Pc",
@@ -7893,7 +9897,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recPGFc9ex0RmgmSG",
@@ -7940,7 +9956,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec7dMAWyPdIuveyd",
@@ -7987,7 +10015,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec9JnkNJrFRVTb8G",
@@ -8034,7 +10074,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recLGVJHrlytfEgHG",
@@ -8081,7 +10133,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recWTFukKVTCnyLJb",
@@ -8128,7 +10192,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recv74xVmBFqVE9gt",
@@ -8175,7 +10251,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recVMhQPvwVUQtSLB",
@@ -8222,7 +10310,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "reczZ1K5MMRT43HsF",
@@ -8269,7 +10369,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recPvP8dgfgix2gO6",
@@ -8316,7 +10428,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recdNHft03Lm9qibK",
@@ -8363,7 +10487,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recGv7qwqoMQ821kT",
@@ -8410,7 +10546,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "reccLx0ZQ5qxkwrIu",
@@ -8457,7 +10605,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recxza51mg6HgCUz9",
@@ -8504,7 +10664,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec3joGqw2v5PRfeU",
@@ -8551,7 +10723,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recPkDLt9PHWlndWp",
@@ -8598,7 +10782,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recqSvdEs2v8cBNDx",
@@ -8645,7 +10841,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recnZkVr8uEpQA0gK",
@@ -8692,7 +10900,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recgvUZYAGdZPTT41",
@@ -8739,7 +10959,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recNW6pOvuT7N9IlE",
@@ -8786,7 +11018,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rechERi079AvTNaKx",
@@ -8833,7 +11077,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recawv2YqFfAwEAoI",
@@ -8880,7 +11136,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recW2eWVG3Myzn448",
@@ -8927,7 +11195,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rectREVd8S5rbjqux",
@@ -8974,7 +11254,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recwXaPJkLZfva2zi",
@@ -9021,7 +11313,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recIGvYx8pMLMBsJ9",
@@ -9068,7 +11372,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec5w5mSiBg3ePrRp",
@@ -9115,7 +11431,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recNZNfkrFEz6bF8D",
@@ -9162,7 +11490,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recRtzgPLumKfih9X",
@@ -9209,7 +11549,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recDzDRVerJVCSehZ",
@@ -9256,7 +11608,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recKycK8WTD1M3Li3",
@@ -9303,7 +11667,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec4pZhXJjlL6Ul1T",
@@ -9350,7 +11726,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec1jFgnYnYvYI719",
@@ -9397,7 +11785,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recaBUPJ01UFWO52N",
@@ -9444,7 +11844,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec13MghUMQWXxgRn",
@@ -9491,7 +11903,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recqACJ9nHACUFxNn",
@@ -9538,7 +11962,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recv5fGqWZ6OdKLIN",
@@ -9585,7 +12021,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recvl8lJOKbjh3ylj",
@@ -9632,7 +12080,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recAiUdqf0QMamuTX",
@@ -9679,7 +12139,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recBxKzhrqHKwogv6",
@@ -9726,7 +12198,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recDcb4VZpD0nIf0X",
@@ -9773,7 +12257,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recpDSf1kDU6JmSUL",
@@ -9820,7 +12316,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rech8BWSMkyPAsxjL",
@@ -9867,7 +12375,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec0NulqTcxvkO4x4",
@@ -9914,7 +12434,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rechA5u0SJY9V40Dx",
@@ -9961,7 +12493,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "reca78VR0jBOVAGAg",
@@ -10008,7 +12552,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recm5LOvexbiA2fuJ",
@@ -10055,7 +12611,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recGHfjJfaRxYvtEN",
@@ -10102,7 +12670,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec9z7jsmdsqnVWnz",
@@ -10149,7 +12729,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recrg04Tnar8OcbOL",
@@ -10196,7 +12788,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recfAQYbny7DCPEM4"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec2QbnfO0clcQawL",
@@ -10243,7 +12847,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "recHZLLc4moS1ibxF"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec0bJPFRpZcNvUWO",
@@ -10290,7 +12906,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "recE1G2OnThbIl1Ll"
+    ],
+    "objective": [
+      "rec6THtOL8btFpEwr"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "rec8JfaZKBTIKDMcs",
@@ -10337,7 +12965,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recSqdkx59sseUzOG"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recm1d1cAdXivQfmL",
@@ -10384,7 +13024,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recJicCfV8as3YKaj"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recgUnxSHyIe205kk",
@@ -10431,7 +13083,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ],
+    "objective": [
+      "recZsNyiRvvIX89b7"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recHKfCFw49BNeu2Y",
@@ -10478,7 +13142,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recgHH8RgUd7Cyslv"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recHwrvaQjunLfGHD",
@@ -10525,7 +13201,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recfWXIi30dJP3OVD"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recXocWc32L5Z6xSo",
@@ -10572,7 +13260,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOMj2QaHVSXQHj9"
+    ],
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ],
+    "objective": [
+      "recu1AVwIy36Aggsb"
+    ],
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "recgqtJZE2UbUW08t",
@@ -10619,7 +13319,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "reco6RoVs4PVij103"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec2VsjGjWhnRVNd7",
@@ -10666,7 +13378,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recxTdSe1wXzyowT7"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recIhtQ5yGNcAZWhw",
@@ -10713,7 +13437,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ],
+    "objective": [
+      "recLt14H2Wv50N3lK"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec9n0Qy8Yj3FvDRf",
@@ -10760,7 +13496,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recrlqJt7tnW1Vcze"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recSIpwTWIvsByzRY",
@@ -10807,7 +13555,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recZOQ4cGcLP607QY"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec9xxpJoi2V7FLd2",
@@ -10854,7 +13614,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ],
+    "objective": [
+      "recLzJlyPEBorWLfB"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recCQDdJuyApbuKCp",
@@ -10901,7 +13673,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec9IPBrrr4ARyt7R"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recZdEC4eX27MEQXK",
@@ -10948,7 +13732,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "recFIhqaeqd95S7CT"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recaEN7N8FlRYlgYI",
@@ -10995,7 +13791,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recfde4xeJB6AjiKp"
+    ],
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ],
+    "objective": [
+      "rec7k4JsI939KhQRn"
+    ],
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rec4AY96YDCcWrfEM",
@@ -11042,7 +13850,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recW2KnyGL8XYrWhN"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "reccIJ2jRm2r2YMgo",
@@ -11089,7 +13909,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "rec9z8QkPLIvv6uJx"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recka2C6HW0JlgBxN",
@@ -11136,7 +13968,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
+    "objective": [
+      "recEngWK4nzWVwc9P"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recD1FJHGwFcbLqvT",
@@ -11183,7 +14027,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "rectM8MJnZp9mVty0"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recabLB8pHbwva7hY",
@@ -11230,7 +14086,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recbknOEqBD0Q0Hfn"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recIhBsVViI9soHF3",
@@ -11277,7 +14145,19 @@
     "isCompleted": 0,
     "isProgressed": 1,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ],
+    "objective": [
+      "recrYPbtlu7U3iGTd"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec1VYPsRolUfT4CZ",
@@ -11324,7 +14204,19 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recseVsEFhV5mgZaM"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recIVWcfC2MStPFI9",
@@ -11371,7 +14263,19 @@
     "isCompleted": 0,
     "isProgressed": 0,
     "isBlocked": 1,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recRhda9ucVb6cJvt"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "recUVyxX0bNRqwmyk",
@@ -11418,6 +14322,18 @@
     "isCompleted": 1,
     "isProgressed": 0,
     "isBlocked": 0,
-    "isNotStarted": 0
+    "isNotStarted": 0,
+    "strategicPlan": [
+      "recOkgPAU7Ek1YAZh"
+    ],
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "objective": [
+      "recxeYkf0GRg4paQS"
+    ],
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   }
 ]

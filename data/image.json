@@ -36,5 +36,40 @@
       "recOkgPAU7Ek1YAZh"
     ],
     "type": "artwork"
+  },
+  {
+    "id": "recGpiVdPQNl5BdaS",
+    "name": "ambulance",
+    "type": "artwork"
+  },
+  {
+    "id": "recJOV69ely3GZoiG",
+    "name": "usa",
+    "type": "artwork"
+  },
+  {
+    "id": "recWhG2fbg2npIAm0",
+    "name": "highway",
+    "type": "artwork"
+  },
+  {
+    "id": "recCGrYtm9rObObnB",
+    "name": "veteran",
+    "type": "artwork"
+  },
+  {
+    "id": "reckc8Nzc8rshhsPH",
+    "name": "hands",
+    "type": "artwork"
+  },
+  {
+    "id": "recKMY7mXEsi14pEz",
+    "name": "hand",
+    "type": "artwork"
+  },
+  {
+    "id": "recNw5hnF9HrSRsQb",
+    "name": "pills",
+    "type": "artwork"
   }
 ]

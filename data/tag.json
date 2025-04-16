@@ -1,5 +1,9 @@
 [
   {
-    "id": "rec5gvnlTZPbu9jam"
+    "id": "rec5gvnlTZPbu9jam",
+    "name": "Agriculture",
+    "type": [
+      "plain-language"
+    ]
   }
 ]

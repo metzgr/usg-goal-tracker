@@ -3,7 +3,7 @@
     "id": "recOMj2QaHVSXQHj9",
     "name": "Strategic Plan",
     "status": "Active",
-    "orgId": [
+    "org": [
       "recnGvKRcRqww0bnX"
     ],
     "startDate": "2025-10-01",
@@ -33,13 +33,24 @@
     "metricCount": 27,
     "projectCount": 27,
     "milestoneCount": 81,
-    "targetCount": 153
+    "targetCount": 153,
+    "objective": [
+      "recfAQYbny7DCPEM4",
+      "recHZLLc4moS1ibxF",
+      "rec6THtOL8btFpEwr",
+      "recSqdkx59sseUzOG",
+      "recJicCfV8as3YKaj",
+      "recZsNyiRvvIX89b7",
+      "recgHH8RgUd7Cyslv",
+      "recfWXIi30dJP3OVD",
+      "recu1AVwIy36Aggsb"
+    ]
   },
   {
     "id": "recfde4xeJB6AjiKp",
     "name": "Strategic Plan",
     "status": "Active",
-    "orgId": [
+    "org": [
       "recHD6eR7iIOtErtj"
     ],
     "startDate": "2025-10-01",
@@ -69,13 +80,24 @@
     "metricCount": 27,
     "projectCount": 27,
     "milestoneCount": 81,
-    "targetCount": 153
+    "targetCount": 153,
+    "objective": [
+      "reco6RoVs4PVij103",
+      "recxTdSe1wXzyowT7",
+      "recLt14H2Wv50N3lK",
+      "recrlqJt7tnW1Vcze",
+      "recZOQ4cGcLP607QY",
+      "recLzJlyPEBorWLfB",
+      "rec9IPBrrr4ARyt7R",
+      "recFIhqaeqd95S7CT",
+      "rec7k4JsI939KhQRn"
+    ]
   },
   {
     "id": "recOkgPAU7Ek1YAZh",
     "name": "Strategic Plan",
     "status": "Active",
-    "orgId": [
+    "org": [
       "recaTbkkzqqA7qzsJ"
     ],
     "startDate": "2025-10-01",
@@ -105,6 +127,17 @@
     "metricCount": 27,
     "projectCount": 27,
     "milestoneCount": 81,
-    "targetCount": 153
+    "targetCount": 153,
+    "objective": [
+      "recW2KnyGL8XYrWhN",
+      "rec9z8QkPLIvv6uJx",
+      "recEngWK4nzWVwc9P",
+      "rectM8MJnZp9mVty0",
+      "recbknOEqBD0Q0Hfn",
+      "recrYPbtlu7U3iGTd",
+      "recseVsEFhV5mgZaM",
+      "recRhda9ucVb6cJvt",
+      "recxeYkf0GRg4paQS"
+    ]
   }
 ]

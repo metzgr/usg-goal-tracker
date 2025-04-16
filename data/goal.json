@@ -32,7 +32,10 @@
     "indicatorImprovedPercent": 0.8333333333333334,
     "subtitle": "Make it easier to grow, sell, and succeed.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "reckzwb3ajnkrFaPr",
@@ -64,7 +67,10 @@
     "indicatorImprovedPercent": 0.8333333333333334,
     "subtitle": "Give states and towns more control over housing decisions.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recpHCd3DDokR8jMV",
@@ -96,7 +102,10 @@
     "indicatorImprovedPercent": 0.9444444444444444,
     "subtitle": "Shrink the government’s real estate footprint and lower costs.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec2hvyBWPQ9yhrRD",
@@ -128,7 +137,10 @@
     "indicatorImprovedPercent": 0.8888888888888888,
     "subtitle": "Support small towns with jobs, tools, and broadband.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "reclbSVnJ5w3IDoMT",
@@ -160,7 +172,10 @@
     "indicatorImprovedPercent": 0.8888888888888888,
     "subtitle": "Cut red tape so help gets to people quicker.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "recgQ7Lm3qWG8O8O2",
@@ -192,7 +207,10 @@
     "indicatorImprovedPercent": 0.8888888888888888,
     "subtitle": "Buy in bulk and broker deals that work for taxpayers.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   },
   {
     "id": "rec0F4EOzhyOjvyEY",
@@ -224,7 +242,10 @@
     "indicatorImprovedPercent": 0.9444444444444444,
     "subtitle": "Reduce fraud and help families become more self-reliant.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recnGvKRcRqww0bnX"
+    ]
   },
   {
     "id": "reciWMgbpWKFIDQMw",
@@ -256,7 +277,10 @@
     "indicatorImprovedPercent": 0.8333333333333334,
     "subtitle": "Use housing programs to support work and self-sufficiency.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recHD6eR7iIOtErtj"
+    ]
   },
   {
     "id": "rechpz3iEn2BuEgnB",
@@ -288,6 +312,9 @@
     "indicatorImprovedPercent": 0.8333333333333334,
     "subtitle": "Harness AI to match the speed of industry.",
     "milestoneCount": 27,
-    "targetCount": 51
+    "targetCount": 51,
+    "org": [
+      "recaTbkkzqqA7qzsJ"
+    ]
   }
 ]
