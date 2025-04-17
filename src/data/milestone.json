@@ -18,7 +18,7 @@
     ],
     "name": "Identify outdated or duplicative requirements through policy review",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recnyQAYOLU677jJD",
       "recNMq0pCCDMfJlNP",
       "recUQcUo51jDPR1q4",
@@ -28,7 +28,7 @@
       "reccOYkaw83VBMX2E",
       "reci3yiGivzojNePL"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -77,7 +77,7 @@
     ],
     "name": "Finalize list of target countries for upcoming trade missions",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recMpi7LWe0SdIcT6",
       "recwrIxlIOaVxZTne",
       "recR1U4r2fiVuV4PY",
@@ -87,7 +87,7 @@
       "recgZ0mKUoLmtPffM",
       "recK2utu7CILIAoCE"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -136,7 +136,7 @@
     ],
     "name": "Assess current relief systems and gather user feedback",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reckONZOKkYLRc3vj",
       "recYOxW5D6x7WWiHv",
       "rec7D01oZ6mGcDdiW",
@@ -146,7 +146,7 @@
       "recbAfXZaYT0xAAXe",
       "recadRY66O1Bu9FGC"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -195,7 +195,7 @@
     ],
     "name": "Open application process and conduct outreach to rural communities",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recOZyD3gVMhzl9f4",
       "recyB98BzUFri4Tzc",
       "reczvNTIqz0qsgGYl",
@@ -205,7 +205,7 @@
       "reciRJyR1i1VSmY5r",
       "recRMd8M5LWdcnwyF"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -254,7 +254,7 @@
     ],
     "name": "Streamline application process and promote loan availability",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recEzIR1KaxAkW3QF",
       "recFXFrWbNC0QXXrE",
       "recmf932OCdUuFfMw",
@@ -264,7 +264,7 @@
       "recFjczSxmdoKuWQE",
       "recpmZo7iCfQJuxna"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -313,7 +313,7 @@
     ],
     "name": "Complete infrastructure needs assessment in target towns",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recU4QiXUdXA1IYpM",
       "recdYjFae0HaoAPJX",
       "rechaJHSYMWIjalz1",
@@ -323,7 +323,7 @@
       "rec0nCNwHzWAjskuQ",
       "recq85OTIcwM3q3LT"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -372,7 +372,7 @@
     ],
     "name": "Select fraud detection software and finalize system requirements",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recETGcZBtsP1OlFq",
       "recTCZr234rVohjU7",
       "recEj9uyjfOzwy78r",
@@ -382,7 +382,7 @@
       "recOnhNC6JKiA3F5S",
       "recF1Q1GEGTCoDHAg"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -431,7 +431,7 @@
     ],
     "name": "Conduct user testing to identify pain points on mobile",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reciI5TSJsnQWrJVb",
       "recGx5ZBanJEAdThk",
       "recRAlSDj5x0BMK5n",
@@ -441,7 +441,7 @@
       "rec9BsXiOV1JhY6XO",
       "rec1SXIhFno6xcHGe"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -490,7 +490,7 @@
     ],
     "name": "Identify and onboard workforce and wellness program partners",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recdVTGaLLkfgd48n",
       "reczdtHpIVqjVNBNR",
       "rechLA8t4UOptKWgV",
@@ -500,7 +500,7 @@
       "recpBUZNpCC7pAEnF",
       "recATrNJzWnpkrKNW"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -549,7 +549,7 @@
     ],
     "name": "Review existing waiver use and identify expansion opportunities",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recIBls5KZXtpd2nM",
       "rec6ldyRwV4Sw0zae",
       "rec4JKQhZ6p8XTPM9",
@@ -559,7 +559,7 @@
       "reclmkthaopwWDwX4",
       "recU3JVEMiKWRqKqZ"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -608,7 +608,7 @@
     ],
     "name": "Convene task force with representatives from states, cities, and HUD",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recsJRF7G5s26e1kA",
       "recks5B6zoT3GrKkJ",
       "recn794bTufSlY7Os",
@@ -618,7 +618,7 @@
       "recYmPFJcWTMKd8I7",
       "recG0gMUN3jvmzNFL"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -667,7 +667,7 @@
     ],
     "name": "Analyze current funding formulas and identify opportunities for reform",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec1jQp4aBsC3tPLu",
       "rec2pbiqPYitmlHLb",
       "rec8jnNEC0HvqTRUt",
@@ -677,7 +677,7 @@
       "recnI79N8WYrW9sGX",
       "recZR9lU98czef7EI"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -726,7 +726,7 @@
     ],
     "name": "Identify common eligibility criteria across HUD programs",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recwQcdxxPGxgR6Eu",
       "recBEw4Gho5wkYfGb",
       "recEkFNkPVUj7QuUo",
@@ -736,7 +736,7 @@
       "recvzS71u6HHfPhj4",
       "reciYqcfs46qY9msj"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -785,7 +785,7 @@
     ],
     "name": "Identify duplicative or outdated rules through internal review",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recGYYzY2h2HXx8Ue",
       "recm80tuplaI3VEeL",
       "rec2iowcWMQQpFEkv",
@@ -795,7 +795,7 @@
       "recmB0RL0eDoDGpdp",
       "recqdX7QjZ4fxHgrJ"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -844,7 +844,7 @@
     ],
     "name": "Survey administrators to prioritize most-needed tools",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recb0I4RVX1cdSrWd",
       "recmBk56Vy9JZGnYg",
       "rec4Ucq4r4C2NioI0",
@@ -854,7 +854,7 @@
       "recNfPSJhfIjbAHCy",
       "recfhJIGbRwvVYOqk"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -903,7 +903,7 @@
     ],
     "name": "Identify and engage key workforce and education partners",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recoYkYZ5iJ6wsCBC",
       "recI7lA2Ul7CtHcM8",
       "recbIlp8sQwWu19Kf",
@@ -913,7 +913,7 @@
       "recXsYx1UI5llkf1Q",
       "recD4Jj8pMclNVD1t"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -962,7 +962,7 @@
     ],
     "name": "Design pilot structure with service bundle (e.g., employment, childcare)",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recSs0w0oUQkVyAFW",
       "recIveIVtXVUjfeMn",
       "recKRmUCJG8Rd8obO",
@@ -972,7 +972,7 @@
       "recLsBqxsh43dkyF9",
       "receeJBRd2VmLDuDR"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1021,7 +1021,7 @@
     ],
     "name": "Review existing rules and identify changes to promote personal accountability",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rechNVuo3Tn9k9I1d",
       "recUVFZFp1Fi0t2pd",
       "recR44HY04NQq48DV",
@@ -1031,7 +1031,7 @@
       "rec3AppecXmHRnrY7",
       "rec4cqENwtlLoVeS5"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1080,7 +1080,7 @@
     ],
     "name": "Collect occupancy and usage data from federal buildings across all regions",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recenuTnyN3lTvIV3",
       "rec5901hzQ7tbDpKs",
       "recj0elGqH7unva5y",
@@ -1090,7 +1090,7 @@
       "rec9EVslTsmFTTW0E",
       "recRVeVDZ90bkAE61"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1139,7 +1139,7 @@
     ],
     "name": "Map current approval workflows and identify key bottlenecks",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recr5HaUxvb9yAK39",
       "recXHk4al6OW2Xf64",
       "recxzTC3vHawDXO2G",
@@ -1149,7 +1149,7 @@
       "rec4LJJEVjnEIOZiP",
       "recfb4kFFA8Z4qKSi"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1198,7 +1198,7 @@
     ],
     "name": "Conduct HVAC assessments across priority aging buildings",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recBdeZLWphkuDp4h",
       "recEwMbuDcUguyNx9",
       "recK9KlNg1bF0QDQV",
@@ -1208,7 +1208,7 @@
       "recoz9t2Ugw3ZfZNw",
       "recH5o3WSNl4MC9Mt"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1257,7 +1257,7 @@
     ],
     "name": "Recruit procurement leaders from major agencies and define charter",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recWm3r5O0LwXMK1m",
       "rec5vevQ1fBEJa9rd",
       "rechpMlP6FGCTyQCm",
@@ -1267,7 +1267,7 @@
       "recIv7ASWLkYWw5FN",
       "rec2zYSvRpTzFk9uF"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1316,7 +1316,7 @@
     ],
     "name": "Select and configure AI tools to flag anomalies in contract data",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recr3CpNe3gmm7xxC",
       "recfvbtErL8IWawYQ",
       "rec1eY4A7g05YDuv2",
@@ -1326,7 +1326,7 @@
       "recPWQ4REcxYGa7xX",
       "rec3PFSPWI6N9vUUG"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1375,7 +1375,7 @@
     ],
     "name": "Analyze procurement spend data to identify high-volume common goods",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recWfFNRKItWp7mzp",
       "rec0jm4cNqIAarnIi",
       "recrlbIn0FyzMtUuo",
@@ -1385,7 +1385,7 @@
       "rec624zinv8XYNxBg",
       "rec3rzLxJsCvJmH48"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1434,7 +1434,7 @@
     ],
     "name": "Define core infrastructure needs and security requirements",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recNQZfwC7UmDpvTR",
       "rect67ndKTSR8IHQW",
       "rectWDp3An74qEjb0",
@@ -1444,7 +1444,7 @@
       "recIxrk3I7TVOs3kd",
       "recWHb5UF50Aw85qH"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1493,7 +1493,7 @@
     ],
     "name": "Select top services based on volume and customer service demand",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recAa4MWdZJD62yc6",
       "rec8Ygkk3oYEZKLKs",
       "recRbZ5zLLTHos7EO",
@@ -1503,7 +1503,7 @@
       "recuijCJYtvpZIxF3",
       "recfMpROsbBr4VwNv"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1552,7 +1552,7 @@
     ],
     "name": "Select pilot agencies and define use cases in eligibility and claims review",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recxiOaFSsKv77oT9",
       "recN0OabNVdb8dnWd",
       "recxgP0KbFRfRr1Ea",
@@ -1562,7 +1562,7 @@
       "recwZyu94GGg9L3OP",
       "recfCZiwUBYqt8qBy"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1611,7 +1611,7 @@
     ],
     "name": "Convene working group with producers, industry reps, and USDA officials",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recYmi5sLZZzjYARi",
       "recdiIGlxlf0n3xke",
       "recvHaVvSlAATaD3j",
@@ -1621,7 +1621,7 @@
       "recgG7SQP3C9K2DOH",
       "receniZSWHa96JcWR"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1670,7 +1670,7 @@
     ],
     "name": "Update grant eligibility criteria to include underserved producers",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "receVat1MYaGvjR48",
       "recvYPQK38UefHmxc",
       "recAtM9ephaLl2Uxq",
@@ -1680,7 +1680,7 @@
       "rec7MwO4bIdCoGlEe",
       "rechqcFxxhy6uTLJg"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1729,7 +1729,7 @@
     ],
     "name": "Identify underserved regions and tailor outreach materials",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reclKJdwua2rQ5PA0",
       "recJREXa5Ya6ZAlST",
       "reca1vFBYZmOHihKf",
@@ -1739,7 +1739,7 @@
       "recI5CVbsNBOrO5XF",
       "recEw8Q00GVAyXhqS"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1788,7 +1788,7 @@
     ],
     "name": "Sign MOUs with priority telecom partners for fiber expansion",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recbg7ixPY0MRMFEQ",
       "recIaNPHKxpgUlX94",
       "recAn3d8kmUIQ7TuV",
@@ -1798,7 +1798,7 @@
       "rec1tWzaezGIhx19o",
       "recZAlCrawTDPsMW3"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1847,7 +1847,7 @@
     ],
     "name": "Release grant application guidance and eligibility criteria",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec3zCs9TVSlD4dIi",
       "recKdhJvNNlricd8z",
       "recMmMip0HGCIypHj",
@@ -1857,7 +1857,7 @@
       "recLPQnirhJsocp3I",
       "rec5SnzUFg44Derqr"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1906,7 +1906,7 @@
     ],
     "name": "Identify critical rural transit gaps with local governments",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recE5TEW9x4q8pnDC",
       "rechE8egS3kNZIKUB",
       "rec4stLGHAgWciodx",
@@ -1916,7 +1916,7 @@
       "rec3wbqCakBxcLyhe",
       "recFsqGGuOQIZuTtW"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -1965,7 +1965,7 @@
     ],
     "name": "Develop audit protocol in consultation with state agencies",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recowzSQo6KS3kqIL",
       "recSXfgTwM00PM9v2",
       "recrtApYJ4NoOkIuv",
@@ -1975,7 +1975,7 @@
       "recT9hijfl2gJVf5G",
       "recH5ZY5Kbh4cNCkB"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2024,7 +2024,7 @@
     ],
     "name": "Map current renewal workflows and identify overlap",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recxCyHta7tBHeOVr",
       "recUaNS7IbUOLd95x",
       "recJQsogWYM35GOrr",
@@ -2034,7 +2034,7 @@
       "recavOeJAB2F5TARW",
       "reclrnSQKfYoKgAtI"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2083,7 +2083,7 @@
     ],
     "name": "Finalize list of eligible healthy food items for incentives",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec4vU88lpEvHMCdc",
       "recFYumfm7VpwMx7v",
       "recjPzBkTPWSCUlcL",
@@ -2093,7 +2093,7 @@
       "rec1CkRNVh9VamvBr",
       "recVYrWFMAEb6kSiG"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2142,7 +2142,7 @@
     ],
     "name": "Identify and recruit local leaders from diverse jurisdictions",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec2L5dRxKOQMeEYT",
       "recSgAsg0FPCUNvlF",
       "recJspV9mwIpbuoR2",
@@ -2152,7 +2152,7 @@
       "recnorruAETX6PjnP",
       "rec0G3ZKoztufKGO0"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2201,7 +2201,7 @@
     ],
     "name": "Identify overlapping reporting requirements across major grant programs",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recB0nHkJQ2A1AaZ6",
       "recA5mxXw205R3WoW",
       "recUk2FYbhQ3KTNei",
@@ -2211,7 +2211,7 @@
       "rec6Ivf6L3Js0BY1z",
       "rec3nKnjUTC7dael5"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2260,7 +2260,7 @@
     ],
     "name": "Define outcome metrics in consultation with grantees and HUD staff",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rectRrMIaRoVmHEQu",
       "reclrkfqXSMdvmO8M",
       "recaEfMVcvIXYLCAG",
@@ -2270,7 +2270,7 @@
       "recAu35x11GODKoXF",
       "recJIgmVO040sGAtq"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2319,7 +2319,7 @@
     ],
     "name": "Define eligibility criteria and safeguards for fast-track status",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recKFmTmhUHyaFGy4",
       "rec0nvEXgPvKMMFDs",
       "rec723CvFQ5VRBA1Q",
@@ -2329,7 +2329,7 @@
       "recRYDXxIxvYzjkk4",
       "receUpaiBElXMcD2r"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2378,7 +2378,7 @@
     ],
     "name": "Audit existing forms for complexity and usability",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recPQUlvLRKItBZTs",
       "recFisyJX4z3fhNrk",
       "recRdzm7OvgcI9Jxo",
@@ -2388,7 +2388,7 @@
       "rec7L6KW7PgCFqOpI",
       "recOJLV2xO3XJo6oA"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2437,7 +2437,7 @@
     ],
     "name": "Identify key content needs through local partner interviews",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recW2ytbWK3M25DZK",
       "reco5kxastEhTlWen",
       "recNonuB5Wzyx4RBG",
@@ -2447,7 +2447,7 @@
       "rec0bmNIKDQo9TBtb",
       "recdR89h5JGWKmtEV"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2496,7 +2496,7 @@
     ],
     "name": "Map current housing application workflow and identify referral points",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec3Q1XnQ4XgcW3Y3",
       "recpbO5HwP4qNQmU4",
       "recWglzbQVmt5beFj",
@@ -2506,7 +2506,7 @@
       "recug74Un7Wwzz576",
       "recm3ml00BiFW8dYA"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2555,7 +2555,7 @@
     ],
     "name": "Identify long-term participants and assess readiness for transition",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec0IOG9OofGGHV01",
       "recvocKojjms5GSMf",
       "recyvcWld6wrVpiVK",
@@ -2565,7 +2565,7 @@
       "recKiw9lDT3IP14oY",
       "recAKG4M2hgsQJHS1"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2614,7 +2614,7 @@
     ],
     "name": "Design pilot structure and define eligibility criteria",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recmPGUJPlmkRX19E",
       "recGgDOQhRkzqEJTr",
       "recFj18Xci4KHOjwQ",
@@ -2624,7 +2624,7 @@
       "recGoFkcD6KsluK1N",
       "recDkDENwfM0trE65"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2673,7 +2673,7 @@
     ],
     "name": "Identify consolidation opportunities in high-cost lease markets",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec9WfDCQtQVco2yB",
       "recmgg5eymbJ2GunP",
       "recaCJVJbSHFGvDOv",
@@ -2683,7 +2683,7 @@
       "recCzy5lLXHJ3T6wH",
       "recS6wb2nU3MTz5Ai"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2732,7 +2732,7 @@
     ],
     "name": "Define criteria for small asset eligibility and streamline requirements",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recVRyllBVZmBHKyq",
       "recGjXjO55ErgvIzc",
       "recm1HieYjjf6zBbA",
@@ -2742,7 +2742,7 @@
       "recsvLYQxlGlySsUs",
       "rechwjZ576MFVyBjR"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2791,7 +2791,7 @@
     ],
     "name": "Define key energy metrics and integrate existing building data",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recUgC6vIDJk4G13n",
       "recL0WiITV4Rzrmq1",
       "recO0p00C9jlJWFoZ",
@@ -2801,7 +2801,7 @@
       "recIz4KnhpoA4CJnU",
       "rec0iO9CEdwWipQIy"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2850,7 +2850,7 @@
     ],
     "name": "dentify core procurement data sources across agencies",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec2yb1Q0u6B1IwRL",
       "recbgLVXC832bZWKu",
       "recVAHoeWtEiG3kij",
@@ -2860,7 +2860,7 @@
       "recFKPdjk9tX5KowX",
       "rec9hlIj0ktSXVoi1"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2909,7 +2909,7 @@
     ],
     "name": "Develop training curriculum on ethical purchasing and fraud prevention",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec7yiDmcwVuFN9So",
       "recnwV8sDJlaCmGjl",
       "recObP6r1HddAFlOS",
@@ -2919,7 +2919,7 @@
       "recWT8FMX0IImZZFX",
       "reckhhf5AGwL6US43"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -2968,7 +2968,7 @@
     ],
     "name": "Gather input from procurement officers on shared purchasing needs",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reczfv8KAP7DxXMtC",
       "recBUUVag3Azf1eC6",
       "reclqAdkU6lhA4j02",
@@ -2978,7 +2978,7 @@
       "recwHBzC7ceIhhsrc",
       "recCkefeTmWKgOayt"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3027,7 +3027,7 @@
     ],
     "name": "Convene interagency working group to draft AI governance standards",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recx9fSUywuwJnP8Y",
       "recmimwpdvfqIPMm9",
       "recn4Q2ikrY3zEdKc",
@@ -3037,7 +3037,7 @@
       "recUgJvdAttBaujxd",
       "rec6iffcgAi7L9399"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3086,7 +3086,7 @@
     ],
     "name": "Identify high-volume workflows suitable for automation",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recKx9QC7XE6xXUqj",
       "recnKK9WsBLL6Xaf1",
       "recUoeRPDt5hkoE7A",
@@ -3096,7 +3096,7 @@
       "recC6rukQ79zitQ80",
       "recTVYE88cAQoeQzv"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3145,7 +3145,7 @@
     ],
     "name": "Analyze agency operational data to identify high-cost processes",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recEbP0PMN6J1b01p",
       "recAUV2fh93xIkeIx",
       "recgPVY0VastFWxCW",
@@ -3155,7 +3155,7 @@
       "rec7OqbYSwSYXWspL",
       "rec8roBxIwCaJutE7"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3204,7 +3204,7 @@
     ],
     "name": "Inventory current permitting and certification requirements across USDA programs",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recgzQ9hn5so37gup",
       "recXcdgk3VnRC5aKH",
       "recEkRujaPJcND3tQ",
@@ -3214,7 +3214,7 @@
       "rec0BGMLe32jdO6H4",
       "recMWvUtyctvPJiwh"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3263,7 +3263,7 @@
     ],
     "name": "Identify priority states and finalize partnership agreements",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recGwP1Q44axcbYuz",
       "recCmNAHmGftgcD9Z",
       "recE2RO3dkazuQFWW",
@@ -3273,7 +3273,7 @@
       "recQXzEaX07s1wzM3",
       "recnTs6FeBgegG3eD"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3322,7 +3322,7 @@
     ],
     "name": "Identify processing delays in current claims workflow",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recGJe0QYGWQog10l",
       "recd3vcSr4U5k30lT",
       "recIgs9YDtczjEgix",
@@ -3332,7 +3332,7 @@
       "recqgZPdPlhjbcp9E",
       "recQL4KWIIWFJ13mk"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3381,7 +3381,7 @@
     ],
     "name": "Define data sources and finalize broadband coverage criteria",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recugpXqVHN4HvBac",
       "recDf5hXRKAe5NK44",
       "rec9awFDSO4cQi6nB",
@@ -3391,7 +3391,7 @@
       "rechcuhBB4IzkRkq5",
       "recE2L2IzMyddNHVd"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3440,7 +3440,7 @@
     ],
     "name": "Develop core training curriculum with regional input",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recPZTWNqrpqsjUXH",
       "recaYvBvOSlti4fNU",
       "recrhky5dJYobfY6U",
@@ -3450,7 +3450,7 @@
       "recSLPAY99IQDPb6y",
       "recGyp8DHmUU1EIbX"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3499,7 +3499,7 @@
     ],
     "name": "Design challenge framework and secure private-sector partners",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recJfA3Dwmgdsu4rj",
       "recIn4CjAPdgKXH46",
       "reclTC9pukEDn4XsW",
@@ -3509,7 +3509,7 @@
       "recWP3Ya4YMTrc4oj",
       "recbYKSmJtpjHCRUK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3558,7 +3558,7 @@
     ],
     "name": "Define data fields and access protocols for national database",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec8TtoXxhmbuwe8X",
       "recO6WZ2bGCQUAMIf",
       "recXdYVPlQTRJuIuq",
@@ -3568,7 +3568,7 @@
       "recTAbO4WFDnZLjuD",
       "recM2avusw1Nefyq2"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3617,7 +3617,7 @@
     ],
     "name": "Gather input from school nutrition directors on common NSLP challenges",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recGz90kmE8nSGKk3",
       "recC6w6BSGxZpppnR",
       "rec9Jnsp0FUxNW7oe",
@@ -3627,7 +3627,7 @@
       "recU88leHtllW1QeQ",
       "rec6m6xXmrbu0vZCE"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3676,7 +3676,7 @@
     ],
     "name": "Design case management framework with local input",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec2b9sbJcUCR6CAC",
       "recAC8Ck5ythNVGgR",
       "recprxrZeT9BwyIfA",
@@ -3686,7 +3686,7 @@
       "recBf3df16Tl8lnht",
       "reckyzbEfSwggZ9gJ"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3735,7 +3735,7 @@
     ],
     "name": "Develop training curriculum with input from local housing administrators",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rechUKKGE8P2ugjnS",
       "recqSDBsk8z3hpfwG",
       "recmn6hkifGJcDU5v",
@@ -3745,7 +3745,7 @@
       "recLBZ2aXtfOBJ734",
       "rec44o0mM2UzBn6hh"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3794,7 +3794,7 @@
     ],
     "name": "Review and revise compliance requirements with grantee feedback",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec3hXxj2Q8bb0NsN",
       "recAbxPu8RK6EQDKE",
       "reczknyi82Yz0qf9E",
@@ -3804,7 +3804,7 @@
       "recaSy8UfDTcrBpLA",
       "recXZJBYzkT9UIwHE"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3853,7 +3853,7 @@
     ],
     "name": "Select pilot sites and define outcome-based contract terms",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recFuqXnjrjrDZY06",
       "receJ2L1aEVN0EbsY",
       "recUJV6gjvO8v87Cd",
@@ -3863,7 +3863,7 @@
       "reclUU8IBYjMGL4CJ",
       "recCxNKyecgf5OWLK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3912,7 +3912,7 @@
     ],
     "name": "Map current application processes and identify high-friction steps",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reclMboutVI5498Uq",
       "rectDIC35Yh9uDO4Z",
       "recXT8yivYvVwmGlN",
@@ -3922,7 +3922,7 @@
       "rec0cpcV4WOHoQ8UP",
       "rec7ebdFrE4xSX2rS"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -3971,7 +3971,7 @@
     ],
     "name": "Review eligibility criteria across major housing programs",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recjG17Y3f2HcOnzC",
       "recTtthi6ZiaHnsAu",
       "recnozeUMfhASKGB7",
@@ -3981,7 +3981,7 @@
       "rect4SDhePKEdn2h4",
       "recSHLWu4dST6RnCH"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4030,7 +4030,7 @@
     ],
     "name": "Select jurisdictions and co-design flexible implementation models",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recx4u0Uo4imMYu73",
       "recG2qXlP57Zw0BeM",
       "recsoaFIKpu5ZwBIV",
@@ -4040,7 +4040,7 @@
       "rec07En8XTxJvzezd",
       "recAoBMnZKaqEjUsC"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4089,7 +4089,7 @@
     ],
     "name": "Define core employment outcome metrics for housing program participants",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recG9fVlb3whpzpRG",
       "recBDpgNiljWVJAzf",
       "reca0uYxbOgs4Pr3G",
@@ -4099,7 +4099,7 @@
       "recmBTInSnpNCNB7U",
       "rechl2W3WYK3sIvl8"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4148,7 +4148,7 @@
     ],
     "name": "Collect data on families who exited assistance in past 3 years",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recyc4KCgzWIjzYF2",
       "receHzRm5oV6i5ldJ",
       "recRBdY3h0hIVXCBo",
@@ -4158,7 +4158,7 @@
       "recJWE9g0q3wJ6WtQ",
       "reclxTpMwcrEmj7AG"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4207,7 +4207,7 @@
     ],
     "name": "Identify core progress metrics and gather input from local agencies",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recCoXoX5QxUnpbMa",
       "receIGBFwERE5Hp2w",
       "recO0pLacwUtQrgb6",
@@ -4217,7 +4217,7 @@
       "recG5XlDKtBgQLrE8",
       "recuSJfGZQwHq5be4"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4266,7 +4266,7 @@
     ],
     "name": "Gather best practices from federal and private-sector space management",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recBuObOSnLRPPVkY",
       "recPrPZ0SywdvVbSP",
       "rec4cubr1JpSphOlS",
@@ -4276,7 +4276,7 @@
       "recKxdyLZJMgtVD16",
       "recQp01zFNW0lqsAE"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4325,7 +4325,7 @@
     ],
     "name": "Identify local government partners and prioritize surplus property targets",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec2UZr21p8bPUJln",
       "recfe1X2YjsJgsQdl",
       "recM12096I4IUz0S0",
@@ -4335,7 +4335,7 @@
       "recr0yhSs1UcA9rzU",
       "recB3qc74uVNKNkgZ"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4384,7 +4384,7 @@
     ],
     "name": "Identify top 10 highest-cost facilities and assess maintenance gaps",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec23Q9My7Kj7722g",
       "recrmKnzVX7fk3imH",
       "recbaPnRKkcDpgqMm",
@@ -4394,7 +4394,7 @@
       "recoHBfqmVld4I3DF",
       "recXm5u5GqcIFPN8Y"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4443,7 +4443,7 @@
     ],
     "name": "Conduct agency survey to identify barriers to GWAC adoption",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reckrr1gMuSAqAi1c",
       "reculcg0iGASsc6uj",
       "reclfi5nY1Ghc9ATT",
@@ -4453,7 +4453,7 @@
       "recbkx4ZlealaK1An",
       "recFeL7uMs0ApQW8T"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4502,7 +4502,7 @@
     ],
     "name": "Identify top high-risk categories based on contract value and vendor history",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recFPrhkxVjbZMxhC",
       "recrCNnJnoV6VYTqi",
       "rec1bLcYHurKmp62t",
@@ -4512,7 +4512,7 @@
       "recsku0CJc6LhPIpj",
       "recsCaHpSFZoog8P2"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4561,7 +4561,7 @@
     ],
     "name": "Select pilot agencies and target categories for bulk purchasing",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recF7TZpTyS1utldq",
       "recfLQmUmaOq8eO2a",
       "recwGOCcduIK0nqND",
@@ -4571,7 +4571,7 @@
       "recc6sr0wZFi9ucs8",
       "recijo8qWjOvSWRFD"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4620,7 +4620,7 @@
     ],
     "name": "Announce accelerator program and recruit agency project teams",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recAPBD9Ka9aOHTxA",
       "recryAoVsBEpnVYt1",
       "recPnTQMeevhxrqNg",
@@ -4630,7 +4630,7 @@
       "recZx1pTlZdNZ7yR4",
       "rec49QuaEe5iu2GoE"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4679,7 +4679,7 @@
     ],
     "name": "Identify contact centers with long wait times or repetitive inquiries",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recFazDWFWH7OU5TZ",
       "recjfqENMcsT4qOYn",
       "rec0IMkThNdCRAzCb",
@@ -4689,7 +4689,7 @@
       "recAXuPkcpopEi2rg",
       "reclov4cVgo0LNImB"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4738,7 +4738,7 @@
     ],
     "name": "Aggregate pilot outcomes and cost savings data",
     "sequence": 1,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recrarssIAILtUtR2",
       "recb36fOWHT9ibZgw",
       "recBMZmuMLnwHYQZR",
@@ -4748,7 +4748,7 @@
       "recXcCCR9xndS7Z4P",
       "recldLsEInMDRYRBy"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4797,7 +4797,7 @@
     ],
     "name": "Draft and publish proposed rule changes for public comment",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec7yKzUTEAEtt0iH",
       "recXGdPBkt981ONca",
       "recFnKlzChXJRHBwE",
@@ -4807,7 +4807,7 @@
       "recuhIise8PRgVVS2",
       "recQWValzBfvQmwNT"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4856,7 +4856,7 @@
     ],
     "name": "Coordinate delegations and conduct promotional events abroad",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec0EOVC1mcO3VFkD",
       "recCYqveHYPvSVPfd",
       "rec5UPKq0eIzN6WxG",
@@ -4866,7 +4866,7 @@
       "rechznAAwN5xNcIpI",
       "reciO8SQRinVapfh9"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4915,7 +4915,7 @@
     ],
     "name": "Develop and test new digital application and tracking platform",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recqhcmrv4lAocJ9H",
       "recmPbyObrlPFDD3a",
       "rec1I21rUgd71bz5K",
@@ -4925,7 +4925,7 @@
       "recO9IF6bxVB5Do8Y",
       "recE2JJZt8okOpCOc"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -4974,7 +4974,7 @@
     ],
     "name": "Award first round of grants and begin deployment monitoring",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recSnbNxHANw09eee",
       "rec0GPbyyIVlEupvG",
       "recQwRcH56C2oEJ3n",
@@ -4984,7 +4984,7 @@
       "recAptWnHrB5IlMfm",
       "recZw4lKMnjf50rcM"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5033,7 +5033,7 @@
     ],
     "name": "Approve and disburse first round of microloans",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec2jowzWK5ZbZHNq",
       "recVd79nBLKXEvK3s",
       "recFBPwbTNKBpKpNK",
@@ -5043,7 +5043,7 @@
       "recvNyBPPIQ1Wi8cJ",
       "reczod2x5jpMCaOLQ"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5092,7 +5092,7 @@
     ],
     "name": "Begin construction on priority water/wastewater upgrades",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recxTkGuGEodgnAOo",
       "recTJZ5xmz9NZVhk5",
       "recG1rDyXDfxVSZjv",
@@ -5102,7 +5102,7 @@
       "recPyUQeKMGOSbqli",
       "recMStQ2TpELD5dcW"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5151,7 +5151,7 @@
     ],
     "name": "Pilot real-time detection in two high-volume states",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recr1NmFQ5cLw5FSu",
       "recaKGuNpdAhSJy2y",
       "rec7nhSfZBk1ifxa5",
@@ -5161,7 +5161,7 @@
       "recWtvdqdaQaZxnqS",
       "recZ00sOZxHQIi704"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5210,7 +5210,7 @@
     ],
     "name": "Build mobile-first prototype with simplified forms",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recRf73dVO008b7PI",
       "recLITlVZ115wXcLM",
       "recYpSxQ9nRm3rGY3",
@@ -5220,7 +5220,7 @@
       "rec3rn0kibvylhetY",
       "rectE5nlRIzyaUFXq"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5269,7 +5269,7 @@
     ],
     "name": "Update referral system to include job training and health options",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recTs3dwz99OlhL10",
       "recrOtDx5rfc32kop",
       "recVtqDrmhHsK6YfI",
@@ -5279,7 +5279,7 @@
       "recuhJVpDBe4zl9D1",
       "recN4YBy46lbSna6g"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5328,7 +5328,7 @@
     ],
     "name": "Publish updated waiver guidance and eligibility criteria",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recndF1KQVWZ4NmWA",
       "recV8sSmZnDhSqSUC",
       "recQ2MZE4cumS01yw",
@@ -5338,7 +5338,7 @@
       "rec0WGpwM4rLB4Kyt",
       "recGBxJMoDkCZOQKn"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5387,7 +5387,7 @@
     ],
     "name": "Publish list of high-priority rules for reform",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec0tpmNjlC1jYIoy",
       "recwZ9RhpeXHZlAeH",
       "recELZnhulD4Brb9m",
@@ -5397,7 +5397,7 @@
       "rec0U5d42f3LkhiuL",
       "recg2MZJew7RaJXpe"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5446,7 +5446,7 @@
     ],
     "name": "Propose new formula structures tied to key performance indicators",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recRj9e4MDigpjY04",
       "rec5YjPc4RyT9NNBA",
       "recpgfo746XOcuKV1",
@@ -5456,7 +5456,7 @@
       "recF99fc3VRWrzoTV",
       "rec2tdPuAClLdyZdo"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5505,7 +5505,7 @@
     ],
     "name": "Build automated screening tool prototype",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recHnaO7dtkQjYYTz",
       "recYgqW71ohrMI8Bn",
       "recgqKg6bKLNpncpf",
@@ -5515,7 +5515,7 @@
       "recmTFZf1g8L2U6cR",
       "rec3BLRroWVRnP7TE"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5564,7 +5564,7 @@
     ],
     "name": "Propose rule changes and open public comment period",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recMvDA33WT9Inek0",
       "recJc3cQ0W1veWrBd",
       "reczAI3HTkBoRd6CA",
@@ -5574,7 +5574,7 @@
       "rec0sY8Ef8XCJJnCu",
       "rec0AD6VnXTuh97xp"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5623,7 +5623,7 @@
     ],
     "name": "Build self-service prototypes for eligibility checks and reporting",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recDia7VFG26kcJxg",
       "recCo1HNQss70cV1A",
       "reckRBHu60T4ddk3k",
@@ -5633,7 +5633,7 @@
       "recKhvHqM2uQbZO9o",
       "rectPUMk7GaYg7PJk"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5682,7 +5682,7 @@
     ],
     "name": "Formalize MOUs with providers in pilot communities",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec0e2Nk0sFuRE2SF",
       "recr78UH6mobS7sVb",
       "recqrEO8vXx2rvgh5",
@@ -5692,7 +5692,7 @@
       "recc5OciggZnschOD",
       "recA3FI4zjAwLOpfu"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5741,7 +5741,7 @@
     ],
     "name": "Enroll participants and begin delivering coordinated services",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recKZh3HxN86wiF4d",
       "rec6oRM8MD0D5Ip12",
       "recRNVdyEhJACNyiT",
@@ -5751,7 +5751,7 @@
       "recYhkf6SgLCOihTl",
       "recomdurD2q0luhr6"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5800,7 +5800,7 @@
     ],
     "name": "Draft and publish updated rules for public comment",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recw9VVpLRnxmTrYP",
       "recvHj4P9mCRutAUe",
       "recdMdB4kRBlz5aDi",
@@ -5810,7 +5810,7 @@
       "recmd8sj8u1N5Nvnk",
       "recB90NywpHyfusNg"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5859,7 +5859,7 @@
     ],
     "name": "Analyze trends and identify underused properties by agency and location",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recG5klOuJpdbIx9J",
       "recUbNnMkWRU7l0wg",
       "recQulAgs6dJkU840",
@@ -5869,7 +5869,7 @@
       "recfIVxOgQNKIiGr3",
       "recYmAogrcWG6BxWP"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5918,7 +5918,7 @@
     ],
     "name": "Redesign process using automation and reduced review layers",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recROFeDoY3rGNxWA",
       "rec75zXLkat5tDl4x",
       "recHAO5kYGpFEHg2c",
@@ -5928,7 +5928,7 @@
       "recHm7nxwnj9fPahF",
       "recTrjNiS4CewYOpq"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -5977,7 +5977,7 @@
     ],
     "name": "Select vendors and initiate phased equipment replacement",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recPqNN8C7RdB0LNA",
       "recRdrphwh70WQjvS",
       "recEowolDQ7fqJpPx",
@@ -5987,7 +5987,7 @@
       "rec6GTQtJHkJsyGmJ",
       "recSs3lSHCgk726g7"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6036,7 +6036,7 @@
     ],
     "name": "Convene kickoff meeting and establish working groups",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recOehWrYIqmcOEry",
       "recpXlIj5zklZerE1",
       "rec0vo40UPZbnlSdV",
@@ -6046,7 +6046,7 @@
       "recGfJ45b5CDO66xl",
       "recS40YjdUNVLbZiz"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6095,7 +6095,7 @@
     ],
     "name": "Pilot AI monitoring across select agencies or categories",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec98KM3K6eziXqac",
       "rec5CIbmyi2Q1c3iO",
       "recYrZMsC3lS2pWTA",
@@ -6105,7 +6105,7 @@
       "recZVXE8eqROinZ6P",
       "rec6j0kcLUnylbNfd"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6154,7 +6154,7 @@
     ],
     "name": "Validate category selection with agency input",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec00QhoUyNj0wcxY",
       "reckeCV1FEM6lNkpz",
       "recDjLdjpmQiDvQaE",
@@ -6164,7 +6164,7 @@
       "recM30tv0oDc9vtGs",
       "recyKG704MbiYhpFu"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6213,7 +6213,7 @@
     ],
     "name": "Build and test AI platform for shared use across select agencies",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recwK5RBWNenbdxxs",
       "recY9dQ2Xbg4rL5fM",
       "recCx7yFbVWHLNH6E",
@@ -6223,7 +6223,7 @@
       "recCeQ3iq0Wh1YKZS",
       "rectM7m3jXrWFlvEq"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6272,7 +6272,7 @@
     ],
     "name": "Design and train AI chatbots for key use cases",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recidtENXOghDrGGW",
       "rec3r4yv4Dl6v7scF",
       "reckuiTm1S6Er1ScG",
@@ -6282,7 +6282,7 @@
       "recfDxvF0GQuds8eW",
       "rec0COjqYPfUyT2GH"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6331,7 +6331,7 @@
     ],
     "name": "Deploy AI tools and begin controlled testing",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec1qLKoUUpN4ys6V",
       "recjWXqCq1kg8icjs",
       "recdddY4TZGPIQzet",
@@ -6341,7 +6341,7 @@
       "recOnshCCYhpsWKf0",
       "recPDRjnKFgiSoAWa"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6390,7 +6390,7 @@
     ],
     "name": "Publish a list of priority reform recommendations",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec1B0SozmsRxT4TQ",
       "recwiVMfquDQtXSAp",
       "recvr9kxXZG0WshVl",
@@ -6400,7 +6400,7 @@
       "recFCp8zqRvfKfnGN",
       "recLa0q2Avw7QBQoI"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6449,7 +6449,7 @@
     ],
     "name": "Award new round of market access grants to specialty crop applicants",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recVB6RIBkdqTFGJs",
       "recKfnd7fkhxc5JB2",
       "recBGICAcZ1GqtmAb",
@@ -6459,7 +6459,7 @@
       "recFsCCriXsOGu55A",
       "recV2hKif1AdDZpKo"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6508,7 +6508,7 @@
     ],
     "name": "Host regional workshops and virtual info sessions",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recXjCoWOY1xXzlVr",
       "recJJZFjrwQms8Kx6",
       "recnVMqnA6raD6wyM",
@@ -6518,7 +6518,7 @@
       "recA7N7oeeapiROHD",
       "recfZO0pIPXUeUrAS"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6567,7 +6567,7 @@
     ],
     "name": "Begin construction on initial fiber expansion zones",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recXigLsqRR2GC86t",
       "reciJexMzhpdwQWsc",
       "recbu1m9tHvhxB3W1",
@@ -6577,7 +6577,7 @@
       "recEp9AHPSfmZnKH4",
       "rec5XQn8RUD7uzbiu"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6626,7 +6626,7 @@
     ],
     "name": "Select grantees and distribute startup funding",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec09w4dRE5xr8hBz",
       "recpcg13OTC3bsCOi",
       "recwSk9XSepg7caK4",
@@ -6636,7 +6636,7 @@
       "recIN9BjrsmrtN6p5",
       "recEC0ysgSpZeWK6O"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6685,7 +6685,7 @@
     ],
     "name": "Award contracts for design and construction",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recdwtQt27ZtWOklI",
       "recrOYtvIofvZVUnH",
       "recpMWmkCpMg6tgZQ",
@@ -6695,7 +6695,7 @@
       "recXpkYwuJuEMegMy",
       "recGMqc6A9W6E9o4D"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6744,7 +6744,7 @@
     ],
     "name": "Train auditors and distribute audit toolkits",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec30Nha4hJbhqQNU",
       "recK6iir0rzcALNHM",
       "recy6xhwLPPtltcKf",
@@ -6754,7 +6754,7 @@
       "recXyPleeuiu7GRTY",
       "recuF81S1QtVka3Yx"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6803,7 +6803,7 @@
     ],
     "name": "Pilot single renewal form for multiple USDA benefit programs",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recrmoZI0XcwEzj7G",
       "recg1ZutosPksOFje",
       "reczNPtdJHxwVJaLq",
@@ -6813,7 +6813,7 @@
       "recVS24Mqldh2DCCu",
       "recpuWB0CBnQqVpBo"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6862,7 +6862,7 @@
     ],
     "name": "Implement point-of-sale integration with major retailers",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recFgiSR9OmXeKVJC",
       "recXmiBVmGnlRo2OC",
       "recwMKGQ88cCue1IU",
@@ -6872,7 +6872,7 @@
       "recMRpZSaQ1KctVKM",
       "recQM7tVTWR7a8vq1"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6921,7 +6921,7 @@
     ],
     "name": "Convene first council meeting and set annual priorities",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recZ5q8TxxJyqe9TN",
       "recEJNMVu7N2Fk510",
       "recwyRQ1KoJMn2ZpN",
@@ -6931,7 +6931,7 @@
       "recKwuLZxLgKhYqMS",
       "recBcLGWPx2fBYxKK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -6980,7 +6980,7 @@
     ],
     "name": "Propose consolidated reporting framework for pilot implementation",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recFGchy4gqO81Hy1",
       "recyyl5EaErghSpEJ",
       "recW0A3vEF5AV9MBa",
@@ -6990,7 +6990,7 @@
       "recJCLdNBFnLxPUVo",
       "rec8lRq7liXtpPsB5"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7039,7 +7039,7 @@
     ],
     "name": "Build draft framework and test in select grant programs",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recofaYvnw3vi5mwO",
       "rec1nX2O7mBhthgaJ",
       "rec9Q9q9843KHi6w5",
@@ -7049,7 +7049,7 @@
       "recncKnBGk8qNOcw4",
       "recQz91fYAWtG7U4S"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7098,7 +7098,7 @@
     ],
     "name": "Launch pilot in high-demand jurisdictions",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec9OfNQRfXEl20xf",
       "recJHkUsRQVwUOVi8",
       "receRrjKkVcXbjioi",
@@ -7108,7 +7108,7 @@
       "rec51CwhxSTh5W1WN",
       "recECILCipGXz6mwH"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7157,7 +7157,7 @@
     ],
     "name": "Redesign top-used forms using plain language and visual formatting",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rectEbBibarEp6pN9",
       "recyZOUlHuL66NYXj",
       "recage5XVXRXGqo2R",
@@ -7167,7 +7167,7 @@
       "recqVzFKFXnpSIDw0",
       "recdxWSzGt1LSd9zq"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7216,7 +7216,7 @@
     ],
     "name": "Develop and test resource hub prototype",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "receXTDHPcgDrhIgi",
       "recN5oBLGlvnZW13C",
       "recpoT0fXkupJxPoR",
@@ -7226,7 +7226,7 @@
       "recWOVZ0nlQqZwrbY",
       "recYLFccQbZNccb2R"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7275,7 +7275,7 @@
     ],
     "name": "Update systems to include workforce referral prompts and links",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recKut8jOVddKrq0E",
       "recnRT0rCj0oIrYuS",
       "reciVw1iol1vtpAa8",
@@ -7285,7 +7285,7 @@
       "recRN3l3VNkIgKyDa",
       "recBHwThMY9PXEAKU"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7334,7 +7334,7 @@
     ],
     "name": "Create individualized transition plans with local service providers",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec365oQrDNikR3u8",
       "recjsNU0bDeFAgyhG",
       "rec4l6qRIJdWIdsL5",
@@ -7344,7 +7344,7 @@
       "recQlLuZzqKNqyzJj",
       "recHrKPorUL17sRAt"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7393,7 +7393,7 @@
     ],
     "name": "Enroll participants and begin incentive tracking",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reciPfU2fQ8jfVfyE",
       "recVkhk5iUsEvExBO",
       "recoI5Geo7Q51vNd5",
@@ -7403,7 +7403,7 @@
       "recEH4EtWaVuSDM5L",
       "reciIhebm4xAoDkpY"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7452,7 +7452,7 @@
     ],
     "name": "Finalize relocation plans and notify affected agencies",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec4ZtlQlkGSRNbvh",
       "recOVdroYUkFOtJnc",
       "recMqSWVldTfr00ct",
@@ -7462,7 +7462,7 @@
       "recgZqg8k4iylfYkE",
       "recE7yvVcTGauFiRm"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7511,7 +7511,7 @@
     ],
     "name": "Launch pilot program in select regions with high asset volume",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recLWBUvENdK3YlVX",
       "recV5FSYga12w7d6v",
       "recVq1dT3cBvDtuvT",
@@ -7521,7 +7521,7 @@
       "rec0UfpNir50SfmQ4",
       "recvZp1YwYLNvlC2v"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7570,7 +7570,7 @@
     ],
     "name": "Build and test dashboard interface with pilot sites",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reczdiyMi9JX9dd5B",
       "recgVecdi12J6ZbXq",
       "rec1CqiVyfa7sfkEb",
@@ -7580,7 +7580,7 @@
       "recCOtbH66nN1xEbS",
       "recKmalP38X7AC6CD"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7629,7 +7629,7 @@
     ],
     "name": "Design and test centralized data hub architecture",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recY5orFyBhprCphx",
       "rec4ImyCYJ3HDvps6",
       "recvKP8vUg4qYUIV3",
@@ -7639,7 +7639,7 @@
       "rec2Gvd7BnUWyWG4L",
       "rec155PRDzu6xebYD"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7688,7 +7688,7 @@
     ],
     "name": "Deliver training to procurement staff across all GSA regions",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "receKhJGbb7Hbh4BI",
       "recAg5nEIavOjppSx",
       "recHvBJiItW86jRx0",
@@ -7698,7 +7698,7 @@
       "recasYYw9RpTsdJuz",
       "rec365QALUiL3vyZ7"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7747,7 +7747,7 @@
     ],
     "name": "Design and test purchasing templates and digital tools",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recfLzarKKCwmt9Dj",
       "recqTGM944sPqFAgY",
       "recZOFd8A3aFf52oE",
@@ -7757,7 +7757,7 @@
       "recgnH41ti11ufN5D",
       "recC6fb7pkRgKUVCO"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7806,7 +7806,7 @@
     ],
     "name": "Publish draft playbook and gather agency feedback",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec95n7opUikKd2hn",
       "recfttIuDcCtX8uwb",
       "recn855mnlvl5VMeD",
@@ -7816,7 +7816,7 @@
       "recmrZOXyeSpXzf83",
       "recNW9bkcKPbZaO2A"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7865,7 +7865,7 @@
     ],
     "name": "Build and test automated intake and triage system",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recndJG1OSZYASF4j",
       "recQ8yHoNq7l6RF9A",
       "recLSDf2l52TuMviW",
@@ -7875,7 +7875,7 @@
       "recV8LE7VS75V2r1r",
       "rec2DTsSdK0AyqPbn"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7924,7 +7924,7 @@
     ],
     "name": "Prioritize top 5 cost drivers with highest automation potential",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recRZam5eHsyrrUh2",
       "recPnVXaBT8tRueoJ",
       "recYD7IWsMxwcUqzi",
@@ -7934,7 +7934,7 @@
       "receNkloLiUIZKCTO",
       "rech4r1V6UG82Qiue"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -7983,7 +7983,7 @@
     ],
     "name": "Build and test digital permitting and certification platform",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recms81Bco1Orib53",
       "rec38tCbaRdD8Q8hW",
       "recjsy5FYrDCZCy9p",
@@ -7993,7 +7993,7 @@
       "reccvGrLgn5ZHJkPW",
       "recFHbPs5MUv0lt7P"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8042,7 +8042,7 @@
     ],
     "name": "Launch regional export hubs with technical assistance and outreach services",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recuIVc1QpC1mlLs9",
       "recLC4Ql9pRoPt9o3",
       "recF1mAdDkOx4w6oR",
@@ -8052,7 +8052,7 @@
       "recYdBoPD9ClYTCmH",
       "recpV2ckfUoZOLqMK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8101,7 +8101,7 @@
     ],
     "name": "Implement automation tools in two pilot states",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recaS95TqBV2aAnsf",
       "recLy8JCKLno9poB0",
       "recQ8EcoZky51HVaI",
@@ -8111,7 +8111,7 @@
       "recxootYqEjqRYd4y",
       "recpr3y5HXxv93evv"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8160,7 +8160,7 @@
     ],
     "name": "Build prototype mapping tool and conduct initial gap analysis",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recCsT9vfcK1oix77",
       "recX1bft6XPIJryVW",
       "receULrzfoUWrUcji",
@@ -8170,7 +8170,7 @@
       "recEgCAyPbLMGvzq9",
       "recgijpDnVSLafPDE"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8219,7 +8219,7 @@
     ],
     "name": "Launch workshops in partnership with extension offices",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recTP6afD4Wl7sHcE",
       "recKkZhKGqMgqH7Br",
       "recZ7X1MPoDn3httz",
@@ -8229,7 +8229,7 @@
       "reccVKvUMe9oGBPRJ",
       "rec0PyDsQ940XehBT"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8278,7 +8278,7 @@
     ],
     "name": "Open application window and promote to eligible communities",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recVzh4ezH48HrJag",
       "rec4KTs9bqB1E1P1S",
       "recw0L5sntZZe6AyE",
@@ -8288,7 +8288,7 @@
       "rec5HimH5qcPmhVon",
       "recj08LcsponExFdT"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8337,7 +8337,7 @@
     ],
     "name": "Integrate initial data feeds from state partners",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec2LEhl2f3K2yuGl",
       "rec2ejvK4J2xP7W96",
       "recrkfXRw2rR9kN1L",
@@ -8347,7 +8347,7 @@
       "reczXZUG7FXEysaCH",
       "recULCoLkzg8Sloo9"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8396,7 +8396,7 @@
     ],
     "name": "Create clear implementation guidance and compliance checklists for schools",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recmm3rsXCF0ybDl9",
       "recv4wpEXuDiPEghe",
       "recgJLudIa4ZzwQc8",
@@ -8406,7 +8406,7 @@
       "recJ01PvxDl0Ubhke",
       "rechErzT5ccxEXZaG"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8455,7 +8455,7 @@
     ],
     "name": "Train pilot site staff and begin enrolling participants",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reckmRpdR1USqgh6K",
       "recXSQephteF8OIyA",
       "reckZmHVNqt31Zujy",
@@ -8465,7 +8465,7 @@
       "rechXPbDEIKYseEzO",
       "recFbp4jvGIl2AOsc"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8514,7 +8514,7 @@
     ],
     "name": "Host training sessions online and in priority regions",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recRwQCzDgWN2Uw7b",
       "rec3MwVeN7bgsXXEh",
       "recVFANCL66jHCFP2",
@@ -8524,7 +8524,7 @@
       "recDCgO5g5eg9yE7k",
       "recSwR2WP0eeZjeDo"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8573,7 +8573,7 @@
     ],
     "name": "Redesign checklist tools using plain language and visual cues",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recjPFHeUonUxjRAr",
       "recchtmITpE508SlR",
       "rec9E5ITQwEvdxFbh",
@@ -8583,7 +8583,7 @@
       "recCdcasX83plWpy1",
       "recoNQfI8exRl6pll"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8632,7 +8632,7 @@
     ],
     "name": "Execute contracts and begin tracking service delivery and results",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recwLa3p10ad5BNk8",
       "rec9M0ypl5nArJkui",
       "rec26DFCY8mO4jbc8",
@@ -8642,7 +8642,7 @@
       "recDJ2931MV8bG8zI",
       "recIB7g1PgChSIvuE"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8691,7 +8691,7 @@
     ],
     "name": "Design and test streamlined workflow in collaboration with local offices",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec5tBHu2697fGZxv",
       "recaiP5Ep3aYdbFWG",
       "rec4DQFXhX5nB2yfs",
@@ -8701,7 +8701,7 @@
       "recUyfgLWzCduJI2u",
       "recu1XTEHf2lq2jiB"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8750,7 +8750,7 @@
     ],
     "name": "Draft revised criteria with input from local agencies",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recT3HsgEEkS3sGpM",
       "recVPLI6M0Tk1wFum",
       "recodXfHP123cYqW5",
@@ -8760,7 +8760,7 @@
       "rec7PB3B4fqMqzb9a",
       "recX6TGyNboLms83l"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8809,7 +8809,7 @@
     ],
     "name": "Launch pilot programs with ongoing technical assistance",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recxYvw1SmHqWliId",
       "receArUcnk6rppEhH",
       "rec7bY0hyrqHu4ZuO",
@@ -8819,7 +8819,7 @@
       "recqCGUW5kyp3RHvR",
       "recHOhqKBsuRJosn1"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8868,7 +8868,7 @@
     ],
     "name": "Establish secure data-sharing agreements with workforce agencies",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recSteOWXDWPuEsUg",
       "recZINCgFtClWe5XX",
       "recBe1fdy6J1Vzh8L",
@@ -8878,7 +8878,7 @@
       "rec2UvSNTLlAOJKrD",
       "recf7j5wQuKlXI1Cv"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8927,7 +8927,7 @@
     ],
     "name": "Identify common challenges to sustained housing stability",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec5rQwEu48Qku8q2",
       "recljX0k0bXtFY156",
       "recZaSGoTYuERGzAE",
@@ -8937,7 +8937,7 @@
       "recFlXtSaXoPrQ8wx",
       "recIAJ8BaPBwZ7Off"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -8986,7 +8986,7 @@
     ],
     "name": "Design and test tracking tool in pilot communities",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recIMUoY028pQdnCO",
       "reclt0tvaQY8P9J5g",
       "recPkk9VGFmhUIO20",
@@ -8996,7 +8996,7 @@
       "recOO1WoaeW5gndTN",
       "receW6aKnLGqFUe9Z"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9045,7 +9045,7 @@
     ],
     "name": "Draft and test playbook with pilot agencies",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recDb38hVjDpygi9i",
       "recqogZ26LsYrP4XG",
       "recTWfCJb18aXkRbS",
@@ -9055,7 +9055,7 @@
       "recqjKrfJwHLCRa5s",
       "rec0dLVmZUaaKVs60"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9104,7 +9104,7 @@
     ],
     "name": "Develop agreements outlining reuse conditions and timelines",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recGqf9Xs4Ydwslhg",
       "reckozk4SafOoXDL7",
       "recKRcMs6sY9oQkqN",
@@ -9114,7 +9114,7 @@
       "rechHydoWx9v4xXHD",
       "recB2vwdwf6nSsbV3"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9163,7 +9163,7 @@
     ],
     "name": "Implement preventive maintenance schedules at pilot locations",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recuTVtOLSP8UAFis",
       "recS2cwoGE6T1hdgD",
       "recgOyngO7QJJCmpz",
@@ -9173,7 +9173,7 @@
       "recqHTEI6IQBM21Rx",
       "rechFnbpkgE6KmHBo"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9222,7 +9222,7 @@
     ],
     "name": "Launch outreach campaign and guidance for contracting officers",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recwII23NV9uEZhMW",
       "recSzXTZhJ0kHJS0u",
       "recP8RSSlWT25js3H",
@@ -9232,7 +9232,7 @@
       "recAUnFtgFcRNsFiH",
       "rec6oFzwetywaCVnC"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9281,7 +9281,7 @@
     ],
     "name": "Conduct targeted audits and document key findings",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reczxCgbFGEfMRooZ",
       "recicfeYWEdI3oO3p",
       "recKt72torSMIzojP",
@@ -9291,7 +9291,7 @@
       "recB0UXmyKmsBXQB3",
       "recyq3GXZTFvHxRCr"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9340,7 +9340,7 @@
     ],
     "name": "Negotiate agreements and initiate bulk orders",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recATqlAmm6jk5521",
       "recvLgmMtOKveBijN",
       "recv4ZcBzi0kgRUAs",
@@ -9350,7 +9350,7 @@
       "recmfnKub6Wsmuij1",
       "recjjbpUUN0LGVP7p"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9399,7 +9399,7 @@
     ],
     "name": "Deliver workshops and hands-on support for AI project development",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reckSlZVswW0Zzg3E",
       "recMPv0ArPYlSAILr",
       "recxK9toAVGcsO9Ge",
@@ -9409,7 +9409,7 @@
       "recBSx57MRMYf9dJ8",
       "reckLbBS5NCYP6wIV"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9458,7 +9458,7 @@
     ],
     "name": "Implement AI tools to assist agents and route inquiries",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recCbHVT6QKtxcrDI",
       "recoq7UWObprombSw",
       "recRsRA9ZwlTLgiWL",
@@ -9468,7 +9468,7 @@
       "recdQvTJVzcpVIoZd",
       "recFaHMhH6OfR6L73"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9517,7 +9517,7 @@
     ],
     "name": "Draft report with performance highlights and implementation insights",
     "sequence": 2,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recGimGHtY18XMzhL",
       "recXu8BWv020HDdXB",
       "rec1ky7Or6wenJI3s",
@@ -9527,7 +9527,7 @@
       "recDHuNRF2tbw4Rj8",
       "rec7UOK7rrba0CZBT"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9576,7 +9576,7 @@
     ],
     "name": "Finalize repeal of selected requirements and notify stakeholders",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recKkG7NF9jiA4zyl",
       "recWJVlPPxsHX6SvX",
       "recdxpn2ZUzPjXJEo",
@@ -9586,7 +9586,7 @@
       "recBBDs9g9iU2Z9sB",
       "recNgJwij0o84lIUh"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9635,7 +9635,7 @@
     ],
     "name": "Publish summary of deals and partnerships secured through trade missions",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recdMSjculREvrtBc",
       "recjz8EM9ZRsdpDXT",
       "reczPTVzczaDPyBeJ",
@@ -9645,7 +9645,7 @@
       "recuAi9RjDobSqkTm",
       "recJHKwxvb2VbcuqL"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9694,7 +9694,7 @@
     ],
     "name": "Launch system nationally and provide onboarding to field offices",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recUqKw31ZyWsKWnu",
       "recONbAy1kzQN6ziy",
       "recXpLUIEr2rtg2iZ",
@@ -9704,7 +9704,7 @@
       "recV12E5q8xkIRDtS",
       "recfYToDtmdhuko7K"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9753,7 +9753,7 @@
     ],
     "name": "Evaluate early outcomes and adjust program criteria as needed",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec5N5gMOEVdhw91g",
       "recADs8gEIYuaJvAF",
       "recmSgS6Zfh1e4qRU",
@@ -9763,7 +9763,7 @@
       "recFiHx8LmE0WnKXX",
       "reccPRSupTBLH9Igl"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9812,7 +9812,7 @@
     ],
     "name": "Track repayment and business growth among loan recipients",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recyPLbgKX5HRasjh",
       "rec4F94POJr0XhCKW",
       "recDUQawKo86520HH",
@@ -9822,7 +9822,7 @@
       "recdxwwlLzW6Rsejl",
       "recZOBunQ2N4Q6N3M"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9871,7 +9871,7 @@
     ],
     "name": "Finalize system modernization in initial round of communities",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recFqbyUIz0oxlHsh",
       "recQQUu8vPLN6Shtk",
       "rec5i2t35Gfy1a9Uq",
@@ -9881,7 +9881,7 @@
       "recnGGsyOFGUka0R2",
       "recfaBi3CEx9Bxn8n"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9930,7 +9930,7 @@
     ],
     "name": "Expand implementation to all participating benefit platforms",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recCzSjfkWMCWOfqz",
       "recAIh9VrNcIm3XWY",
       "recQdOcvSS8mOTySy",
@@ -9940,7 +9940,7 @@
       "recfbV8RpnwqgyeuQ",
       "recBIj0SZnzCcbRdb"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -9989,7 +9989,7 @@
     ],
     "name": "Launch updated portal and monitor mobile traffic and usage",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recI1H3JTENMdXZPh",
       "recgxsB9VmufnBAG1",
       "recuBMqbfdVyK6izl",
@@ -9999,7 +9999,7 @@
       "recCw3s1TQ5siTsxD",
       "recf8GymP2hGXyZNQ"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10048,7 +10048,7 @@
     ],
     "name": "Launch integrated referral pilot in selected states",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recXMEqhtUcZYHJEZ",
       "recjJ3Jw7gBT9gOe1",
       "rec6954hvKCeXzJDz",
@@ -10058,7 +10058,7 @@
       "recXpAeTz4JLSdUa9",
       "recGSoyVafd9E6QlR"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10107,7 +10107,7 @@
     ],
     "name": "Approve first round of expanded waivers and track implementation outcomes",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec6AuaLQbry585Jb",
       "rec5P5RIgk3tq0bYi",
       "rec6oFoPDsTTQ3pNG",
@@ -10117,7 +10117,7 @@
       "recdOdjPU1y9VsgZn",
       "receNQpB9X5yzgJAs"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10166,7 +10166,7 @@
     ],
     "name": "Draft and circulate proposed changes for public comment",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec9JhWJZZImC2l65",
       "recQZKKXNCsP2xIS4",
       "reczgkWfx3Fz3bWLw",
@@ -10176,7 +10176,7 @@
       "reco0ZbfuH0GbVPpi",
       "reclqTzUZSASPNmYH"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10225,7 +10225,7 @@
     ],
     "name": "Finalize changes and implement in next grant cycle",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recAIZDJHOWSdUK9b",
       "recwenpy094CFrRhM",
       "recvSem0xnBsSijyc",
@@ -10235,7 +10235,7 @@
       "recFgTdNHOZRQgIRE",
       "rec6YBDPNQZYBQDKh"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10284,7 +10284,7 @@
     ],
     "name": "Pilot tool in select programs and assess impact on processing time",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recYvjhqADnWedmyc",
       "recXl2ftvC43Rctbk",
       "rec4al7YJCxe8UhvY",
@@ -10294,7 +10294,7 @@
       "recADm7FjsHrWwjSl",
       "recoAwZ1iaTSwNutQ"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10343,7 +10343,7 @@
     ],
     "name": "Finalize updated regulations and notify grantees",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec0elPO85jGNC8AF",
       "recLh6IlcUcmxvbBs",
       "recw2MDMjCtpyxoXn",
@@ -10353,7 +10353,7 @@
       "recvSVgFbcwjCrrNn",
       "recxGFPqRap8mlCsL"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10402,7 +10402,7 @@
     ],
     "name": "Deploy tools and collect feedback on usability and impact",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec3F3ZImMK1WanKr",
       "recSVKoMff8yYwPlx",
       "recRrTLyD01gzqsx8",
@@ -10412,7 +10412,7 @@
       "recVf7Zrk6Kff5vsY",
       "reck3Z7zmji9aUyO2"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10461,7 +10461,7 @@
     ],
     "name": "Launch referral pathways and track initial participation",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recjCVda5Lmaz1vJB",
       "recjD44i8mylK2rPr",
       "recDcNaY6bGvII8ox",
@@ -10471,7 +10471,7 @@
       "recX7C8vhx30nysod",
       "recXMqGc3mNymjzP8"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10520,7 +10520,7 @@
     ],
     "name": "Evaluate pilot impact on household outcomes and duration of assistance",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recRtA8KmfvYFWw66",
       "rec3QvTf7Tv6YK8g9",
       "recqEpDK21r3unWTj",
@@ -10530,7 +10530,7 @@
       "recfK6Sx3f6cZ1cRv",
       "rec1AFqTDqvwicJjl"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10579,7 +10579,7 @@
     ],
     "name": "Finalize rule changes and provide implementation guidance to grantees",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recziEP6x3fOrVHrJ",
       "reck7xbskit27C3QF",
       "recwy8s9gND4rNTZS",
@@ -10589,7 +10589,7 @@
       "recuQqywVsH6nIO3a",
       "recYua8WHAG5wxFBf"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10638,7 +10638,7 @@
     ],
     "name": "Publish findings and share recommendations with agency stakeholders",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recWiY7uXr9MJC00B",
       "rec9Sp4FpKhnAdtV6",
       "recDEfdahvvz3pHgV",
@@ -10648,7 +10648,7 @@
       "recSNs6C5IwiOpVdC",
       "recb5604cXaAqj9MC"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10697,7 +10697,7 @@
     ],
     "name": "Launch updated workflow and train regional disposal teams",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recrsdUFMbaVb5X5q",
       "rec8FSSU0n8WJyA7D",
       "recB30pNOL1Shjbl2",
@@ -10707,7 +10707,7 @@
       "recnej9uu3qqicCud",
       "recJnDBEeKHLmn83B"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10756,7 +10756,7 @@
     ],
     "name": "Complete upgrades and monitor energy savings",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recdK3pYaPL30u5Rw",
       "reciZ1fnPUEGtXXXP",
       "recN63etEE4aeoar1",
@@ -10766,7 +10766,7 @@
       "reclUCvL81mc2wUjZ",
       "recFnWyn0GFsQ02fn"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10815,7 +10815,7 @@
     ],
     "name": "Deliver initial recommendations to streamline cross-agency purchasing",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recUo87VHLG4bM107",
       "recgiSaj1Ug9pKshO",
       "recXCH4ueWS8GZgg5",
@@ -10825,7 +10825,7 @@
       "rec1Bj7trycRJgHJ6",
       "recbZLhzIJ3N5lE9C"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10874,7 +10874,7 @@
     ],
     "name": "Refine system based on pilot results and scale implementation",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recfP4R3AP9sScWtg",
       "recQagdrEUwrABTSR",
       "recspNxxOki5nEA8V",
@@ -10884,7 +10884,7 @@
       "recbe59Tp55qWrIKy",
       "recTVVUVYfAxT8auT"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10933,7 +10933,7 @@
     ],
     "name": "Finalize and publish top 10 list with standardization guidance",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recUMj2HvWSl3G5sz",
       "recJrrdm87i7cvKPW",
       "recvc28lAHwfNjMDE",
@@ -10943,7 +10943,7 @@
       "recxiFUNsJWzAMy6O",
       "rec8bOVONd4lVLOqx"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -10992,7 +10992,7 @@
     ],
     "name": "Launch platform with onboarding support for early adopters",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recrRkDMWORX7a2yc",
       "recMo7OgHU8FjXcym",
       "recLPupHliO2kOWiF",
@@ -11002,7 +11002,7 @@
       "reczaHhfuKuW5eISh",
       "reclxUhVurS5YXS9L"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11051,7 +11051,7 @@
     ],
     "name": "Launch chatbots and measure resolution rates and user satisfaction",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reclxZD9ToLTRC7Id",
       "recTCwe7izlDNnDyG",
       "recj6jdoV49J4i7zf",
@@ -11061,7 +11061,7 @@
       "receBKf5XxfQVsAoV",
       "recfsYf52coeUsI5D"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11110,7 +11110,7 @@
     ],
     "name": "Collect feedback and refine workflows based on pilot performance",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recLXsN6vkGEwDQLC",
       "recVgTt4rNNzC9t1S",
       "recOdY2LLT2mVQy3k",
@@ -11120,7 +11120,7 @@
       "receevbgsmr5G8t8N",
       "recYFpEFuOayDtC7r"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11169,7 +11169,7 @@
     ],
     "name": "Begin implementation of approved regulatory changes",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec9ObqzI4a2IBd3b",
       "recD8VMp3S5NlLbaP",
       "recCMEdYgAn1Y9PKj",
@@ -11179,7 +11179,7 @@
       "rec8DwpRzTjA6Hj5c",
       "recVfoS3kMgrJUZ8y"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11228,7 +11228,7 @@
     ],
     "name": "Collect and report on export outcomes from funded projects",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recVTFjoh2FPNT1oN",
       "recR3ZOfGexaX2y0Y",
       "recUpb0ZqtTJ2luXu",
@@ -11238,7 +11238,7 @@
       "recr3U0C2GkIBCF8J",
       "recuACzmDtK69nbc5"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11287,7 +11287,7 @@
     ],
     "name": "Track enrollment growth and adjust strategy based on participation trends",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recIcJJvNweuo7jHr",
       "recDvpgZt1jCXBG0B",
       "recBO3CXiJdoS8QXC",
@@ -11297,7 +11297,7 @@
       "rec1zhiIX324smxH6",
       "recSJXeUmwy9SJnF5"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11346,7 +11346,7 @@
     ],
     "name": "Complete infrastructure buildout in first wave of rural regions",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recVN8t4Q456faQCC",
       "recYU1V5wPycd5K3w",
       "recPtQ4rr7c5DGBKp",
@@ -11356,7 +11356,7 @@
       "recy3YtXFz8avnhPJ",
       "recOFXxIYEvIks47e"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11405,7 +11405,7 @@
     ],
     "name": "Evaluate incubator performance and share success stories",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reccOWydR3JzWZAPC",
       "reclLhKAQWrvQMtvI",
       "receitm1rbATHreVa",
@@ -11415,7 +11415,7 @@
       "rectlBx7o1bYgjsfP",
       "rechWanBEqfbfyat0"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11464,7 +11464,7 @@
     ],
     "name": "Open completed routes and track early usage data",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recS1dNE9P9tZz5uI",
       "recFxQemLIvRYL00n",
       "recjAck35HPSXFk9R",
@@ -11474,7 +11474,7 @@
       "recOA8Gm2MuSpm7Sa",
       "recM0Ei3DKuv8srV8"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11523,7 +11523,7 @@
     ],
     "name": "Conduct baseline audits and report findings to USDA leadership",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recF2hEoKIYOR3pEH",
       "recxZXZPMbUemJJDx",
       "rec0Nrf30KoBVT99O",
@@ -11533,7 +11533,7 @@
       "recR0vggZASMG8i1U",
       "recuwp2tKeXF4MCdK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11582,7 +11582,7 @@
     ],
     "name": "Roll out streamlined process nationwide",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recwxfKYYvCHhTUEJ",
       "recKLF4N3QJnFyLve",
       "rec43BboZSGAuyKaC",
@@ -11592,7 +11592,7 @@
       "recAnKydbgxrXf7sh",
       "reck4fbSBqmRORCSa"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11641,7 +11641,7 @@
     ],
     "name": "Track usage and satisfaction among SNAP participants",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recIiJkOdfCEAkGDU",
       "receLcSBXXzKQPDd9",
       "rec6C6RE98xAkZBXU",
@@ -11651,7 +11651,7 @@
       "recTkCh1OVsuXwm1j",
       "rec4045pOrTszRFiW"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11700,7 +11700,7 @@
     ],
     "name": "Deliver initial set of recommendations to inform HUD program design",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec1rAhBs8PqlMn8p",
       "recN2ppKbwpE0Pq2W",
       "recMwcg0bs2wzA5ct",
@@ -11710,7 +11710,7 @@
       "recRmb2BajyYymqr5",
       "recwDWiH0Y58tuRXK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11759,7 +11759,7 @@
     ],
     "name": "Launch updated reporting structure and monitor grantee burden reduction",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recIuZYYZ9dpnODgV",
       "recel1aAz1IdaTrbI",
       "recOqooyPX76y2C7B",
@@ -11769,7 +11769,7 @@
       "recwu3fs26xzN8w2N",
       "rec0xZVge4rCeToWt"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11818,7 +11818,7 @@
     ],
     "name": "Finalize and release evaluation framework for wider adoption",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec6HqgTRz8jGk5b2",
       "recNXVAU96KhLZp8P",
       "recy64sPv8TrFPeNQ",
@@ -11828,7 +11828,7 @@
       "reczVFF3a0fPUvNZf",
       "recDWq7YBtg791WZI"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11877,7 +11877,7 @@
     ],
     "name": "Measure approval time reduction and applicant outcomes",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reclwT90Q9ITFFH8C",
       "recSB0jFwn01sY7Lf",
       "reczGdC8GJnQFDpYH",
@@ -11887,7 +11887,7 @@
       "rec9Zo0E5hIFa7jjY",
       "rec89YYGCFZjO5nwR"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11936,7 +11936,7 @@
     ],
     "name": "Distribute new forms and gather feedback from applicants and administrators",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reclWMyvGJ8pupqZT",
       "rec0Jvv1sc3ziV3JY",
       "rec6lByhgZQkWE5me",
@@ -11946,7 +11946,7 @@
       "recdRxB4RDAhkSupA",
       "recl0FTm3GV6O7xhv"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -11995,7 +11995,7 @@
     ],
     "name": "Launch hub and onboard local housing agencies",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recnubI2ETDp0RDcG",
       "recdpFYrpQLxrriQB",
       "recUD4WsiVUr3nUvh",
@@ -12005,7 +12005,7 @@
       "recZJdCXSwmcvmSsu",
       "recaAVTZmMKdVeD7s"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12054,7 +12054,7 @@
     ],
     "name": "Train housing staff on referral process and monitor referral rates",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recg0Q1zIr05cvVaj",
       "rec6qwHCyXp5Qhfo1",
       "rectNAIkBOd82rKxu",
@@ -12064,7 +12064,7 @@
       "recmtaM3jgHBs1km2",
       "recNi46nhUOo6Ne3p"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12113,7 +12113,7 @@
     ],
     "name": "Begin implementation and track progress toward housing independence",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recDYDn9NSvkRfufw",
       "recQbSlSWw9tD4XT4",
       "recY8ZAXu7Devi8aD",
@@ -12123,7 +12123,7 @@
       "receBrwLHz9XYzEjt",
       "recHk5wQdK2LqX59l"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12172,7 +12172,7 @@
     ],
     "name": "Evaluate pilot results and report on household progress",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recWdqb8eNuvubNVE",
       "reclRkM1y7dH1bHeU",
       "recZTGyAgypknRMoD",
@@ -12182,7 +12182,7 @@
       "recv2KuGN1rTPzUtm",
       "recL2SGK9fThlhFnK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12231,7 +12231,7 @@
     ],
     "name": "Execute lease terminations and complete physical consolidations",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recEn1UWxBDr3KOwI",
       "recTS5KwNz5sNvIjL",
       "rec0mWP9khrCumRu2",
@@ -12241,7 +12241,7 @@
       "recftVhXG4SNBv1FH",
       "rec1e1z32T3kCOI8j"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12290,7 +12290,7 @@
     ],
     "name": "Evaluate outcomes and expand program to additional regions",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rectxKDj2JQcyxd77",
       "recRNlsrFhX2JDkp4",
       "recWhjzj6n9KD4GqV",
@@ -12300,7 +12300,7 @@
       "recTOSjE4GV8w2rGl",
       "recfQNyUbHd1F6gTS"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12349,7 +12349,7 @@
     ],
     "name": "Launch dashboards agencywide and provide training for facility managers",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recCHUBk6PsS98O7D",
       "rec1vmz3T04o2JjG6",
       "recjAXkDj2bf6IkOi",
@@ -12359,7 +12359,7 @@
       "recnPfbzQAxtNBl24",
       "rec7MwxsIGXuZBzJP"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12408,7 +12408,7 @@
     ],
     "name": "Launch hub with dashboards and agency-specific access tools",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recPzgKkL2LaslxzM",
       "rechJYTHsz0nDEqi9",
       "rec6YQFejSHFAPiIB",
@@ -12418,7 +12418,7 @@
       "recGdfTyWnVRU8TpZ",
       "rec0cxJMOczJEGjC3"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12467,7 +12467,7 @@
     ],
     "name": "Track participation and evaluate pre/post knowledge gains",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recglrpmsY6lLM4yP",
       "reczp5fpexlb0F6M1",
       "recRQWhvsWutNpOdu",
@@ -12477,7 +12477,7 @@
       "reczwUV27W92myM4e",
       "rec6jTM8JswCaUS5E"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12526,7 +12526,7 @@
     ],
     "name": "Publish toolkit and train agency buyers on shared purchasing practices",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recd7eq3D79TcQUOz",
       "recOg2qNEp6PpWXt7",
       "reckhhXFduobslBT6",
@@ -12536,7 +12536,7 @@
       "rec5uAWks2KNK9nr5",
       "rec0kJa0dK1tsV9ZX"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12585,7 +12585,7 @@
     ],
     "name": "Finalize and distribute playbook with implementation support materials",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec6oLAytsSRZm8vT",
       "recBMhekGHuDGVL2V",
       "recBwLd9OTU1Ti6d5",
@@ -12595,7 +12595,7 @@
       "recI1Q9yuTiMGsKKu",
       "rec5nRYBTwvMRNzv6"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12644,7 +12644,7 @@
     ],
     "name": "Deploy system and monitor impact on response times",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec4OE7J3WpfHzU4Y",
       "recmGcCd5WtMMpBSB",
       "recCq9xJF3iuOyHKg",
@@ -12654,7 +12654,7 @@
       "rec7uDy85CgHbYgWg",
       "recaV4DZrcdUmbSdb"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12703,7 +12703,7 @@
     ],
     "name": "Share prioritized list with pilot agencies for proposal development",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recXopYd7JMliBY4Z",
       "recKLk3fKIQnCMe10",
       "recjVefSI8m6pogW0",
@@ -12713,7 +12713,7 @@
       "recS439IyMr5MWoPo",
       "recfH51FNaFHpQRMK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12762,7 +12762,7 @@
     ],
     "name": "Launch platform and train producers on streamlined digital process",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recBOHSsZvEvDEMBP",
       "recsGgZmIKFqSb85C",
       "rec5ppGlqnUHx1Vgp",
@@ -12772,7 +12772,7 @@
       "rec2gQihAr5LjyHjq",
       "recHDDjdiVgLyL2PP"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12821,7 +12821,7 @@
     ],
     "name": "Track producer participation and export volume growth",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recheQgfOsr0bg7lY",
       "recnCUeso8dZJrdwg",
       "recsnmFnNJrTsM9ZZ",
@@ -12831,7 +12831,7 @@
       "recKkciDc4bawZrOe",
       "recx8AhUjy4TGtzOl"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12880,7 +12880,7 @@
     ],
     "name": "Scale automation nationwide and monitor reduction in average payment time",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recE6BKBqWmVypAsJ",
       "recaFkZFbVb7gEBbb",
       "recf4JbPZ3C7lz6Bj",
@@ -12890,7 +12890,7 @@
       "recXVsvPsiVwH5f54",
       "rec7Oa2nzrEDi6yqP"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12939,7 +12939,7 @@
     ],
     "name": "Launch public-facing dashboard with refined broadband data",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recMbNNNrbYFHHqbu",
       "recAwfW4R6AJVjtFk",
       "recDQhdXu8QhEum2S",
@@ -12949,7 +12949,7 @@
       "rec6Kzl4WWiX3QRg4",
       "recUGDXNyFRI7aICL"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -12998,7 +12998,7 @@
     ],
     "name": "Collect feedback and publish participation and impact summary",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recRBHLsHHKoGTVHR",
       "recVP0jpmkGNo5QDw",
       "recR5Gj2xIvrzAhCR",
@@ -13008,7 +13008,7 @@
       "recQwHvD4rJCzqMGY",
       "recaJTGBuSuTPRB29"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13057,7 +13057,7 @@
     ],
     "name": "Select winning projects and announce funding commitments",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recBjN55Y1CpHsP2H",
       "recgtTVooIwVJaoGE",
       "rec3q4yDQtxkxmuX7",
@@ -13067,7 +13067,7 @@
       "rec2wA1l2RC90asWt",
       "rec7TKh0s9U58gRLb"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13116,7 +13116,7 @@
     ],
     "name": "Launch database and begin standard reporting",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recmMDTsLYd0CsfFv",
       "recXGENIckSIa13h6",
       "recByjeNEzhvkratL",
@@ -13126,7 +13126,7 @@
       "recwACFeRKlbdYCWz",
       "recepJznP5OCQyjeM"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13175,7 +13175,7 @@
     ],
     "name": "Launch digital NSLP support toolkit before start of school year",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recz3r3oUPlMYWLBe",
       "recLK6rFTxGJ27NuH",
       "recdsSur7Edujs13L",
@@ -13185,7 +13185,7 @@
       "rec59oLWZS2ALgGGl",
       "reczWzFytoWLyED9S"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13234,7 +13234,7 @@
     ],
     "name": "Assess impact on employment and benefit reduction rates",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "reczGfZhDbCfeRpom",
       "recR7Gzo2pMcrHDwr",
       "rect2xrvbyUgosRB1",
@@ -13244,7 +13244,7 @@
       "recQ0i6cWPRhcfKNJ",
       "recSzJWlFfBkRPyxQ"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13293,7 +13293,7 @@
     ],
     "name": "Collect feedback and update training materials for ongoing use",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recWdkFtVI19VfXCs",
       "recK3ROg9JoCylX8h",
       "rec9PuhUcULaRIKTb",
@@ -13303,7 +13303,7 @@
       "recHqGFj37iBd2Y3b",
       "recuBkCzAqhgPih1P"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13352,7 +13352,7 @@
     ],
     "name": "Distribute simplified checklists and provide training webinars",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec6bkCBeBvrNMekl",
       "recokzgCad1SCVdDi",
       "reca2cPzBi7HZyeoR",
@@ -13362,7 +13362,7 @@
       "recVUYRa9O1GpE9fl",
       "rec1k9Cxd7BXjrNGp"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13411,7 +13411,7 @@
     ],
     "name": "Evaluate performance and share lessons learned with stakeholders",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rechu4dkcHRHWj4a6",
       "recsxDdrIPcS6Z9bO",
       "rec3Mi7Qr2Sx5WxHX",
@@ -13421,7 +13421,7 @@
       "recpck8cv2vx0JLIM",
       "rec0vQhYG6nL81bNO"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13470,7 +13470,7 @@
     ],
     "name": "Roll out updated process and monitor impact on approval times",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recBewUetmOE2qMb8",
       "recxPdEQrxBnvZZDh",
       "recJ2iJzZi1PJp07N",
@@ -13480,7 +13480,7 @@
       "reccc9olMutMVLFil",
       "recAWOzkR07MerNpf"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13529,7 +13529,7 @@
     ],
     "name": "Issue updated guidance and begin training staff on new criteria",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec2z1WmSnuROE1pl",
       "rec4qGOTUIiHXnEJi",
       "recruYGo0lgHF4pvc",
@@ -13539,7 +13539,7 @@
       "rec30apT8bbzciiWJ",
       "recyhV7hEHYn7ELSH"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13588,7 +13588,7 @@
     ],
     "name": "Evaluate outcomes and publish recommendations for broader adoption",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recyyaBAGH93BSrb2",
       "recPvfok4XLPHL5Jf",
       "recx8N1jOYfbw0KC6",
@@ -13598,7 +13598,7 @@
       "rec4xVX6whGRaDOGC",
       "recWxzhlvVF9Mckvu"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13647,7 +13647,7 @@
     ],
     "name": "Publish baseline employment data and begin quarterly reporting",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recpG9l3Lg7spTHOy",
       "recnslmbjWVUj20QZ",
       "rec93YsLEtyaoWRLC",
@@ -13657,7 +13657,7 @@
       "rec3lAT4d5JlTBULT",
       "recdbxGMYpZi38Lno"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13706,7 +13706,7 @@
     ],
     "name": "Publish findings and share recommendations with local housing agencies",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recDfjhLCktUjD7WM",
       "recBGxavzSjzTvhXO",
       "recY9MFez4DtRTKDT",
@@ -13716,7 +13716,7 @@
       "rec6nPmW3aeW94nlF",
       "rec63etS26gKi1oV7"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13765,7 +13765,7 @@
     ],
     "name": "Roll out tool with training and support for local housing staff",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recoo88tq0PMGLFF4",
       "rec37twdYx5hyr7cX",
       "recxLTye1qun2UziE",
@@ -13775,7 +13775,7 @@
       "recp2rPR5Tf8ag9Z0",
       "rec5SDPOWMVKNB2AT"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13824,7 +13824,7 @@
     ],
     "name": "Release finalized playbook with training and implementation support",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recIGamvNdZ28SfXa",
       "recbl9UCM0Eab6Sb7",
       "recr8aOMB2ZDDhBgV",
@@ -13834,7 +13834,7 @@
       "recEVsn1UbWfgWqyf",
       "recwl1fTYWPDKnCFN"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13883,7 +13883,7 @@
     ],
     "name": "Transfer properties and provide reuse support as needed",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recjv0hTIG1BFE2O8",
       "recysYvVPHeWjsLsR",
       "recmyzrFPnbVnlWjn",
@@ -13893,7 +13893,7 @@
       "recSEE26q4SGn7gjR",
       "recQTX5ncWCquHfJK"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -13942,7 +13942,7 @@
     ],
     "name": "Evaluate pilot impact on cost savings and operational uptime",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recsKHuuMYFYn4g8C",
       "rec7ekm0j8ifW6Xfu",
       "recypI1zFJ3pXepbr",
@@ -13952,7 +13952,7 @@
       "recDlC1Q7FMR8hKFf",
       "recOzl0WRxxpRyapU"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -14001,7 +14001,7 @@
     ],
     "name": "Track usage trends and publish quarterly adoption report",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recLmUTjgWxa8sahE",
       "recpCiRF9wK28KR4q",
       "recqakLSEFglB9DUP",
@@ -14011,7 +14011,7 @@
       "reckqM1qxQJTohuJq",
       "recSSBKsdWwa3aY23"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -14060,7 +14060,7 @@
     ],
     "name": "Publish summary report with recommended corrective actions",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recdjK5wkyyXZr2lZ",
       "recwVB7yHPlBZpw7I",
       "rec8bTF4DzacHWenA",
@@ -14070,7 +14070,7 @@
       "recZ1E4G8ZxSrGgOE",
       "recBhEDFWlo5LMSDO"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -14119,7 +14119,7 @@
     ],
     "name": "Evaluate savings and satisfaction across participating agencies",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recbfonM3ezecLJ2Y",
       "reci50fU2Ri8jbxBM",
       "recdMTEP9D7y5ivn3",
@@ -14129,7 +14129,7 @@
       "recFNxjaUjVkbAprz",
       "recjKT8YAOyAFM30f"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -14178,7 +14178,7 @@
     ],
     "name": "Showcase completed AI solutions and publish case studies",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "rec7TqOjnArYS5X4s",
       "recT7jKvsXkE94uel",
       "recRcBZTptBQd8j1J",
@@ -14188,7 +14188,7 @@
       "recyShSxMM2pClnA4",
       "rec6y2QTufwjCqDUV"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -14237,7 +14237,7 @@
     ],
     "name": "Evaluate improvements in call resolution time and agent productivity",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recwUIQa2R7276xKc",
       "recrsm3WBe7y7Wadx",
       "recQ5vkREj08PEYsF",
@@ -14247,7 +14247,7 @@
       "recCV6QSetCP0xPZq",
       "rechllZCXFdP2L2Wk"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2027-09-30",
     "previousToMostRecentEndDate": "2027-06-30T00:00:00.000Z",
     "mostRecentMilestoneResult": [
@@ -14296,7 +14296,7 @@
     ],
     "name": "Publish findings and present lessons learned to agency partners",
     "sequence": 3,
-    "milestoneMeasurement": [
+    "milestoneResult": [
       "recOGGHOzEQ4mQmNS",
       "recQDWJ6fpuO5fN5l",
       "recsTz51qoG9hCXb3",
@@ -14306,7 +14306,7 @@
       "recRtgFCbQRtLk3WG",
       "recnCvJPrr5LYQSp2"
     ],
-    "milestoneMeasurementCount": 8,
+    "milestoneResultCount": 8,
     "mostRecentEndDate": "2026-06-30",
     "previousToMostRecentEndDate": "2026-03-31T00:00:00.000Z",
     "mostRecentMilestoneResult": [
