@@ -44,7 +44,7 @@ export const NavbarItem = forwardRef(function NavbarItem(
     // Avatar
     '*:data-[slot=avatar]:-m-0.5 *:data-[slot=avatar]:size-7 *:data-[slot=avatar]:[--avatar-radius:var(--radius-md)] sm:*:data-[slot=avatar]:size-6',
     // Active
-    'data-active:bg-gray-950/5 data-active:*:data-[slot=icon]:fill-gray-950',
+    'data-active:*:data-[slot=icon]:fill-gray-950',
     // Dark mode
   )
 
