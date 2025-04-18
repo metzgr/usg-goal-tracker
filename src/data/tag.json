@@ -5,5 +5,26 @@
     "type": [
       "plain-language"
     ]
+  },
+  {
+    "id": "recfTwUIG6h7Khlbr",
+    "name": "Priority 1",
+    "type": [
+      "pma-priority"
+    ]
+  },
+  {
+    "id": "recpy0KGkEw9vjmeO",
+    "name": "Priority 2",
+    "type": [
+      "pma-priority"
+    ]
+  },
+  {
+    "id": "recyVuwbkKkbOGw24",
+    "name": "Priority 3",
+    "type": [
+      "pma-priority"
+    ]
   }
 ]
