@@ -43,7 +43,7 @@ export default function FiltersBar({
             <div className="grid w-full grid-cols-1">
               <input
                 type="search"
-                placeholder="Search..."
+                placeholder="Search the U.S. government at work"
                 value={searchQuery}
                 onChange={(e) => onSearchChange(e.target.value)}
                 className="col-start-1 row-start-1 block w-full rounded-[3px] bg-gray-50 py-1.5 pr-3 pl-13.5 text-base text-gray-950 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-950 font-bold placeholder:font-bold placeholder:text-[16px] focus:outline-2 focus:-outline-offset-2 focus:outline-gray-600 sm:text-[16px]/6 h-[48px]"
