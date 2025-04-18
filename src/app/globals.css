@@ -181,6 +181,19 @@
   background-color: var(--color-green-700);
 }
 
+/* hide the default one */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* replace it with your own icon */
+input[type="search"]::-webkit-search-cancel-button {
+  background: url('/icons/close.svg') no-repeat center;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
