@@ -9,6 +9,7 @@ import metricResults from "@/data/metricResult.json";
 import plans from "@/data/plan.json";
 import tags from "@/data/tag.json";
 import { ActiveFilters } from "@/components/filters/active-filters";
+import { MetricTable } from "@/components/tables/metric-table";
 
 export default function AnalyzePage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -92,6 +93,7 @@ export default function AnalyzePage() {
         possibleFilters={possibleFilters}
         activeFilters={activeFilters}
         setActiveFilters={setActiveFilters}
+         placeholder="Search U.S. key performance indicators"
       />
       {/* display selected tag pills */}
       <ActiveFilters
@@ -100,9 +102,8 @@ export default function AnalyzePage() {
         resultCount={displayedMetrics.length}
       />
 
-      <main className="bg-[#F5F5F5] py-12 px-6">
-          <SunburstChart data={hierarchyData} />
-
+      <main className="bg-[#F5F5F5] py-12 px-4">
+          <MetricTable metrics={displayedMetrics} />
       </main>
     </div>
   );

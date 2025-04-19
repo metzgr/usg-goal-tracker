@@ -71,19 +71,18 @@ function DropdownButton({ label, value, onClick, icon }: { label: string; value:
   )
 }
 
-function FilterButton({ onClick, showDot }: { onClick: () => void; showDot?: boolean }) {
+function FilterButton({ onClick }: { onClick: () => void }) {
   return (
+    <div className="relative flex items-stretch h-[48px]">
     <button
       data-slot="button"
       onClick={onClick}
-      className="inline-flex items-center gap-x-1.5 h-[48px] rounded-[3px] px-[28px] py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 relative"
+      className="inline-flex items-center gap-x-1.5 rounded-[3px] px-[28px] py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 relative"
     >
       <img src="/icons/filter-icon.svg" alt="Filter" className="h-5 w-5" />
       Filters
-      {showDot && (
-        <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full" />
-      )}
     </button>
+    </div>
   );
 }
 
