@@ -8,6 +8,7 @@ import metrics from "@/data/metric.json";
 import metricResults from "@/data/metricResult.json";
 import plans from "@/data/plan.json";
 import tags from "@/data/tag.json";
+import { ActiveFilters } from "@/components/filters/active-filters";
 
 export default function AnalyzePage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -91,6 +92,12 @@ export default function AnalyzePage() {
         possibleFilters={possibleFilters}
         activeFilters={activeFilters}
         setActiveFilters={setActiveFilters}
+      />
+      {/* display selected tag pills */}
+      <ActiveFilters
+        activeFilters={activeFilters}
+        setActiveFilters={setActiveFilters}
+        resultCount={displayedMetrics.length}
       />
 
       <main className="bg-[#F5F5F5] py-12 px-6">
