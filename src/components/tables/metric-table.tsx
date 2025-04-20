@@ -1,39 +1,66 @@
+"use client";
+
 import {
-    Table,
-    TableHeader,
-    TableBody,
-    TableRow,
-    TableCell,
-    TableHead,
-    TableCaption,
-  } from "@/components/base/table";
+  Table,
+  TableHeader,
+  TableBody,
+  TableRow,
+  TableCell,
+  TableHead,
+  TableCaption,
+} from "@/components/base/table";
 
-export function MetricTable({ metrics }) {
-    return (
-        <Table>
-            <TableHeader>
-                <TableRow>
-                    <TableHead>Org</TableHead>
+import { Sparkline } from "@/components/charts/sparkline";
 
-                    <TableHead className="">Indicator</TableHead>
-        
-                    <TableHead>Target</TableHead>
-                    <TableHead>Objective</TableHead>
-                </TableRow>
-            </TableHeader>
-            <TableBody>
-                {metrics.map((m) => (
-                    <TableRow key={m.id}>
+import metricResults from "@/data/metricResult.json";
 
-<TableCell>{m.orgAcronym}</TableCell>
-<TableCell>{m.name}</TableCell>
+export function MetricTable({ metrics }: { metrics: any[] }) {
+  return (
+    <Table>
+      <TableCaption>All Metrics</TableCaption>
+      <TableHeader>
+        <TableRow>
+          <TableHead>Org</TableHead>
+          <TableHead>Indicator</TableHead>
+          <TableHead>Target</TableHead>
+          <TableHead>Objective</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        {metrics.map((m) => {
+          // Find all results related to this metric
+          const results = metricResults
+            .filter((r) => r.metric?.[0] === m.id)
+            .sort((a, b) => {
+              // Sort by fiscalYear then fiscalQuarter
+              if (a.fiscalYear === b.fiscalYear) {
+                return Number(a.fiscalQuarter) - Number(b.fiscalQuarter);
+              }
+              return Number(a.fiscalYear) - Number(b.fiscalYear);
+            })
+            .map((r) => ({
+              result: r.result,
+              targetResult: r.targetResult,
+            }));
 
-<TableCell>{m.mostRecentTargetDirection} {m.mostRecentTargetResult}</TableCell>
-                     
-                        <TableCell>{m.objectiveName}</TableCell>
-                    </TableRow>
-                ))}
-            </TableBody>
-        </Table>
-    )
+          return (
+            <TableRow key={m.id}>
+              <TableCell>{m.orgAcronym}</TableCell>
+              <TableCell>{m.name}</TableCell>
+              <TableCell>
+                {results.length > 0 ? (
+                  <div className="relative">
+                    <Sparkline data={results} mostRecentResultTrend={m.mostRecentResultTrend?.[0]} />
+                  </div>
+                ) : (
+                  <span className="text-sm text-gray-500 italic">No data</span>
+                )}
+              </TableCell>
+              <TableCell>{m.objectiveName}</TableCell>
+            </TableRow>
+          );
+        })}
+      </TableBody>
+    </Table>
+  );
 }
