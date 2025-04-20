@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo } from "react";
 import Header from "@/components/custom/header";
 import FiltersBar from "@/components/filters/filters-bar";
 import SunburstChart from "@/components/charts/sunburst-chart";
 import BubbleChart from "@/components/charts/bubble-chart";
+import BumpChart from "@/components/charts/bump-chart";
 import metrics from "@/data/metric.json";
 import metricResults from "@/data/metricResult.json";
 import plans from "@/data/plan.json";
@@ -21,15 +22,8 @@ export default function AnalyzePage() {
   const [sortOption, setSortOption] = useState("Trending");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("Metrics");
-  const [isSticky, setIsSticky] = useState(false);
   const possibleFilters = tags.map((t) => t.name);
   
-  useEffect(() => {
-    const handleScroll = () => setIsSticky(window.scrollY > 0);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   const tabs = [
     { name: "Metrics", count: metrics.length },
     { name: "Projects", count: 0 }, // placeholder for now
@@ -105,10 +99,52 @@ export default function AnalyzePage() {
     return Object.entries(trendCounts).map(([trend, count]) => ({ trend, count }));
   }, [displayedMetrics, resultsByMetric]);
 
+  const bumpChartData = useMemo(() => {
+    const map = new Map<string, { trend: string; date: string; count: number }>();
+
+    for (const res of metricResults) {
+      const id = res.metric?.[0];
+      if (!id || !res.fiscalYear || !res.fiscalQuarter || !res.resultTrend) continue;
+
+      const metric = metrics.find(m => m.id === id);
+      if (!metric) continue;
+
+      const matchesStatus = (metric.plan || []).some(planId => {
+        const plan = plans.find(p => p.id === planId);
+        return plan?.status === statusOption;
+      });
+      if (!matchesStatus) continue;
+
+      const matchesTags =
+        activeFilters.length === 0 ||
+        (metric.tags || []).some(tagId => {
+          const tag = tags.find(t => t.id === tagId);
+          return tag && activeFilters.includes(tag.name);
+        });
+      if (!matchesTags) continue;
+
+      const matchesSearch = metric.name.toLowerCase().includes(searchQuery.toLowerCase());
+      if (!matchesSearch) continue;
+
+      const date = `${res.fiscalYear}-Q${res.fiscalQuarter}`;
+      const key = `${res.resultTrend}__${date}`;
+
+      if (!map.has(key)) {
+        map.set(key, { trend: res.resultTrend, date, count: 1 });
+      } else {
+        map.get(key)!.count += 1;
+      }
+    }
+
+    const result = Array.from(map.values());
+    console.log("bumpChartData", result);
+    return result;
+  }, [searchQuery, statusOption, activeFilters, metricResults, plans, tags, metrics]);
+
   return (
     <div>
       <Header activeItem="Analyze" />
-      <div className={`sticky top-0 z-50 bg-white transition-shadow ${isSticky ? "drop-shadow-sm" : ""}`}>
+
       <FiltersBar
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
@@ -121,7 +157,6 @@ export default function AnalyzePage() {
         setActiveFilters={setActiveFilters}
          placeholder="Search U.S. key performance indicators"
       />
-      </div>
       {/* display selected tag pills */}
       <ActiveFilters
         activeFilters={activeFilters}
@@ -137,7 +172,7 @@ export default function AnalyzePage() {
           
 <div className="grid grid-cols-1 md:grid-cols-3">
 <div className="md:pt-2 bg-white"><Placard><Badge>Status</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><BubbleChart data={bubbleChartData} /></div></Placard></div>
-<div className="md:pt-2 bg-white"><Placard><Badge>Trend</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"></div></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><Badge>Trend</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><BumpChart data={bumpChartData} /></div></Placard></div>
 <div className="md:pt-2 bg-white"><Placard><Badge>Owners</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><SunburstChart data={hierarchyData} /></div></Placard></div>
 </div>
 
