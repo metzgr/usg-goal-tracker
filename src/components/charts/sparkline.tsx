@@ -16,6 +16,8 @@ export function Sparkline({
   mostRecentResultTrend: "Improved" | "Unchanged" | "Worsened";
 }) {
   const ref = useRef<SVGSVGElement | null>(null);
+  let mostRecentIndex = data.length - 1;
+  let mostRecentPoint = data[mostRecentIndex];
 
   useEffect(() => {
     if (!ref.current || !data?.length) return;
@@ -63,7 +65,7 @@ export function Sparkline({
       .datum(data)
       .attr("fill", "none")
       .attr("stroke", actualColor)
-      .attr("stroke-width", 6)
+      .attr("stroke-width", 5)
       .attr("class", "mix-blend-color-burn")
       .attr("d", lineActual)
       .style("opacity", 1);
@@ -73,7 +75,7 @@ export function Sparkline({
       .datum(data)
       .attr("fill", "none")
       .attr("stroke", actualColor)
-      .attr("stroke-width", 2)
+      .attr("stroke-width", 1)
       .attr("class", "actual-line")
       .attr("d", lineActual)
       .style("opacity", 1);
@@ -83,7 +85,7 @@ export function Sparkline({
         .append("path")
         .datum(data)
         .attr("fill", "none")
-        .attr("stroke", "#0A0D12")
+        .attr("stroke", "#535862")
         .attr("stroke-width", 1)
         .attr("stroke-dasharray", "3,2")
         .attr("class", "target-line")
@@ -98,11 +100,20 @@ export function Sparkline({
       .style("pointer-events", "none")
       .style("opacity", 0);
 
+    const lastPoint = data[data.length - 1];
     const hoverDot = svg
       .append("circle")
-      .attr("r", 2.8)
-      .attr("fill", actualColor)
-      .style("opacity", 0);
+      .attr("r", 2.9)
+      .attr("fill", actualColor);
+
+    if (typeof lastPoint.result === "number") {
+      hoverDot
+        .attr("cx", x(data.length - 1))
+        .attr("cy", y(lastPoint.result))
+        .style("opacity", 1);
+    } else {
+      hoverDot.style("opacity", 0);
+    }
 
     svg
       .append("rect")
@@ -147,7 +158,14 @@ export function Sparkline({
       })
       .on("mouseout", function () {
         tooltip.style("opacity", 0);
-        hoverDot.style("opacity", 0);
+        if (mostRecentIndex !== -1 && typeof mostRecentPoint.result === "number") {
+          hoverDot
+            .attr("cx", x(mostRecentIndex))
+            .attr("cy", y(mostRecentPoint.result))
+            .style("opacity", 1);
+        } else {
+          hoverDot.style("opacity", 0);
+        }
       });
   }, [data, mostRecentResultTrend]);
 

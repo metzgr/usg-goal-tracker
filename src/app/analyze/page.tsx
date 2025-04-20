@@ -10,13 +10,21 @@ import plans from "@/data/plan.json";
 import tags from "@/data/tag.json";
 import { ActiveFilters } from "@/components/filters/active-filters";
 import { MetricTable } from "@/components/tables/metric-table";
+import FilterTabs from "@/components/filters/filter-tabs";
+import Placard from "@/components/base/placard";
 
 export default function AnalyzePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [statusOption, setStatusOption] = useState<"Active" | "Inactive">("Active");
   const [sortOption, setSortOption] = useState("Trending");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
+  const [activeTab, setActiveTab] = useState("Metrics");
   const possibleFilters = tags.map((t) => t.name);
+  
+  const tabs = [
+    { name: "Metrics", count: metrics.length },
+    { name: "Projects", count: 0 }, // placeholder for now
+  ];
 
   // 1) Always filter metrics by the selected status (Active or Inactive)
   const byStatus = useMemo(() => {
@@ -42,8 +50,8 @@ export default function AnalyzePage() {
   // 3) Filter by search string
   const displayedMetrics = useMemo(() => {
     const q = searchQuery.toLowerCase();
-    return byTags.filter((m) => m.name.toLowerCase().includes(q));
-  }, [byTags, searchQuery]);
+    return activeTab === "Metrics" ? byTags.filter((m) => m.name.toLowerCase().includes(q)) : [];
+  }, [byTags, searchQuery, activeTab]);
 
   // 4) Map latest results by metric ID
   const resultsByMetric = useMemo(() => {
@@ -101,9 +109,22 @@ export default function AnalyzePage() {
         setActiveFilters={setActiveFilters}
         resultCount={displayedMetrics.length}
       />
+<div className="bg-[#F5F5F5] flex justify-center">
+  <FilterTabs tabs={tabs} activeTab={activeTab} setActiveTab={setActiveTab} />
+</div>
+      <main className="bg-[#F5F5F5] px-6 py-[28px]">
+        {activeTab === "Metrics" && (
+          <>
+          
+<div className="grid grid-cols-1 md:grid-cols-3">
+<div className="md:pt-2 bg-white"><Placard><SunburstChart data={hierarchyData} /></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><SunburstChart data={hierarchyData} /></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><SunburstChart data={hierarchyData} /></Placard></div>
+</div>
 
-      <main className="bg-[#F5F5F5] py-12 px-4">
-          <MetricTable metrics={displayedMetrics} />
+<Placard><MetricTable metrics={displayedMetrics} /></Placard>
+          </>
+        )}
       </main>
     </div>
   );

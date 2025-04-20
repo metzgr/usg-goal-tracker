@@ -16,14 +16,14 @@ import metricResults from "@/data/metricResult.json";
 
 export function MetricTable({ metrics }: { metrics: any[] }) {
   return (
-    <Table>
+    <Table className="">
       <TableCaption>All Metrics</TableCaption>
       <TableHeader>
-        <TableRow>
-          <TableHead>Org</TableHead>
-          <TableHead>Indicator</TableHead>
-          <TableHead>Target</TableHead>
-          <TableHead>Objective</TableHead>
+        <TableRow className=" border-gray-800">
+          <TableHead className="border-b-[3px] border-gray-800">Indicator</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Trend</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Org</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Objective</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -45,8 +45,8 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
 
           return (
             <TableRow key={m.id}>
-              <TableCell>{m.orgAcronym}</TableCell>
-              <TableCell>{m.name}</TableCell>
+       
+              <TableCell className="max-w-[300px]">{m.name}</TableCell>
               <TableCell>
                 {results.length > 0 ? (
                   <div className="relative">
@@ -56,6 +56,7 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
                   <span className="text-sm text-gray-500 italic">No data</span>
                 )}
               </TableCell>
+              <TableCell>{m.orgAcronym}</TableCell>
               <TableCell>{m.objectiveName}</TableCell>
             </TableRow>
           );

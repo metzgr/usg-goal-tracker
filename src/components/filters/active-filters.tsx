@@ -16,23 +16,24 @@ function ActiveFilters({
   };
 
   return (
-    <div className="flex justify-between items-center px-4 pb-4 pt-4 bg-[#F5F5F5]">
-      <div className="h-6 flex items-center">
+    <div className="bg-[#F5F5F5] py-4">
+    <div className="h-4 flex justify-between items-center px-4">
+      <div className="">
       <span className="text-[13px] text-gray-700">
         {resultCount} results
       </span>
       </div>
-      <div className="flex items-center gap-1.5 overflow-auto">
+      <div className="flex items-center gap-1.5">
         {activeFilters.map((filter) => (
           <span
             key={filter}
-            className="inline-flex items-center gap-x-1 rounded-sm bg-gray-800 px-2 py-1 text-xs text-gray-50"
+            className="inline-flex items-center gap-x-1 rounded-[3px] bg-gray-800 px-2 py-1 text-xs text-gray-50"
           >
             {filter}
             <button
               type="button"
               onClick={() => removeFilter(filter)}
-              className="group relative -mr-1 size-3.5 rounded-sm hover:outline-1 hover:-outline-offset-1 hover:outline-gray-500"
+              className="group relative -mr-1 size-3.5 rounded-xs hover:outline-1 hover:-outline-offset-1 hover:outline-gray-500 cursor-pointer"
             >
               <span className="sr-only">Remove</span>
               <svg
@@ -49,12 +50,13 @@ function ActiveFilters({
           <button
             type="button"
             onClick={() => setActiveFilters([])}
-            className="cursor-pointer inline-flex items-center gap-x-0.5 outline-1 -outline-offset-1 outline-gray-400 ml-3 px-2 py-1 text-xs text-gray-950 hover:bg-white hover:outline-gray-400"
+            className="rounded-xs cursor-pointer inline-flex items-center gap-x-0.5 outline-1 -outline-offset-1 outline-gray-400 ml-3 px-2 py-1 text-xs text-gray-950 hover:bg-white hover:outline-gray-400"
           >
             Clear All
           </button>
         )}
       </div>
+    </div>
     </div>
   );
 }
