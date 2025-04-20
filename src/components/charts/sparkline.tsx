@@ -133,13 +133,13 @@ export function Sparkline({
         tooltip
           .html(`
             <div class="grid ${hasTargets ? 'grid-rows-2' : 'grid-rows-1'} border border-gray-400 rounded-md">
-              <div class="grid grid-cols-2 gap-2 px-2 py-[6px]">
+              <div class="grid grid-cols-2 gap-2 px-2 py-[6px] flex items-center">
                 <div class="font-medium text-[13px] text-gray-900">Actual</div>
                 <div class="text-right text-[20px] font-black text-gray-950">${point.result}</div>
               </div>
               ${
                 hasTargets
-                  ? `<div class="grid grid-cols-2 gap-2 border-t border-gray-400 px-2 py-[6px]">
+                  ? `<div class="grid grid-cols-2 gap-2 border-t border-gray-400 px-2 py-[6px] flex items-center">
                       <div class="font-medium text-[13px] text-gray-900">Target</div>
                       <div class="text-right text-[20px] font-black text-gray-950">${point.targetResult ?? ''}</div>
                     </div>`
