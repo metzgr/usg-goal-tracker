@@ -4,6 +4,7 @@ import React, { useState, useMemo } from "react";
 import Header from "@/components/custom/header";
 import FiltersBar from "@/components/filters/filters-bar";
 import SunburstChart from "@/components/charts/sunburst-chart";
+import BubbleChart from "@/components/charts/bubble-chart";
 import metrics from "@/data/metric.json";
 import metricResults from "@/data/metricResult.json";
 import plans from "@/data/plan.json";
@@ -12,6 +13,7 @@ import { ActiveFilters } from "@/components/filters/active-filters";
 import { MetricTable } from "@/components/tables/metric-table";
 import FilterTabs from "@/components/filters/filter-tabs";
 import Placard from "@/components/base/placard";
+import Badge from "@/components/base/badge";
 
 export default function AnalyzePage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -87,6 +89,15 @@ export default function AnalyzePage() {
     };
   }, [displayedMetrics, resultsByMetric]);
 
+  const bubbleChartData = useMemo(() => {
+    const trendCounts: Record<string, number> = {};
+    for (const m of displayedMetrics) {
+      const trend = resultsByMetric[m.id]?.resultTrend ?? "No Data";
+      trendCounts[trend] = (trendCounts[trend] || 0) + 1;
+    }
+    return Object.entries(trendCounts).map(([trend, count]) => ({ trend, count }));
+  }, [displayedMetrics, resultsByMetric]);
+
   return (
     <div>
       <Header activeItem="Analyze" />
@@ -112,14 +123,14 @@ export default function AnalyzePage() {
 <div className="bg-[#F5F5F5] flex justify-center">
   <FilterTabs tabs={tabs} activeTab={activeTab} setActiveTab={setActiveTab} />
 </div>
-      <main className="bg-[#F5F5F5] px-6 py-[28px]">
+      <main className="bg-[#F5F5F5] px-8 py-[28px]">
         {activeTab === "Metrics" && (
           <>
           
 <div className="grid grid-cols-1 md:grid-cols-3">
-<div className="md:pt-2 bg-white"><Placard><SunburstChart data={hierarchyData} /></Placard></div>
-<div className="md:pt-2 bg-white"><Placard><SunburstChart data={hierarchyData} /></Placard></div>
-<div className="md:pt-2 bg-white"><Placard><SunburstChart data={hierarchyData} /></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><Badge>Status</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><BubbleChart data={bubbleChartData} /></div></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><Badge>Trend</Badge><SunburstChart data={hierarchyData} /></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><Badge>Owners</Badge><SunburstChart data={hierarchyData} /></Placard></div>
 </div>
 
 <Placard><MetricTable metrics={displayedMetrics} /></Placard>
