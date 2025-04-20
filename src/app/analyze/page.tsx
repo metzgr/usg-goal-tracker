@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import Header from "@/components/custom/header";
 import FiltersBar from "@/components/filters/filters-bar";
 import SunburstChart from "@/components/charts/sunburst-chart";
@@ -21,8 +21,15 @@ export default function AnalyzePage() {
   const [sortOption, setSortOption] = useState("Trending");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("Metrics");
+  const [isSticky, setIsSticky] = useState(false);
   const possibleFilters = tags.map((t) => t.name);
   
+  useEffect(() => {
+    const handleScroll = () => setIsSticky(window.scrollY > 0);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const tabs = [
     { name: "Metrics", count: metrics.length },
     { name: "Projects", count: 0 }, // placeholder for now
@@ -101,7 +108,7 @@ export default function AnalyzePage() {
   return (
     <div>
       <Header activeItem="Analyze" />
-
+      <div className={`sticky top-0 z-50 bg-white transition-shadow ${isSticky ? "drop-shadow-sm" : ""}`}>
       <FiltersBar
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
@@ -114,6 +121,7 @@ export default function AnalyzePage() {
         setActiveFilters={setActiveFilters}
          placeholder="Search U.S. key performance indicators"
       />
+      </div>
       {/* display selected tag pills */}
       <ActiveFilters
         activeFilters={activeFilters}
@@ -129,8 +137,8 @@ export default function AnalyzePage() {
           
 <div className="grid grid-cols-1 md:grid-cols-3">
 <div className="md:pt-2 bg-white"><Placard><Badge>Status</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><BubbleChart data={bubbleChartData} /></div></Placard></div>
-<div className="md:pt-2 bg-white"><Placard><Badge>Trend</Badge><SunburstChart data={hierarchyData} /></Placard></div>
-<div className="md:pt-2 bg-white"><Placard><Badge>Owners</Badge><SunburstChart data={hierarchyData} /></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><Badge>Trend</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"></div></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><Badge>Owners</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><SunburstChart data={hierarchyData} /></div></Placard></div>
 </div>
 
 <Placard><MetricTable metrics={displayedMetrics} /></Placard>

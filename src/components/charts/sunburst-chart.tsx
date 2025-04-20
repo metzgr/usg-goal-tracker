@@ -35,10 +35,6 @@ export default function SunburstChart({
     const partition = d3.partition<d3.HierarchyNode<any>>().size([2 * Math.PI, radius]);
     partition(root);
 
-    const color = d3.scaleOrdinal<string>()
-      .domain(["Improved", "Worsened", "Unchanged", "No Data"])
-      .range(["#FFD6AE", "#0A0D12", "#a3a3a3", "#e2e8f0"]);
-
     const arc = d3.arc<d3.HierarchyRectangularNode<any>>()
       .startAngle(d => d.x0)
       .endAngle(d => d.x1)
@@ -47,33 +43,12 @@ export default function SunburstChart({
 
     // SVG setup
     const svg = d3.select(ref.current)
-      .attr("width", width + 2.4)
-      .attr("height", height + 2.4)
-      .attr("viewBox", `${-(width + 2.4) / 2} ${-(height + 2.4) / 2} ${width + 2.4} ${height + 2.4}`)
+      .attr("width", width + 1)
+      .attr("height", height + 1)
+      .attr("viewBox", `${-(width + 1) / 2} ${-(height + 1) / 2} ${width + 1} ${height + 1}`)
       .attr("style", "max-width: 100%; height: auto;");
 
     svg.selectAll("*").remove(); // clear previous renders
-
-    // defs for pattern fill
-    const defs = svg.append("defs");
-
-    defs.append("pattern")
-      .attr("id", "improved-pattern")
-      .attr("patternUnits", "userSpaceOnUse")
-      .attr("width", 30)
-      .attr("height", 30);
-
-    defs.select("pattern#improved-pattern")
-      .append("rect")
-      .attr("width", 30)
-      .attr("height", 30)
-      .attr("fill", "#FFD6AE");
-
-    defs.select("pattern#improved-pattern")
-      .append("image")
-      .attr("href", "/artwork/pattern/arrow-red-5-up.jpg")
-      .attr("width", 30)
-      .attr("height", 30);
 
     // arc rendering
     svg.append("g")
@@ -83,11 +58,14 @@ export default function SunburstChart({
       .attr("fill", d => {
         const topLevel = d.ancestors().find(a => a.depth === 1);
         const trend = topLevel?.data.name ?? "No Data";
-        return trend === "Improved" ? "url(#improved-pattern)" : color(trend);
+        if (d.depth === 2) return "#102A56"; // outer ring
+        if (trend === "Improved") return "#444CE7";
+        if (trend === "Worsened") return "#D92D20";
+        return "#a3a3a3";
       })
       .attr("d", arc)
-      .attr("stroke", "#0A0D12")
-      .attr("stroke-width", 1.2)
+      .attr("stroke", "#FAFAFA")
+      .attr("stroke-width", 1)
       .append("title")
       .text(d => `${d.ancestors().map(n => n.data.name).reverse().join(" → ")}\n${d.value}`);
 
@@ -107,30 +85,18 @@ export default function SunburstChart({
       .attr("dy", "0.35em")
       .attr("text-anchor", "middle")
       .attr("font-family", "GT America")
-      .attr("font-size", "11px")
+      .attr("font-size", "10px")
       .attr("font-weight", "700")
-      .attr("fill", d => {
-        const trend = d.ancestors().find(a => a.depth === 1)?.data.name ?? "No Data";
-        return trend === "Improved" ? "#0A0D12" : "#fff";
-      })
+      .attr("fill", "#fff")
       .text(d => d.data.name);
 
-    labelGroup.each(function (d) {
-      const trend = d.ancestors().find(a => a.depth === 1)?.data.name ?? "No Data";
-      if (trend === "Improved") {
-        const text = this.getElementsByTagName("text")[0];
-        const textWidth = text.getComputedTextLength();
-        d3.select(this)
-          .insert("rect", "text")
-          .attr("x", -textWidth / 2 - 3) // padding of 3
-          .attr("y", -6)
-          .attr("width", textWidth + 6) // padding of 3 on each side
-          .attr("height", 12)
-          .attr("fill", "#fff")
-      }
-    });
-
     // central count
+    const uniqueOrgs = new Set(
+      root.descendants()
+        .filter(d => d.depth === 2)
+        .map(d => d.data.name)
+    ).size;
+
     svg.append("text")
       .attr("x", 0)
       .attr("y", 0)
@@ -139,7 +105,7 @@ export default function SunburstChart({
       .attr("fill", "#0A0D12")
       .attr("font-family", "GT America")
       .attr("font-weight", "900")
-      .text(d3.format(",")(root.value ?? 0));
+      .text(d3.format(",")(uniqueOrgs));
 
     svg.append("text")
       .attr("x", 0)
@@ -149,7 +115,7 @@ export default function SunburstChart({
       .attr("fill", "#181D27")
       .attr("font-family", "GT America")
       .attr("font-weight", "400")
-      .text("Metrics");
+      .text("Owners");
   }, [data, width, height]);
 
   return <svg ref={ref} />;
