@@ -27,13 +27,38 @@ export default function BubbleChart({
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
 
-    const marginX = 0;
-    const marginY = 2;
-    const imgWidth = 30 - marginX;
-    const imgHeight = 25 - marginY;
-    const offsetX = (30 - imgWidth) / 2;
-    const offsetY = (25 - imgHeight) / 2;
-
+    
+    const patternId = "bubble-pattern-improved";
+    const patternTileWidth = 30;
+    const patternTileHeight = 25;
+    const defs = svg.append("defs");
+    const pattern = defs
+      .append("pattern")
+      .attr("id", patternId)
+      .attr("patternUnits", "userSpaceOnUse")
+      .attr("width", patternTileWidth)
+      .attr("height", patternTileHeight);
+    
+    pattern
+      .append("rect")
+      .attr("width", patternTileWidth)
+      .attr("height", patternTileHeight)
+      .attr("fill", "#FFD6AE");
+    
+    const imgWidth = patternTileWidth - margin;
+    const imgHeight = patternTileHeight - margin;
+    const offsetXPattern = (patternTileWidth - imgWidth) / 2;
+    const offsetYPattern = (patternTileHeight - imgHeight) / 2;
+    
+    pattern
+      .append("image")
+      .attr("xlink:href", "/artwork/pattern/red-arrow-3.jpg")
+      .attr("x", offsetXPattern)
+      .attr("y", offsetYPattern)
+      .attr("width", imgWidth)
+      .attr("height", imgHeight)
+      .attr("preserveAspectRatio", "xMidYMid slice");
+    
     svg.append("circle")
       .attr("cx", (width + margin * 2) / 2)
       .attr("cy", (height + margin * 2) / 2)
@@ -76,7 +101,7 @@ export default function BubbleChart({
     node.append("circle")
       .attr("r", d => d.r)
       .attr("fill", d => {
-        if (d.data.trend === "Improved") return "#FFD6AE";
+        if (d.data.trend === "Improved") return "url(#bubble-pattern-improved)";
         if (d.data.trend === "Worsened") return "#D92D20";
         return color(d.data.trend);
       });
