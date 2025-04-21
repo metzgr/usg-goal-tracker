@@ -21,9 +21,10 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
       <TableHeader className="">
         <TableRow className="sticky top-0 z-10 bg-white border-gray-800">
           <TableHead className="border-b-[3px] border-gray-800">Indicator</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Target</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Currently</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Trend</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Owner</TableHead>
-          <TableHead className="border-b-[3px] border-gray-800">Objective</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -47,6 +48,8 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
             <TableRow key={m.id}>
        
               <TableCell className="max-w-[300px]">{m.name}</TableCell>
+              <TableCell>{m.mostRecentTargetDirection} {m.targetDirectionStringInsert} {m.mostRecentTargetResult}</TableCell>
+              <TableCell>{m.mostRecentResult}</TableCell>
               <TableCell>
                 {results.length > 0 ? (
                   <div className="relative">
@@ -57,8 +60,7 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
                 )}
               </TableCell>
               <TableCell className="font-medium">{m.orgAcronym}</TableCell>
-              <TableCell>{m.objectiveName}</TableCell>
-            </TableRow>
+             </TableRow>
           );
         })}
       </TableBody>
