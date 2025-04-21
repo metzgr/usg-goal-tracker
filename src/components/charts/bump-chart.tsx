@@ -62,7 +62,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
 
-    const margin = { top: 20, right: 20, bottom: 30, left: 40 };
+    const margin = { top: 60, right: 20, bottom: 30, left: 40 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
@@ -90,21 +90,50 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .attr("width", width + 1)
       .attr("height", height + 1)
       .attr("viewBox", `0 0 ${width + 1} ${height + 1}`)
-      .attr("style", "max-width: 100%; height: auto;")
+    .attr("style", "max-width: 100%; height: auto; display: block;")
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    const bandingGroup = g.append("g").attr("class", "banding");
+    const quartersByYear = d3.group(dates, d => d.getFullYear());
+    const yearLabelGroup = g.append("g").attr("class", "fiscal-year-labels");
 
-    bandingGroup.selectAll("rect")
+    yearLabelGroup.selectAll("text")
+      .data(Array.from(quartersByYear.entries()))
+      .join("text")
+      .text(d => `${d[0]}`)
+      .attr("x", d => {
+        const quarterDates = d[1];
+        const first = x0(quarterDates[0])!;
+        const last = x0(quarterDates[quarterDates.length - 1])!;
+        return first + (last - first + x0.bandwidth()) / 2;
+      })
+      .attr("y", -20)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "24px")
+      .attr("font-family", "GT America")
+      .attr("font-weight", "900");
+
+    yearLabelGroup.selectAll("line")
+      .data(Array.from(quartersByYear.entries()))
+      .join("line")
+      .attr("x1", d => x0(d[1][0])! - 1)
+      .attr("x2", d => x0(d[1][d[1].length - 1])! + x0.bandwidth() + 1)
+      .attr("y1", -12)
+      .attr("y2", -12)
+      .attr("stroke", "#0A0D12")
+      .attr("stroke-width", 3);
+
+    const backgroundGroup = g.append("g").attr("class", "bar-background");
+    
+    backgroundGroup.selectAll("rect")
       .data(dates)
       .join("rect")
       .attr("x", d => x0(d)!)
       .attr("y", 0)
       .attr("width", x0.bandwidth())
       .attr("height", innerHeight)
-      .attr("fill", "#fff")
-
+      .attr("fill", "#fff");
+    
     g.selectAll("g.bar-group")
       .data(dates)
       .join("g")
@@ -128,7 +157,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(x0).tickFormat(d3.timeFormat("Q%q '%y")))
+      .call(d3.axisBottom(x0).tickFormat(d3.timeFormat("Q%q")))
       .call(g => g.select(".domain").remove())
       .call(g => g.selectAll("text")
       .style("font-family", "GT America")
