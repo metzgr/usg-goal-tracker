@@ -66,7 +66,7 @@ export default function SunburstChart({
       })
       .attr("d", arc)
       .attr("stroke", "#fafafa")
-      .attr("stroke-width", 1.1)
+      .attr("stroke-width", 1.25)
       .append("title")
       .text(d => `${d.ancestors().map(n => n.data.name).reverse().join(" → ")}\n${d.value}`);
 
