@@ -161,7 +161,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(x0).tickFormat(d3.timeFormat("Q%q")).tickSize(10))
+      .call(d3.axisBottom(x0).tickFormat(d3.timeFormat("Q%q")).tickSize(8))
       .call(g => g.select(".domain").remove())
       .call(g => g.selectAll("text")
       .style("font-family", "GT America")
