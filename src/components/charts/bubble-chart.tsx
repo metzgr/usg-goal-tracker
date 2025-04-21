@@ -76,7 +76,7 @@ export default function BubbleChart({
     node.append("circle")
       .attr("r", d => d.r)
       .attr("fill", d => {
-        if (d.data.trend === "Improved") return "#FFD6AE";
+        if (d.data.trend === "Improved") return "#C7D7FE";
         if (d.data.trend === "Worsened") return "#D92D20";
         return color(d.data.trend);
       });
@@ -87,7 +87,7 @@ export default function BubbleChart({
       .attr("text-anchor", "middle")
       .attr("dy", "0.35em")
       .attr("fill", "none")
-      .attr("stroke", d => d.data.trend === "Improved" ? "#FFD6AE" : "none")
+      .attr("stroke", d => d.data.trend === "Improved" ? "#C7D7FE" : "none")
       .attr("stroke-width", d => d.data.trend === "Improved" ? 8 : 0)
       .attr("font-size", d => Math.min(72, Math.max(10, d.r * 0.6)))
       .attr("font-weight", "900")
