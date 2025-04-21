@@ -153,7 +153,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .attr("y", d => y(d.count))
       .attr("width", barWidth)
       .attr("height", d => innerHeight - y(d.count))
-      .attr("fill", d => d.trend === "Improved" ? "#C7D7FE" : d.trend === "Worsened" ? "#D92D20" : "#aaa");
+      .attr("fill", d => d.trend === "Improved" ? "#FFD6AE" : d.trend === "Worsened" ? "#D92D20" : "#aaa");
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)

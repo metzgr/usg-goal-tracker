@@ -59,7 +59,7 @@ export default function SunburstChart({
       .attr("fill", d => {
         const topLevel = d.ancestors().find(a => a.depth === 1);
         const trend = topLevel?.data.name ?? "No Data";
-        if (trend === "Improved") return "#C7D7FE";
+        if (trend === "Improved") return "#FFD6AE";
         if (trend === "Worsened") return "#D92D20";
         return "#a3a3a3";
       })
