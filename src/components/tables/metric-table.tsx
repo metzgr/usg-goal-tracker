@@ -22,7 +22,7 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
         <TableRow className="sticky top-0 z-10 bg-white border-gray-800">
           <TableHead className="border-b-[3px] border-gray-800">Indicator</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Trend</TableHead>
-          <TableHead className="border-b-[3px] border-gray-800">Org</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Owner</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Objective</TableHead>
         </TableRow>
       </TableHeader>
@@ -56,7 +56,7 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
                   <span className="text-sm text-gray-500 italic">No data</span>
                 )}
               </TableCell>
-              <TableCell>{m.orgAcronym}</TableCell>
+              <TableCell className="font-medium">{m.orgAcronym}</TableCell>
               <TableCell>{m.objectiveName}</TableCell>
             </TableRow>
           );
