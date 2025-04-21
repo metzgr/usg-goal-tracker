@@ -76,7 +76,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .range([0, innerWidth])
       .paddingInner(0.45);
 
-    const totalBarGap = 2;
+    const totalBarGap = 1;
     const barWidth = (x0.bandwidth() - totalBarGap) / 2;
     const x1 = (trend: string) => {
       return trend === "Improved" ? 0 : barWidth + totalBarGap;

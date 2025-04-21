@@ -104,14 +104,14 @@ export default function SunburstChart({
       .attr("cx", 0)
       .attr("cy", 0)
       .attr("r", radius * 0.4) // adjust radius as needed
-      .attr("fill", "#181D27");
+      .attr("fill", "#fff");
 
     svg.append("text")
       .attr("x", 0)
       .attr("y", 0)
       .attr("text-anchor", "middle")
       .attr("font-size", "32px")
-      .attr("fill", "#fff")
+      .attr("fill", "#181D27")
       .attr("font-family", "GT America")
       .attr("font-weight", "900")
       .text(d3.format(",")(totalMetrics));
@@ -121,7 +121,7 @@ export default function SunburstChart({
       .attr("y", 17)
       .attr("text-anchor", "middle")
       .attr("font-size", "13px")
-      .attr("fill", "#F5F5F5")
+      .attr("fill", "#181D27")
       .attr("font-family", "GT America")
       .attr("font-weight", "400")
       .text("Metrics");
