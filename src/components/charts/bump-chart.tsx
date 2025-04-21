@@ -74,9 +74,9 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
     const x0 = d3.scaleBand()
       .domain(dates)
       .range([0, innerWidth])
-      .paddingInner(0.3);
+      .paddingInner(0.45);
 
-    const totalBarGap = 0;
+    const totalBarGap = 2;
     const barWidth = (x0.bandwidth() - totalBarGap) / 2;
     const x1 = (trend: string) => {
       return trend === "Improved" ? 0 : barWidth + totalBarGap;
@@ -153,7 +153,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .attr("y", d => y(d.count))
       .attr("width", barWidth)
       .attr("height", d => innerHeight - y(d.count))
-      .attr("fill", d => d.trend === "Improved" ? "#FFD6AE" : d.trend === "Worsened" ? "#D92D20" : "#aaa");
+      .attr("fill", d => d.trend === "Improved" ? "#444CE7" : d.trend === "Worsened" ? "#D92D20" : "#aaa");
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)

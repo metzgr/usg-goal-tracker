@@ -59,14 +59,14 @@ export default function SunburstChart({
       .attr("fill", d => {
         const topLevel = d.ancestors().find(a => a.depth === 1);
         const trend = topLevel?.data.name ?? "No Data";
-        if (trend === "Improved" && d.depth === 1) return "url(#bubble-pattern-improved)";
-        if (trend === "Improved" && d.depth === 2) return "#FFD6AE";
+        if (trend === "Improved" && d.depth === 1) return "url(#analyze-pattern-improved)";
+        if (trend === "Improved" && d.depth === 2) return "#444CE7";
         if (trend === "Worsened") return "#D92D20";
         return "#a3a3a3";
       })
       .attr("d", arc)
       .attr("stroke", "#0A0D12")
-      .attr("stroke-width", 1)
+      .attr("stroke-width", 1.1)
       .append("title")
       .text(d => `${d.ancestors().map(n => n.data.name).reverse().join(" → ")}\n${d.value}`);
 
@@ -90,7 +90,7 @@ export default function SunburstChart({
       .attr("font-weight", "700")
       .attr("fill", d => {
         const trend = d.ancestors().find(a => a.depth === 1)?.data.name ?? "No Data";
-        return trend === "Worsened" ? "#fff" : "#0A0D12";
+        return trend === "Worsened" ? "#fff" : "#fff";
       })
       .text(d => d.data.name);
 
@@ -104,14 +104,14 @@ export default function SunburstChart({
       .attr("cx", 0)
       .attr("cy", 0)
       .attr("r", radius * 0.4) // adjust radius as needed
-      .attr("fill", "#fff");
+      .attr("fill", "#181D27");
 
     svg.append("text")
       .attr("x", 0)
       .attr("y", 0)
       .attr("text-anchor", "middle")
       .attr("font-size", "32px")
-      .attr("fill", "#181D27")
+      .attr("fill", "#fff")
       .attr("font-family", "GT America")
       .attr("font-weight", "900")
       .text(d3.format(",")(totalMetrics));
@@ -121,7 +121,7 @@ export default function SunburstChart({
       .attr("y", 17)
       .attr("text-anchor", "middle")
       .attr("font-size", "13px")
-      .attr("fill", "#181D27")
+      .attr("fill", "#F5F5F5")
       .attr("font-family", "GT America")
       .attr("font-weight", "400")
       .text("Metrics");
