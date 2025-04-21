@@ -76,11 +76,11 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .range([0, innerWidth])
       .paddingInner(0.3);
 
-    const x1 = d3.scaleBand()
-      .domain(trends)
-      .range([0, x0.bandwidth()])
-      .paddingInner(0.5)
-      .paddingOuter(0);
+    const totalBarGap = 0;
+    const barWidth = (x0.bandwidth() - totalBarGap) / 2;
+    const x1 = (trend: string) => {
+      return trend === "Improved" ? 0 : barWidth + totalBarGap;
+    };
 
     const y = d3.scaleLinear()
       .domain([0, d3.max(flatData, d => d.count)!])
@@ -103,7 +103,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .attr("y", 0)
       .attr("width", x0.bandwidth())
       .attr("height", innerHeight)
-      .attr("fill", "#E9EAEB");
+      .attr("fill", "#fff")
 
     g.selectAll("g.bar-group")
       .data(dates)
@@ -120,11 +120,11 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
         };
       }))
       .join("rect")
-      .attr("x", d => x1(d.trend)!)
+      .attr("x", d => x1(d.trend))
       .attr("y", d => y(d.count))
-      .attr("width", x1.bandwidth())
+      .attr("width", barWidth)
       .attr("height", d => innerHeight - y(d.count))
-      .attr("fill", d => d.trend === "Improved" ? "#444CE7" : d.trend === "Worsened" ? "#D92D20" : "#aaa");
+      .attr("fill", d => d.trend === "Improved" ? "#FFD6AE" : d.trend === "Worsened" ? "#D92D20" : "#aaa");
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
@@ -136,6 +136,19 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
         .style("font-weight", "500")
         .attr("text-anchor", "middle")
         .attr("dy", "1.25em"));
+
+    const overlayGroup = g.append("g").attr("class", "banding-overlay");
+
+    overlayGroup.selectAll("rect")
+      .data(dates)
+      .join("rect")
+      .attr("x", d => x0(d)!)
+      .attr("y", 0)
+      .attr("width", x0.bandwidth())
+      .attr("height", innerHeight)
+      .attr("fill", "none")
+      .attr("stroke", "#0A0D12")
+      .attr("stroke-width", 1);
   }, [data, width, height]);
 
   return <svg ref={ref} />;

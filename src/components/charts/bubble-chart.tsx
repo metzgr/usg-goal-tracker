@@ -26,12 +26,20 @@ export default function BubbleChart({
 
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
+
+    const marginX = 0;
+    const marginY = 2;
+    const imgWidth = 30 - marginX;
+    const imgHeight = 25 - marginY;
+    const offsetX = (30 - imgWidth) / 2;
+    const offsetY = (25 - imgHeight) / 2;
+
     svg.append("circle")
       .attr("cx", (width + margin * 2) / 2)
       .attr("cy", (height + margin * 2) / 2)
       .attr("r", radius)
       .attr("fill", "#fff")
-      .attr("stroke", "#0A0D12")
+      .attr("stroke", "#252B37")
       .attr("stroke-width", 1);
 
     const color = d3.scaleOrdinal<string>()
@@ -48,9 +56,10 @@ export default function BubbleChart({
     const nodes = pack(root).leaves();
 
     const node = svg
-      .attr("viewBox", `0 0 ${width + margin * 2} ${height + margin * 2}`)
-      .attr("width", "100%")
-      .attr("height", "auto")
+      .attr("width", width + 1)
+      .attr("height", height + 1)
+      .attr("viewBox", `0 0 ${width + 2} ${height + 2}`)
+      .attr("style", "max-width: 100%; height: auto;")
       .append("g")
       .attr("transform", `translate(${(width + margin * 2) / 2 - radius}, ${(height + margin * 2) / 2 - radius})`)
       .selectAll("g")
@@ -67,17 +76,29 @@ export default function BubbleChart({
     node.append("circle")
       .attr("r", d => d.r)
       .attr("fill", d => {
-        if (d.data.trend === "Improved") return "#444CE7";
+        if (d.data.trend === "Improved") return "#FFD6AE";
         if (d.data.trend === "Worsened") return "#D92D20";
         return color(d.data.trend);
       });
+
+    // Stroke text label for each bubble
+    node.append("text")
+      .text(d => d.data.count)
+      .attr("text-anchor", "middle")
+      .attr("dy", "0.35em")
+      .attr("fill", "none")
+      .attr("stroke", d => d.data.trend === "Improved" ? "#FFD6AE" : "none")
+      .attr("stroke-width", d => d.data.trend === "Improved" ? 8 : 0)
+      .attr("font-size", d => Math.min(72, Math.max(10, d.r * 0.6)))
+      .attr("font-weight", "900")
+      .attr("pointer-events", "none");
 
     // Label text for each bubble
     node.append("text")
       .text(d => d.data.count)
       .attr("text-anchor", "middle")
       .attr("dy", "0.35em")
-      .attr("fill", "#fff")
+      .attr("fill", d => d.data.trend === "Improved" ? "#0A0D12" : "#fff")
       .attr("font-size", d => Math.min(72, Math.max(10, d.r * 0.6)))
       .attr("font-weight", "900")
       .attr("pointer-events", "none");

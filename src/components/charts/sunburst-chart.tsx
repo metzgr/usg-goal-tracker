@@ -49,6 +49,7 @@ export default function SunburstChart({
       .attr("style", "max-width: 100%; height: auto;");
 
     svg.selectAll("*").remove(); // clear previous renders
+    
 
     // arc rendering
     svg.append("g")
@@ -58,13 +59,12 @@ export default function SunburstChart({
       .attr("fill", d => {
         const topLevel = d.ancestors().find(a => a.depth === 1);
         const trend = topLevel?.data.name ?? "No Data";
-        if (d.depth === 2) return "#181D27"; // outer ring
-        if (trend === "Improved") return "#444CE7";
+        if (trend === "Improved") return "#FFD6AE";
         if (trend === "Worsened") return "#D92D20";
         return "#a3a3a3";
       })
       .attr("d", arc)
-      .attr("stroke", "#FAFAFA")
+      .attr("stroke", "#0A0D12")
       .attr("stroke-width", 1)
       .append("title")
       .text(d => `${d.ancestors().map(n => n.data.name).reverse().join(" → ")}\n${d.value}`);
@@ -81,41 +81,49 @@ export default function SunburstChart({
       });
 
     labelGroup
-      .append("text")
+    .append("text")
       .attr("dy", "0.35em")
       .attr("text-anchor", "middle")
       .attr("font-family", "GT America")
-      .attr("font-size", "10px")
+      .attr("font-size", "11px")
       .attr("font-weight", "700")
-      .attr("fill", "#fff")
+      .attr("fill", d => {
+        const trend = d.ancestors().find(a => a.depth === 1)?.data.name ?? "No Data";
+        return trend === "Worsened" ? "#fff" : "#0A0D12";
+      })
       .text(d => d.data.name);
 
     // central count
-    const uniqueOrgs = new Set(
-      root.descendants()
-        .filter(d => d.depth === 2)
-        .map(d => d.data.name)
-    ).size;
+    const totalMetrics = d3.sum(
+      root.descendants().filter(d => d.depth === 2),
+      d => d.value ?? 0
+    );
+
+    svg.append("circle")
+      .attr("cx", 0)
+      .attr("cy", 0)
+      .attr("r", radius * 0.4) // adjust radius as needed
+      .attr("fill", "#fff");
 
     svg.append("text")
       .attr("x", 0)
       .attr("y", 0)
       .attr("text-anchor", "middle")
-      .attr("font-size", "28px")
-      .attr("fill", "#0A0D12")
+      .attr("font-size", "32px")
+      .attr("fill", "#181D27")
       .attr("font-family", "GT America")
       .attr("font-weight", "900")
-      .text(d3.format(",")(uniqueOrgs));
+      .text(d3.format(",")(totalMetrics));
 
     svg.append("text")
       .attr("x", 0)
-      .attr("y", 16)
+      .attr("y", 17)
       .attr("text-anchor", "middle")
-      .attr("font-size", "11px")
+      .attr("font-size", "13px")
       .attr("fill", "#181D27")
       .attr("font-family", "GT America")
       .attr("font-weight", "400")
-      .text("Owners");
+      .text("Metrics");
   }, [data, width, height]);
 
   return <svg ref={ref} />;
