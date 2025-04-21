@@ -50,9 +50,15 @@ export default function SunburstChart({
 
     svg.selectAll("*").remove(); // clear previous renders
     
+    const chartGroup = svg.append("g")
+      .attr("transform", "scale(0.01)");
+
+    chartGroup.transition()
+      .duration(600)
+      .attr("transform", "scale(1)");
 
     // arc rendering
-    svg.append("g")
+    chartGroup.append("g")
       .selectAll("path")
       .data(root.descendants().slice(1))
       .join("path")
@@ -71,7 +77,7 @@ export default function SunburstChart({
       .text(d => `${d.ancestors().map(n => n.data.name).reverse().join(" → ")}\n${d.value}`);
 
     // label rendering
-    const labelGroup = svg.append("g")
+    const labelGroup = chartGroup.append("g")
       .selectAll("g")
       .data(root.descendants().filter(d => d.depth === 2 && (d.x1 - d.x0) > 0.05))
       .join("g")
@@ -100,13 +106,13 @@ export default function SunburstChart({
       d => d.value ?? 0
     );
 
-    svg.append("circle")
+    chartGroup.append("circle")
       .attr("cx", 0)
       .attr("cy", 0)
       .attr("r", radius * 0.4) // adjust radius as needed
       .attr("fill", "#fff");
 
-    svg.append("text")
+    chartGroup.append("text")
       .attr("x", 0)
       .attr("y", 0)
       .attr("text-anchor", "middle")
@@ -116,7 +122,7 @@ export default function SunburstChart({
       .attr("font-weight", "900")
       .text(d3.format(",")(totalMetrics));
 
-    svg.append("text")
+    chartGroup.append("text")
       .attr("x", 0)
       .attr("y", 17)
       .attr("text-anchor", "middle")

@@ -16,10 +16,10 @@ import metricResults from "@/data/metricResult.json";
 
 export function MetricTable({ metrics }: { metrics: any[] }) {
   return (
-    <Table className="">
+    <Table className="overflow-auto">
       <TableCaption>All Metrics</TableCaption>
-      <TableHeader>
-        <TableRow className=" border-gray-800">
+      <TableHeader className="">
+        <TableRow className="sticky top-0 z-10 bg-white border-gray-800">
           <TableHead className="border-b-[3px] border-gray-800">Indicator</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Trend</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Org</TableHead>
