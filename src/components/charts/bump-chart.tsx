@@ -157,12 +157,13 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(x0).tickFormat(d3.timeFormat("Q%q")))
+      .call(d3.axisBottom(x0).tickFormat(d3.timeFormat("Q%q")).tickSize(10))
       .call(g => g.select(".domain").remove())
       .call(g => g.selectAll("text")
       .style("font-family", "GT America")
         .style("font-size", "12px")
         .style("font-weight", "500")
+        .style("fill", "#181D27")
         .attr("text-anchor", "middle")
         .attr("dy", "1.25em"));
 
@@ -176,7 +177,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .attr("width", x0.bandwidth())
       .attr("height", innerHeight)
       .attr("fill", "none")
-      .attr("stroke", "#0A0D12")
+      .attr("stroke", "#181D27")
       .attr("stroke-width", 1);
   }, [data, width, height]);
 
