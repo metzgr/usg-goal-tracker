@@ -47,7 +47,7 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
           return (
             <TableRow key={m.id}>
        
-              <TableCell className="max-w-[300px]">{m.name}</TableCell>
+              <TableCell className="max-w-[280px]">{m.name}</TableCell>
               <TableCell>{m.mostRecentTargetDirection} {m.targetDirectionStringInsert} {m.mostRecentTargetResult}</TableCell>
               <TableCell>{m.mostRecentResult}</TableCell>
               <TableCell>
