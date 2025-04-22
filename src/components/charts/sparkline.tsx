@@ -54,21 +54,18 @@ export function Sparkline({
       .y(d => y(d.result))
       .curve(d3.curveMonotoneX);
 
-    const lineTarget = d3
-      .line<SparklinePoint>()
+    const areaActual = d3
+      .area<SparklinePoint>()
       .x((_, i) => x(i))
-      .y(d => y(d.targetResult ?? 0))
+      .y0(height)
+      .y1(d => y(d.result))
       .curve(d3.curveMonotoneX);
 
     svg
       .append("path")
       .datum(data)
-      .attr("fill", "none")
-      .attr("stroke", actualColor)
-      .attr("stroke-width", 5)
-      .attr("class", "mix-blend-color-burn")
-      .attr("d", lineActual)
-      .style("opacity", 1);
+      .attr("fill", mostRecentResultTrend === "Worsened" ? "#F9D7D7" : "#DEE5F9")
+      .attr("d", areaActual);
 
     svg
       .append("path")
@@ -81,6 +78,12 @@ export function Sparkline({
       .style("opacity", 1);
 
     if (hasTargets) {
+      const lineTarget = d3
+        .line<SparklinePoint>()
+        .x((_, i) => x(i))
+        .y(d => y(d.targetResult ?? 0))
+        .curve(d3.curveMonotoneX);
+
       svg
         .append("path")
         .datum(data)

@@ -4,6 +4,35 @@
     "name": "Agriculture",
     "type": [
       "plain-language"
+    ],
+    "metric": [
+      "recFwgTwvR502jZQQ",
+      "recKxFS9YfC5NRo6E",
+      "recgtdDHapmiVg98T",
+      "reci6SgvEYDWSGuK1",
+      "reclxsPODoHt1GtK2",
+      "recjyf0y2pRIOW7qg",
+      "reczs3R36Zp10dKHQ",
+      "recaOZutLhCARxZ8l",
+      "recnp2PLQrMvKv9DM",
+      "recRv7EC5VjLRtSkp",
+      "recJpyQ6IbaP5EeLz",
+      "reccphKdNbpm5RJsP",
+      "recS1XUn6HedOcCxY",
+      "recRWsuOQgcYovG2m",
+      "rec0PpdOpWN97jwcY",
+      "recUaYjZA9Y3RPBgb",
+      "recBY4R0eunqwiWj1",
+      "recnajsS4M8LUNOzx",
+      "recziteF01wdwpBSu",
+      "recXejjzkYd5Uad6H",
+      "recHxohM5W22iCHkU",
+      "recw5fW7yVApDrX1n",
+      "recxc8jsp6Bo6AkSL",
+      "recUtm64fOIY3zLnn",
+      "recHHX5991zvQTQbb",
+      "recy30u2WNOJoaSLV",
+      "recNMNKlYTuLvvJNN"
     ]
   },
   {
@@ -11,6 +40,35 @@
     "name": "Priority 1",
     "type": [
       "pma-priority"
+    ],
+    "metric": [
+      "recLVnXE52MD7UdxL",
+      "recMDRxtzSIH8gYdJ",
+      "rec5D999C2vTUHpeN",
+      "recUHgQbbA0yelZcx",
+      "recDlV7NIlxbt5zUB",
+      "recMZddgHEmjnfPZv",
+      "recxFQfkk9jWXvoWe",
+      "recP4QV6W115uw7so",
+      "rec0BrOeNntixgZUP",
+      "recOA7CK8UNAxTWaA",
+      "recgcZ5rlSQCpnmuw",
+      "rec4Mx1Pfo7mFrERN",
+      "recuU8U02Eqr9PT2N",
+      "recIHqxyoMghgW6J3",
+      "rec3YkEQBM4tAUXu3",
+      "recXWQPcumOtqjYyE",
+      "reclfP4JSP0MU24KW",
+      "rec9Db5aoUZueJlrR",
+      "recTikCoOvJs1UwPD",
+      "recUaCtFWHE85Ujq6",
+      "rec564srTcqs3VdCX",
+      "recjDVHXffW9ejd9f",
+      "reclikXrIYSPidv5A",
+      "rec6nNeIMURO0WZKU",
+      "recNER90ePiGKOs4E",
+      "recximCdRT6DK6BAK",
+      "rec2UVGPEsAbTGwfb"
     ]
   },
   {
@@ -18,6 +76,18 @@
     "name": "Priority 2",
     "type": [
       "pma-priority"
+    ],
+    "metric": [
+      "rec5D999C2vTUHpeN",
+      "recUHgQbbA0yelZcx",
+      "recUaCtFWHE85Ujq6",
+      "rec564srTcqs3VdCX",
+      "recjDVHXffW9ejd9f",
+      "reclikXrIYSPidv5A",
+      "rec6nNeIMURO0WZKU",
+      "recNER90ePiGKOs4E",
+      "recximCdRT6DK6BAK",
+      "rec2UVGPEsAbTGwfb"
     ]
   },
   {

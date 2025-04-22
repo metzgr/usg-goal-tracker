@@ -150,19 +150,24 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       }))
       .join("rect")
       .attr("x", d => x1(d.trend))
-      .attr("y", d => y(d.count))
       .attr("width", barWidth)
-      .attr("height", d => innerHeight - y(d.count))
-      .attr("fill", d => d.trend === "Improved" ? "#444CE7" : d.trend === "Worsened" ? "#D92D20" : "#aaa");
+      .attr("fill", d => d.trend === "Improved" ? "#444CE7" : d.trend === "Worsened" ? "#D92D20" : "#aaa")
+      .attr("y", innerHeight)
+      .attr("height", 0)
+      .transition()
+      .duration(600)
+      .attr("y", d => y(d.count))
+      .attr("height", d => innerHeight - y(d.count));
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(x0).tickFormat(d3.timeFormat("Q%q")))
+      .call(d3.axisBottom(x0).tickFormat(d3.timeFormat("Q%q")).tickSize(8))
       .call(g => g.select(".domain").remove())
       .call(g => g.selectAll("text")
       .style("font-family", "GT America")
         .style("font-size", "12px")
         .style("font-weight", "500")
+        .style("fill", "#181D27")
         .attr("text-anchor", "middle")
         .attr("dy", "1.25em"));
 
@@ -176,7 +181,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .attr("width", x0.bandwidth())
       .attr("height", innerHeight)
       .attr("fill", "none")
-      .attr("stroke", "#0A0D12")
+      .attr("stroke", "#181D27")
       .attr("stroke-width", 1);
   }, [data, width, height]);
 

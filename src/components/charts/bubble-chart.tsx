@@ -99,12 +99,15 @@ export default function BubbleChart({
 
     // Background fill for all bubbles
     node.append("circle")
-      .attr("r", d => d.r)
+      .attr("r", 0)
       .attr("fill", d => {
         if (d.data.trend === "Improved") return "url(#analyze-pattern-improved)";
         if (d.data.trend === "Worsened") return "#D92D20";
         return color(d.data.trend);
-      });
+      })
+      .transition()
+      .duration(600)
+      .attr("r", d => d.r);
 
     // Stroke text label for each bubble
     node.append("text")

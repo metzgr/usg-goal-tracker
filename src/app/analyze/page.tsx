@@ -23,6 +23,15 @@ export default function AnalyzePage() {
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("Metrics");
   const possibleFilters = tags.map((t) => t.name);
+  const metricsWithTags = useMemo(() => {
+    return metrics.map((metric) => {
+      const matchingTag = tags.find(tag => tag.metric?.includes(metric.id));
+      return {
+        ...metric,
+        tag: matchingTag?.id ?? null,
+      };
+    });
+  }, [metrics, tags]);
   
   const tabs = [
     { name: "Metrics", count: metrics.length },
@@ -31,7 +40,7 @@ export default function AnalyzePage() {
 
   // 1) Always filter metrics by the selected status (Active or Inactive)
   const byStatus = useMemo(() => {
-    return metrics.filter((m) => {
+    return metricsWithTags.filter((m) => {
       return (m.plan || []).some((planId) => {
         const plan = plans.find((p) => p.id === planId);
         return plan?.status === statusOption;
@@ -42,13 +51,13 @@ export default function AnalyzePage() {
   // 2) Filter by tag pills
   const byTags = useMemo(() => {
     if (activeFilters.length === 0) return byStatus;
-    return byStatus.filter((m) =>
-      (m.tags || []).some((tagId) => {
-        const tag = tags.find((t) => t.id === tagId);
-        return tag && activeFilters.includes(tag.name);
-      })
-    );
-  }, [byStatus, activeFilters]);
+    return byStatus.filter((m) => {
+      return activeFilters.some((name) => {
+        const tag = tags.find(t => t.name === name);
+        return tag?.id === m.tag;
+      });
+    });
+  }, [byStatus, activeFilters, tags]);
 
   // 3) Filter by search string
   const displayedMetrics = useMemo(() => {
@@ -106,7 +115,7 @@ export default function AnalyzePage() {
       const id = res.metric?.[0];
       if (!id || !res.fiscalYear || !res.fiscalQuarter || !res.resultTrend) continue;
 
-      const metric = metrics.find(m => m.id === id);
+      const metric = metricsWithTags.find(m => m.id === id);
       if (!metric) continue;
 
       const matchesStatus = (metric.plan || []).some(planId => {
@@ -117,9 +126,9 @@ export default function AnalyzePage() {
 
       const matchesTags =
         activeFilters.length === 0 ||
-        (metric.tags || []).some(tagId => {
-          const tag = tags.find(t => t.id === tagId);
-          return tag && activeFilters.includes(tag.name);
+        activeFilters.some(name => {
+          const tag = tags.find(t => t.name === name);
+          return tag?.id === metric.tag;
         });
       if (!matchesTags) continue;
 

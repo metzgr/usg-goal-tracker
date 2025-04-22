@@ -16,14 +16,15 @@ import metricResults from "@/data/metricResult.json";
 
 export function MetricTable({ metrics }: { metrics: any[] }) {
   return (
-    <Table className="">
+    <Table className="overflow-auto">
       <TableCaption>All Metrics</TableCaption>
-      <TableHeader>
-        <TableRow className=" border-gray-800">
+      <TableHeader className="">
+        <TableRow className="sticky top-0 z-10 bg-white border-gray-800">
           <TableHead className="border-b-[3px] border-gray-800">Indicator</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Target</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Currently</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Trend</TableHead>
-          <TableHead className="border-b-[3px] border-gray-800">Org</TableHead>
-          <TableHead className="border-b-[3px] border-gray-800">Objective</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Owner</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -46,7 +47,9 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
           return (
             <TableRow key={m.id}>
        
-              <TableCell className="max-w-[300px]">{m.name}</TableCell>
+              <TableCell className="max-w-[280px]">{m.name}</TableCell>
+              <TableCell>{m.mostRecentTargetDirection} {m.targetDirectionStringInsert} {m.mostRecentTargetResult}</TableCell>
+              <TableCell>{m.mostRecentResult}</TableCell>
               <TableCell>
                 {results.length > 0 ? (
                   <div className="relative">
@@ -56,9 +59,8 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
                   <span className="text-sm text-gray-500 italic">No data</span>
                 )}
               </TableCell>
-              <TableCell>{m.orgAcronym}</TableCell>
-              <TableCell>{m.objectiveName}</TableCell>
-            </TableRow>
+              <TableCell className="font-medium">{m.orgAcronym}</TableCell>
+             </TableRow>
           );
         })}
       </TableBody>
