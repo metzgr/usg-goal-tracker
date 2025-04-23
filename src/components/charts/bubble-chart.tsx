@@ -43,7 +43,7 @@ export default function BubbleChart({
       .append("rect")
       .attr("width", patternTileWidth)
       .attr("height", patternTileHeight)
-      .attr("fill", "#6172F3");
+      .attr("fill", "#00359E");
     
     const imgWidth = patternTileWidth - margin;
     const imgHeight = patternTileHeight - margin;
