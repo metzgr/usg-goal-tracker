@@ -108,7 +108,7 @@
       1800
     ],
     "mostRecentTargetDirection": [
-      "Decrease"
+      "Increase"
     ],
     "mostRecentTargetLevel": [
       8
@@ -119,12 +119,12 @@
     ],
     "percentChangeResult": 0.1,
     "mostRecentPercentProgress": [
-      0.55
+      1.83
     ],
     "mostRecentResultTrend": [
-      "Improved"
+      "Worsened"
     ],
-    "resultTrendIsImproved": 1,
+    "resultTrendIsImproved": 0,
     "goal": [
       "recE1G2OnThbIl1Ll"
     ],
@@ -1991,7 +1991,7 @@
       1800
     ],
     "mostRecentTargetDirection": [
-      "Decrease"
+      "Increase"
     ],
     "mostRecentTargetLevel": [
       8
@@ -2002,12 +2002,12 @@
     ],
     "percentChangeResult": 0.1,
     "mostRecentPercentProgress": [
-      0.55
+      1.83
     ],
     "mostRecentResultTrend": [
-      "Improved"
+      "Worsened"
     ],
-    "resultTrendIsImproved": 1,
+    "resultTrendIsImproved": 0,
     "goal": [
       "recE1G2OnThbIl1Ll"
     ],
@@ -3876,7 +3876,7 @@
       1800
     ],
     "mostRecentTargetDirection": [
-      "Decrease"
+      "Increase"
     ],
     "mostRecentTargetLevel": [
       8
@@ -3887,12 +3887,12 @@
     ],
     "percentChangeResult": 0.1,
     "mostRecentPercentProgress": [
-      0.55
+      1.83
     ],
     "mostRecentResultTrend": [
-      "Improved"
+      "Worsened"
     ],
-    "resultTrendIsImproved": 1,
+    "resultTrendIsImproved": 0,
     "goal": [
       "recE1G2OnThbIl1Ll"
     ],

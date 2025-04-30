@@ -226,20 +226,20 @@
       1
     ],
     "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricAvgPercentProgress": 1.83,
     "metricMostRecentTargetDirection": [
-      "Decrease",
-      "Decrease",
-      "Decrease"
+      "Increase",
+      "Increase",
+      "Increase"
     ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
+    "increaseTargetDirectionCount": 3,
+    "decreaseTargetDirectionCount": 0,
     "maintainAtOrAboveTargetDirectionCount": 0,
     "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
+    "percentIncreaseTargetDirection": 1,
+    "percentDecreaseTargetDirection": 0,
     "percentMaintainAtOrABoveTargetDirection": 0,
     "percentMaintainAtOrBelowTargetDirection": 0,
     "project": [
@@ -253,8 +253,8 @@
     "projectResultTrendImprovedCount": 3,
     "projectResultTrendImprovedPercent": 1,
     "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
+    "indicatorImprovedCount": 3,
+    "indicatorImprovedPercent": 0.5,
     "goalSubtitle": [
       "Make it easier to grow, sell, and succeed."
     ],

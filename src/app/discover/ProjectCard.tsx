@@ -56,7 +56,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, milestoneResu
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Card
-          className={`w-full h-full bg-white shadow-none border-1 border-white rounded-none transition-all duration-200 cursor-pointer ${compressed ? 'mb-2 p-1' : 'mb-6 max-w-xl'} hover:border-1 hover:border-gray-300`}
+          className={`w-full bg-background shadow-none border border-white rounded-none transition-colors duration-200 hover:border-gray-300 cursor-pointer ${compressed ? 'mb-2 p-1' : 'mb-6 max-w-xl'}`}
           onClick={() => setOpen(true)}
         >
           <CardContent className={`flex flex-1 h-full items-center justify-center flex-col ${compressed ? 'py-3 px-2' : ''}`}>

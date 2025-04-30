@@ -2684,8 +2684,8 @@
     "goalCount": 3,
     "objectiveCount": 9,
     "indicatorCount": 54,
-    "indicatorImprovedCount": 48,
-    "indicatorImprovedPercent": 0.8888888888888888,
+    "indicatorImprovedCount": 45,
+    "indicatorImprovedPercent": 0.8333333333333334,
     "metricCount": 27,
     "projectCount": 27,
     "serviceProvider": [
