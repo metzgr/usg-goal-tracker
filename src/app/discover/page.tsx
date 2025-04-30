@@ -32,6 +32,8 @@ import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import metricResults from "@/data/metricResult.json";
 import { MetricCard } from "./MetricCard";
+import { ProjectCard } from "./ProjectCard";
+import milestoneResults from "@/app/discover/milestoneResult.json";
 
 const PLAN_ID = "recOMj2QaHVSXQHj9"; // USDA's plan
 const selectedPlan = plan.find((p) => p.id === PLAN_ID);
@@ -137,14 +139,14 @@ export default function DiscoverPage() {
                           <AccordionItem key={obj.id} value={obj.id} className="bg-gray-50 py-0 px-3 shadow-none border-0 divide-y">
                             <AccordionTrigger>
                               <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full">
-                                <span className="text-sm font-medium text-gray-900">{obj.name}</span>
+                                <span className="text-[15px] font-medium text-gray-900">{obj.name}</span>
                               </div>
                             </AccordionTrigger>
                             <AccordionContent>
                               {/* Metrics for this objective */}
                               {objMetrics.length > 0 && (
   <div className="mb-2">
-    <div className="font-semibold text-xs my-3 uppercase">Metrics</div>
+    <div className="font-semibold text-xs mb-3 uppercase pl-1.5 border-l-2 border-gray-900 mt-6">Metrics</div>
     <div className="">
       {objMetrics.map((m) => (
         <MetricCard
@@ -160,21 +162,23 @@ export default function DiscoverPage() {
                               {/* Projects for this objective */}
                               {objProjects.length > 0 && (
                                 <div className="mb-2">
-                                    <div className="font-semibold text-xs my-3 uppercase">Projects</div>
-                                  <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                    {objProjects.map((p) => (
-                                      <li key={p.id} className="rounded bg-white p-3 border border-gray-100">
-                                        <div className="font-medium text-sm text-gray-900">{p.name}</div>
-                                        <div className="text-xs text-gray-600">Milestones: {p.milestoneCount}</div>
-                                      </li>
-                                    ))}
-                                  </ul>
+                                    <div className="font-semibold text-xs mb-3 uppercase pl-1.5 border-l-2 border-gray-900 mt-6">Projects</div>
+                                  <div className="">
+  {objProjects.map((p) => (
+    <ProjectCard
+      key={p.id}
+      project={p}
+      milestoneResults={milestoneResults.filter((m) => Array.isArray(m.project) && m.project.includes(p.id))}
+      compressed
+    />
+  ))}
+</div>
                                 </div>
                               )}
                               {/* FPI Programs for this objective */}
                               {objFpiPrograms.length > 0 && (
                                 <div className="mt-2">
-                                  <div className="font-semibold text-sm mb-1">FPI Programs</div>
+                                  <div className="font-semibold text-xs mb-3 uppercase pl-1.5 border-l-2 border-gray-900 mt-6">Contributing Programs</div>
                                   <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                                     {objFpiPrograms.map((fp) => (
                                       <li key={fp.id} className="rounded bg-white p-3 border border-gray-100">

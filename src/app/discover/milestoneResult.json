@@ -1,0 +1,22 @@
+[
+  {
+    "id": "milestone-1",
+    "project": ["proj-1"],
+    "status": "Progressed"
+  },
+  {
+    "id": "milestone-2",
+    "project": ["proj-1"],
+    "status": "Complete"
+  },
+  {
+    "id": "milestone-3",
+    "project": ["proj-2"],
+    "status": "Progressed"
+  },
+  {
+    "id": "milestone-4",
+    "project": ["proj-2"],
+    "status": "Complete"
+  }
+]
