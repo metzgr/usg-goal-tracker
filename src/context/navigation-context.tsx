@@ -3,14 +3,14 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 type NavigationContextType = {
-  activeItem: 'Explore' | 'Analyze';
-  setActiveItem: React.Dispatch<React.SetStateAction<'Explore' | 'Analyze'>>;
+  activeItem: 'Explore' | 'Analyze' | 'Discover';
+  setActiveItem: React.Dispatch<React.SetStateAction<'Explore' | 'Analyze' | 'Discover'>>;
 };
 
 const NavigationContext = createContext<NavigationContextType | undefined>(undefined);
 
 export const NavigationProvider = ({ children }: { children: ReactNode }) => {
-  const [activeItem, setActiveItem] = useState<'Explore' | 'Analyze'>('Explore');
+  const [activeItem, setActiveItem] = useState<'Explore' | 'Analyze' | 'Discover'>('Explore');
   return (
     <NavigationContext.Provider value={{ activeItem, setActiveItem }}>
       {children}

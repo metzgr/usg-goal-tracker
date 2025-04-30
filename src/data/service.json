@@ -1,0 +1,24 @@
+[
+  {
+    "id": "recXU62pXPlAEntq5",
+    "name": "Filing an application under the OneRD Guarantee Loan Initiative",
+    "description": "Launched in 2020, the OneRD Guarantee Loan Initiative provides government-backed loans through commercial lenders to rural small business owners, agricultural producers, community organizations, utility providers, and municipalities seeking to develop a project who may have challenges securing a loan without a guarantee. The OneRD initiative streamlines and standardizes the application process required to access four of RD’s flagship loan programs: the Business and Industry (B&I) Guaranteed Loan Program, Community Facilities (CF) Guaranteed Loan Program, Rural Energy for America Program (REAP) Loan Guarantees, and Water and Waste Disposal (WWD) Loan Guarantees Programs. RD guarantees over $2 billion annually, fostering private investment in rural businesses and economic development.",
+    "website": "https://www.rd.usda.gov/onerdguarantee",
+    "serviceProvider": [
+      "recZBrnltcrG1QgsT"
+    ],
+    "satisfactionRate": 0.75,
+    "customerCount": 314234
+  },
+  {
+    "id": "recXg7YICTQp6TBCf",
+    "name": "Receiving technical assistance for broadband deployment",
+    "description": "Through the Rural Utilities Service (RUS), RD provides hundreds of millions of dollars annually to support modern broadband e-Connectivity in rural communities. In 2018, RUS introduced the ReConnect Program, which has invested over $1 billion to expand high-speed broadband infrastructure in unserved rural areas and tribal lands. RUS is focused on funding quality, high-speed, affordable, and reliable broadband infrastructure that is deployed to rural Americans, and RUS meets this mission by providing technical assistance throughout the customer journey, including workshops, 1:1 assistance, and other resources.",
+    "website": "https://www.rd.usda.gov/programs-services/telecommunications-programs",
+    "serviceProvider": [
+      "recZBrnltcrG1QgsT"
+    ],
+    "satisfactionRate": 0.63,
+    "customerCount": 832457
+  }
+]

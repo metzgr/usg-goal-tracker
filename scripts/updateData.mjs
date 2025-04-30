@@ -27,6 +27,8 @@ const apiKey = process.env.AIRTABLE_API_KEY;
 const baseId = process.env.AIRTABLE_BASE_ID;
 const tableNames = [
   'org',
+  'serviceProvider',
+  'service',
   'plan',
   'goal',
   'objective',
