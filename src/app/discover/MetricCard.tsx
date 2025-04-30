@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { BarChart, Bar, CartesianGrid, XAxis, YAxis } from "recharts";
 
@@ -37,37 +38,39 @@ export const MetricCard: React.FC<MetricCardProps> = ({ metric, results, compres
   }));
 
   return (
-    <Card className={`w-full bg-background border ${compressed ? 'mb-2 p-1' : 'mb-6 max-w-xl'}`}>
-      <CardHeader className={`pb-2 ${compressed ? 'py-1 px-2' : ''}`}>
-        <CardTitle className={compressed ? 'text-xs font-bold' : 'text-base font-bold'}>{metric.name}</CardTitle>
-        <CardDescription className={compressed ? 'text-[10px] text-muted-foreground' : 'text-xs text-muted-foreground'}>
-          {direction}
-        </CardDescription>
-      </CardHeader>
-      <CardContent className={`flex flex-col gap-1 ${compressed ? 'p-1' : ''}`}>
-        <div className={`flex ${compressed ? 'gap-2' : 'gap-8'} items-center mb-1`}>
-          <div>
+  <Card className={`w-full bg-background shadow-none border-0 ${compressed ? 'mb-2 p-1' : 'mb-6 max-w-xl'}`}>
+    <CardContent className={`flex items-center flex-col ${compressed ? 'py-3 px-2' : ''}`}>
+      <div className="flex flex-col md:flex-row w-full items-stretch mb-4 gap-2 md:gap-0">
+        {/* Left: Badge + Metric Name */}
+        <div className="flex-1 flex flex-col items-center justify-center md:items-start md:justify-center pb-2 md:pb-0">
+          <Badge className={compressed ? 'text-xs px-2 py-0.5 mb-3' : 'mb-3'} variant="outline">{direction}</Badge>
+          <span className={compressed ? 'text-sm font-normal' : 'text-base font-normal'}>{metric.name}</span>
+        </div>
+        {/* Right: Values Row */}
+        <div className="flex-1 flex flex-row divide-x divide-gray-200">
+          <div className="flex-1 flex flex-col items-center justify-center">
             <div className={compressed ? 'text-base font-bold' : 'text-2xl font-bold'}>{current ?? "—"}</div>
-            <div className={compressed ? 'text-[10px] text-muted-foreground' : 'text-xs text-muted-foreground'}>Current</div>
+            <div className={compressed ? 'text-[10px] text-muted-foreground' : 'text-xs text-muted-foreground'}>Actual</div>
           </div>
-          <div>
+          <div className="flex-1 flex flex-col items-center justify-center">
             <div className={compressed ? 'text-base font-bold' : 'text-2xl font-bold'}>{target ?? "—"}</div>
             <div className={compressed ? 'text-[10px] text-muted-foreground' : 'text-xs text-muted-foreground'}>Target</div>
           </div>
-          <div>
+          <div className="flex-1 flex flex-col items-center justify-center">
             <div className={compressed ? 'text-base font-bold' : 'text-2xl font-bold'}>{percent !== null ? `${percent}%` : "—"}</div>
             <div className={compressed ? 'text-[10px] text-muted-foreground' : 'text-xs text-muted-foreground'}>Progress</div>
           </div>
         </div>
-        <ChartContainer config={{ value: { label: "Value" } }} className={compressed ? 'h-[80px] w-full' : 'h-[180px] w-full'}>
-          <BarChart data={chartData} margin={{ left: 8, right: 8 }}>
-            <CartesianGrid vertical={false} />
-            <XAxis dataKey="label" tickLine={false} axisLine={false} tickMargin={4} minTickGap={8} hide={compressed} />
-            <YAxis hide tickLine={false} axisLine={false} />
-            <ChartTooltip content={<ChartTooltipContent className="w-[100px]" nameKey="value" />} />
-            <Bar dataKey="value" fill="hsl(var(--chart-1))" />
-          </BarChart>
-        </ChartContainer>
+      </div>
+      <ChartContainer config={{ value: { label: "Value" } }} className={compressed ? 'h-[80px] w-full' : 'h-[180px] w-full'}>
+        <BarChart data={chartData} margin={{ left: 8, right: 8 }}>
+          <CartesianGrid vertical={false} />
+          <XAxis dataKey="label" tickLine={false} axisLine={false} tickMargin={4} minTickGap={8} hide={compressed} />
+          <YAxis hide tickLine={false} axisLine={false} />
+          <ChartTooltip content={<ChartTooltipContent className="w-[100px]" nameKey="value" />} />
+          <Bar dataKey="value" fill="hsl(var(--chart-1))" />
+        </BarChart>
+      </ChartContainer>
       </CardContent>
     </Card>
   );

@@ -65,8 +65,6 @@ export default function DiscoverPage() {
         </Sidebar>
         <SidebarInset>
           <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4 bg-background/80 backdrop-blur z-10">
-            <SidebarTrigger className="md:hidden" />
-            <Separator orientation="vertical" className="mr-2 h-4" />
             <Breadcrumb>
               <BreadcrumbList>
                 <BreadcrumbItem>
@@ -102,13 +100,14 @@ export default function DiscoverPage() {
       <h1 className="text-xl font-bold mb-1">{selectedPlan?.name} <span className="text-base font-normal text-gray-500">({selectedPlan?.orgAcronym?.[0]})</span></h1>
       <div className="text-gray-700 text-sm mb-2">{selectedPlan?.orgName?.[0]}</div>
                 <div className="text-gray-500 text-xs mb-2">{selectedPlan?.startDate} – {selectedPlan?.endDate}</div>
-                <div className="flex flex-wrap gap-4 text-sm mt-2">
-                  <Badge variant="outline">Goals: {selectedPlan?.goalCount}</Badge>
-                  <Badge variant="outline">Objectives: {selectedPlan?.objectiveCount}</Badge>
-                  <Badge variant="outline">Metrics: {selectedPlan?.metricCount}</Badge>
-                  <Badge variant="outline">Projects: {selectedPlan?.projectCount}</Badge>
-                  <Badge variant="outline">Status: {selectedPlan?.status}</Badge>
-                </div>
+                <div className="flex flex-wrap gap-2 text-sm mt-2">
+  <Badge variant="outline">Goals: {selectedPlan?.goalCount}</Badge>
+  <Badge variant="outline">Objectives: {selectedPlan?.objectiveCount}</Badge>
+  <Badge variant="outline">Metrics: {selectedPlan?.metricCount}</Badge>
+  <Badge variant="outline">Projects: {selectedPlan?.projectCount}</Badge>
+  <Badge variant="outline">Programs: {relatedFpiPrograms.length}</Badge>
+  <Badge variant="outline">Status: {selectedPlan?.status}</Badge>
+</div>
               </section>
               <Separator className="my-6" />
               {/* Goals and Objectives */}
@@ -117,57 +116,51 @@ export default function DiscoverPage() {
                 const goalMetrics = relatedMetrics.filter((m) => Array.isArray(m.goal) && m.goal.includes(goal.id));
                 const goalProjects = relatedProjects.filter((p) => Array.isArray(p.goal) && p.goal.includes(goal.id));
                 return (
-                  <section key={goal.id} id={`goal-${goal.id}`} className="mb-12 scroll-mt-24 border-l-4 border-gray-300 pl-6">
+                  <section key={goal.id} id={`goal-${goal.id}`} className="mb-12 scroll-mt-24 border-l-2 border-gray-900 pl-4">
                     <div className="mb-2">
   <h2 className="text-lg font-bold text-gray-900">{goal.name}</h2>
   {goal.subtitle && <div className="text-base font-normal text-gray-500 mb-2">{goal.subtitle}</div>}
 </div>
-                    <div className="text-xs text-gray-600 mb-3 flex gap-4">
-  <span>Objectives: {goal.objectiveCount}</span>
-  <span>Metrics: {goal.metricCount}</span>
-  <span>Projects: {goal.projectCount}</span>
+                    <div className="text-xs text-gray-600 mb-4 flex gap-2">
+                    <Badge variant="outline">Objectives: {goal.objectiveCount}</Badge>
+                    <Badge variant="outline">Metrics: {goal.metricCount}</Badge>
+                    <Badge variant="outline">Projects: {goal.projectCount}</Badge>
 </div>
-{/* Metrics Cards */}
-{goalMetrics.length > 0 && (
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-    {goalMetrics.map((m) => (
-      <MetricCard key={m.id} metric={m} results={metricResults.filter((r) => Array.isArray(r.metric) && r.metric.includes(m.id))} />
-    ))}
-  </div>
-)}
+
                     {/* Objectives Accordion */}
-                    <Accordion type="multiple" className="space-y-4">
+                    <Accordion type="multiple" className="">
   {goalObjectives.map((obj) => {
                         const objMetrics = relatedMetrics.filter((m) => Array.isArray(m.objective) && m.objective.includes(obj.id));
                         const objProjects = relatedProjects.filter((p) => Array.isArray(p.objective) && p.objective.includes(obj.id));
                         const objFpiPrograms = relatedFpiPrograms.filter((fp) => Array.isArray(fp.strategicObjective) && fp.strategicObjective.includes(obj.id));
                         return (
-                          <AccordionItem key={obj.id} value={obj.id} className="bg-gray-50 rounded-lg py-0.5 px-4">
+                          <AccordionItem key={obj.id} value={obj.id} className="bg-gray-50 py-0 px-3 shadow-none border-0 divide-y">
                             <AccordionTrigger>
                               <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full">
-                                <span className="text-sm font-semibold text-gray-900">{obj.name}</span>
-                                <span className="block text-xs text-gray-600">Metrics: {obj.metricCount}, Projects: {obj.projectCount}</span>
+                                <span className="text-sm font-medium text-gray-900">{obj.name}</span>
                               </div>
                             </AccordionTrigger>
                             <AccordionContent>
                               {/* Metrics for this objective */}
                               {objMetrics.length > 0 && (
-                                <div className="mb-2">
-                                  <div className="font-semibold text-sm mb-1">Metrics</div>
-                                  <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                    {objMetrics.map((m) => (
-                                      <li key={m.id} className="rounded bg-white p-3 border border-gray-100">
-                                        <div className="font-medium text-sm text-gray-900">{m.name}</div>
-                                        <div className="text-xs text-gray-600">Most Recent: {m.mostRecentResultFormatted ?? "N/A"} (Target: {m.mostRecentTargetResultFormatted ?? "N/A"})</div>
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              )}
+  <div className="mb-2">
+    <div className="font-semibold text-xs my-3 uppercase">Metrics</div>
+    <div className="">
+      {objMetrics.map((m) => (
+        <MetricCard
+          key={m.id}
+          metric={m}
+          results={metricResults.filter((r) => Array.isArray(r.metric) && r.metric.includes(m.id))}
+          compressed
+        />
+      ))}
+    </div>
+  </div>
+)}
                               {/* Projects for this objective */}
                               {objProjects.length > 0 && (
                                 <div className="mb-2">
-                                  <div className="font-semibold text-sm mb-1">Projects</div>
+                                    <div className="font-semibold text-xs my-3 uppercase">Projects</div>
                                   <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                                     {objProjects.map((p) => (
                                       <li key={p.id} className="rounded bg-white p-3 border border-gray-100">
