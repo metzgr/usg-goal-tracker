@@ -6,11 +6,14 @@ import React from "react";
 import fpiProgram from "@/data/fpiProgram.json";
 import goal from "@/data/goal.json";
 import metric from "@/data/metric.json";
+import metricResult from "@/data/metricResult.json";
 import objective from "@/data/objective.json";
 import plan from "@/data/plan.json";
 import project from "@/data/project.json";
 import service from "@/data/service.json";
 import serviceProvider from "@/data/serviceProvider.json";
+import milestone from "@/data/milestone.json";
+import milestoneResult from "@/data/milestoneResult.json";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import {
   SidebarProvider,
@@ -30,10 +33,8 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
-import metricResults from "@/data/metricResult.json";
 import { MetricCard } from "./MetricCard";
 import { ProjectCard } from "./ProjectCard";
-import milestoneResults from "@/app/discover/milestoneResult.json";
 
 const PLAN_ID = "recOMj2QaHVSXQHj9"; // USDA's plan
 const selectedPlan = plan.find((p) => p.id === PLAN_ID);
@@ -152,7 +153,7 @@ export default function DiscoverPage() {
         <MetricCard
           key={m.id}
           metric={m}
-          results={metricResults.filter((r) => Array.isArray(r.metric) && r.metric.includes(m.id))}
+          results={metricResult.filter((r) => Array.isArray(r.metric) && r.metric.includes(m.id))}
           compressed
         />
       ))}
@@ -168,7 +169,8 @@ export default function DiscoverPage() {
     <ProjectCard
       key={p.id}
       project={p}
-      milestoneResults={milestoneResults.filter((m) => Array.isArray(m.project) && m.project.includes(p.id))}
+      milestoneResult={milestoneResult.filter((m) => Array.isArray(m.project) && m.project.includes(p.id))}
+      milestoneCount={p.milestoneCount}
       compressed
     />
   ))}

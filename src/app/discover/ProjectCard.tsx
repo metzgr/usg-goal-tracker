@@ -7,14 +7,17 @@ import { PieChart, Pie, Cell } from "recharts";
 
 export interface ProjectCardProps {
   project: any;
-  milestoneResults: any[];
+  milestoneResult: any[];
+  milestoneCount?: number;
   compressed?: boolean;
 }
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({ project, milestoneResults, compressed = false }) => {
-  const total = milestoneResults.length;
-  const progressed = milestoneResults.filter((m) => m.status === "Progressed").length;
-  const complete = milestoneResults.filter((m) => m.status === "Complete").length;
+export const ProjectCard: React.FC<ProjectCardProps> = ({ project, milestoneResult, milestoneCount, compressed = false }) => {
+  // Use milestoneCount from project table if provided, else fallback to milestoneResult.length
+  const total = typeof milestoneCount === 'number' ? milestoneCount : milestoneResult.length;
+  const progressed = typeof project.milestoneIsProgressedCount === 'number' ? project.milestoneIsProgressedCount : 0;
+  const complete = typeof project.milestoneIsCompletedCount === 'number' ? project.milestoneIsCompletedCount : 0;
+  const blocked = typeof project.milestoneIsBlockedCount === 'number' ? project.milestoneIsBlockedCount : 0;
   const percentComplete = total > 0 ? Math.round((complete / total) * 100) : 0;
 
   const donutData = [
@@ -43,7 +46,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, milestoneResu
             </div>
             <div className="flex-1 flex flex-col items-center justify-center">
               <div className={compressed ? 'text-base font-bold' : 'text-2xl font-bold'}>{complete}</div>
-              <div className={compressed ? 'text-[10px] text-muted-foreground' : 'text-xs text-muted-foreground'}>Complete</div>
+              <div className={compressed ? 'text-[10px] text-muted-foreground' : 'text-xs text-muted-foreground'}>Completed</div>
+            </div>
+            <div className="flex-1 flex flex-col items-center justify-center">
+              <div className={compressed ? 'text-base font-bold' : 'text-2xl font-bold'}>{blocked}</div>
+              <div className={compressed ? 'text-[10px] text-muted-foreground' : 'text-xs text-muted-foreground'}>Blocked</div>
             </div>
             {/* Donut Chart */}
             <div className="flex-1 flex flex-col items-center justify-center px-2">
