@@ -34,6 +34,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import { MetricCard } from "./MetricCard";
+import { PieChart, Pie, Cell } from "recharts";
 import { ProjectCard } from "./ProjectCard";
 
 const PLAN_ID = "recOMj2QaHVSXQHj9"; // USDA's plan
