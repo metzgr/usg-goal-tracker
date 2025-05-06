@@ -204,6 +204,7 @@ export default function AnalyzePage() {
       <CardContent>
         {/* Add more metric details here if desired */}
       </CardContent>
+      <hr className="border-t-1 border-gray-200 mx-[1px] group-hover:border-gray-400 mt-4" />
       <CardFooter>
         <CardPreviewFooter
           orgs={Array.isArray(metric.orgAcronym) ? metric.orgAcronym : (metric.orgAcronym ? [metric.orgAcronym] : [])}

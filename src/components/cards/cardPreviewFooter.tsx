@@ -11,7 +11,7 @@ export default function CardPreviewFooter({
   orgNames: string[];
 }) {
   return (
-    <div className="w-full flex justify-between items-center">
+    <div className="w-full flex justify-between items-center mt-3">
       <div>
         <p className="text-sm font-semibold text-gray-900">{orgs.join(', ')}</p>
         <p className="text-xs text-gray-600">{orgNames.join(', ')}</p>

@@ -70,7 +70,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recKxFS9YfC5NRo6E",
@@ -143,7 +147,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recgtdDHapmiVg98T",
@@ -215,7 +223,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "reci6SgvEYDWSGuK1",
@@ -288,7 +300,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "reclxsPODoHt1GtK2",
@@ -361,7 +377,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recjyf0y2pRIOW7qg",
@@ -433,7 +453,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "reczs3R36Zp10dKHQ",
@@ -506,7 +530,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recaOZutLhCARxZ8l",
@@ -579,7 +607,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recnp2PLQrMvKv9DM",
@@ -651,7 +683,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recH44ZTcvJQEg2jS",
@@ -721,7 +757,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recENH1xiv11OJTUE",
@@ -791,7 +831,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recvaOhfjUlickFpm",
@@ -860,7 +904,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recpd4R9aW33RwPLq",
@@ -930,7 +978,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "rec1deqrvOrUyylqh",
@@ -1000,7 +1052,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recwTSyFh1djV2zKv",
@@ -1069,7 +1125,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recH1N9jwZjZ1iHrk",
@@ -1139,7 +1199,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recs9KrdapXvk9Gg0",
@@ -1209,7 +1273,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recTfcwcZ8vPXnFv7",
@@ -1278,7 +1346,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recLVnXE52MD7UdxL",
@@ -1351,7 +1423,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recMDRxtzSIH8gYdJ",
@@ -1424,7 +1500,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "rec5D999C2vTUHpeN",
@@ -1497,7 +1577,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recUHgQbbA0yelZcx",
@@ -1571,7 +1655,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recDlV7NIlxbt5zUB",
@@ -1644,7 +1732,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recMZddgHEmjnfPZv",
@@ -1716,7 +1808,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recxFQfkk9jWXvoWe",
@@ -1789,7 +1885,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recP4QV6W115uw7so",
@@ -1862,7 +1962,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "rec0BrOeNntixgZUP",
@@ -1934,7 +2038,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recRv7EC5VjLRtSkp",
@@ -2007,7 +2115,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recJpyQ6IbaP5EeLz",
@@ -2080,7 +2192,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "reccphKdNbpm5RJsP",
@@ -2152,7 +2268,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recS1XUn6HedOcCxY",
@@ -2225,7 +2345,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recRWsuOQgcYovG2m",
@@ -2298,7 +2422,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "rec0PpdOpWN97jwcY",
@@ -2370,7 +2498,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recUaYjZA9Y3RPBgb",
@@ -2443,7 +2575,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recBY4R0eunqwiWj1",
@@ -2516,7 +2652,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recnajsS4M8LUNOzx",
@@ -2588,7 +2728,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recvH40jaqJvHAJVH",
@@ -2658,7 +2802,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recIPS60JkNoqjSzz",
@@ -2728,7 +2876,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recWFsfcqFRgw6yXe",
@@ -2797,7 +2949,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "rec9NsBjKtzYkHO98",
@@ -2867,7 +3023,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recXLFZrwS6G7iQOM",
@@ -2937,7 +3097,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recjxeUPZxy4xqOjr",
@@ -3006,7 +3170,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "rec9ySMWKw9AqE6Su",
@@ -3076,7 +3244,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recjqA80I0tmTblok",
@@ -3146,7 +3318,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "rec9ntW2YPwd4HJUG",
@@ -3215,7 +3391,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "rec6nNeIMURO0WZKU",
@@ -3289,7 +3469,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recNER90ePiGKOs4E",
@@ -3363,7 +3547,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recximCdRT6DK6BAK",
@@ -3436,7 +3624,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "rec2UVGPEsAbTGwfb",
@@ -3510,7 +3702,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recOA7CK8UNAxTWaA",
@@ -3583,7 +3779,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recgcZ5rlSQCpnmuw",
@@ -3655,7 +3855,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "rec4Mx1Pfo7mFrERN",
@@ -3728,7 +3932,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recuU8U02Eqr9PT2N",
@@ -3801,7 +4009,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recIHqxyoMghgW6J3",
@@ -3873,7 +4085,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recziteF01wdwpBSu",
@@ -3946,7 +4162,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recXejjzkYd5Uad6H",
@@ -4019,7 +4239,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recHxohM5W22iCHkU",
@@ -4091,7 +4315,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recw5fW7yVApDrX1n",
@@ -4164,7 +4392,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recxc8jsp6Bo6AkSL",
@@ -4237,7 +4469,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recUtm64fOIY3zLnn",
@@ -4309,7 +4545,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recHHX5991zvQTQbb",
@@ -4382,7 +4622,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recy30u2WNOJoaSLV",
@@ -4455,7 +4699,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recNMNKlYTuLvvJNN",
@@ -4527,7 +4775,11 @@
       "rec5gvnlTZPbu9jam"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recK0sIRwJ6gXSgY8",
@@ -4597,7 +4849,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recbDsGEhK3efdF26",
@@ -4667,7 +4923,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recmQvjm1uBCKWOwU",
@@ -4736,7 +4996,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recLaGvkkkKPaqF9i",
@@ -4806,7 +5070,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recPLDnv66Xs3XhCy",
@@ -4876,7 +5144,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recHzNPtMAiaYhGZX",
@@ -4945,7 +5217,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recWLLkdBOjXcsu1O",
@@ -5015,7 +5291,11 @@
     "mostRecentResultFormatted": "1.8K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recvVYJerXpZBqSut",
@@ -5085,7 +5365,11 @@
     "mostRecentResultFormatted": "3.3K",
     "targetDirectionStringInsert": "to",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "rec8mLXEc5NqDLwRD",
@@ -5154,7 +5438,11 @@
     "mostRecentTargetResultFormatted": "1K",
     "mostRecentResultFormatted": "1.1K",
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "rec3YkEQBM4tAUXu3",
@@ -5227,7 +5515,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recXWQPcumOtqjYyE",
@@ -5300,7 +5592,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "reclfP4JSP0MU24KW",
@@ -5372,7 +5668,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "rec9Db5aoUZueJlrR",
@@ -5445,7 +5745,11 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recUaCtFWHE85Ujq6",
@@ -5519,7 +5823,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "rec564srTcqs3VdCX",
@@ -5592,7 +5900,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   },
   {
     "id": "recjDVHXffW9ejd9f",
@@ -5666,7 +5978,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "reclikXrIYSPidv5A",
@@ -5740,7 +6056,11 @@
       "recpy0KGkEw9vjmeO"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Improved"
+    ],
+    "previousResultTrendIsImproved": 1
   },
   {
     "id": "recTikCoOvJs1UwPD",
@@ -5812,6 +6132,10 @@
       "recfTwUIG6h7Khlbr"
     ],
     "objectType": "Metric",
-    "startDate": "2025-10-01"
+    "startDate": "2025-10-01",
+    "previousResultTrend": [
+      "Worsened"
+    ],
+    "previousResultTrendIsImproved": 0
   }
 ]

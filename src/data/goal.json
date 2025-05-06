@@ -36,7 +36,8 @@
     "org": [
       "recnGvKRcRqww0bnX"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 12
   },
   {
     "id": "reckzwb3ajnkrFaPr",
@@ -72,7 +73,8 @@
     "org": [
       "recHD6eR7iIOtErtj"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "recpHCd3DDokR8jMV",
@@ -108,7 +110,8 @@
     "org": [
       "recaTbkkzqqA7qzsJ"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "rec2hvyBWPQ9yhrRD",
@@ -144,7 +147,8 @@
     "org": [
       "recnGvKRcRqww0bnX"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "reclbSVnJ5w3IDoMT",
@@ -180,7 +184,8 @@
     "org": [
       "recHD6eR7iIOtErtj"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "recgQ7Lm3qWG8O8O2",
@@ -216,7 +221,8 @@
     "org": [
       "recaTbkkzqqA7qzsJ"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "rec0F4EOzhyOjvyEY",
@@ -252,7 +258,8 @@
     "org": [
       "recnGvKRcRqww0bnX"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "reciWMgbpWKFIDQMw",
@@ -288,7 +295,8 @@
     "org": [
       "recHD6eR7iIOtErtj"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "rechpz3iEn2BuEgnB",
@@ -324,6 +332,7 @@
     "org": [
       "recaTbkkzqqA7qzsJ"
     ],
-    "objectType": "Goal"
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   }
 ]
