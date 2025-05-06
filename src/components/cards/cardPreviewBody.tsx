@@ -30,9 +30,6 @@ export default function CardPreviewBody({ data }: CardPreviewBodyProps) {
             <div className="text-right">
               <p className="text-[28px] leading-[1] font-black text-gray-950">
                 {totalIndicators ? `${((indicatorsProgressed / totalIndicators) * 100).toFixed(0)}%` : "0%"}
-                {changeIndicatorsProgressed !== 0 && changeIndicatorsProgressed !== null && (
-                  <span className="ml-2 text-xs text-green-600 align-top font-medium">(+{changeIndicatorsProgressed})</span>
-                )}
               </p>
               <p className="mt-[2px] text-xs font-medium text-gray-900">Improved</p>
             </div>
