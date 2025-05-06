@@ -45,7 +45,8 @@
       "recfWXIi30dJP3OVD",
       "recu1AVwIy36Aggsb"
     ],
-    "objectType": "Plan"
+    "objectType": "Plan",
+    "previousIndicatorImprovedCount": 42
   },
   {
     "id": "recfde4xeJB6AjiKp",
@@ -93,7 +94,8 @@
       "recFIhqaeqd95S7CT",
       "rec7k4JsI939KhQRn"
     ],
-    "objectType": "Plan"
+    "objectType": "Plan",
+    "previousIndicatorImprovedCount": 45
   },
   {
     "id": "recOkgPAU7Ek1YAZh",
@@ -141,6 +143,7 @@
       "recRhda9ucVb6cJvt",
       "recxeYkf0GRg4paQS"
     ],
-    "objectType": "Plan"
+    "objectType": "Plan",
+    "previousIndicatorImprovedCount": 45
   }
 ]
