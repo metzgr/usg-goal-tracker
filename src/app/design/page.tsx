@@ -15,6 +15,10 @@ import { MetricTable } from "@/components/tables/metric-table";
 import FilterTabs from "@/components/filters/filter-tabs";
 import Placard from "@/components/base/placard";
 import Badge from "@/components/base/badge";
+import planData from "@/data/plan.json";
+import goalData from "@/data/goal.json";
+import metricData from "@/data/metric.json";
+import CardPreviewBody from "@/components/cards/cardPreviewBody";
 import { Card, CardHeader, CardTitle, CardDescription, CardAction, CardContent, CardFooter } from "@/components/cards/previewCard";
 import CardPreviewTitle from "@/components/cards/cardPreviewTitle";
 import CardPreviewFooter from "@/components/cards/cardPreviewFooter";
@@ -182,39 +186,38 @@ export default function AnalyzePage() {
       <main className="bg-[#F5F5F5] px-8 py-[28px]">
         {activeTab === "Metrics" && (
           <>
-          {metrics.map((metric) => (
-  <Placard key={metric.id}>
+          {[...planData, ...goalData, ...metricData].map((item, idx) => (
+  <Placard key={item.id || idx}>
     <Card>
       <CardHeader>
         <div className="flex items-center justify-between">
-          <Badge variant="outline">{metric.objectType}</Badge>
+          <Badge variant="outline">{item.objectType}</Badge>
           <span className="text-sm text-gray-600">
-            {metric.startDate ? new Date(metric.startDate).getFullYear() : ""}&ndash;{metric.endDate ? new Date(metric.endDate).getFullYear() : ""}
+            {item.startDate ? new Date(item.startDate).getFullYear() : ""}&ndash;{item.endDate ? new Date(item.endDate).getFullYear() : ""}
           </span>
         </div>
         <CardPreviewTitle
-          name={metric.name}
-          startDate={metric.startDate}
-          endDate={metric.endDate}
-          objectType={metric.objectType}
-          orgAcronym={Array.isArray(metric.orgAcronym) ? metric.orgAcronym[0] : metric.orgAcronym}
+          name={item.name}
+          startDate={item.startDate}
+          endDate={item.endDate}
+          objectType={item.objectType}
+          orgAcronym={Array.isArray(item.orgAcronym) ? item.orgAcronym[0] : item.orgAcronym}
         />
         <CardDescription></CardDescription>
       </CardHeader>
       <CardContent>
-        {/* Add more metric details here if desired */}
+        <CardPreviewBody data={item} />
       </CardContent>
       <hr className="border-t-1 border-gray-200 mx-[1px] group-hover:border-gray-400 mt-4" />
       <CardFooter>
         <CardPreviewFooter
-          orgs={Array.isArray(metric.orgAcronym) ? metric.orgAcronym : (metric.orgAcronym ? [metric.orgAcronym] : [])}
-          orgNames={Array.isArray(metric.orgName) ? metric.orgName : (metric.orgName ? [metric.orgName] : [])}
+          orgs={Array.isArray(item.orgAcronym) ? item.orgAcronym : (item.orgAcronym ? [item.orgAcronym] : [])}
+          orgNames={Array.isArray(item.orgName) ? item.orgName : (item.orgName ? [item.orgName] : [])}
         />
       </CardFooter>
     </Card>
   </Placard>
 ))}
-
           </>
         )}
       </main>
