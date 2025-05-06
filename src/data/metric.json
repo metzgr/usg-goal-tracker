@@ -29,7 +29,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1600
     ],
@@ -68,7 +68,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recKxFS9YfC5NRo6E",
@@ -100,7 +102,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -108,7 +110,7 @@
       1800
     ],
     "mostRecentTargetDirection": [
-      "Decrease"
+      "Increase"
     ],
     "mostRecentTargetLevel": [
       8
@@ -119,12 +121,12 @@
     ],
     "percentChangeResult": 0.1,
     "mostRecentPercentProgress": [
-      0.55
+      1.83
     ],
     "mostRecentResultTrend": [
-      "Improved"
+      "Worsened"
     ],
-    "resultTrendIsImproved": 1,
+    "resultTrendIsImproved": 0,
     "goal": [
       "recE1G2OnThbIl1Ll"
     ],
@@ -139,7 +141,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recgtdDHapmiVg98T",
@@ -171,7 +175,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -209,7 +213,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "reci6SgvEYDWSGuK1",
@@ -241,7 +247,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -280,7 +286,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "reclxsPODoHt1GtK2",
@@ -312,7 +320,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -351,7 +359,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recjyf0y2pRIOW7qg",
@@ -383,7 +393,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -421,7 +431,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "reczs3R36Zp10dKHQ",
@@ -453,7 +465,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -492,7 +504,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recaOZutLhCARxZ8l",
@@ -524,7 +538,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -563,7 +577,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recnp2PLQrMvKv9DM",
@@ -595,7 +611,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -633,7 +649,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recH44ZTcvJQEg2jS",
@@ -665,7 +683,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -701,7 +719,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recENH1xiv11OJTUE",
@@ -733,7 +753,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -769,7 +789,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recvaOhfjUlickFpm",
@@ -801,7 +823,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -836,7 +858,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recpd4R9aW33RwPLq",
@@ -868,7 +892,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -904,7 +928,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec1deqrvOrUyylqh",
@@ -936,7 +962,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -972,7 +998,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recwTSyFh1djV2zKv",
@@ -1004,7 +1032,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -1039,7 +1067,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recH1N9jwZjZ1iHrk",
@@ -1071,7 +1101,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -1107,7 +1137,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recs9KrdapXvk9Gg0",
@@ -1139,7 +1171,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -1175,7 +1207,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recTfcwcZ8vPXnFv7",
@@ -1207,7 +1241,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -1242,7 +1276,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recLVnXE52MD7UdxL",
@@ -1274,7 +1310,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -1313,7 +1349,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recMDRxtzSIH8gYdJ",
@@ -1345,7 +1383,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -1384,7 +1422,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec5D999C2vTUHpeN",
@@ -1416,7 +1456,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -1455,7 +1495,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recUHgQbbA0yelZcx",
@@ -1487,7 +1529,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -1527,7 +1569,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recDlV7NIlxbt5zUB",
@@ -1559,7 +1603,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -1598,7 +1642,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recMZddgHEmjnfPZv",
@@ -1630,7 +1676,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -1668,7 +1714,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recxFQfkk9jWXvoWe",
@@ -1700,7 +1748,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -1739,7 +1787,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recP4QV6W115uw7so",
@@ -1771,7 +1821,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -1810,7 +1860,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec0BrOeNntixgZUP",
@@ -1842,7 +1894,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -1880,7 +1932,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recRv7EC5VjLRtSkp",
@@ -1912,7 +1966,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -1951,7 +2005,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recJpyQ6IbaP5EeLz",
@@ -1983,7 +2039,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -1991,7 +2047,7 @@
       1800
     ],
     "mostRecentTargetDirection": [
-      "Decrease"
+      "Increase"
     ],
     "mostRecentTargetLevel": [
       8
@@ -2002,12 +2058,12 @@
     ],
     "percentChangeResult": 0.1,
     "mostRecentPercentProgress": [
-      0.55
+      1.83
     ],
     "mostRecentResultTrend": [
-      "Improved"
+      "Worsened"
     ],
-    "resultTrendIsImproved": 1,
+    "resultTrendIsImproved": 0,
     "goal": [
       "recE1G2OnThbIl1Ll"
     ],
@@ -2022,7 +2078,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "reccphKdNbpm5RJsP",
@@ -2054,7 +2112,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -2092,7 +2150,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recS1XUn6HedOcCxY",
@@ -2124,7 +2184,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -2163,7 +2223,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recRWsuOQgcYovG2m",
@@ -2195,7 +2257,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -2234,7 +2296,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec0PpdOpWN97jwcY",
@@ -2266,7 +2330,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -2304,7 +2368,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recUaYjZA9Y3RPBgb",
@@ -2336,7 +2402,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -2375,7 +2441,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recBY4R0eunqwiWj1",
@@ -2407,7 +2475,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -2446,7 +2514,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recnajsS4M8LUNOzx",
@@ -2478,7 +2548,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -2516,7 +2586,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recvH40jaqJvHAJVH",
@@ -2548,7 +2620,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -2584,7 +2656,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recIPS60JkNoqjSzz",
@@ -2616,7 +2690,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -2652,7 +2726,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recWFsfcqFRgw6yXe",
@@ -2684,7 +2760,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -2719,7 +2795,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec9NsBjKtzYkHO98",
@@ -2751,7 +2829,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -2787,7 +2865,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recXLFZrwS6G7iQOM",
@@ -2819,7 +2899,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -2855,7 +2935,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recjxeUPZxy4xqOjr",
@@ -2887,7 +2969,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -2922,7 +3004,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec9ySMWKw9AqE6Su",
@@ -2954,7 +3038,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -2990,7 +3074,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recjqA80I0tmTblok",
@@ -3022,7 +3108,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -3058,7 +3144,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec9ntW2YPwd4HJUG",
@@ -3090,7 +3178,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -3125,7 +3213,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec6nNeIMURO0WZKU",
@@ -3157,7 +3247,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -3197,7 +3287,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recNER90ePiGKOs4E",
@@ -3229,7 +3321,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -3269,7 +3361,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recximCdRT6DK6BAK",
@@ -3301,7 +3395,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -3340,7 +3434,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec2UVGPEsAbTGwfb",
@@ -3372,7 +3468,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -3412,7 +3508,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recOA7CK8UNAxTWaA",
@@ -3444,7 +3542,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -3483,7 +3581,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recgcZ5rlSQCpnmuw",
@@ -3515,7 +3615,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -3553,7 +3653,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec4Mx1Pfo7mFrERN",
@@ -3585,7 +3687,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -3624,7 +3726,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recuU8U02Eqr9PT2N",
@@ -3656,7 +3760,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -3695,7 +3799,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recIHqxyoMghgW6J3",
@@ -3727,7 +3833,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -3765,7 +3871,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recziteF01wdwpBSu",
@@ -3797,7 +3905,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -3836,7 +3944,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recXejjzkYd5Uad6H",
@@ -3868,7 +3978,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -3876,7 +3986,7 @@
       1800
     ],
     "mostRecentTargetDirection": [
-      "Decrease"
+      "Increase"
     ],
     "mostRecentTargetLevel": [
       8
@@ -3887,12 +3997,12 @@
     ],
     "percentChangeResult": 0.1,
     "mostRecentPercentProgress": [
-      0.55
+      1.83
     ],
     "mostRecentResultTrend": [
-      "Improved"
+      "Worsened"
     ],
-    "resultTrendIsImproved": 1,
+    "resultTrendIsImproved": 0,
     "goal": [
       "recE1G2OnThbIl1Ll"
     ],
@@ -3907,7 +4017,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recHxohM5W22iCHkU",
@@ -3939,7 +4051,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -3977,7 +4089,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recw5fW7yVApDrX1n",
@@ -4009,7 +4123,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -4048,7 +4162,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recxc8jsp6Bo6AkSL",
@@ -4080,7 +4196,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -4119,7 +4235,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recUtm64fOIY3zLnn",
@@ -4151,7 +4269,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -4189,7 +4307,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recHHX5991zvQTQbb",
@@ -4221,7 +4341,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -4260,7 +4380,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recy30u2WNOJoaSLV",
@@ -4292,7 +4414,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -4331,7 +4453,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recNMNKlYTuLvvJNN",
@@ -4363,7 +4487,7 @@
       "USDA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -4401,7 +4525,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "rec5gvnlTZPbu9jam"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recK0sIRwJ6gXSgY8",
@@ -4433,7 +4559,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -4469,7 +4595,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recbDsGEhK3efdF26",
@@ -4501,7 +4629,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -4537,7 +4665,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recmQvjm1uBCKWOwU",
@@ -4569,7 +4699,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -4604,7 +4734,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recLaGvkkkKPaqF9i",
@@ -4636,7 +4768,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -4672,7 +4804,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recPLDnv66Xs3XhCy",
@@ -4704,7 +4838,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -4740,7 +4874,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recHzNPtMAiaYhGZX",
@@ -4772,7 +4908,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -4807,7 +4943,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recWLLkdBOjXcsu1O",
@@ -4839,7 +4977,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -4875,7 +5013,9 @@
     ],
     "mostRecentTargetResultFormatted": "3.3K",
     "mostRecentResultFormatted": "1.8K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recvVYJerXpZBqSut",
@@ -4907,7 +5047,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -4943,7 +5083,9 @@
     ],
     "mostRecentTargetResultFormatted": "1.8K",
     "mostRecentResultFormatted": "3.3K",
-    "targetDirectionStringInsert": "to"
+    "targetDirectionStringInsert": "to",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec8mLXEc5NqDLwRD",
@@ -4975,7 +5117,7 @@
       "HUD"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -5010,7 +5152,9 @@
       "recHD6eR7iIOtErtj"
     ],
     "mostRecentTargetResultFormatted": "1K",
-    "mostRecentResultFormatted": "1.1K"
+    "mostRecentResultFormatted": "1.1K",
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec3YkEQBM4tAUXu3",
@@ -5042,7 +5186,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -5081,7 +5225,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recXWQPcumOtqjYyE",
@@ -5113,7 +5259,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -5152,7 +5298,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "reclfP4JSP0MU24KW",
@@ -5184,7 +5332,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -5222,7 +5370,9 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec9Db5aoUZueJlrR",
@@ -5254,7 +5404,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -5293,7 +5443,9 @@
     "targetDirectionStringInsert": "to",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recUaCtFWHE85Ujq6",
@@ -5325,7 +5477,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -5365,7 +5517,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "rec564srTcqs3VdCX",
@@ -5397,7 +5551,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -5436,7 +5590,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recjDVHXffW9ejd9f",
@@ -5468,7 +5624,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1800
     ],
@@ -5508,7 +5664,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "reclikXrIYSPidv5A",
@@ -5540,7 +5698,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       3300
     ],
@@ -5580,7 +5738,9 @@
     "tag": [
       "recfTwUIG6h7Khlbr",
       "recpy0KGkEw9vjmeO"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   },
   {
     "id": "recTikCoOvJs1UwPD",
@@ -5612,7 +5772,7 @@
       "GSA"
     ],
     "metricMeasurementCount": 8,
-    "mostRecentEndDate": "2027-09-30",
+    "endDate": "2027-09-30",
     "mostRecentResult": [
       1100
     ],
@@ -5650,6 +5810,8 @@
     "mostRecentResultFormatted": "1.1K",
     "tag": [
       "recfTwUIG6h7Khlbr"
-    ]
+    ],
+    "objectType": "Metric",
+    "startDate": "2025-10-01"
   }
 ]

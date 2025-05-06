@@ -1268,7 +1268,7 @@
     "result": 200,
     "fiscalQuarter": 1,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2025-10-01T00:00:00.000Z",
     "endDate": "2025-12-31T00:00:00.000Z",
     "objectiveName": [
@@ -1292,7 +1292,7 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 9,
+    "percentProgress": 0.11,
     "resultTrendIsImproved": 0
   },
   {
@@ -2744,7 +2744,7 @@
     "result": 200,
     "fiscalQuarter": 1,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2025-10-01T00:00:00.000Z",
     "endDate": "2025-12-31T00:00:00.000Z",
     "objectiveName": [
@@ -2768,7 +2768,7 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 9,
+    "percentProgress": 0.11,
     "resultTrendIsImproved": 0
   },
   {
@@ -2852,7 +2852,7 @@
     "result": 200,
     "fiscalQuarter": 1,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2025-10-01T00:00:00.000Z",
     "endDate": "2025-12-31T00:00:00.000Z",
     "objectiveName": [
@@ -2876,7 +2876,7 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 9,
+    "percentProgress": 0.11,
     "resultTrendIsImproved": 0
   },
   {
@@ -4293,7 +4293,7 @@
     "result": 1800,
     "fiscalQuarter": 1,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-10-01T00:00:00.000Z",
     "endDate": "2026-12-31T00:00:00.000Z",
     "objectiveName": [
@@ -4317,9 +4317,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.72,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.38,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recUrRGttPZzT8Ubi",
@@ -5070,7 +5070,7 @@
     "result": 1800,
     "fiscalQuarter": 1,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-10-01T00:00:00.000Z",
     "endDate": "2026-12-31T00:00:00.000Z",
     "objectiveName": [
@@ -5094,9 +5094,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.72,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.38,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recl2CJqdeqz3JvRZ",
@@ -5662,7 +5662,7 @@
     "result": 1800,
     "fiscalQuarter": 1,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-10-01T00:00:00.000Z",
     "endDate": "2026-12-31T00:00:00.000Z",
     "objectiveName": [
@@ -5686,9 +5686,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.72,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.38,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recwCjBw0ibjlzMtP",
@@ -6254,7 +6254,7 @@
     "result": 600,
     "fiscalQuarter": 2,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-01-01T00:00:00.000Z",
     "endDate": "2026-03-31T00:00:00.000Z",
     "objectiveName": [
@@ -6278,9 +6278,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 2,
-    "resultTrend": "Worsened",
-    "resultTrendIsImproved": 0
+    "percentProgress": 0.5,
+    "resultTrend": "Improved",
+    "resultTrendIsImproved": 1
   },
   {
     "id": "rec7AgKtV4zCOdVRw",
@@ -6439,7 +6439,7 @@
     "result": 600,
     "fiscalQuarter": 2,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-01-01T00:00:00.000Z",
     "endDate": "2026-03-31T00:00:00.000Z",
     "objectiveName": [
@@ -6463,9 +6463,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 2,
-    "resultTrend": "Worsened",
-    "resultTrendIsImproved": 0
+    "percentProgress": 0.5,
+    "resultTrend": "Improved",
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recBCV1oxvZ4byx5V",
@@ -6920,7 +6920,7 @@
     "result": 600,
     "fiscalQuarter": 2,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-01-01T00:00:00.000Z",
     "endDate": "2026-03-31T00:00:00.000Z",
     "objectiveName": [
@@ -6944,9 +6944,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 2,
-    "resultTrend": "Worsened",
-    "resultTrendIsImproved": 0
+    "percentProgress": 0.5,
+    "resultTrend": "Improved",
+    "resultTrendIsImproved": 1
   },
   {
     "id": "recGa9a5RZEQu81Zx",
@@ -9029,7 +9029,7 @@
     "result": 1000,
     "fiscalQuarter": 2,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-01-01T00:00:00.000Z",
     "endDate": "2027-03-31T00:00:00.000Z",
     "objectiveName": [
@@ -9053,9 +9053,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.7,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.43,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "rec4HKuXWlluLxUJO",
@@ -10213,7 +10213,7 @@
     "result": 1000,
     "fiscalQuarter": 2,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-01-01T00:00:00.000Z",
     "endDate": "2027-03-31T00:00:00.000Z",
     "objectiveName": [
@@ -10237,9 +10237,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.7,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.43,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recVfJMq8sCLh3US0",
@@ -10842,7 +10842,7 @@
     "result": 1000,
     "fiscalQuarter": 2,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-01-01T00:00:00.000Z",
     "endDate": "2027-03-31T00:00:00.000Z",
     "objectiveName": [
@@ -10866,9 +10866,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.7,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.43,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "receLdGMmNBBEkxiH",
@@ -12211,7 +12211,7 @@
     "result": 1300,
     "fiscalQuarter": 3,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-04-01T00:00:00.000Z",
     "endDate": "2026-06-30T00:00:00.000Z",
     "objectiveName": [
@@ -12235,9 +12235,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 1.23,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 0.81,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recA7snSCNCvHo0i2",
@@ -12914,7 +12914,7 @@
     "result": 1300,
     "fiscalQuarter": 3,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-04-01T00:00:00.000Z",
     "endDate": "2026-06-30T00:00:00.000Z",
     "objectiveName": [
@@ -12938,9 +12938,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 1.23,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 0.81,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recIl4uiQywJfG3Oa",
@@ -13025,7 +13025,7 @@
     "result": 1300,
     "fiscalQuarter": 3,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-04-01T00:00:00.000Z",
     "endDate": "2026-06-30T00:00:00.000Z",
     "objectiveName": [
@@ -13049,9 +13049,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 1.23,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 0.81,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recMLUvA2qxlkGXsa",
@@ -15023,7 +15023,7 @@
     "result": 3000,
     "fiscalQuarter": 3,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-04-01T00:00:00.000Z",
     "endDate": "2027-06-30T00:00:00.000Z",
     "objectiveName": [
@@ -15047,9 +15047,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.57,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.76,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "rec20bl2iVibGoaX3",
@@ -17021,7 +17021,7 @@
     "result": 3000,
     "fiscalQuarter": 3,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-04-01T00:00:00.000Z",
     "endDate": "2027-06-30T00:00:00.000Z",
     "objectiveName": [
@@ -17045,9 +17045,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.57,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.76,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recfB8aM6Z7Xgwxbi",
@@ -17280,7 +17280,7 @@
     "result": 3000,
     "fiscalQuarter": 3,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-04-01T00:00:00.000Z",
     "endDate": "2027-06-30T00:00:00.000Z",
     "objectiveName": [
@@ -17304,9 +17304,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.57,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.76,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "reckvk6sHhJSRwq4S",
@@ -20499,7 +20499,7 @@
     "result": 700,
     "fiscalQuarter": 4,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-07-01T00:00:00.000Z",
     "endDate": "2026-09-30T00:00:00.000Z",
     "objectiveName": [
@@ -20523,9 +20523,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.71,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.4,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recvqgoL4L3JFIcep",
@@ -20610,7 +20610,7 @@
     "result": 700,
     "fiscalQuarter": 4,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-07-01T00:00:00.000Z",
     "endDate": "2026-09-30T00:00:00.000Z",
     "objectiveName": [
@@ -20634,9 +20634,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.71,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.4,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recwqk8I6j2PR8P2e",
@@ -20758,7 +20758,7 @@
     "result": 700,
     "fiscalQuarter": 4,
     "fiscalYear": 2026,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2026-07-01T00:00:00.000Z",
     "endDate": "2026-09-30T00:00:00.000Z",
     "objectiveName": [
@@ -20782,9 +20782,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.71,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.4,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "reczS267kOLn6trum",
@@ -20980,7 +20980,7 @@
     "result": 3300,
     "fiscalQuarter": 4,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-07-01T00:00:00.000Z",
     "endDate": "2027-09-30T00:00:00.000Z",
     "objectiveName": [
@@ -21004,9 +21004,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.55,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.83,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "rec4Elzb00fR3zK5Z",
@@ -21535,7 +21535,7 @@
     "result": 3300,
     "fiscalQuarter": 4,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-07-01T00:00:00.000Z",
     "endDate": "2027-09-30T00:00:00.000Z",
     "objectiveName": [
@@ -21559,9 +21559,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.55,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.83,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recEHxYDJzHcTxKZc",
@@ -23681,7 +23681,7 @@
     "result": 3300,
     "fiscalQuarter": 4,
     "fiscalYear": 2027,
-    "targetDirection": "Decrease",
+    "targetDirection": "Increase",
     "startDate": "2027-07-01T00:00:00.000Z",
     "endDate": "2027-09-30T00:00:00.000Z",
     "objectiveName": [
@@ -23705,9 +23705,9 @@
     "previousToMostRecentEndDate": [
       "2027-06-30"
     ],
-    "percentProgress": 0.55,
-    "resultTrend": "Improved",
-    "resultTrendIsImproved": 1
+    "percentProgress": 1.83,
+    "resultTrend": "Worsened",
+    "resultTrendIsImproved": 0
   },
   {
     "id": "recyb21ge5GaCdgjG",

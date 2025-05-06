@@ -28,14 +28,15 @@
     "metricCount": 9,
     "projectCount": 9,
     "indicatorCount": 18,
-    "indicatorImprovedCount": 15,
-    "indicatorImprovedPercent": 0.8333333333333334,
+    "indicatorImprovedCount": 12,
+    "indicatorImprovedPercent": 0.6666666666666666,
     "subtitle": "Make it easier to grow, sell, and succeed.",
     "milestoneCount": 27,
     "targetCount": 51,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "objectType": "Goal"
   },
   {
     "id": "reckzwb3ajnkrFaPr",
@@ -70,7 +71,8 @@
     "targetCount": 51,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Goal"
   },
   {
     "id": "recpHCd3DDokR8jMV",
@@ -105,7 +107,8 @@
     "targetCount": 51,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Goal"
   },
   {
     "id": "rec2hvyBWPQ9yhrRD",
@@ -140,7 +143,8 @@
     "targetCount": 51,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "objectType": "Goal"
   },
   {
     "id": "reclbSVnJ5w3IDoMT",
@@ -175,7 +179,8 @@
     "targetCount": 51,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Goal"
   },
   {
     "id": "recgQ7Lm3qWG8O8O2",
@@ -210,7 +215,8 @@
     "targetCount": 51,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Goal"
   },
   {
     "id": "rec0F4EOzhyOjvyEY",
@@ -245,7 +251,8 @@
     "targetCount": 51,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "objectType": "Goal"
   },
   {
     "id": "reciWMgbpWKFIDQMw",
@@ -280,7 +287,8 @@
     "targetCount": 51,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Goal"
   },
   {
     "id": "rechpz3iEn2BuEgnB",
@@ -315,6 +323,7 @@
     "targetCount": 51,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Goal"
   }
 ]
