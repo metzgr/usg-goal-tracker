@@ -20,9 +20,11 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
       <TableCaption>All Metrics</TableCaption>
       <TableHeader className="">
         <TableRow className="sticky top-0 z-10 bg-white border-gray-800">
-          <TableHead className="border-b-[3px] border-gray-800">Indicator</TableHead>
+        <TableHead className="border-b-[3px] border-gray-800">Objective</TableHead>
+         
+          <TableHead className="border-b-[3px] border-gray-800">Metric</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Target</TableHead>
-          <TableHead className="border-b-[3px] border-gray-800">Currently</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Actual</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Trend</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Owner</TableHead>
         </TableRow>
@@ -46,8 +48,8 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
 
           return (
             <TableRow key={m.id}>
-       
-              <TableCell className="max-w-[280px]">{m.name}</TableCell>
+              <TableCell className="max-w-[225px]">{m.objectiveName}</TableCell>
+              <TableCell className="max-w-[350px]">{m.name}</TableCell>
               <TableCell>{m.mostRecentTargetDirection} {m.targetDirectionStringInsert} {m.mostRecentTargetResult}</TableCell>
               <TableCell>{m.mostRecentResult}</TableCell>
               <TableCell>

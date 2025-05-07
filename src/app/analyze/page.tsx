@@ -180,9 +180,41 @@ export default function AnalyzePage() {
           <>
           
 <div className="grid grid-cols-1 md:grid-cols-3">
-<div className="md:pt-2 bg-white"><Placard><Badge>Status</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><BubbleChart data={bubbleChartData} /></div></Placard></div>
-<div className="md:pt-2 bg-white"><Placard><Badge>Trend</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><BumpChart data={bumpChartData} /></div></Placard></div>
-<div className="md:pt-2 bg-white"><Placard><Badge>Owners</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center"><SunburstChart data={hierarchyData} /></div></Placard></div>
+  <div className="md:pt-2 bg-white">
+    <Placard>
+      <Badge>Status</Badge>
+      <div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center" style={{ flexDirection: "column", alignItems: "center" }}>
+        <BubbleChart data={bubbleChartData} />
+        <div className="flex justify-center mt-[10px]">
+          <p className="inline-flex items-center text-xs text-gray-950 mr-2">
+            <svg className="w-[16px] h-[16px] fill-[#444ec7]" viewBox="0 0 16 16" aria-hidden="true">
+              <circle cx="8" cy="8" r="4" />
+            </svg>
+            <span className="font-medium">Actual</span>
+          </p>
+          <p className="inline-flex items-center text-xs text-gray-950">
+            <svg className="w-[16px] h-[16px] fill-red-600" viewBox="0 0 16 16" aria-hidden="true">
+              <circle cx="8" cy="8" r="4" />
+            </svg>
+            <span className="font-medium">Target</span>
+          </p>
+        </div>
+      </div>
+    </Placard>
+  </div>
+<div className="md:pt-2 bg-white"><Placard><Badge>Trend</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex flex-col items-center"><BumpChart data={bumpChartData} />
+
+<div className="flex justify-center mt-[10px]"><p className="inline-flex items-center text-xs text-gray-950 mr-2"><svg className="w-[16px] h-[16px] fill-[#444ec7]" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Actual</span></p><p className="inline-flex items-center text-xs text-gray-950"><svg className="w-[16px] h-[16px] fill-red-600" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Target</span></p></div>
+
+
+</div></Placard></div>
+<div className="md:pt-2 bg-white"><Placard><Badge>Owners</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex flex-col items-center"><SunburstChart data={hierarchyData} />
+
+
+<div className="flex justify-center mt-[10px]"><p className="inline-flex items-center text-xs text-gray-950 mr-2"><svg className="w-[16px] h-[16px] fill-[#444ec7]" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Actual</span></p><p className="inline-flex items-center text-xs text-gray-950"><svg className="w-[16px] h-[16px] fill-red-600" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Target</span></p></div>
+
+
+</div></Placard></div>
 </div>
 
 <Placard><MetricTable metrics={displayedMetrics} /></Placard>
