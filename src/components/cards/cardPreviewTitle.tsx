@@ -8,8 +8,6 @@ export default function CardPreviewTitle({
   orgAcronym = ""
 }: {
   name: string;
-  startDate?: string;
-  endDate?: string;
   objectType?: string;
   orgAcronym?: string;
 }) {
@@ -19,8 +17,9 @@ export default function CardPreviewTitle({
   // Determine text alignment: center for plan, left otherwise.
   const alignClass = objectType === "Plan" ? "text-center" : "text-left";
 
-  // Build the complete class string.
-  const h2Classes = `mt-4 font-serif text-gray-950 text-2xl ${weightClass} ${alignClass}`;
+  // Build the complete class string, with dynamic font size for Plan.
+  const fontSizeClass = objectType === "Plan" ? "text-3xl" : "text-2xl";
+  const h2Classes = `mt-4 font-serif text-gray-950 ${fontSizeClass} ${weightClass} ${alignClass}`;
 
   // If objectType is "Plan" and an orgAcronym is provided, prepend it (with a backslash separator) to the name.
   const displayTitle =
