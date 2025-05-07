@@ -70,8 +70,8 @@ export default function CardPreviewBody({ data }: CardPreviewBodyProps) {
     return (
       <div className="px-6 py-4 bg-gray-50">
         <StatHeader
-          dataActuals={data.result || []}
-          dataTargets={data.targetResult || []}
+          mostRecentActual={Array.isArray(data.result) && data.result.length > 0 ? data.result[data.result.length - 1] : 0}
+          percentChangeResult={typeof data.percentChangeResult === 'number' ? data.percentChangeResult : 0}
           unitFormat={data.unitFormat}
         />
         <ProgressBarChart

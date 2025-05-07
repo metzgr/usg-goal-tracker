@@ -1,15 +1,13 @@
 import React from "react";
-import IndicatorChangeLabel from "src/components/custom/indicator-change-label";
+import IndicatorChangeLabel from "src/components/charts/indicator-change-label";
 
 type StatHeaderProps = {
-  dataActuals: number[];
-  dataTargets: number[];
+  mostRecentActual: number;
+  percentChangeResult: number;
   unitFormat?: string;
 };
 
-export default function StatHeader({ dataActuals, dataTargets, unitFormat }: StatHeaderProps) {
-  // Get the most recent actual value (defaulting to 0 if the array is empty)
-  const mostRecentActual = dataActuals.length > 0 ? dataActuals[dataActuals.length - 1] : 0;
+export default function StatHeader({ mostRecentActual, percentChangeResult, unitFormat }: StatHeaderProps) {
   // Format the unit if provided and equal to "%"
   const formattedActual = mostRecentActual.toLocaleString() + (unitFormat === "%" ? "%" : "");
 
@@ -20,10 +18,7 @@ export default function StatHeader({ dataActuals, dataTargets, unitFormat }: Sta
           {formattedActual}
         </h5>
       </div>
-      <IndicatorChangeLabel 
-         dataActuals={dataActuals} 
-         dataTargets={dataTargets}
-      />
+      <IndicatorChangeLabel percentChangeResult={percentChangeResult} />
     </div>
   );
 }
