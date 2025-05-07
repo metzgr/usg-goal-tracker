@@ -75,7 +75,11 @@ export default function CardPreviewBody({ data }: CardPreviewBodyProps) {
           unitFormat={data.unitFormat}
         />
         <ProgressBarChart
+          mostRecentResult={Array.isArray(data.mostRecentResult) && data.mostRecentResult.length > 0 ? data.mostRecentResult[0] : 0}
           mostRecentTargetLevel={Array.isArray(data.mostRecentTargetLevel) && data.mostRecentTargetLevel.length > 0 ? data.mostRecentTargetLevel[0] : 0}
+          mostRecentTargetResult={Array.isArray(data.mostRecentTargetResult) && data.mostRecentTargetResult.length > 0 ? data.mostRecentTargetResult[0] : 0}
+          mostRecentPercentProgress={Array.isArray(data.mostRecentPercentProgress) && data.mostRecentPercentProgress.length > 0 ? data.mostRecentPercentProgress[0] * 100 : 0}
+          unitFormat={data.unitFormat}
         />
         <LineChart
           dataActuals={data.result || []}

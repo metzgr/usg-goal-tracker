@@ -3,6 +3,7 @@
 type ProgressBarChartProps = {
   mostRecentResult: number;
   mostRecentTargetLevel: number;
+  mostRecentTargetResult: number;
   mostRecentPercentProgress: number;
   unitFormat?: string;
 };
@@ -45,7 +46,7 @@ export default function ProgressBarChart({ mostRecentResult, mostRecentTargetLev
           </span>
           <span className="text-sm text-gray-700 mx-[2px]">/</span>
           <span className="text-xl text-gray-950 font-black">
-            {typeof mostRecentTargetLevel === 'number' ? formatNumber(mostRecentTargetLevel, unitFormat) : "-"}
+            {typeof mostRecentTargetResult === 'number' ? formatNumber(mostRecentTargetResult, unitFormat) : "-"}
           </span>
         </p>
       </div>
