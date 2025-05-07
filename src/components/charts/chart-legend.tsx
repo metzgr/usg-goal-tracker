@@ -1,7 +1,7 @@
 "use client";
 
 type ChartLegendProps = {
-  cardType: string; // "Plan" or "Indicator"
+  legendType: string; // "Plan" or "Indicator"
   indicatorsProgressed: number;
   changeIndicatorsProgressed: number;
   dataActuals: number[];
@@ -9,13 +9,13 @@ type ChartLegendProps = {
 };
 
 export default function ChartLegend({
-  cardType,
+  legendType,
   indicatorsProgressed,
   changeIndicatorsProgressed,
   dataActuals,
   dataTargets,
 }: ChartLegendProps) {
-  if (cardType === "Plan") {
+  if (legendType === "Plan") {
     return (
       <div className="flex justify-center mt-[10px]">
         <p className="inline-flex items-center text-sm text-gray-950">
@@ -30,7 +30,7 @@ export default function ChartLegend({
         </p>
       </div>
     );
-  } else if (cardType === "Indicator") {
+  } else if (legendType === "Metric") {
     // Determine if targets exist.
     const hasTarget = dataTargets && dataTargets.length > 0;
 

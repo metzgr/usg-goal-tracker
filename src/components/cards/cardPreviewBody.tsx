@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Artwork from "@/components/charts/artwork";
 import PieChart from "@/components/charts/pie-chart";
@@ -46,7 +48,7 @@ export default function CardPreviewBody({ data }: CardPreviewBodyProps) {
           </div>
         </div>
         <ChartLegend
-          cardType="Plan"
+          legendType="Plan"
           indicatorsProgressed={indicatorsProgressed}
           changeIndicatorsProgressed={changeIndicatorsProgressed}
           dataActuals={[]}
@@ -74,23 +76,25 @@ export default function CardPreviewBody({ data }: CardPreviewBodyProps) {
           percentChangeResult={typeof data.percentChangeResult === 'number' ? data.percentChangeResult : 0}
           unitFormat={data.unitFormat}
         />
-        <ProgressBarChart
-          mostRecentResult={Array.isArray(data.mostRecentResult) && data.mostRecentResult.length > 0 ? data.mostRecentResult[0] : 0}
-          mostRecentTargetLevel={Array.isArray(data.mostRecentTargetLevel) && data.mostRecentTargetLevel.length > 0 ? data.mostRecentTargetLevel[0] : 0}
-          mostRecentTargetResult={Array.isArray(data.mostRecentTargetResult) && data.mostRecentTargetResult.length > 0 ? data.mostRecentTargetResult[0] : 0}
-          mostRecentPercentProgress={Array.isArray(data.mostRecentPercentProgress) && data.mostRecentPercentProgress.length > 0 ? data.mostRecentPercentProgress[0] * 100 : 0}
-          unitFormat={data.unitFormat}
-        />
+        {(() => {
+          console.log('DEBUG: data.result', data.result);
+          console.log('DEBUG: data.targetResult', data.targetResult);
+          return null;
+        })()}
         <LineChart
           dataActuals={data.result || []}
           dataTargets={data.targetResult || []}
         />
         <ChartLegend
-          cardType="Metric"
-          indicatorsProgressed={0}
-          changeIndicatorsProgressed={0}
+          legendType="Metric"
           dataActuals={data.result || []}
           dataTargets={data.targetResult || []}
+        />
+        <ProgressBarChart
+          mostRecentResult={Array.isArray(data.mostRecentResult) && data.mostRecentResult.length > 0 ? data.mostRecentResult[0] : 0}
+          mostRecentTargetLevel={Array.isArray(data.mostRecentTargetLevel) && data.mostRecentTargetLevel.length > 0 ? data.mostRecentTargetLevel[0] : 0}
+          mostRecentTargetResult={Array.isArray(data.mostRecentTargetResult) && data.mostRecentTargetResult.length > 0 ? data.mostRecentTargetResult[0] : 0}
+          mostRecentPercentProgress={Array.isArray(data.mostRecentPercentProgress) && data.mostRecentPercentProgress.length > 0 ? data.mostRecentPercentProgress[0] * 100 : 0}
         />
       </div>
     );

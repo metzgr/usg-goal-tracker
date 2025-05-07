@@ -12,7 +12,6 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [dimensions, setDimensions] = useState({ width: 300, height: 150 });
 
-  // Handle responsive container
   useEffect(() => {
     function updateDimensions() {
       if (containerRef.current) {
@@ -28,6 +27,9 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
 
   useEffect(() => {
     const { width, height } = dimensions;
+
+    const trimmedActuals = dataActuals.slice(-7);
+    const trimmedTargets = dataTargets.slice(-7);
 
     // Clear previous SVG and tooltip elements if they exist
     d3.select(containerRef.current).select("svg").remove();
@@ -50,15 +52,15 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       .attr("viewBox", `0 0 ${width} ${height}`);
 
     // Check if there are targets; if none, mimic NoTargetLineChart styling exactly.
-    if (!dataTargets || dataTargets.length === 0) {
+    if (!trimmedTargets || trimmedTargets.length === 0) {
       // --- Begin NoTargetLineChart Branch ---
-      const yMax = d3.max(dataActuals) || 0;
+      const yMax = d3.max(trimmedActuals) || 0;
       const actualColor = "#444CE7";
       const dotRadius = 2.8;
       const actualLineWidth = 5;
       const xScale = d3
         .scaleLinear()
-        .domain([0, dataActuals.length - 1])
+        .domain([0, trimmedActuals.length - 1])
         .range([dotRadius, width - dotRadius]);
       const yScale = d3
         .scaleLinear()
@@ -71,8 +73,8 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
         .curve(d3.curveMonotoneX);
       
       // Draw vertical grid lines (skip first and last)
-      d3.range(dataActuals.length).forEach((i) => {
-        if (i === 0 || i === dataActuals.length - 1) return;
+      d3.range(trimmedActuals.length).forEach((i) => {
+        if (i === 0 || i === trimmedActuals.length - 1) return;
         svg
           .append("line")
           .attr("class", "grid-line")
@@ -89,7 +91,7 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       // Draw Actuals line with highlight effect (thick line)
       svg
         .append("path")
-        .datum(dataActuals)
+        .datum(lastActuals)
         .attr("fill", "none")
         .attr("stroke", "#D92D20")
         .attr("stroke-width", 10)
@@ -100,7 +102,7 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       // Draw main Actuals line on top (thin line)
       svg
         .append("path")
-        .datum(dataActuals)
+        .datum(trimmedActuals)
         .attr("fill", "none")
         .attr("stroke", actualColor)
         .attr("stroke-width", 2)
@@ -131,8 +133,8 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
           
           const [mouseX] = d3.pointer(event);
           const index = Math.round(xScale.invert(mouseX));
-          const clampedIndex = Math.max(0, Math.min(dataActuals.length - 1, index));
-          const actualValue = dataActuals[clampedIndex];
+          const clampedIndex = Math.max(0, Math.min(trimmedActuals.length - 1, index));
+          const actualValue = trimmedActuals[clampedIndex];
           
           tooltip
             .html(`
@@ -169,16 +171,16 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
     } else {
       // Normal treatment if targets exist.
       // Combine for y-domain
-      const allValues = [...dataActuals, ...dataTargets];
+      const allValues = [...trimmedActuals, ...trimmedTargets];
       const yMax = d3.max(allValues) || 0;
       
       // Determine dynamic color for Actuals
-      const secondLastIndex = dataActuals.length - 2;
-      const lastIndex = dataActuals.length - 1;
-      const prevActual = dataActuals[secondLastIndex];
-      const finalActual = dataActuals[lastIndex];
-      const prevTarget = dataTargets[secondLastIndex];
-      const finalTarget = dataTargets[lastIndex];
+      const secondLastIndex = trimmedActuals.length - 2;
+      const lastIndex = trimmedActuals.length - 1;
+      const prevActual = trimmedActuals[secondLastIndex];
+      const finalActual = trimmedActuals[lastIndex];
+      const prevTarget = trimmedTargets[secondLastIndex];
+      const finalTarget = trimmedTargets[lastIndex];
       
       let actualColor = "#D92D20"; // default red
       
@@ -203,7 +205,7 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       const actualLineWidth = 5;
       const xScale = d3
         .scaleLinear()
-        .domain([0, dataActuals.length - 1])
+        .domain([0, trimmedActuals.length - 1])
         .range([dotRadius, width - dotRadius]);
       const yScale = d3
         .scaleLinear()
@@ -218,8 +220,8 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
         .curve(d3.curveMonotoneX);
       
       // Draw vertical grid lines (skip first and last)
-      d3.range(dataActuals.length).forEach((i) => {
-        if (i === 0 || i === dataActuals.length - 1) return;
+      d3.range(trimmedActuals.length).forEach((i) => {
+        if (i === 0 || i === trimmedActuals.length - 1) return;
         svg
           .append("line")
           .attr("class", "grid-line")
@@ -236,7 +238,7 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       // Draw Actuals line with highlight effect (thick line)
       svg
         .append("path")
-        .datum(dataActuals)
+        .datum(trimmedActuals)
         .attr("fill", "none")
         .attr("stroke", actualColor)
         .attr("stroke-width", 10)
@@ -247,7 +249,7 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       // Draw main Actuals line on top (thin line)
       svg
         .append("path")
-        .datum(dataActuals)
+        .datum(trimmedActuals)
         .attr("fill", "none")
         .attr("stroke", actualColor)
         .attr("stroke-width", 2)
@@ -258,7 +260,7 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       // Draw Targets line
       svg
         .append("path")
-        .datum(dataTargets)
+        .datum(trimmedTargets)
         .attr("fill", "none")
         .attr("stroke", "#0A0D12")
         .attr("stroke-width", 1)
@@ -269,7 +271,7 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       // Draw dots on Targets line
       svg
         .selectAll(".target-dot")
-        .data(dataTargets)
+        .data(trimmedTargets)
         .enter()
         .append("circle")
         .attr("class", "target-dot")
@@ -302,9 +304,9 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
           
           const [mouseX] = d3.pointer(event);
           const index = Math.round(xScale.invert(mouseX));
-          const clampedIndex = Math.max(0, Math.min(dataActuals.length - 1, index));
-          const actualValue = dataActuals[clampedIndex];
-          const targetValue = dataTargets[clampedIndex];
+          const clampedIndex = Math.max(0, Math.min(trimmedActuals.length - 1, index));
+          const actualValue = trimmedActuals[clampedIndex];
+          const targetValue = trimmedTargets[clampedIndex];
           
           tooltip
             .html(`

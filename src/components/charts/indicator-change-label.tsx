@@ -9,7 +9,9 @@ export default function IndicatorChangeLabel({ percentChangeResult }: IndicatorC
   const posPctChange = changeValue > 0;
   const arrowRotation = posPctChange ? "rotate-[-90deg]" : "rotate-[90deg]";
   const arrowMargin = posPctChange ? "mt-[4px]" : "mt-[-4px]";
-  const colorClass = posPctChange ? "text-green-700" : "text-red-700";
+  let colorClass = "text-gray-950";
+  if (changeValue > 0) colorClass = "text-indigo-600";
+  else if (changeValue < 0) colorClass = "text-red-600";
 
   return (
     <div className="flex items-center">
