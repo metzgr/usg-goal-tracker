@@ -11,6 +11,9 @@
   {
     "id": "rec3qi4z8w6MaROAS",
     "name": "building",
+    "goal": [
+      "recpHCd3DDokR8jMV"
+    ],
     "type": "artwork"
   },
   {
@@ -71,5 +74,59 @@
     "id": "recNw5hnF9HrSRsQb",
     "name": "pills",
     "type": "artwork"
+  },
+  {
+    "id": "recCsZfBFhkzRri9U",
+    "name": "chatbot",
+    "goal": [
+      "rechpz3iEn2BuEgnB"
+    ],
+    "type": "artwork"
+  },
+  {
+    "id": "recJrUepwePgHaI3G",
+    "name": "tractor",
+    "goal": [
+      "rec2hvyBWPQ9yhrRD"
+    ]
+  },
+  {
+    "id": "recuKg2hDELRvvDIy",
+    "name": "piggybank",
+    "goal": [
+      "recgQ7Lm3qWG8O8O2"
+    ]
+  },
+  {
+    "id": "recr0PrG5Zg3G9esJ",
+    "name": "family"
+  },
+  {
+    "id": "recl18Ji2eUMd7gzN",
+    "name": "ladder",
+    "goal": [
+      "reciWMgbpWKFIDQMw"
+    ]
+  },
+  {
+    "id": "recAFzgPHduvPwdND",
+    "name": "nutrition",
+    "goal": [
+      "rec0F4EOzhyOjvyEY"
+    ]
+  },
+  {
+    "id": "recGa3vOzfSg17vKw",
+    "name": "houses",
+    "goal": [
+      "reckzwb3ajnkrFaPr"
+    ]
+  },
+  {
+    "id": "recSBmOQs7T3CBnMN",
+    "name": "housingaid",
+    "goal": [
+      "reclbSVnJ5w3IDoMT"
+    ]
   }
 ]

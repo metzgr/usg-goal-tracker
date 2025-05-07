@@ -41,7 +41,7 @@ export default function CardPreviewBody({ data }: CardPreviewBodyProps) {
           <div className="w-[188px] h-[188px]">
             <PieChart
               artwork={Array.isArray(data.image) ? data.image[0] : data.image}
-              patternOption={data.patternOption}
+              patternOption="tile"
               indicatorsProgressed={indicatorsProgressed}
               totalIndicators={totalIndicators}
             />

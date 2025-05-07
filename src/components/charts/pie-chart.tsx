@@ -9,6 +9,7 @@ export default function PieChart({
   totalIndicators = 0,
   indicatorsProgressed = 0,
 }) {
+  console.log('PieChart artwork prop:', artwork);
   const containerRef = useRef(null);
   const [dimensions, setDimensions] = useState({ width: 200, height: 200 });
 
