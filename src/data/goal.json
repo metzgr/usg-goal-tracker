@@ -28,13 +28,18 @@
     "metricCount": 9,
     "projectCount": 9,
     "indicatorCount": 18,
-    "indicatorImprovedCount": 15,
-    "indicatorImprovedPercent": 0.8333333333333334,
+    "indicatorImprovedCount": 12,
+    "indicatorImprovedPercent": 0.6666666666666666,
     "subtitle": "Make it easier to grow, sell, and succeed.",
     "milestoneCount": 27,
     "targetCount": 51,
     "org": [
       "recnGvKRcRqww0bnX"
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 12,
+    "tag": [
+      "rec5gvnlTZPbu9jam"
     ]
   },
   {
@@ -44,6 +49,9 @@
     "endDate": "2030-09-30",
     "plan": [
       "recfde4xeJB6AjiKp"
+    ],
+    "image": [
+      "recGa3vOzfSg17vKw"
     ],
     "sequence": 1,
     "orgName": [
@@ -70,7 +78,9 @@
     "targetCount": 51,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "recpHCd3DDokR8jMV",
@@ -79,6 +89,9 @@
     "endDate": "2030-09-30",
     "plan": [
       "recOkgPAU7Ek1YAZh"
+    ],
+    "image": [
+      "rec3qi4z8w6MaROAS"
     ],
     "sequence": 1,
     "orgName": [
@@ -105,7 +118,9 @@
     "targetCount": 51,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "rec2hvyBWPQ9yhrRD",
@@ -114,6 +129,9 @@
     "endDate": "2030-09-30",
     "plan": [
       "recOMj2QaHVSXQHj9"
+    ],
+    "image": [
+      "recJrUepwePgHaI3G"
     ],
     "sequence": 2,
     "orgName": [
@@ -140,6 +158,11 @@
     "targetCount": 51,
     "org": [
       "recnGvKRcRqww0bnX"
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15,
+    "tag": [
+      "rec5gvnlTZPbu9jam"
     ]
   },
   {
@@ -149,6 +172,9 @@
     "endDate": "2030-09-30",
     "plan": [
       "recfde4xeJB6AjiKp"
+    ],
+    "image": [
+      "recSBmOQs7T3CBnMN"
     ],
     "sequence": 2,
     "orgName": [
@@ -175,7 +201,9 @@
     "targetCount": 51,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "recgQ7Lm3qWG8O8O2",
@@ -184,6 +212,9 @@
     "endDate": "2030-09-30",
     "plan": [
       "recOkgPAU7Ek1YAZh"
+    ],
+    "image": [
+      "recuKg2hDELRvvDIy"
     ],
     "sequence": 2,
     "orgName": [
@@ -210,7 +241,9 @@
     "targetCount": 51,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "rec0F4EOzhyOjvyEY",
@@ -219,6 +252,9 @@
     "endDate": "2030-09-30",
     "plan": [
       "recOMj2QaHVSXQHj9"
+    ],
+    "image": [
+      "recAFzgPHduvPwdND"
     ],
     "sequence": 3,
     "orgName": [
@@ -245,6 +281,11 @@
     "targetCount": 51,
     "org": [
       "recnGvKRcRqww0bnX"
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15,
+    "tag": [
+      "rec5gvnlTZPbu9jam"
     ]
   },
   {
@@ -254,6 +295,9 @@
     "endDate": "2030-09-30",
     "plan": [
       "recfde4xeJB6AjiKp"
+    ],
+    "image": [
+      "recl18Ji2eUMd7gzN"
     ],
     "sequence": 3,
     "orgName": [
@@ -280,7 +324,9 @@
     "targetCount": 51,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   },
   {
     "id": "rechpz3iEn2BuEgnB",
@@ -289,6 +335,9 @@
     "endDate": "2030-09-30",
     "plan": [
       "recOkgPAU7Ek1YAZh"
+    ],
+    "image": [
+      "recCsZfBFhkzRri9U"
     ],
     "sequence": 3,
     "orgName": [
@@ -315,6 +364,8 @@
     "targetCount": 51,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Goal",
+    "previousIndicatorImprovedCount": 15
   }
 ]

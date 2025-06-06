@@ -62,7 +62,15 @@
     "targetCount": 24,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "rec34ykrSrCcONh31",
+      "recjWwDvYCVjZjsoA"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recW2KnyGL8XYrWhN",
@@ -127,7 +135,11 @@
     "targetCount": 24,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "reco6RoVs4PVij103",
@@ -192,7 +204,11 @@
     "targetCount": 24,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recHZLLc4moS1ibxF",
@@ -222,20 +238,20 @@
       1
     ],
     "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricAvgPercentProgress": 1.83,
     "metricMostRecentTargetDirection": [
-      "Decrease",
-      "Decrease",
-      "Decrease"
+      "Increase",
+      "Increase",
+      "Increase"
     ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
+    "increaseTargetDirectionCount": 3,
+    "decreaseTargetDirectionCount": 0,
     "maintainAtOrAboveTargetDirectionCount": 0,
     "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
+    "percentIncreaseTargetDirection": 1,
+    "percentDecreaseTargetDirection": 0,
     "percentMaintainAtOrABoveTargetDirection": 0,
     "percentMaintainAtOrBelowTargetDirection": 0,
     "project": [
@@ -249,15 +265,25 @@
     "projectResultTrendImprovedCount": 3,
     "projectResultTrendImprovedPercent": 1,
     "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
+    "indicatorImprovedCount": 3,
+    "indicatorImprovedPercent": 0.5,
     "goalSubtitle": [
       "Make it easier to grow, sell, and succeed."
     ],
     "targetCount": 24,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "recTvZ0Jx1ZCIZ1eq",
+      "recsonjNmOkq8RhiC",
+      "rec9Xf61Z1XRIqon8",
+      "rec61CrJZglzICjLg"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "rec9z8QkPLIvv6uJx",
@@ -322,7 +348,11 @@
     "targetCount": 24,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recxTdSe1wXzyowT7",
@@ -387,7 +417,11 @@
     "targetCount": 24,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "rec6THtOL8btFpEwr",
@@ -452,7 +486,15 @@
     "targetCount": 3,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "receHH7RnoDzVqQg8",
+      "recXCv6bEs6WiKD5l"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recEngWK4nzWVwc9P",
@@ -517,7 +559,11 @@
     "targetCount": 3,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recLt14H2Wv50N3lK",
@@ -582,7 +628,11 @@
     "targetCount": 3,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recSqdkx59sseUzOG",
@@ -647,7 +697,15 @@
     "targetCount": 24,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "rec34ykrSrCcONh31",
+      "recjWwDvYCVjZjsoA"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recrlqJt7tnW1Vcze",
@@ -712,7 +770,11 @@
     "targetCount": 24,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "rectM8MJnZp9mVty0",
@@ -777,7 +839,11 @@
     "targetCount": 24,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recJicCfV8as3YKaj",
@@ -842,7 +908,17 @@
     "targetCount": 24,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "recTvZ0Jx1ZCIZ1eq",
+      "recsonjNmOkq8RhiC",
+      "rec9Xf61Z1XRIqon8",
+      "rec61CrJZglzICjLg"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recZOQ4cGcLP607QY",
@@ -907,7 +983,11 @@
     "targetCount": 24,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recbknOEqBD0Q0Hfn",
@@ -972,7 +1052,11 @@
     "targetCount": 24,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recZsNyiRvvIX89b7",
@@ -1037,7 +1121,15 @@
     "targetCount": 3,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "receHH7RnoDzVqQg8",
+      "recg0hP80HdKpNmhf"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recLzJlyPEBorWLfB",
@@ -1102,7 +1194,11 @@
     "targetCount": 3,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recrYPbtlu7U3iGTd",
@@ -1167,7 +1263,11 @@
     "targetCount": 3,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recgHH8RgUd7Cyslv",
@@ -1232,7 +1332,15 @@
     "targetCount": 24,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "recmDRfr3hFuJuks3",
+      "recWUMVrdUbAblFjC"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "rec9IPBrrr4ARyt7R",
@@ -1297,7 +1405,11 @@
     "targetCount": 24,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recseVsEFhV5mgZaM",
@@ -1362,7 +1474,11 @@
     "targetCount": 24,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recfWXIi30dJP3OVD",
@@ -1427,7 +1543,16 @@
     "targetCount": 24,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "recH5ccbX3SMGqJFf",
+      "recBI3RvJUmz8HpuR",
+      "recdbXfB19aXjb2mc"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recFIhqaeqd95S7CT",
@@ -1492,7 +1617,11 @@
     "targetCount": 24,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recRhda9ucVb6cJvt",
@@ -1557,7 +1686,11 @@
     "targetCount": 24,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 3,
+    "previousIndicatorImprovedCount": 6,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recu1AVwIy36Aggsb",
@@ -1622,7 +1755,16 @@
     "targetCount": 3,
     "org": [
       "recnGvKRcRqww0bnX"
-    ]
+    ],
+    "fpiProgram": [
+      "recmDRfr3hFuJuks3",
+      "recZxb6UBtJ7GvRH9",
+      "recH0MVkpHagpgM1S"
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "rec7k4JsI939KhQRn",
@@ -1687,7 +1829,11 @@
     "targetCount": 3,
     "org": [
       "recHD6eR7iIOtErtj"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   },
   {
     "id": "recxeYkf0GRg4paQS",
@@ -1752,6 +1898,10 @@
     "targetCount": 3,
     "org": [
       "recaTbkkzqqA7qzsJ"
-    ]
+    ],
+    "objectType": "Objective",
+    "previousMetricResultTrendImprovedCount": 0,
+    "previousIndicatorImprovedCount": 3,
+    "previousProjectResultTrendImprovedCount": 3
   }
 ]

@@ -6,7 +6,7 @@ import PieChart from "src/components/custom/pie-chart";
 import LineChart from "src/components/custom/line-chart";
 import ChartLegend from "src/components/custom/chart-legend";
 import StatHeader from "src/components/custom/stat-header";
-import ProgressBarChart from "src/components/custom/progress-bar-chart";
+import ProgressBarChart from "src/components/charts/progress-bar-chart";
 
 type CardBodyProps = {
   cardType: string;
@@ -64,12 +64,33 @@ export default function CardBody({
             dataActuals={dataActuals || []}
             dataTargets={dataTargets || []}
           />
-          {dataTargets && dataTargets.length > 0 && (
-            <ProgressBarChart 
-              dataActuals={dataActuals || []} 
-              dataTargets={dataTargets || []} 
-            />
-          )}
+          {(() => {
+            const actualsInternal = dataActuals || [];
+            const targetsInternal = dataTargets || [];
+            const mostRecentActualInternal = actualsInternal.length > 0 ? actualsInternal[actualsInternal.length - 1] : undefined;
+            const mostRecentTargetInternal = targetsInternal.length > 0 ? targetsInternal[targetsInternal.length - 1] : undefined;
+
+            let mostRecentPercentProgressInternal = 0;
+            if (typeof mostRecentActualInternal === 'number' && typeof mostRecentTargetInternal === 'number') {
+              if (mostRecentTargetInternal !== 0) {
+                mostRecentPercentProgressInternal = (mostRecentActualInternal / mostRecentTargetInternal) * 100;
+              } else { // Target is 0
+                mostRecentPercentProgressInternal = (mostRecentActualInternal > 0) ? 100 : 0; // If actual > 0, effectively 100% or more; if actual is 0, then 0%
+              }
+            }
+
+            if (targetsInternal.length > 0 && typeof mostRecentActualInternal === 'number' && typeof mostRecentTargetInternal === 'number') {
+              return (
+                <ProgressBarChart
+                  mostRecentResult={mostRecentActualInternal}
+                  mostRecentTargetLevel={mostRecentTargetInternal} // Using mostRecentTarget for level as discussed
+                  mostRecentTargetResult={mostRecentTargetInternal}
+                  mostRecentPercentProgress={mostRecentPercentProgressInternal}
+                />
+              );
+            }
+            return null;
+          })()}
         </>
       ) : cardType === "Plan" ? (
         <>

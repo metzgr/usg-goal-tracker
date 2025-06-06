@@ -93,7 +93,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recLIR5dsT7vgmbEE",
@@ -202,7 +203,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recw5sWfPD6ExwiTy",
@@ -303,7 +305,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recmhBy7AMds2Eqhf",
@@ -371,7 +374,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "rec7UgjRrZMArADed",
@@ -698,7 +702,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "rec8QsD7hbq6hYL7z",
@@ -983,7 +988,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recQDlpK4w5AKTeal",
@@ -1046,7 +1052,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recvLpr6BiTzMwR71",
@@ -1164,7 +1171,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recFRs7v3At9etKkX",
@@ -1181,7 +1189,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "rec2NJM6UxZAl7uU9",
@@ -1312,7 +1321,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recxeSlJWBchlKonP",
@@ -1455,7 +1465,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recaTbkkzqqA7qzsJ",
@@ -1478,7 +1489,8 @@
     "indicatorImprovedCount": 48,
     "indicatorImprovedPercent": 0.8888888888888888,
     "metricCount": 27,
-    "projectCount": 27
+    "projectCount": 27,
+    "objectType": "Agency"
   },
   {
     "id": "recKAAZgwduNjQEgB",
@@ -1930,7 +1942,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recHD6eR7iIOtErtj",
@@ -2050,7 +2063,8 @@
     "indicatorImprovedCount": 46,
     "indicatorImprovedPercent": 0.8518518518518519,
     "metricCount": 27,
-    "projectCount": 27
+    "projectCount": 27,
+    "objectType": "Agency"
   },
   {
     "id": "recYb35al54M3PveC",
@@ -2077,7 +2091,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "reccxTBEL3Xk8Myqw",
@@ -2099,7 +2114,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recsmJavP6vxXjE5X",
@@ -2129,7 +2145,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "rechs5rmp8ciwf2QY",
@@ -2146,7 +2163,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recdvE2qOyIKyQMZG",
@@ -2197,7 +2215,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "rec7QMtwMLJ5dXeCx",
@@ -2227,7 +2246,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recSk8RdN2IgVE0VK",
@@ -2258,7 +2278,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recnGvKRcRqww0bnX",
@@ -2684,10 +2705,14 @@
     "goalCount": 3,
     "objectiveCount": 9,
     "indicatorCount": 54,
-    "indicatorImprovedCount": 48,
-    "indicatorImprovedPercent": 0.8888888888888888,
+    "indicatorImprovedCount": 45,
+    "indicatorImprovedPercent": 0.8333333333333334,
     "metricCount": 27,
-    "projectCount": 27
+    "projectCount": 27,
+    "serviceProvider": [
+      "recZBrnltcrG1QgsT"
+    ],
+    "objectType": "Agency"
   },
   {
     "id": "recrVCq5PCIsHiMVT",
@@ -2907,7 +2932,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recfkKzX1nkT8aPCi",
@@ -2970,7 +2996,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "rec6Hedvm1oA4ngAF",
@@ -2996,7 +3023,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recE2w9yeUaXLGlpL",
@@ -3024,7 +3052,8 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   },
   {
     "id": "recrLwqmXwj9i0kwo",
@@ -3055,6 +3084,7 @@
       "specialValue": "NaN"
     },
     "metricCount": 0,
-    "projectCount": 0
+    "projectCount": 0,
+    "objectType": "Agency"
   }
 ]

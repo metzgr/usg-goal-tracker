@@ -28,8 +28,8 @@
     ],
     "objectiveCount": 9,
     "indicatorCount": 54,
-    "indicatorImprovedCount": 48,
-    "indicatorImprovedPercent": 0.8888888888888888,
+    "indicatorImprovedCount": 45,
+    "indicatorImprovedPercent": 0.8333333333333334,
     "metricCount": 27,
     "projectCount": 27,
     "milestoneCount": 81,
@@ -44,7 +44,9 @@
       "recgHH8RgUd7Cyslv",
       "recfWXIi30dJP3OVD",
       "recu1AVwIy36Aggsb"
-    ]
+    ],
+    "objectType": "Plan",
+    "previousIndicatorImprovedCount": 42
   },
   {
     "id": "recfde4xeJB6AjiKp",
@@ -91,7 +93,9 @@
       "rec9IPBrrr4ARyt7R",
       "recFIhqaeqd95S7CT",
       "rec7k4JsI939KhQRn"
-    ]
+    ],
+    "objectType": "Plan",
+    "previousIndicatorImprovedCount": 45
   },
   {
     "id": "recOkgPAU7Ek1YAZh",
@@ -138,6 +142,8 @@
       "recseVsEFhV5mgZaM",
       "recRhda9ucVb6cJvt",
       "recxeYkf0GRg4paQS"
-    ]
+    ],
+    "objectType": "Plan",
+    "previousIndicatorImprovedCount": 45
   }
 ]
