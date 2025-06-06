@@ -61,7 +61,7 @@ export default function CardPreviewBody({ data }: CardPreviewBodyProps) {
   // GOAL
   if (data.objectType === "Goal") {
     return (
-      <div className="px-6 py-4">
+      <div className="px-6 py-0">
         <Artwork artwork={Array.isArray(data.image) ? data.image[0] : data.image} />
       </div>
     );

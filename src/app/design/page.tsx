@@ -185,14 +185,15 @@ export default function AnalyzePage() {
       <main className="bg-[#F5F5F5] px-8 py-[28px]">
         {activeTab === "Metrics" && (
           <>
-          <div className="columns-3 gap-4">
+          <div className="max-w-[1280px] mx-auto">
+            <div className="columns-3 gap-5">
             {[...plans, ...goalData, ...metrics].map((item, idx) => {
-  let enrichedData = item;
+  let enrichedData: any = item;
   if (item.objectType === "Metric") {
     const metricId = item.id;
     const resultsForMetric = metricResults
       .filter(r => r.metric && r.metric[0] === metricId)
-      .sort((a, b) => new Date(a.endDate) - new Date(b.endDate));
+      .sort((a, b) => new Date(a.endDate).getTime() - new Date(b.endDate).getTime());
     enrichedData = {
       ...item,
       result: resultsForMetric.map(r => r.result),
@@ -200,7 +201,8 @@ export default function AnalyzePage() {
     };
   }
   return (
-    <Placard key={item.id || idx} className="break-inside-avoid mb-4">
+    <div key={item.id || idx} className="break-inside-avoid mb-5">
+      <Placard>
       <Card>
         <CardHeader>
           <div className="flex items-center justify-between">
@@ -229,10 +231,11 @@ export default function AnalyzePage() {
           />
         </CardFooter>
       </Card>
-    </Placard>
+      </Placard>
+    </div>
   );
 })}
-            )}
+            </div>
           </div>
           </>
         )}
