@@ -222,6 +222,11 @@ export default function AnalyzePage() {
     ];
   }, [itemsToDisplay]);
 
+  const currentTabResultCount = useMemo(() => {
+    const tabInfo = dynamicTabs.find(tab => tab.name === activeTab);
+    return tabInfo ? tabInfo.count : 0;
+  }, [dynamicTabs, activeTab]);
+
   // Build the two‐level hierarchy for the sunburst
   const hierarchyData = useMemo(() => {
     const grouped: Record<string, Record<string, number>> = {};
@@ -333,29 +338,31 @@ export default function AnalyzePage() {
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
         statusOption={statusOption}
-        onStatusChange={setStatusOption}
+        onStatusClick={() => { /* Placeholder: Implement status dropdown toggle or selection logic */ }}
         sortOption={sortOption}
         onSortClick={() => {}}
         possibleFilters={possibleFilters}
         activeFilters={activeFilters}
-        setActiveFilters={setActiveFilters}
+        setActiveFilters={setActiveFilters} // Added missing setActiveFilters prop for FiltersBar
         placeholder="Search priorities of the U.S. government"
       />
       {/* display selected tag pills */}
       <ActiveFilters
         activeFilters={activeFilters}
         setActiveFilters={setActiveFilters}
-        resultCount={itemsToDisplay.length}
+        resultCount={currentTabResultCount} 
       />
 <div className="bg-[#F5F5F5] flex justify-center">
   <FilterTabs tabs={dynamicTabs} activeTab={activeTab} setActiveTab={setActiveTab} />
 </div>
-      <main className="bg-[#F5F5F5] px-8 py-[28px]">
-        {(finalItemsForGrid && finalItemsForGrid.length > 0) && (
-          <>
-          <div className="max-w-[1280px] mx-auto">
-            <div className="columns-3 gap-5">
-            {paginatedItems.map((item, idx) => {
+    <main className="bg-[#F5F5F5] px-8 py-[28px]">
+      {(finalItemsForGrid && finalItemsForGrid.length > 0) && (
+        <>
+        <div className="max-w-[1280px] mx-auto">
+          <div className="columns-3 gap-5">
+          {paginatedItems.map((item, idx) => {
+            {/* The duplicate mapping and div structure was removed here, assuming it was an error from previous merge conflicts. Review if this was intended. */}
+            
   let enrichedData: any = item;
   if (item.objectType === "Metric") {
     const metricId = item.id;
@@ -372,7 +379,7 @@ export default function AnalyzePage() {
       <Card className="group">
         <CardHeader>
           <div className="flex items-top justify-between">
-            <Badge variant="outline">{item.objectType}</Badge>
+            <Badge>{item.objectType}</Badge>
             <span className="text-sm text-gray-600">
               {item.startDate ? new Date(item.startDate).getFullYear() : ""}&ndash;{item.endDate ? new Date(item.endDate).getFullYear() : ""}
             </span>

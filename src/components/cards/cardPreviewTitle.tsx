@@ -8,6 +8,8 @@ export default function CardPreviewTitle({
   orgAcronym = ""
 }: {
   name: string;
+  startDate?: string; // Added startDate
+  endDate?: string;   // Added endDate
   objectType?: string;
   orgAcronym?: string;
 }) {
