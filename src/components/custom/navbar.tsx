@@ -29,9 +29,17 @@ export function NavbarSpacer({ className, ...props }) {
   return <div aria-hidden="true" {...props} className={clsx(className, '-ml-4 flex-1')} />
 }
 
-export const NavbarItem = forwardRef(function NavbarItem(
-  { current, className, children, ...props },
+interface NavbarItemProps {
+  children: React.ReactNode;
+  current?: boolean;
+  className?: string;
+  href?: string;
+  // Allow any other props that Link or Headless.Button might accept
+  [key: string]: any;
+}
 
+export const NavbarItem = forwardRef<HTMLSpanElement, NavbarItemProps>(function NavbarItem(
+  { current, className, children, ...props },
   ref
 ) {
   let classes = clsx(

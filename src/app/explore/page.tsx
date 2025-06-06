@@ -1,590 +1,492 @@
 "use client";
 
-import React, { useState } from "react";
-import { Button } from "src/components/ui/button";
-import { Input } from "src/components/ui/input";
-import { Card } from "src/components/ui/card";
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "src/components/ui/select";
-import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle } from "src/components/ui/sheet";
-import { Checkbox } from "src/components/ui/checkbox";
-import { Label } from "src/components/ui/label";
-import { ScrollArea } from "src/components/ui/scroll-area";
-import UsgBanner from "src/components/custom/usg-banner";
-import CardHeader from "src/components/custom/card-header";
-import CardFooter from "src/components/custom/card-footer";
-import CardBody from "src/components/custom/card-body";
-import Placard from "src/components/custom/placard";
-import Navigation from "src/components/custom/navigation";
-import FilterTabs from "src/components/custom/filter-tabs";
-import FilterScreen from "src/components/custom/filter-screen"; // Updated import
-
-// Format date helper.
-const formatYear = (dateString: string) => new Date(dateString).getFullYear();
-
-// Dummy card data for demonstration
-const cardData = [
-  { 
-    id: 1, 
-    title: "Strategic Plan", 
-    tags: ["Topic A", "Program A", "Priority 1"],
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
-    orgAvatar: "/org1.png",
-    cardType: "Plan",
-    startDate: "2025-01-01",
-    endDate: "2028-06-30",
-    totalIndicators: 100,
-    indicatorsProgressed: 64,
-    changeIndicatorsProgressed: 2,
-    artwork: "wheat",
-    patternOption: "tile",
-    avatar1: "usda",
-  },
-  { 
-    id: 2, 
-    title: "American households with consistent, dependable access to food", 
-    tags: ["Topic B", "Program B", "Priority 2"],
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
-    orgAvatar: "usda",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [1000, 1000, 1000, 1000, 1000, 1000, 1000],
-    dataActuals: [200, 600, 1300, 700, 1800, 800, 600],
-    progressPercent: 95,
-    progressed: true,
-    targetDirection: "increase",
-    avatar1: "usda",
-  },
-  { 
-    id: 4, 
-    title: "Veteran Customer Experience", 
-    tags: ["Topic C", "Program C", "Priority 3"],
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Veterans Affairs",
-    orgAvatar: "usda",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "veteran",
-    orgAcronym: "VA",
-    avatar1: "va",
-  },
-  { 
-    id: 8, 
-    title: "Combat Human Traffiking", 
-    tags: ["Topic A", "Program A", "Priority 1"],
-    orgAcronym: "DHS",
-    orgFullName: "U.S. Department of Homeland Security",
-    avatar1: "dhs",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "hands",
-  },
-  { 
-    id: 5, 
-    title: "New small businesses", 
-    tags: ["Topic B", "Program B", "Priority 2"],
-    orgAcronym: "SBA",
-    orgFullName: "Small Business Administration",
-    orgAvatar: "usda",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [200, 600, 1300, 700, 1800, 1000, 3000],
-    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 1700],
-    progressPercent: 95,
-    progressed: true,
-    targetDirection: "increase",
-    avatar1: "sba",
-  },
-  { 
-    id: 3, 
-    title: "Facilitate Rural Prosperity and Economic Development", 
-    tags: ["Topic C", "Program C", "Priority 3"],
-    orgAcronym: "USDA",
-    orgFullName: "U.S. Department of Agriculture",
-    orgAvatar: "usda",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "farmer",
-    avatar1: "usda",
-  },
-  { 
-    id: 7, 
-    title: "Safeguard and Improve National Health", 
-    tags: ["Topic C", "Program C", "Priority 3"],
-    orgAcronym: "HHS",
-    orgFullName: "U.S. Department of Health and Human Services",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "ambulance",
-    avatar1: "hhs",
-  },
-  { 
-    id: 6, 
-    title: "Monthly jobs added", 
-    tags: ["Topic A", "Program A", "Priority 1"],
-    orgAcronym: "DOL",
-    orgFullName: "U.S. Department of Labor",
-    orgAvatar: "dol",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [200, 600, 1300, 700, 1800, 1000, 3000],
-    dataActuals: [1800, 1200, 1600, 500, 1300, 700, 4000],
-    progressPercent: 95,
-    progressed: true,
-    targetDirection: "increase",
-    avatar1: "dol",
-    unitFormat: "%",
-  },
-  { 
-    id: 11, 
-    title: "Consumer Price Index", 
-    tags: ["Topic A", "Program A", "Priority 1"],
-    orgAcronym: "DOL",
-    orgFullName: "U.S. Department of Labor",
-    orgAvatar: "dol",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [],
-    dataActuals: [2, 3, 2, 5, 3, 7, 2],
-    progressPercent: 95,
-    progressed: true,
-    targetDirection: "increase",
-    unitFormat: "%",
-    avatar1: "dol",
-  },
-  { 
-    id: 12, 
-    title: "Strategic Plan", 
-    tags: ["Topic C", "Program C", "Priority 3"],
-    orgAcronym: "GSA",
-    orgFullName: "General Services Administration",
-    cardType: "Plan",
-    startDate: "2025-01-01",
-    endDate: "2028-06-30",
-    totalIndicators: 88,
-    indicatorsProgressed: 75,
-    changeIndicatorsProgressed: 2,
-    artwork: "thunderbolt",
-    patternOption: "tile",
-    avatar1: "gsa",
-  },
-  { 
-    id: 13, 
-    title: "National Drug Control Strategy", 
-    tags: ["Topic C", "Program C", "Priority 3"],
-    orgAcronym: "Multiple Owners",
-    orgFullName: "ONDCP • DHS • DOD • DOC",
-    cardType: "Plan",
-    startDate: "2025-01-01",
-    endDate: "2028-06-30",
-    totalIndicators: 100,
-    indicatorsProgressed: 100,
-    changeIndicatorsProgressed: 2,
-    artwork: "pills",
-    patternOption: "fill",
-    avatar1: "omb",
-    avatar2: "dhs",
-    avatar3: "dod",
-    avatar4: "doc",
-  },
-  { 
-    id: 14, 
-    title: "Optimize Our Federal Buildings Portfolio", 
-    tags: ["Topic B", "Program B", "Priority 2"],
-    orgAcronym: "GSA",
-    orgFullName: "General Services Administration",
-    avatar1: "gsa",
-    cardType: "Goal",
-    startDate: "2025-05-01",
-    endDate: "2028-12-31",
-    artwork: "building",
-  },
-  { 
-    id: 15, 
-    title: "Office occupancy rate", 
-    tags: ["Topic A", "Program A", "Priority 1"],
-    orgAcronym: "GSA",
-    orgFullName: "General Services Administration",
-    orgAvatar: "dol",
-    cardType: "Indicator",
-    startDate: "2025-03-01",
-    endDate: "2028-09-30",
-    dataTargets: [80, 80, 80, 80, 80, 80, 80],
-    dataActuals: [40, 56, 68, 72, 65, 88, 95],
-    avatar1: "gsa",
-    unitFormat: "%"
-  },
-];
-
-function Header() {
-  return (
-    <header>
-      <UsgBanner />
-      <Navigation activeItem="Explore" />
-    </header>
-  );
-}
-
-function SearchBar({
-  searchQuery,
-  setSearchQuery,
-  filterOption,
-  setFilterOption,
-  statusOption,
-  setStatusOption,
-}: {
-  searchQuery: string;
-  setSearchQuery: (query: string) => void;
-  filterOption: string;
-  setFilterOption: (option: string) => void;
-  statusOption: string;
-  setStatusOption: (option: string) => void;
-}) {
-  return (
-    <div className="flex items-center flex-grow space-x-4">
-      <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-6">
-        <div className="flex items-center">
-          <div className="grid w-full grid-cols-1">
-            <input
-              name="search"
-              type="search"
-              placeholder="Search the U.S. government at work"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="col-start-1 row-start-1 block w-full rounded-[3px] bg-gray-50 py-1.5 pr-3 pl-13.5 text-base text-gray-950 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-950 font-bold placeholder:font-bold placeholder:text-[16px] focus:outline-2 focus:-outline-offset-2 focus:outline-gray-600 sm:text-[16px]/6 h-[48px]"
-            />
-            <img
-              src="/icons/search-icon.svg"
-              alt="Magnify glass"
-              width={20}
-              height={20}
-              className="pointer-events-none col-start-1 row-start-1 ml-7 self-center"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="relative flex items-stretch h-[48px]">
-        <div className="absolute left-[22px] -top-[7px] h-[18px] px-[5px] bg-white text-xs text-gray-500 font-medium leading-none z-10">
-          Status
-        </div>
-        <button
-          type="button"
-          className="inline-flex items-center gap-x-1.5 rounded-[3px] px-[28px] py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 w-full"
-        >
-          {statusOption}
-          <img
-            src="/icons/arrow-dropdown.svg"
-            alt="Arrow Dropdown"
-            width={20}
-            height={20}
-          />
-        </button>
-      </div>
-
-      <div className="relative flex items-stretch h-[48px]">
-        <div className="absolute left-[22px] -top-[7px] h-[18px] px-[5px] bg-white text-xs text-gray-500 font-medium leading-none z-10">
-          Sort
-        </div>
-        <button
-          type="button"
-          className="inline-flex items-center gap-x-1.5 rounded-[3px] px-[28px] py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 w-full"
-        >
-          {filterOption}
-          <img
-            src="/icons/arrow-dropdown.svg"
-            alt="Arrow Dropdown"
-            width={20}
-            height={20}
-          />
-        </button>
-      </div>
-    </div>
-  );
-}
-
-function FilterSidebar({
-  possibleFilters,
-  activeFilters,
-  setActiveFilters,
-}: {
-  possibleFilters: string[];
-  activeFilters: string[];
-  setActiveFilters: (filters: string[]) => void;
-}) {
-  const toggleFilter = (filter: string) => {
-    if (activeFilters.includes(filter)) {
-      setActiveFilters(activeFilters.filter((f) => f !== filter));
-    } else {
-      setActiveFilters([...activeFilters, filter]);
-    }
-  };
-
-  return (
-    <Sheet>
-      <SheetTrigger asChild>
-        <button
-          type="button"
-          className="inline-flex items-center gap-x-1.5 h-[48px] rounded-[3px] px-[28px] py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300"
-        >
-          <img
-            src="/icons/filter-icon.svg"
-            alt="Filter"
-            width={20}
-            height={20}
-          />
-          Filters
-          {activeFilters.length > 0 && (
-            <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
-          )}
-        </button>
-      </SheetTrigger>
-      <SheetContent side="left" className="w-64">
-        <SheetHeader>
-          <SheetTitle>Filters</SheetTitle>
-        </SheetHeader>
-        <ScrollArea className="h-64">
-          <div className="p-4 space-y-2">
-            {possibleFilters.map((filter) => (
-              <div key={filter} className="flex items-center space-x-2">
-                <Checkbox
-                  checked={activeFilters.includes(filter)}
-                  onCheckedChange={() => toggleFilter(filter)}
-                />
-                <Label>{filter}</Label>
-              </div>
-            ))}
-          </div>
-        </ScrollArea>
-        {activeFilters.length > 0 && (
-          <div className="p-4">
-            <button
-              onClick={() => setActiveFilters([])}
-              className="bg-red-500 text-white px-2 py-1 rounded w-full"
-            >
-              Clear All
-            </button>
-          </div>
-        )}
-      </SheetContent>
-    </Sheet>
-  );
-}
-
-function ActiveFilters({
-  activeFilters,
-  setActiveFilters,
-}: {
-  activeFilters: string[];
-  setActiveFilters: (filters: string[]) => void;
-}) {
-  const removeFilter = (filter: string) => {
-    setActiveFilters(activeFilters.filter((f) => f !== filter));
-  };
-
-  return (
-    <div className="h-12 flex items-center gap-2 p-4 overflow-auto">
-      {activeFilters.map((filter) => (
-        <span
-          key={filter}
-          className="mt-2 inline-flex items-center gap-x-0.5 rounded-sm bg-gray-800 px-2 py-1 text-xs text-gray-50"
-        >
-          {filter}
-          <button
-            type="button"
-            onClick={() => removeFilter(filter)}
-            className="group relative -mr-1 size-3.5 rounded-xs hover:bg-gray-500/20"
-          >
-            <span className="sr-only">Remove</span>
-            <svg
-              viewBox="0 0 14 14"
-              className="size-3.5 stroke-white/75 group-hover:stroke-white/75"
-            >
-              <path d="M4 4l6 6m0-6l-6 6" />
-            </svg>
-            <span className="absolute -inset-1" />
-          </button>
-        </span>
-      ))}
-    </div>
-  );
-}
-
-export { ActiveFilters };
-
-function CardCatalog({ cards }: { cards: typeof cardData }) {
-  if (cards.length === 0) {
-    return <p className="p-4">No results found.</p>;
-  }
-  return (
-    <div className="columns-1 sm:columns-2 md:columns-3 gap-5">
-      {cards.map((card) => (
-        <div key={card.id} style={{ breakInside: "avoid" }} className="mb-5">
-          <Placard>
-            <Card className="group">
-              <CardHeader
-                title={card.title}
-                startDate={formatYear(card.startDate)}
-                endDate={formatYear(card.endDate)}
-                cardType={card.cardType}
-                orgAcronym={card.orgAcronym}
-              />
-              {card.cardType === "Plan" && (
-                <CardBody
-                  cardType={card.cardType}
-                  artwork={card.artwork}
-                  patternOption={card.patternOption}
-                  totalIndicators={card.totalIndicators}
-                  indicatorsProgressed={card.indicatorsProgressed}
-                  changeIndicatorsProgressed={card.changeIndicatorsProgressed}
-                  dataActuals={card.dataActuals}
-                  dataTargets={card.dataTargets}
-                />
-              )}
-              {card.cardType === "Indicator" && (
-                <CardBody
-                  cardType={card.cardType}
-                  artwork={card.artwork}
-                  patternOption={card.patternOption}
-                  totalIndicators={card.totalIndicators}
-                  indicatorsProgressed={card.indicatorsProgressed}
-                  changeIndicatorsProgressed={card.changeIndicatorsProgressed}
-                  dataActuals={card.dataActuals}
-                  dataTargets={card.dataTargets}
-                  unitFormat={card.unitFormat}
-                />
-              )}
-              {card.cardType === "Goal" && (
-                <CardBody
-                  cardType={card.cardType}
-                  artwork={card.artwork}
-                  patternOption={card.patternOption}
-                  totalIndicators={card.totalIndicators}
-                  indicatorsProgressed={card.indicatorsProgressed}
-                  changeIndicatorsProgressed={card.changeIndicatorsProgressed}
-                  dataActuals={card.dataActuals}
-                  dataTargets={card.dataTargets}
-                />
-              )}
-              <CardFooter
-                orgFullName={card.orgFullName}
-                orgAcronym={card.orgAcronym}
-                avatar1={card.avatar1}
-                avatar2={card.avatar2}
-                avatar3={card.avatar3}
-                avatar4={card.avatar4}
-              />
-            </Card>
-          </Placard>
-        </div>
-      ))}
-    </div>
-  );
-}
+import React, { useState, useMemo, useEffect } from "react";
+import Link from 'next/link';
+import Header from "@/components/custom/header";
+import FiltersBar from "@/components/filters/filters-bar";
+import SunburstChart from "@/components/charts/sunburst-chart";
+import BubbleChart from "@/components/charts/bubble-chart";
+import BumpChart from "@/components/charts/bump-chart";
+import metrics from "@/data/metric.json";
+import metricResults from "@/data/metricResult.json";
+import plans from "@/data/plan.json";
+import tags from "@/data/tag.json";
+import { ActiveFilters } from "@/components/filters/active-filters";
+import FilterTabs from "@/components/filters/filter-tabs";
+import Placard from "@/components/base/placard";
+import Badge from "@/components/base/badge";
+import planData from "@/data/plan.json";
+import goalData from "@/data/goal.json";
+import metricData from "@/data/metric.json";
+import CardPreviewBody from "@/components/cards/cardPreviewBody";
+import { Card, CardHeader, CardTitle, CardDescription, CardAction, CardContent, CardFooter } from "@/components/cards/previewCard";
+import CardPreviewTitle from "@/components/cards/cardPreviewTitle";
+import CardPreviewFooter from "@/components/cards/cardPreviewFooter";
+import CardPreviewAvatar from "@/components/cards/cardPreviewAvatar";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 
 export default function ExplorePage() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [filterOption, setFilterOption] = useState("Trending");
-  const [statusOption, setStatusOption] = useState("Active");
+  const [statusOption, setStatusOption] = useState<"Active" | "Inactive">("Active");
+  const [sortOption, setSortOption] = useState("Trending");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("Everything");
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 9;
+  const possibleFilters = tags.map((t) => t.name);
 
-  const possibleFilters = [
-    "Topic A",
-    "Topic B",
-    "Topic C",
-    "Program A",
-    "Program B",
-    "Program C",
-    "Priority 1",
-    "Priority 2",
-    "Priority 3",
-  ];
+  const metricsWithTags = useMemo(() => {
+    return metrics.map((metric) => {
+      const matchingTag = tags.find(tag => tag.metric?.includes(metric.id));
+      return {
+        ...metric,
+        tag: matchingTag?.id ?? null,
+      };
+    });
+  }, [metrics, tags]);
 
-  // Filter cards based on search query, active topic filters, and activeTab.
-  const filteredCards = cardData.filter((card) => {
-    const query = searchQuery.toLowerCase();
-    const matchesSearch =
-      card.title.toLowerCase().includes(query) ||
-      card.orgFullName.toLowerCase().includes(query) ||
-      card.orgAcronym.toLowerCase().includes(query);
-    const matchesTags =
-      activeFilters.length === 0 ||
-      activeFilters.some((tag) => card.tags?.includes(tag));
+  // Map latest results by metric ID (used for charts, can be defined early)
+  const resultsByMetric = useMemo(() => {
+    return metricResults.reduce<Record<string, typeof metricResults[0]>>((acc, r) => {
+      const id = r.metric?.[0];
+      if (id) acc[id] = r;
+      return acc;
+    }, {});
+  }, [metricResults]);
 
-    let matchesTab = true;
-    if (activeTab.toLowerCase() !== "everything") {
-      if (activeTab.toLowerCase() === "plans") {
-        matchesTab = card.cardType === "Plan";
-      } else if (activeTab.toLowerCase() === "goals") {
-        matchesTab = card.cardType === "Goal";
-      } else if (activeTab.toLowerCase() === "indicators") {
-        matchesTab = card.cardType === "Indicator";
+  // Pre-calculate enriched results for metric cards (performance optimization)
+  const enrichedMetricResultsById = useMemo(() => {
+    const map = new Map<string, { result: any[], targetResult: any[] }>();
+    const resultsGroupedByMetricId: Record<string, typeof metricResults> = {};
+
+    for (const r of metricResults) {
+      const metricId = r.metric?.[0];
+      if (metricId) {
+        if (!resultsGroupedByMetricId[metricId]) {
+          resultsGroupedByMetricId[metricId] = [];
+        }
+        resultsGroupedByMetricId[metricId].push(r);
       }
     }
 
-    return matchesSearch && matchesTags && matchesTab;
-  });
+    for (const metricId in resultsGroupedByMetricId) {
+      const sortedResults = resultsGroupedByMetricId[metricId]
+        .sort((a, b) => new Date(a.endDate).getTime() - new Date(b.endDate).getTime());
+      map.set(metricId, {
+        result: sortedResults.map(r => r.result),
+        targetResult: sortedResults.map(r => r.targetResult),
+      });
+    }
+    return map;
+  }, [metricResults]);
+
+  // Centralized filtering and sorting logic
+  const itemsToDisplay = useMemo(() => {
+    // 1. Status Filtering
+    const activePlans = planData.filter(p => p.status === statusOption);
+    const activePlanIds = new Set(activePlans.map(p => p.id));
+
+    let statusFilteredItems = [
+      ...activePlans,
+      ...goalData.filter(g => (g.plan || []).some(planId => activePlanIds.has(planId))),
+      ...metricsWithTags.filter(m => (m.plan || []).some(planId => activePlanIds.has(planId)))
+    ];
+
+    // 2. Tag Filtering (Tag -> Goal relationship)
+    let tagFilteredItems = statusFilteredItems;
+    if (activeFilters.length > 0) {
+      const goalIdsToFilterBy = new Set<string>();
+      activeFilters.forEach(filterName => {
+        const tagObject = tags.find(t => t.name === filterName);
+        if (tagObject && 'goal' in tagObject && tagObject.goal && Array.isArray(tagObject.goal)) {
+          // Now that 'goal' is confirmed to exist and be an array, we can safely iterate.
+          // We might need to cast tagObject.goal if TS still infers it as 'unknown' or too broad after 'in' check.
+          (tagObject.goal as string[]).forEach((goalId: string) => goalIdsToFilterBy.add(goalId));
+        }
+      });
+
+      if (goalIdsToFilterBy.size > 0) {
+        tagFilteredItems = statusFilteredItems.filter(item => {
+          if (item.objectType === 'Plan') {
+            // Plan is kept if any of its goals are in goalIdsToFilterBy
+            return goalData.some(g => 
+              (g.plan || []).includes(item.id) && goalIdsToFilterBy.has(g.id)
+            );
+          }
+          if (item.objectType === 'Goal') {
+            return goalIdsToFilterBy.has(item.id);
+          }
+          if (item.objectType === 'Metric') {
+            let directTagMatch = false;
+            if ('tag' in item && item.tag && typeof item.tag === 'string') {
+              directTagMatch = activeFilters.some(name => {
+                const t = tags.find(tag => tag.name === name);
+                return t?.id === item.tag; // item.tag is known to be a string here
+              });
+            }
+
+            let relatedToFilteredGoal = false;
+            // Ensure 'goal' exists on item, is not null/undefined, and is an array before trying to use .some()
+            if ('goal' in item && item.goal && Array.isArray(item.goal)) {
+              relatedToFilteredGoal = (item.goal as string[]).some((goalId: string) => goalIdsToFilterBy.has(goalId));
+            }
+            return relatedToFilteredGoal || directTagMatch;
+          }
+          return false; // Should not happen if objectType is always set
+        });
+      } else {
+        // If activeFilters are present but no matching tags/goals found, show nothing from tag filtering step
+        tagFilteredItems = [];
+      }
+    }
+
+    // 3. Search Filtering
+    const trimmedQuery = searchQuery.trim().toLowerCase();
+    let searchFilteredItems = tagFilteredItems;
+    if (trimmedQuery) {
+      searchFilteredItems = tagFilteredItems.filter(item => {
+        const nameMatch = item.name?.toLowerCase().includes(trimmedQuery);
+        let orgMatch = false;
+        let orgNameMatch = false;
+
+        if (Array.isArray(item.org)) {
+          orgMatch = item.org.some(o => typeof o === 'string' && o.toLowerCase().includes(trimmedQuery));
+        } else if (item.org) {
+          orgMatch = (item.org as string).toLowerCase().includes(trimmedQuery);
+        }
+
+        if (Array.isArray(item.orgName)) {
+          orgNameMatch = item.orgName.some(on => typeof on === 'string' && on.toLowerCase().includes(trimmedQuery));
+        } else if (item.orgName) {
+          orgNameMatch = (item.orgName as string).toLowerCase().includes(trimmedQuery);
+        }
+        
+        // For Metrics, also check orgAcronym (assuming it's specific to metrics)
+        if (item.objectType === 'Metric' && Array.isArray(item.orgAcronym)) {
+            const acronymMatch = item.orgAcronym.some(acronym => typeof acronym === 'string' && acronym.toLowerCase().includes(trimmedQuery));
+            return nameMatch || orgMatch || orgNameMatch || acronymMatch;
+        }
+
+        return nameMatch || orgMatch || orgNameMatch;
+      });
+    }
+
+    // 4. Sorting
+    let sortedItems = [...searchFilteredItems];
+    if (sortOption === "A-Z") {
+      sortedItems.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sortOption === "Z-A") {
+      sortedItems.sort((a, b) => b.name.localeCompare(a.name));
+    } else if (sortOption === "Trending") {
+      sortedItems.sort((a, b) => {
+        const dateA = a.endDate ? new Date(a.endDate).getTime() : 0;
+        const dateB = b.endDate ? new Date(b.endDate).getTime() : 0;
+        if (dateA !== dateB) return dateB - dateA; // Descending for more recent
+        return a.name.localeCompare(b.name);
+      });
+    }
+
+    return sortedItems;
+  }, [planData, goalData, metricsWithTags, statusOption, activeFilters, tags, searchQuery, sortOption, resultsByMetric]);
+
+  // These are the tabs generated based on the content of itemsToDisplay
+  const dynamicTabs = useMemo(() => {
+    const counts: Record<string, number> = {
+      Everything: itemsToDisplay.length, // Initialize with the total count for 'All'
+    };
+    itemsToDisplay.forEach(item => {
+      const type = item.objectType as string;
+      counts[type] = (counts[type] || 0) + 1;
+    });
+    const generatedTabs = Object.entries(counts)
+      .map(([label, count]) => {
+        let displayLabel = label;
+        if (label === 'Plan') displayLabel = 'Plans';
+        else if (label === 'Goal') displayLabel = 'Goals';
+        else if (label === 'Metric') displayLabel = 'Metrics';
+        // Ensure all tabs have a 'name' property for FilterTabs component
+        return { name: displayLabel, count, originalLabel: label };
+      })
+      .filter(tab => tab.originalLabel !== 'Everything' && tab.count > 0); // Filter out 'Everything' here, it's added separately
+
+    return [
+      { name: "Everything", count: itemsToDisplay.length, originalLabel: "Everything" }, 
+      ...generatedTabs
+    ];
+  }, [itemsToDisplay]);
+
+  const currentTabResultCount = useMemo(() => {
+    const tabInfo = dynamicTabs.find(tab => tab.name === activeTab);
+    return tabInfo ? tabInfo.count : 0;
+  }, [dynamicTabs, activeTab]);
+
+  // Build the two‐level hierarchy for the sunburst
+  const hierarchyData = useMemo(() => {
+    const grouped: Record<string, Record<string, number>> = {};
+
+    for (const m of itemsToDisplay) {
+      if (m.objectType === 'Metric') {
+        const res = resultsByMetric[m.id];
+        const trend = res?.resultTrend || "No Data";
+        const org = m.orgAcronym?.[0] ?? "Unknown";
+
+        if (!grouped[trend]) grouped[trend] = {};
+        grouped[trend][org] = (grouped[trend][org] || 0) + 1;
+      }
+    }
+
+    return {
+      name: "All Metrics",
+      children: Object.entries(grouped).map(([trend, orgs]) => ({
+        name: trend,
+        children: Object.entries(orgs).map(([org, count]) => ({
+          name: org,
+          value: count,
+        })),
+      })),
+    };
+  }, [itemsToDisplay, resultsByMetric]);
+
+  const bubbleChartData = useMemo(() => {
+    const trendCounts: Record<string, number> = {};
+    for (const m of itemsToDisplay) {
+      if (m.objectType === 'Metric') {
+        const trend = resultsByMetric[m.id]?.resultTrend ?? "No Data";
+        trendCounts[trend] = (trendCounts[trend] || 0) + 1;
+      }
+    }
+    return Object.entries(trendCounts).map(([trend, count]) => ({ trend, count }));
+  }, [itemsToDisplay, resultsByMetric]);
+
+  const bumpChartData = useMemo(() => {
+    const map = new Map<string, { trend: string; date: string; count: number }>();
+
+    for (const res of metricResults) {
+      const id = res.metric?.[0];
+      if (!id || !res.fiscalYear || !res.fiscalQuarter || !res.resultTrend) continue;
+
+      const metric = metricsWithTags.find(m => m.id === id);
+      if (!metric) continue;
+
+      const matchesStatus = (metric.plan || []).some(planId => {
+        const plan = plans.find(p => p.id === planId);
+        return plan?.status === statusOption;
+      });
+      if (!matchesStatus) continue;
+
+      const matchesTags =
+        activeFilters.length === 0 ||
+        activeFilters.some(name => {
+          const tag = tags.find(t => t.name === name);
+          return tag?.id === metric.tag;
+        });
+      if (!matchesTags) continue;
+
+      const matchesSearch = metric.name.toLowerCase().includes(searchQuery.toLowerCase());
+      if (!matchesSearch) continue;
+
+      const date = `${res.fiscalYear}-Q${res.fiscalQuarter}`;
+      const key = `${res.resultTrend}__${date}`;
+
+      if (!map.has(key)) {
+        map.set(key, { trend: res.resultTrend, date, count: 1 });
+      } else {
+        map.get(key)!.count += 1;
+      }
+    }
+    const result = Array.from(map.values());
+    return result;
+  }, [searchQuery, statusOption, activeFilters, metricResults, plans, tags, metricsWithTags]);
+
+  const finalItemsForGrid = useMemo(() => {
+    if (activeTab === "Everything") {
+      return itemsToDisplay;
+    }
+    let singularActiveTab = activeTab;
+    if (activeTab === "Plans") singularActiveTab = "Plan";
+    else if (activeTab === "Goals") singularActiveTab = "Goal";
+    else if (activeTab === "Metrics") singularActiveTab = "Metric";
+    return itemsToDisplay.filter(item => item.objectType === singularActiveTab);
+  }, [itemsToDisplay, activeTab]);
+
+  const totalPages = useMemo(() => {
+    return Math.ceil(finalItemsForGrid.length / ITEMS_PER_PAGE);
+  }, [finalItemsForGrid, ITEMS_PER_PAGE]);
+
+  const paginatedItems = useMemo(() => {
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    return finalItemsForGrid.slice(startIndex, endIndex);
+  }, [finalItemsForGrid, currentPage, ITEMS_PER_PAGE]);
+
+  useEffect(() => {
+    setCurrentPage(1); // Reset to first page when filters or tabs change
+  }, [finalItemsForGrid]); // finalItemsForGrid changes when filters/tabs change
 
   return (
     <div>
-      <Header />
-      <main className="bg-[#F5F5F5] pb-12">
-        <div className="flex items-center space-x-4 p-4 bg-white">
-          <FilterScreen
-            possibleFilters={possibleFilters}
-            activeFilters={activeFilters}
-            setActiveFilters={setActiveFilters}
-          />
-          <SearchBar
-            searchQuery={searchQuery}
-            setSearchQuery={setSearchQuery}
-            filterOption={filterOption}
-            setFilterOption={setFilterOption}
-            statusOption={statusOption}
-            setStatusOption={setStatusOption}
-          />
+      <Header activeItem="Explore" />
 
-          <div className="flex items-stretch h-[48px]">
-            <button
-              type="button"
-              className="inline-flex items-center gap-x-2 rounded-none rounded-l-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full"
-            >
-              <img
-                src="/icons/card-filter-icon.svg"
-                alt="Dropdown Arrow"
-                width={20}
-                height={20}
-              />
-            </button>
-            <button
-              type="button"
-              className="inline-flex items-center gap-x-2 rounded-none rounded-r-[3px] px-3.5 py-2.5 font-bold text-gray-950 hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 outline-1 -outline-offset-1 outline-gray-300 h-full -ml-px"
-            >
-              <img
-                src="/icons/table-filter-icon.svg"
-                alt="Dropdown Arrow"
-                width={20}
-                height={20}
-              />
-            </button>
-          </div>
-        </div>
-        <ActiveFilters activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
+      <FiltersBar
+        searchQuery={searchQuery}
+        onSearchChange={setSearchQuery}
+        statusOption={statusOption}
+        onStatusClick={() => { /* Placeholder: Implement status dropdown toggle or selection logic */ }}
+        sortOption={sortOption}
+        onSortClick={() => {}}
+        possibleFilters={possibleFilters}
+        activeFilters={activeFilters}
+        setActiveFilters={setActiveFilters} // Added missing setActiveFilters prop for FiltersBar
+        placeholder="Search priorities of the U.S. government"
+      />
+      {/* display selected tag pills */}
+      <ActiveFilters
+        activeFilters={activeFilters}
+        setActiveFilters={setActiveFilters}
+        resultCount={currentTabResultCount} 
+      />
+<div className="bg-[#F5F5F5] flex justify-center">
+  <FilterTabs tabs={dynamicTabs} activeTab={activeTab} setActiveTab={setActiveTab} />
+</div>
+    <main className="bg-[#F5F5F5] px-8 py-[28px]">
+      {(finalItemsForGrid && finalItemsForGrid.length > 0) && (
+        <>
         <div className="max-w-[1280px] mx-auto">
-          <div className="flex justify-center mb-[28px]">
-            <FilterTabs activeTab={activeTab} setActiveTab={setActiveTab} />
+          <div className="columns-3 gap-5">
+          {paginatedItems.map((item, idx) => {
+            {/* The duplicate mapping and div structure was removed here, assuming it was an error from previous merge conflicts. Review if this was intended. */}
+            
+  let enrichedData: any = item;
+  if (item.objectType === "Metric") {
+    const metricId = item.id;
+    const precalculatedResults = enrichedMetricResultsById.get(metricId);
+    enrichedData = {
+      ...item,
+      result: precalculatedResults ? precalculatedResults.result : [],
+      targetResult: precalculatedResults ? precalculatedResults.targetResult : [],
+    };
+  }
+  if (item.objectType === "Goal") {
+    return (
+      <Link key={item.id || idx} href={`/goal/${item.id}`} passHref legacyBehavior>
+        <a className="break-inside-avoid mb-5 block cursor-pointer">
+          <Placard>
+            {/* Card content remains the same */}
+            <Card className="group">
+              <CardHeader>
+                <div className="flex items-top justify-between">
+                  <Badge>{item.objectType}</Badge>
+                  <span className="text-sm text-gray-600">
+                    {item.startDate ? new Date(item.startDate).getFullYear() : ""}&ndash;{item.endDate ? new Date(item.endDate).getFullYear() : ""}
+                  </span>
+                </div>
+                <CardPreviewTitle
+                  name={item.name}
+                  startDate={item.startDate}
+                  endDate={item.endDate}
+                  objectType={item.objectType}
+                  orgAcronym={Array.isArray(item.orgAcronym) ? item.orgAcronym[0] : item.orgAcronym}
+                />
+                <CardDescription></CardDescription>
+              </CardHeader>
+              <CardContent>
+                <CardPreviewBody data={enrichedData} />
+              </CardContent>
+              <hr className="border-t-1 border-gray-200 mx-[1px] group-hover:border-gray-400 mt-4" />
+              <CardFooter>
+                <CardPreviewFooter
+                  orgs={Array.isArray(item.orgAcronym) ? item.orgAcronym : (item.orgAcronym ? [item.orgAcronym] : [])}
+                  orgNames={Array.isArray(item.orgName) ? item.orgName : (item.orgName ? [item.orgName] : [])}
+                />
+              </CardFooter>
+            </Card>
+          </Placard>
+        </a>
+      </Link>
+    );
+  }
+  // For other item types, render without Link
+  return (
+    <div key={item.id || idx} className="break-inside-avoid mb-5">
+      <Placard>
+      <Card className="group">
+        <CardHeader>
+          <div className="flex items-top justify-between">
+            <Badge>{item.objectType}</Badge>
+            <span className="text-sm text-gray-600">
+              {item.startDate ? new Date(item.startDate).getFullYear() : ""}&ndash;{item.endDate ? new Date(item.endDate).getFullYear() : ""}
+            </span>
           </div>
-          <CardCatalog cards={filteredCards} />
-        </div>
+          <CardPreviewTitle
+            name={item.name}
+            startDate={item.startDate}
+            endDate={item.endDate}
+            objectType={item.objectType}
+            orgAcronym={Array.isArray(item.orgAcronym) ? item.orgAcronym[0] : item.orgAcronym}
+          />
+          <CardDescription></CardDescription>
+        </CardHeader>
+        <CardContent>
+          <CardPreviewBody data={enrichedData} />
+        </CardContent>
+        <hr className="border-t-1 border-gray-200 mx-[1px] group-hover:border-gray-400 mt-4" />
+        <CardFooter>
+          <CardPreviewFooter
+            orgs={Array.isArray(item.orgAcronym) ? item.orgAcronym : (item.orgAcronym ? [item.orgAcronym] : [])}
+            orgNames={Array.isArray(item.orgName) ? item.orgName : (item.orgName ? [item.orgName] : [])}
+          />
+        </CardFooter>
+      </Card>
+      </Placard>
+    </div>
+  );
+})}
+            </div>
+          </div>
+          </>
+        )}
+        {totalPages > 1 && (
+          <div className="mt-8 flex justify-center">
+            <Pagination>
+              <PaginationContent>
+                <PaginationItem>
+                  <PaginationPrevious 
+                    href="#"
+                    onClick={(e: React.MouseEvent) => { e.preventDefault(); setCurrentPage(prev => Math.max(1, prev - 1)); }}
+                    className={currentPage === 1 ? "pointer-events-none opacity-50" : undefined}
+                  />
+                </PaginationItem>
+                {[...Array(totalPages).keys()].map(pageNumber => (
+                  <PaginationItem key={pageNumber + 1}>
+                    <PaginationLink 
+                      href="#" 
+                      onClick={(e: React.MouseEvent) => { e.preventDefault(); setCurrentPage(pageNumber + 1); }}
+                      isActive={currentPage === pageNumber + 1}
+                    >
+                      {pageNumber + 1}
+                    </PaginationLink>
+                  </PaginationItem>
+                ))}
+                {/* Basic ellipsis and next logic for now, can be expanded */}
+                <PaginationItem>
+                  <PaginationNext 
+                    href="#"
+                    onClick={(e: React.MouseEvent) => { e.preventDefault(); setCurrentPage(prev => Math.min(totalPages, prev + 1)); }}
+                    className={currentPage === totalPages ? "pointer-events-none opacity-50" : undefined}
+                  />
+                </PaginationItem>
+              </PaginationContent>
+            </Pagination>
+          </div>
+        )}
       </main>
     </div>
   );

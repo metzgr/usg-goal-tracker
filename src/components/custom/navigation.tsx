@@ -9,9 +9,9 @@ function Navigation({ activeItem }: NavigationProps) {
     <Navbar className="flex justify-between">
       <div className="flex">
         <a href="/" aria-label="Home">
-          <img src="logo.svg" alt="Logo" className="h-[32px] mr-6" />
+          <img src="/logo.svg" alt="Logo" className="h-[32px] mr-6" />
         </a>
-        <NavbarSection>
+        <NavbarSection className="">
           <NavbarItem href="/explore" current={activeItem === 'Explore'}>
             Explore
           </NavbarItem>
