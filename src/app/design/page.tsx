@@ -87,164 +87,154 @@ export default function AnalyzePage() {
     return map;
   }, [metricResults]);
 
-  // 1) Always filter metrics by the selected status (Active or Inactive)
-  const byStatus = useMemo(() => {
-    return metricsWithTags.filter((m) => {
-      return (m.plan || []).some((planId) => {
-        const plan = plans.find((p) => p.id === planId);
-        return plan?.status === statusOption;
-      });
-    });
-  }, [metricsWithTags, plans, statusOption]);
+  // Centralized filtering and sorting logic
+  const itemsToDisplay = useMemo(() => {
+    // 1. Status Filtering
+    const activePlans = planData.filter(p => p.status === statusOption);
+    const activePlanIds = new Set(activePlans.map(p => p.id));
 
-  // 2) Filter by tag pills
-  const byTags = useMemo(() => {
-    if (activeFilters.length === 0) return byStatus;
-    return byStatus.filter((m) => {
-      return activeFilters.some((name) => {
-        const tag = tags.find(t => t.name === name);
-        return tag?.id === m.tag;
-      });
-    });
-  }, [byStatus, activeFilters, tags]);
+    let statusFilteredItems = [
+      ...activePlans,
+      ...goalData.filter(g => (g.plan || []).some(planId => activePlanIds.has(planId))),
+      ...metricsWithTags.filter(m => (m.plan || []).some(planId => activePlanIds.has(planId)))
+    ];
 
-  // 3) Filter by search string - Corrected definition
-  const displayedMetrics = useMemo(() => {
+    // 2. Tag Filtering (Tag -> Goal relationship)
+    let tagFilteredItems = statusFilteredItems;
+    if (activeFilters.length > 0) {
+      const goalIdsToFilterBy = new Set<string>();
+      activeFilters.forEach(filterName => {
+        const tagObject = tags.find(t => t.name === filterName);
+        if (tagObject && 'goal' in tagObject && tagObject.goal && Array.isArray(tagObject.goal)) {
+          // Now that 'goal' is confirmed to exist and be an array, we can safely iterate.
+          // We might need to cast tagObject.goal if TS still infers it as 'unknown' or too broad after 'in' check.
+          (tagObject.goal as string[]).forEach((goalId: string) => goalIdsToFilterBy.add(goalId));
+        }
+      });
+
+      if (goalIdsToFilterBy.size > 0) {
+        tagFilteredItems = statusFilteredItems.filter(item => {
+          if (item.objectType === 'Plan') {
+            // Plan is kept if any of its goals are in goalIdsToFilterBy
+            return goalData.some(g => 
+              (g.plan || []).includes(item.id) && goalIdsToFilterBy.has(g.id)
+            );
+          }
+          if (item.objectType === 'Goal') {
+            return goalIdsToFilterBy.has(item.id);
+          }
+          if (item.objectType === 'Metric') {
+            let directTagMatch = false;
+            if ('tag' in item && item.tag && typeof item.tag === 'string') {
+              directTagMatch = activeFilters.some(name => {
+                const t = tags.find(tag => tag.name === name);
+                return t?.id === item.tag; // item.tag is known to be a string here
+              });
+            }
+
+            let relatedToFilteredGoal = false;
+            // Ensure 'goal' exists on item, is not null/undefined, and is an array before trying to use .some()
+            if ('goal' in item && item.goal && Array.isArray(item.goal)) {
+              relatedToFilteredGoal = (item.goal as string[]).some((goalId: string) => goalIdsToFilterBy.has(goalId));
+            }
+            return relatedToFilteredGoal || directTagMatch;
+          }
+          return false; // Should not happen if objectType is always set
+        });
+      } else {
+        // If activeFilters are present but no matching tags/goals found, show nothing from tag filtering step
+        tagFilteredItems = [];
+      }
+    }
+
+    // 3. Search Filtering
     const trimmedQuery = searchQuery.trim().toLowerCase();
+    let searchFilteredItems = tagFilteredItems;
     if (trimmedQuery) {
-      return byTags.filter((m) => {
-        const nameMatch = m.name?.toLowerCase().includes(trimmedQuery);
+      searchFilteredItems = tagFilteredItems.filter(item => {
+        const nameMatch = item.name?.toLowerCase().includes(trimmedQuery);
         let orgMatch = false;
         let orgNameMatch = false;
 
-        if (m.objectType === "Metric") {
-          orgMatch = Array.isArray(m.orgAcronym) && m.orgAcronym.some(acronym => acronym?.toLowerCase().includes(trimmedQuery));
-          orgNameMatch = Array.isArray(m.orgName) && m.orgName.some(name => name?.toLowerCase().includes(trimmedQuery));
+        if (Array.isArray(item.org)) {
+          orgMatch = item.org.some(o => typeof o === 'string' && o.toLowerCase().includes(trimmedQuery));
+        } else if (item.org) {
+          orgMatch = (item.org as string).toLowerCase().includes(trimmedQuery);
         }
+
+        if (Array.isArray(item.orgName)) {
+          orgNameMatch = item.orgName.some(on => typeof on === 'string' && on.toLowerCase().includes(trimmedQuery));
+        } else if (item.orgName) {
+          orgNameMatch = (item.orgName as string).toLowerCase().includes(trimmedQuery);
+        }
+        
+        // For Metrics, also check orgAcronym (assuming it's specific to metrics)
+        if (item.objectType === 'Metric' && Array.isArray(item.orgAcronym)) {
+            const acronymMatch = item.orgAcronym.some(acronym => typeof acronym === 'string' && acronym.toLowerCase().includes(trimmedQuery));
+            return nameMatch || orgMatch || orgNameMatch || acronymMatch;
+        }
+
         return nameMatch || orgMatch || orgNameMatch;
       });
     }
-    return byTags;
-  }, [byTags, searchQuery]);
 
-  // This is the list of all items (plans, goals, filtered metrics) to potentially display
-  const itemsToDisplay = useMemo(() => {
-    const trimmedQuery = searchQuery.trim().toLowerCase();
-
-    const filteredPlans = planData.filter(plan => {
-      if (!trimmedQuery) return true;
-      const nameMatch = plan.name?.toLowerCase().includes(trimmedQuery);
-      let orgMatch = false;
-      if (Array.isArray(plan.org)) {
-        orgMatch = plan.org.some(o => {
-          if (typeof o === 'string') {
-            return o.toLowerCase().includes(trimmedQuery);
-          }
-          return false;
-        });
-      } else if (plan.org) {
-        orgMatch = plan.org.toLowerCase().includes(trimmedQuery);
-      }
-      let orgNameMatch = false;
-      if (Array.isArray(plan.orgName)) {
-        orgNameMatch = plan.orgName.some(on => {
-          if (typeof on === 'string') {
-            return on.toLowerCase().includes(trimmedQuery);
-          }
-          return false;
-        });
-      } else if (plan.orgName) {
-        orgNameMatch = plan.orgName.toLowerCase().includes(trimmedQuery);
-      }
-      return nameMatch || orgMatch || orgNameMatch;
-    });
-
-    const filteredGoals = goalData.filter(goal => {
-      if (!trimmedQuery) return true;
-      const nameMatch = goal.name?.toLowerCase().includes(trimmedQuery);
-      let orgMatch = false;
-      if (Array.isArray(goal.org)) {
-        orgMatch = goal.org.some(o => {
-          if (typeof o === 'string') {
-            return o.toLowerCase().includes(trimmedQuery);
-          }
-          return false;
-        });
-      } else if (goal.org) {
-        orgMatch = goal.org.toLowerCase().includes(trimmedQuery);
-      }
-      let orgNameMatch = false;
-      if (Array.isArray(goal.orgName)) {
-        orgNameMatch = goal.orgName.some(on => {
-          if (typeof on === 'string') {
-            return on.toLowerCase().includes(trimmedQuery);
-          }
-          return false;
-        });
-      } else if (goal.orgName) {
-        orgNameMatch = goal.orgName.toLowerCase().includes(trimmedQuery);
-      }
-      return nameMatch || orgMatch || orgNameMatch;
-    });
-
-    let combinedItems = [
-      ...filteredPlans,
-      ...filteredGoals,
-      ...displayedMetrics, // displayedMetrics are already filtered by search query
-    ];
-
-    // Re-apply sorting logic (example, adjust as per original logic)
-    let sortedItems = [...combinedItems];
+    // 4. Sorting
+    let sortedItems = [...searchFilteredItems];
     if (sortOption === "A-Z") {
       sortedItems.sort((a, b) => a.name.localeCompare(b.name));
     } else if (sortOption === "Z-A") {
       sortedItems.sort((a, b) => b.name.localeCompare(a.name));
     } else if (sortOption === "Trending") {
-      // Placeholder for Trending sort logic - often based on recent activity or views
-      // For now, let's sort by endDate as a proxy if available, or keep original order
       sortedItems.sort((a, b) => {
         const dateA = a.endDate ? new Date(a.endDate).getTime() : 0;
         const dateB = b.endDate ? new Date(b.endDate).getTime() : 0;
         if (dateA !== dateB) return dateB - dateA; // Descending for more recent
-        // Fallback to name if dates are same or not present
         return a.name.localeCompare(b.name);
       });
     }
-    // Add other sort options as needed
 
     return sortedItems;
-  }, [planData, goalData, displayedMetrics, searchQuery, sortOption, resultsByMetric]); // Added sortOption and resultsByMetric (if needed by original trending sort)
+  }, [planData, goalData, metricsWithTags, statusOption, activeFilters, tags, searchQuery, sortOption, resultsByMetric]);
 
   // These are the tabs generated based on the content of itemsToDisplay
   const dynamicTabs = useMemo(() => {
-    if (!itemsToDisplay) return [];
-    const counts: Record<string, number> = {};
+    const counts: Record<string, number> = {
+      Everything: itemsToDisplay.length, // Initialize with the total count for 'All'
+    };
     itemsToDisplay.forEach(item => {
-      if (item.objectType) {
-        counts[item.objectType] = (counts[item.objectType] || 0) + 1;
-      }
+      const type = item.objectType as string;
+      counts[type] = (counts[type] || 0) + 1;
     });
-    const generatedTabs = Object.entries(counts).map(([name, count]) => {
-      let pluralName = name;
-      if (name === "Plan") pluralName = "Plans";
-      else if (name === "Goal") pluralName = "Goals";
-      else if (name === "Metric") pluralName = "Metrics";
-      return { name: pluralName, count };
-    });
-    return [{ name: "Everything", count: itemsToDisplay.length }, ...generatedTabs];
+    const generatedTabs = Object.entries(counts)
+      .map(([label, count]) => {
+        let displayLabel = label;
+        if (label === 'Plan') displayLabel = 'Plans';
+        else if (label === 'Goal') displayLabel = 'Goals';
+        else if (label === 'Metric') displayLabel = 'Metrics';
+        // Ensure all tabs have a 'name' property for FilterTabs component
+        return { name: displayLabel, count, originalLabel: label };
+      })
+      .filter(tab => tab.originalLabel !== 'Everything' && tab.count > 0); // Filter out 'Everything' here, it's added separately
+
+    return [
+      { name: "Everything", count: itemsToDisplay.length, originalLabel: "Everything" }, 
+      ...generatedTabs
+    ];
   }, [itemsToDisplay]);
 
   // Build the two‐level hierarchy for the sunburst
   const hierarchyData = useMemo(() => {
     const grouped: Record<string, Record<string, number>> = {};
 
-    for (const m of displayedMetrics) {
-      const res = resultsByMetric[m.id];
-      const trend = res?.resultTrend || "No Data";
-      const org = m.orgAcronym?.[0] ?? "Unknown";
+    for (const m of itemsToDisplay) {
+      if (m.objectType === 'Metric') {
+        const res = resultsByMetric[m.id];
+        const trend = res?.resultTrend || "No Data";
+        const org = m.orgAcronym?.[0] ?? "Unknown";
 
-      if (!grouped[trend]) grouped[trend] = {};
-      grouped[trend][org] = (grouped[trend][org] || 0) + 1;
+        if (!grouped[trend]) grouped[trend] = {};
+        grouped[trend][org] = (grouped[trend][org] || 0) + 1;
+      }
     }
 
     return {
@@ -257,16 +247,18 @@ export default function AnalyzePage() {
         })),
       })),
     };
-  }, [displayedMetrics, resultsByMetric]);
+  }, [itemsToDisplay, resultsByMetric]);
 
   const bubbleChartData = useMemo(() => {
     const trendCounts: Record<string, number> = {};
-    for (const m of displayedMetrics) {
-      const trend = resultsByMetric[m.id]?.resultTrend ?? "No Data";
-      trendCounts[trend] = (trendCounts[trend] || 0) + 1;
+    for (const m of itemsToDisplay) {
+      if (m.objectType === 'Metric') {
+        const trend = resultsByMetric[m.id]?.resultTrend ?? "No Data";
+        trendCounts[trend] = (trendCounts[trend] || 0) + 1;
+      }
     }
     return Object.entries(trendCounts).map(([trend, count]) => ({ trend, count }));
-  }, [displayedMetrics, resultsByMetric]);
+  }, [itemsToDisplay, resultsByMetric]);
 
   const bumpChartData = useMemo(() => {
     const map = new Map<string, { trend: string; date: string; count: number }>();
@@ -305,9 +297,8 @@ export default function AnalyzePage() {
       }
     }
     const result = Array.from(map.values());
-    // console.log("bumpChartData", result); // Optional: uncomment for debugging
     return result;
-  }, [searchQuery, statusOption, activeFilters, metricResults, plans, tags, metricsWithTags]); // Added metricsWithTags to dependency array
+  }, [searchQuery, statusOption, activeFilters, metricResults, plans, tags, metricsWithTags]);
 
   const finalItemsForGrid = useMemo(() => {
     if (activeTab === "Everything") {
