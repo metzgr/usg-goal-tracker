@@ -185,7 +185,8 @@ export default function AnalyzePage() {
       <main className="bg-[#F5F5F5] px-8 py-[28px]">
         {activeTab === "Metrics" && (
           <>
-          {[...plans, ...goalData, ...metrics].map((item, idx) => {
+          <div className="columns-3 gap-4">
+            {[...plans, ...goalData, ...metrics].map((item, idx) => {
   let enrichedData = item;
   if (item.objectType === "Metric") {
     const metricId = item.id;
@@ -199,7 +200,7 @@ export default function AnalyzePage() {
     };
   }
   return (
-    <Placard key={item.id || idx}>
+    <Placard key={item.id || idx} className="break-inside-avoid mb-4">
       <Card>
         <CardHeader>
           <div className="flex items-center justify-between">
@@ -231,6 +232,8 @@ export default function AnalyzePage() {
     </Placard>
   );
 })}
+            )}
+          </div>
           </>
         )}
       </main>
