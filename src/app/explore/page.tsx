@@ -187,9 +187,9 @@ export default function ExplorePage() {
       sortedItems.sort((a, b) => b.name.localeCompare(a.name));
     } else if (sortOption === "Trending") {
       sortedItems.sort((a, b) => {
-        const dateA = a.endDate ? new Date(a.endDate).getTime() : 0;
-        const dateB = b.endDate ? new Date(b.endDate).getTime() : 0;
-        if (dateA !== dateB) return dateB - dateA; // Descending for more recent
+        const viewsA = (a as any).views || 0;
+        const viewsB = (b as any).views || 0;
+        if (viewsB !== viewsA) return viewsB - viewsA;
         return a.name.localeCompare(b.name);
       });
     }
@@ -212,13 +212,15 @@ export default function ExplorePage() {
         if (label === 'Plan') displayLabel = 'Plans';
         else if (label === 'Goal') displayLabel = 'Goals';
         else if (label === 'Metric') displayLabel = 'Metrics';
-        // Ensure all tabs have a 'name' property for FilterTabs component
         return { name: displayLabel, count, originalLabel: label };
       })
-      .filter(tab => tab.originalLabel !== 'Everything' && tab.count > 0); // Filter out 'Everything' here, it's added separately
+      .filter(tab => tab.originalLabel !== 'Everything' && tab.count > 0);
+
+    const tabOrder = ["Plans", "Goals", "Metrics"];
+    generatedTabs.sort((a, b) => tabOrder.indexOf(a.name) - tabOrder.indexOf(b.name));
 
     return [
-      { name: "Everything", count: itemsToDisplay.length, originalLabel: "Everything" }, 
+      { name: "Everything", count: itemsToDisplay.length, originalLabel: "Everything" },
       ...generatedTabs
     ];
   }, [itemsToDisplay]);
