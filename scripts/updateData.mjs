@@ -7,7 +7,7 @@
 //   Run this manually when quarterly data updates are published.
 // 
 // ENVIRONMENT:
-//   Requires AIRTABLE_API_KEY and AIRTABLE_BASE_ID in .env.local
+//   Requires AIRTABLE_PERSONAL_TOKEN and AIRTABLE_BASE_USPERFORMANCE_ID in .env.local
 // ──────────────────────────────────────────────
 
 import dotenv from 'dotenv';
@@ -23,8 +23,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Get env vars
-const apiKey = process.env.AIRTABLE_API_KEY;
-const baseId = process.env.AIRTABLE_BASE_ID;
+const apiKey = process.env.AIRTABLE_PERSONAL_TOKEN;
+const baseId = process.env.AIRTABLE_BASE_USPERFORMANCE_ID;
 const tableNames = [
   'org',
   'plan',
@@ -41,7 +41,7 @@ const tableNames = [
 ]; // Update with your table names
 
 if (!apiKey || !baseId) {
-  console.error('Missing AIRTABLE_API_KEY or AIRTABLE_BASE_ID in environment.');
+  console.error('Missing AIRTABLE_PERSONAL_TOKEN or AIRTABLE_BASE_USPERFORMANCE_ID in environment.');
   process.exit(1);
 }
 
