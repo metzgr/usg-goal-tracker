@@ -1,0 +1,563 @@
+[
+  {
+    "id": "rec1lBiN9aDKPvQOk",
+    "Name": "Nuclear Regulatory Commission",
+    "Acronym": "NRC",
+    "Identifier": "rec1lBiN9aDKPvQOk",
+    "Avatar": [
+      "recrM1MmbsG2clIEo"
+    ],
+    "WebAddress": "https://www.nrc.gov/",
+    "StrategicPlan": [
+      "recUy1SDlgH6myAVG",
+      "rectbJo4RRWxy7sPN"
+    ],
+    "Mission": [
+      "recZTTcTCnaMykYIv"
+    ]
+  },
+  {
+    "id": "rec1uKnDaQwdqpVcS",
+    "Name": "United States Agency for International Development",
+    "Acronym": "USAID",
+    "Identifier": "rec1uKnDaQwdqpVcS",
+    "Avatar": [
+      "recvoOrZ9p6mFWif1"
+    ],
+    "WebAddress": "https://www.usaid.gov/",
+    "StrategicPlan": [
+      "recd69bahiDvwl4OB",
+      "recGc5fKTCXWeqPEH"
+    ],
+    "Mission": [
+      "recjOGFZCvSl2B1Nx"
+    ]
+  },
+  {
+    "id": "rec25KrdDk8tSQXIG",
+    "Name": "Office of Personnel Management",
+    "Acronym": "OPM",
+    "Identifier": "rec25KrdDk8tSQXIG",
+    "Avatar": [
+      "recNhAhFZ60Ypikhx"
+    ],
+    "WebAddress": "https://www.opm.gov/",
+    "StrategicPlan": [
+      "recTkKnnCj8jdZC7t",
+      "recUTS00Gm7Hi9q8t"
+    ],
+    "Mission": [
+      "recseGkvNoHxtpISQ"
+    ]
+  },
+  {
+    "id": "rec2NwHKMOmysvNEA",
+    "Name": "United States Postal Service",
+    "Acronym": "USPS",
+    "Identifier": "rec2NwHKMOmysvNEA",
+    "WebAddress": "https://about.usps.com/",
+    "Division": [
+      "reciob9FEmapmR9Ja"
+    ]
+  },
+  {
+    "id": "rec4IEEtmhJCc4Kb7",
+    "Name": "U.S. Department of State",
+    "Acronym": "DOS",
+    "Identifier": "rec4IEEtmhJCc4Kb7",
+    "Avatar": [
+      "recTqLrgzu5jAuYtp"
+    ],
+    "WebAddress": "https://www.state.gov/",
+    "StrategicPlan": [
+      "recd69bahiDvwl4OB",
+      "recGc5fKTCXWeqPEH"
+    ],
+    "Division": [
+      "recgWvJRsfS9GHtOI",
+      "recRyX0y4vCxqI2BT"
+    ],
+    "Mission": [
+      "rec591mdG7yqktKeq"
+    ]
+  },
+  {
+    "id": "rec4a8Zk1UjnVsO6Q",
+    "Name": "U.S. Department of Agriculture",
+    "Acronym": "USDA",
+    "Identifier": "rec4a8Zk1UjnVsO6Q",
+    "Avatar": [
+      "rec7LTnLsu1vvFCYm"
+    ],
+    "WebAddress": "https://www.usda.gov/",
+    "StrategicPlan": [
+      "rec45SIzrwyO97wu2",
+      "recVIA6onvSHonNo1"
+    ],
+    "Division": [
+      "recxomNsnrlcDv6kC",
+      "rec4kHdFjtY9EAFiw"
+    ],
+    "Mission": [
+      "recPZ8HIRCL3f3D93"
+    ]
+  },
+  {
+    "id": "rec6YgwEGnUq9oGsV",
+    "Name": "U.S. Department of the Interior",
+    "Acronym": "DOI",
+    "Identifier": "rec6YgwEGnUq9oGsV",
+    "Avatar": [
+      "recBH1QQcL3yE1NJX"
+    ],
+    "WebAddress": "https://www.doi.gov/",
+    "StrategicPlan": [
+      "recNVXfIe8Omb3Y3J",
+      "recIanCyDEYvpjIb9"
+    ],
+    "Division": [
+      "recj0soTIGOApXCDC",
+      "recnkjsXV6airHZ8c",
+      "recYgWpPg1sH7wnwb"
+    ],
+    "Mission": [
+      "recR1HwfK7fw7M1B9"
+    ]
+  },
+  {
+    "id": "recENARICnDzmPgRM",
+    "Name": "U.S. Department of Commerce",
+    "Acronym": "DOC",
+    "Identifier": "recENARICnDzmPgRM",
+    "Avatar": [
+      "recXqxcBhxdAqd946"
+    ],
+    "WebAddress": "https://www.commerce.gov/",
+    "StrategicPlan": [
+      "recmPFrmndM3HI4xh",
+      "recZq5QbGwM1tuLb0"
+    ],
+    "Mission": [
+      "recYYUhNNdmEMa8IW"
+    ]
+  },
+  {
+    "id": "recHJe8yhA45gRaib",
+    "Name": "Appalachian Regional Commission",
+    "Acronym": "ARC",
+    "Identifier": "recHJe8yhA45gRaib",
+    "WebAddress": "https://www.arc.gov/",
+    "PerformanceIndicator": [
+      "recrhpMb1jSbq7NFE",
+      "rec03yN1vyLYAUEUe",
+      "recfUvedEwUot9LLs",
+      "recAMplHEmTJp00Gn",
+      "rec9l1etuMS1tetX3",
+      "recMraZySHI5Lyxay",
+      "recP2SVmOfRy2F9Wj"
+    ]
+  },
+  {
+    "id": "recJv3Zf8gwUsaIHx",
+    "Name": "Small Business Administration",
+    "Acronym": "SBA",
+    "Identifier": "recJv3Zf8gwUsaIHx",
+    "Avatar": [
+      "recyPcAPWt5AjEjdZ"
+    ],
+    "WebAddress": "https://www.sba.gov/",
+    "StrategicPlan": [
+      "rec3njowrJkJ0kWrb",
+      "recqyxm9MRZneW3X5"
+    ],
+    "Mission": [
+      "rec1lGwi0JqgzOyBq"
+    ]
+  },
+  {
+    "id": "recLn9wJZ4queYJyx",
+    "Name": "U.S. Department of Health and Human Services",
+    "Acronym": "HHS",
+    "Identifier": "recLn9wJZ4queYJyx",
+    "Avatar": [
+      "rec2CZRTqJiND11Fb"
+    ],
+    "WebAddress": "https://www.hhs.gov/",
+    "StrategicPlan": [
+      "recsmudiLZSiwNZYg",
+      "recl9SyIjSP8dR8ST"
+    ],
+    "Division": [
+      "reczCBWQRRBMHsJGL",
+      "recdgH9si4j4WCR7q",
+      "recdn1dCEsfOvyVFU",
+      "recJZO9BVeMYhJtaF",
+      "reccj3K7OVrS9eXVk",
+      "recH669A64vWrtawd",
+      "rec6C89vh15NUw7r3",
+      "recGY8MHFtUL90Rzq"
+    ],
+    "Mission": [
+      "recFo86wdmJOFMCV4"
+    ]
+  },
+  {
+    "id": "recMOWjwu8Ieax3Pz",
+    "Name": "U.S. Department of Transportation",
+    "Acronym": "DOT",
+    "Identifier": "recMOWjwu8Ieax3Pz",
+    "Avatar": [
+      "recrgJEcWWQkD10kJ"
+    ],
+    "WebAddress": "https://www.transportation.gov/",
+    "StrategicPlan": [
+      "rec6B2uBDpqzMXLHs",
+      "recg9r3Kw6DGnefOn"
+    ],
+    "Division": [
+      "recBXeTqqFZscdw5F",
+      "recSGjyUXpDumLKfI"
+    ],
+    "Mission": [
+      "recDQTPmMDdoTtncX"
+    ]
+  },
+  {
+    "id": "recO4JsgoCAvHOFAd",
+    "Name": "Executive Office of the President",
+    "Acronym": "EOP",
+    "Identifier": "recO4JsgoCAvHOFAd",
+    "Avatar": [
+      "recMc1ZFoTT3y3LCM"
+    ],
+    "WebAddress": "https://www.whitehouse.gov/",
+    "StrategicPlan": [
+      "recfvMFWPJFzQ9z6G",
+      "rec3temxfxkjfFFiP",
+      "recMgygWrgNoPbnpW",
+      "recIcDkomaXvikLCD"
+    ],
+    "Division": [
+      "recOtpAksKHsFkimr",
+      "recHPHxEaGkH1vSMF"
+    ],
+    "Mission": [
+      "recKiYqrNWiGLzCqj",
+      "recp1Ozjqwvg3Clks"
+    ]
+  },
+  {
+    "id": "recOXz6b59f0e5PRa",
+    "Name": "U.S. Department of Veterans Affairs",
+    "Acronym": "VA",
+    "Identifier": "recOXz6b59f0e5PRa",
+    "Avatar": [
+      "rec7aWfmy2h8Y3Hw3"
+    ],
+    "WebAddress": "https://www.va.gov/",
+    "StrategicPlan": [
+      "recCDCw36Fcag6EDa",
+      "rechnSni2uwY8Frvg"
+    ],
+    "Division": [
+      "recvk7OS8xyRtT03X"
+    ],
+    "Mission": [
+      "recfwjwkIdcQdKeNJ"
+    ]
+  },
+  {
+    "id": "recR7C4lNcCPt02uP",
+    "Name": "National Aeronautics and Space Administration",
+    "Acronym": "NASA",
+    "Identifier": "recR7C4lNcCPt02uP",
+    "Avatar": [
+      "reca7WREzIGER5gPC"
+    ],
+    "WebAddress": "https://www.nasa.gov/",
+    "StrategicPlan": [
+      "rec8Yrw7n6tSIO35P",
+      "recaGNBokxwIym0DL"
+    ],
+    "Mission": [
+      "recU79wylz2VR8BMa"
+    ]
+  },
+  {
+    "id": "recUJjJP3rY57Gnvb",
+    "Name": "U.S. Department of Housing and Urban Development",
+    "Acronym": "HUD",
+    "Identifier": "recUJjJP3rY57Gnvb",
+    "Avatar": [
+      "rec590R0cVSdKgZtQ"
+    ],
+    "WebAddress": "https://www.hud.gov/",
+    "StrategicPlan": [
+      "rec7G9xmYERqXCwc2",
+      "recsVjBe4RPwsUmgE"
+    ],
+    "Division": [
+      "recrnRc5G3X2jBCvw"
+    ],
+    "Mission": [
+      "reclItuwt5U1DCvid"
+    ]
+  },
+  {
+    "id": "recUiSeiCaSmPe3Fl",
+    "Name": "Social Security Administration",
+    "Acronym": "SSA",
+    "Identifier": "recUiSeiCaSmPe3Fl",
+    "Avatar": [
+      "rec1B6nvrzyNbEk5u"
+    ],
+    "WebAddress": "https://www.ssa.gov/",
+    "StrategicPlan": [
+      "rect8ecnug2uxI6CU",
+      "recuqG19LEIgTOlNp"
+    ],
+    "Mission": [
+      "recjlskRt1JSvxji0"
+    ]
+  },
+  {
+    "id": "recUyGXF4eLUOFttL",
+    "Name": "U.S. Department of Homeland Security",
+    "Acronym": "DHS",
+    "Identifier": "recUyGXF4eLUOFttL",
+    "Avatar": [
+      "rec8m1ggg3LAZpHFe"
+    ],
+    "WebAddress": "https://www.dhs.gov/",
+    "StrategicPlan": [
+      "recFBTNzSx5WlpImu",
+      "recTZW7xTrISQVDeg"
+    ],
+    "Division": [
+      "recj9hzG30cypMR2S",
+      "rec2LBQnAegWc1370",
+      "recI1jda9VKTBpjw8",
+      "recJrWlAYX7ua9cXG",
+      "recRYjhQPgYnjr8V7",
+      "recIDfpt3yYFdrHgc"
+    ],
+    "Mission": [
+      "recRGZQBO7oCZQjQ9"
+    ]
+  },
+  {
+    "id": "recZfIJP5AnQPwqWs",
+    "Name": "U.S. Department of Defense",
+    "Acronym": "DOD",
+    "Identifier": "recZfIJP5AnQPwqWs",
+    "Avatar": [
+      "recNJoLACaG0KuCnS"
+    ],
+    "WebAddress": "https://www.defense.gov/",
+    "StrategicPlan": [
+      "recMuAlDCEciPVpDH",
+      "rec2xUnm3LFpl0i70"
+    ],
+    "Division": [
+      "recPpoZpE6IpjBW1D",
+      "recqjeksKkZz7DDVV",
+      "rec5roIgRTHUJekdW"
+    ],
+    "Mission": [
+      "recDPKnIm1EFIlQoC"
+    ]
+  },
+  {
+    "id": "recfXKLlO2x5g3fed",
+    "Name": "Environmental Protection Agency",
+    "Acronym": "EPA",
+    "Identifier": "recfXKLlO2x5g3fed",
+    "Avatar": [
+      "recJAQFaQPyw1nN0S"
+    ],
+    "WebAddress": "https://www.epa.gov/",
+    "StrategicPlan": [
+      "recFYnGRLVYPoPUT4",
+      "recuWkKPG5RFbIjfq"
+    ],
+    "Mission": [
+      "rec0fponD32oRZRnW"
+    ]
+  },
+  {
+    "id": "rechlL2Z4Lg1VfcF7",
+    "Name": "National Science Foundation",
+    "Acronym": "NSF",
+    "Identifier": "rechlL2Z4Lg1VfcF7",
+    "Avatar": [
+      "recyj80CS5jbdY0uf"
+    ],
+    "WebAddress": "https://www.nsf.gov/",
+    "StrategicPlan": [
+      "recvHmcWcP4aGKjqU",
+      "rechRfZluH3mpBxJr"
+    ],
+    "Mission": [
+      "recidkI56RZEOEzLC"
+    ]
+  },
+  {
+    "id": "reci3gyhut8tiSvNW",
+    "Name": "Corporation for National and Community Service",
+    "Acronym": "AmeriCorps",
+    "Identifier": "reci3gyhut8tiSvNW",
+    "WebAddress": "https://americorps.gov/",
+    "PerformanceIndicator": [
+      "recWWFCh8nOoWeYmw",
+      "reczLggGRWiVkUnsr",
+      "rec70ChxZ77un3974",
+      "recwzBcHxQNfgysiB"
+    ],
+    "Objective": [
+      "recLwSOZL5J4PCxgw",
+      "recPaGOpnTKlEKpQg",
+      "recdMIstHAIQCZw03",
+      "recGNpTzJom17c8KP"
+    ]
+  },
+  {
+    "id": "reciPl9pAi9y3lQmJ",
+    "Name": "U.S. Department of Energy",
+    "Acronym": "DOE",
+    "Identifier": "reciPl9pAi9y3lQmJ",
+    "Avatar": [
+      "recwFOcqnJHyxLqjT"
+    ],
+    "WebAddress": "https://www.energy.gov/",
+    "StrategicPlan": [
+      "recCy96734bWOzmKa",
+      "reczKY39qVxxsrC4y"
+    ],
+    "Mission": [
+      "rechWv8A11jcc6uaJ"
+    ]
+  },
+  {
+    "id": "recjPDRkKIEGZcafX",
+    "Name": "Court Services and Offender Supervision Agency",
+    "Acronym": "CSOSA",
+    "Identifier": "recjPDRkKIEGZcafX",
+    "WebAddress": "https://www.csosa.gov/",
+    "Division": [
+      "recEk1wOIuZRVdaad",
+      "recfwKS3h5HPHafvX"
+    ]
+  },
+  {
+    "id": "recjT8Vm4PMtfyGMc",
+    "Name": "U.S. Department of Labor",
+    "Acronym": "DOL",
+    "Identifier": "recjT8Vm4PMtfyGMc",
+    "Avatar": [
+      "recdW4WsvJ6uN6zdE"
+    ],
+    "WebAddress": "https://www.dol.gov/",
+    "StrategicPlan": [
+      "recdp98G6ZgfBfDYR",
+      "rec5DKpsSbv2HLKEc"
+    ],
+    "Division": [
+      "reckp17FXokOVNisd",
+      "recR4Pr0wSpsremj8",
+      "recFYENUtOPm5Gsvt",
+      "recpZUWVYlyRgWOjU",
+      "recya08Lf2UOYRNyC"
+    ],
+    "Mission": [
+      "recTgz9VvJiTzzTTs"
+    ]
+  },
+  {
+    "id": "recjxthLliHcdHOn0",
+    "Name": "General Services Administration",
+    "Acronym": "GSA",
+    "Identifier": "recjxthLliHcdHOn0",
+    "Avatar": [
+      "recZ9zHBSOoWcuw7Y"
+    ],
+    "WebAddress": "https://www.gsa.gov/",
+    "StrategicPlan": [
+      "recpKwtfPDwQKEtl9",
+      "rec9WG5SpVZGjFZ0P"
+    ],
+    "Mission": [
+      "rec9XNleQU7EEUPqO"
+    ]
+  },
+  {
+    "id": "reclwxAv2tbOVSP3u",
+    "Name": "U.S. Department of Education",
+    "Acronym": "ED",
+    "Identifier": "reclwxAv2tbOVSP3u",
+    "Avatar": [
+      "reclx2Wz2MZ3ei4ML"
+    ],
+    "WebAddress": "https://www.ed.gov/",
+    "StrategicPlan": [
+      "recAvl11T22VTsRcU",
+      "recGTzz8nzKXigX46"
+    ],
+    "Division": [
+      "recq6SNxmGjMDDAzk"
+    ],
+    "Mission": [
+      "rec7c8nVZZizXxy6l"
+    ]
+  },
+  {
+    "id": "recrcgxR1JucjxSVX",
+    "Name": "U.S. Department of Justice",
+    "Acronym": "DOJ",
+    "Identifier": "recrcgxR1JucjxSVX",
+    "Avatar": [
+      "reclb0eTl7wfehhkM"
+    ],
+    "WebAddress": "https://www.justice.gov/",
+    "StrategicPlan": [
+      "recbEELzwtT6U5SXX",
+      "recRrqyWJFsiQJPWL"
+    ],
+    "Division": [
+      "recjC3hl3N1gbdmcM",
+      "rec2gdXQHC5YNGdzC",
+      "recyF3Jr9OXoEWP0K",
+      "recq9oJyYbr56U8kW",
+      "recLm3SBBqOQjASlP",
+      "rec3fYjQwF7IDX9Tr",
+      "recgFZ4Sa3SGU6lxx",
+      "recqjpJvSOsAOHMVx",
+      "rec8yLSOF9tM7mIhu",
+      "recwC7YQU75Esa9Li"
+    ],
+    "Mission": [
+      "recI8xjw9UoPclgSf"
+    ]
+  },
+  {
+    "id": "recxvtHd5QPH4VUbo",
+    "Name": "U.S. Department of the Treasury",
+    "Acronym": "USDT",
+    "Identifier": "recxvtHd5QPH4VUbo",
+    "Avatar": [
+      "recOIcNEM6rPcyNhr"
+    ],
+    "WebAddress": "https://treasury.gov/",
+    "StrategicPlan": [
+      "rec6ULaRi6SThd7tr",
+      "rec0eUDJgP3eYOYjb"
+    ],
+    "Division": [
+      "recus6cXYFD0pSUv9",
+      "rec3xd8JfzUysO4OL",
+      "rectNFY4M0WHIC69i"
+    ],
+    "Mission": [
+      "recwGEojIiBT0QBBL"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "rec9XGBRagtFwrpUK",
+    "Name": "PerformancePlanOrReport",
+    "Definition": "A document identifying inputs and processes required to accomplish objectives and establishing metrics by which progress will be assessed within a single budgetary planning and resource allocation cycle.",
+    "⬆️ L8": [
+      "rec70kugGNdSVx65q"
+    ],
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR",
+      "recNzCuXGhBhfKl9f"
+    ],
+    "⬇️ L2": [
+      "recR5lRmAUwLvq7SP"
+    ],
+    "⬇️ L3": [
+      "recdczpaWKHp9W8sL"
+    ],
+    "Attributes": [
+      "recHMlmPqEg8rwJeK"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "reca5nvpjCLijBDYe",
+    "Name": "StrategicPlan",
+    "⬆️ L8": [
+      "rec70kugGNdSVx65q"
+    ],
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR",
+      "recNzCuXGhBhfKl9f"
+    ],
+    "⬇️ L3": [
+      "recdczpaWKHp9W8sL"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  }
+]

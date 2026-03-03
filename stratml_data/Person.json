@@ -1,0 +1,55 @@
+[
+  {
+    "id": "rec5XiGWaF6fdMSq0",
+    "Name": "Donald Trump",
+    "FirstName": "Donald",
+    "LastName": "Trump",
+    "MiddleInitial": "J.",
+    "President": [
+      "recAWQyYdoxUhW7Sj",
+      "recOKtJIopRZPCkxM"
+    ]
+  },
+  {
+    "id": "rec9CAki3LXkbjDNa",
+    "Name": "J.D. Vance",
+    "FirstName": "J.D.",
+    "LastName": "Vance",
+    "VicePresident": [
+      "recAWQyYdoxUhW7Sj"
+    ]
+  },
+  {
+    "id": "recJfBs5b2ZRib5lw",
+    "Name": "Joe Biden",
+    "FirstName": "Joe",
+    "LastName": "Biden",
+    "President": [
+      "recLIzcMFYff1B0AU"
+    ],
+    "Media": [
+      "recwbW4jlrVZwMOug"
+    ]
+  },
+  {
+    "id": "recNAmkRnfyX7rqwr",
+    "Name": "Kamala Harris",
+    "FirstName": "Kamala",
+    "LastName": "Harris",
+    "VicePresident": [
+      "recLIzcMFYff1B0AU"
+    ],
+    "Media": [
+      "recRzJwh1p3rVYmUe"
+    ]
+  },
+  {
+    "id": "recvJIePoI6mwMzZY",
+    "Name": "Mike Pence",
+    "FirstName": "Mike",
+    "LastName": "Pence",
+    "VicePresident": [
+      "recOKtJIopRZPCkxM"
+    ]
+  }
+]

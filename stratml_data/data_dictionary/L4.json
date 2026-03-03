@@ -1,0 +1,60 @@
+[
+  {
+    "id": "recBGnVCKb1TCkfWn",
+    "Name": "Administration",
+    "⬇️ L3": [
+      "rec1RmIHWRoKuQC4U"
+    ],
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recP2ldCUcwqFkPm1",
+      "recRNOTSbR3n649i9",
+      "recL0JH7RWO1laLlA"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "recNKwlMiDsGXoeD3",
+    "Name": "MeasurementInstance",
+    "Definition": "A measurement at a point in time.",
+    "⬇️ L3": [
+      "recgz95mw9Ebu60qf",
+      "recfuUqkOu7ARiWZa"
+    ],
+    "⬇️ L1": [
+      "recRNOTSbR3n649i9",
+      "recL0JH7RWO1laLlA"
+    ],
+    "⬆️ L5": [
+      "recaDFudGFLmB3Uhw"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recqdkON9KqiSPfHy",
+    "Name": "Organization",
+    "Definition": "The legal or logical entity to which the plan or report applies.",
+    "⬇️ L3": [
+      "rec1RmIHWRoKuQC4U"
+    ],
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "rec9AynicQQDMJj1D",
+      "recP2ldCUcwqFkPm1",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L8": [
+      "rec70kugGNdSVx65q"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "⬇️ L2": [
+      "recm5bCdQ7nQptdkA"
+    ]
+  }
+]

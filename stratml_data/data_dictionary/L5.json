@@ -1,0 +1,30 @@
+[
+  {
+    "id": "recaDFudGFLmB3Uhw",
+    "Name": "PerformanceIndicator",
+    "Definition": "A measurement dimension, unit of measurement, and measurement instance specifying target and actual results, e.g., of inputs applied, outputs produced, processes conducted, and outcomes realized.",
+    "⬇️ L1": [
+      "rec6bFmgdWPIYWh8b",
+      "recZgwPQITk46fwjz",
+      "recNq3o47UmJALXuJ",
+      "recP2ldCUcwqFkPm1",
+      "recNzCuXGhBhfKl9f"
+    ],
+    "⬇️ L2": [
+      "recnmc8HEUnGghjMe"
+    ],
+    "⬆️ L5": [
+      "rec6NR23sEohWAzF5"
+    ],
+    "⬇️ L4": [
+      "recNKwlMiDsGXoeD3"
+    ],
+    "Attributes": [
+      "reczFbdNhKKz2KpxG",
+      "recDHZgFFtbVs4k3k"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  }
+]

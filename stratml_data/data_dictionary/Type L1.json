@@ -1,0 +1,62 @@
+[
+  {
+    "id": "recBmQQIfmdtWYxwt",
+    "Name": "date",
+    "Definition": "Built-in primitive type. The date datatype represents a calendar update.",
+    "Source": [
+      "recd4MZmY0WgzaYpA"
+    ],
+    "Type L3": [
+      "rec7Xab27tNtJ3SZl"
+    ],
+    "Types": [
+      "recAVGedvb8RIhXlO"
+    ]
+  },
+  {
+    "id": "recDOwliBj6wXOVvr",
+    "Name": "decimal",
+    "Definition": "Built-in primitive type. The decimal datatype represents arbitrary precision decimal numbers.",
+    "Source": [
+      "recd4MZmY0WgzaYpA"
+    ],
+    "Type L3": [
+      "rectKkhKVXd2pO4Lp"
+    ],
+    "Types": [
+      "recVetc550qD3y4wY"
+    ]
+  },
+  {
+    "id": "recIU3CjB59kljWlg",
+    "Name": "ID",
+    "Definition": "Built-in derived type. ID represents the ID attribute type. The base type of ID is NCName.",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Types": [
+      "recNwGO72LHmrOf4d"
+    ]
+  },
+  {
+    "id": "recvcIdfYnNsbYMjA",
+    "Name": "string",
+    "Definition": "Built-in primitive type. The string datatype represents character strings in XML.",
+    "Source": [
+      "recd4MZmY0WgzaYpA"
+    ],
+    "Type L3": [
+      "recwKEkzcoWD8zqYo",
+      "recS0MAs6ozxBGG0D",
+      "rec3r6Q5a9L67YOQM",
+      "rec3YYkcey5hv6tZt",
+      "rec4nb0DLmFSqXKEN"
+    ],
+    "Type L2": [
+      "recwAxP7xnzZUqU7M"
+    ],
+    "Types": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  }
+]

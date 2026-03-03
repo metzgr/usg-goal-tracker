@@ -1,0 +1,78 @@
+[
+  {
+    "id": "rec0JnTQB1N4JCvmK",
+    "Name": "stratml:Stakeholder / @StakeholderTypeType",
+    "simpleType": [
+      "reciCnOKiujZTOPFE"
+    ],
+    "simpleTypeEnumeration": [
+      "Person",
+      "Organization",
+      "Generic_Group"
+    ],
+    "L3": [
+      "rec1RmIHWRoKuQC4U"
+    ]
+  },
+  {
+    "id": "recDHZgFFtbVs4k3k",
+    "Name": "stratml:PerformanceIndicator / @ValueChainStage",
+    "simpleType": [
+      "recSqSwCr4ILpoZB7"
+    ],
+    "simpleTypeEnumeration": [
+      "Outcome",
+      "Output",
+      "Output_Processing",
+      "Input",
+      "Input_Processing"
+    ],
+    "L5": [
+      "recaDFudGFLmB3Uhw"
+    ]
+  },
+  {
+    "id": "recE820lR3NzAPMXr",
+    "Name": "stratml:Relationship / @RelationshipType",
+    "simpleType": [
+      "rec0GTIRdgUKi2m4H"
+    ],
+    "simpleTypeEnumeration": [
+      "Broader_Than",
+      "Peer_To",
+      "Narrower_Than"
+    ],
+    "L2": [
+      "recnmc8HEUnGghjMe"
+    ]
+  },
+  {
+    "id": "recHMlmPqEg8rwJeK",
+    "Name": "stratml:PerformancePlanOrReport / @Type",
+    "⬆️ L9": [
+      "rec9XGBRagtFwrpUK"
+    ],
+    "simpleType": [
+      "recsJKfjEebjlmHKH"
+    ],
+    "simpleTypeEnumeration": [
+      "Strategic_Plan",
+      "Performance_Plan",
+      "Performance_Report"
+    ]
+  },
+  {
+    "id": "reczFbdNhKKz2KpxG",
+    "Name": "stratml:PerformanceIndicator / @PerformanceIndicatorType",
+    "simpleType": [
+      "recf1ResmmnSiM2pY"
+    ],
+    "simpleTypeEnumeration": [
+      "Quantitative",
+      "Qualitative"
+    ],
+    "L5": [
+      "recaDFudGFLmB3Uhw"
+    ]
+  }
+]

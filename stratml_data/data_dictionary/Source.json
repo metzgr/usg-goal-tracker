@@ -1,0 +1,131 @@
+[
+  {
+    "id": "rec0tHhtmwhX78kWC",
+    "Name": "stratml",
+    "Primitive Types": [
+      "recIU3CjB59kljWlg"
+    ],
+    "L1": [
+      "rec9AynicQQDMJj1D",
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR",
+      "recNzCuXGhBhfKl9f",
+      "recP2ldCUcwqFkPm1",
+      "rec21P6HDxxNilEpt",
+      "recChdqDgzL3LsGOS",
+      "recdRfUsRCLbYH7Hc",
+      "recT8d8Dy959N78gW",
+      "recRNOTSbR3n649i9",
+      "recL0JH7RWO1laLlA",
+      "recuxTpm3ClZoM7oI",
+      "recowWpG6jJG7cFSE",
+      "rec7emU71L4nixJjV",
+      "rec58XpzzIdBNqAQk",
+      "rectcmEyk45AkhZRX",
+      "recT5eL4vx0w8TYpc",
+      "recNq3o47UmJALXuJ",
+      "recZgwPQITk46fwjz",
+      "rec6bFmgdWPIYWh8b",
+      "recpetbV4Gjphrovu",
+      "recMqenoH3OHstE5G",
+      "rec1dB5EiY944tDvo",
+      "recfyp4k0WFhWdDK8"
+    ],
+    "L2": [
+      "recR5lRmAUwLvq7SP",
+      "rec9HikxJnL6j5ctP",
+      "recnmc8HEUnGghjMe",
+      "reccDsAC1D6HDiJr7",
+      "recmA2SWXFavwRHns",
+      "recm5bCdQ7nQptdkA",
+      "recKSlCZ7V4U9DGYC",
+      "recNEwVJEF0iyMIxy",
+      "recjiMUhMml1wOif0",
+      "recU1WE4ejOsWxxwM",
+      "recbAzkwcu1dAJjQM",
+      "recyOPFhEPV0lEFht",
+      "rec6Val7hLKBNLAn8",
+      "recKJirjFGX7en6M7",
+      "reccOO8Ul2uaFjNT8"
+    ],
+    "L3": [
+      "rec1RmIHWRoKuQC4U",
+      "recfuUqkOu7ARiWZa",
+      "recgz95mw9Ebu60qf",
+      "recdczpaWKHp9W8sL"
+    ],
+    "L4": [
+      "recqdkON9KqiSPfHy",
+      "recNKwlMiDsGXoeD3"
+    ],
+    "L5": [
+      "recaDFudGFLmB3Uhw"
+    ],
+    "L6": [
+      "rec6NR23sEohWAzF5"
+    ],
+    "L7": [
+      "recDW6FDzOyWKJUYo"
+    ],
+    "L8": [
+      "rec70kugGNdSVx65q"
+    ],
+    "L9": [
+      "reca5nvpjCLijBDYe",
+      "rec9XGBRagtFwrpUK"
+    ],
+    "Types": [
+      "rec0GTIRdgUKi2m4H",
+      "rec7L2DJmtTd20pNT",
+      "recf1ResmmnSiM2pY",
+      "recSqSwCr4ILpoZB7",
+      "reciCnOKiujZTOPFE",
+      "recsJKfjEebjlmHKH",
+      "rec53YvimJ5XPNSDd",
+      "recjxaWDRkHVLTLeh",
+      "recrJI4eNy8uCX8vP",
+      "recgPAocVSALnBv6N",
+      "recxBBiNDoNQR8ZTT"
+    ]
+  },
+  {
+    "id": "rec8Gq4i0CrqAGmt8",
+    "Name": "stratmlext",
+    "L1": [
+      "rec3ClACFCedG0KNG",
+      "rect2tEmC9rH5IZKL",
+      "recxvGpK6y23Bq6rB",
+      "recgdZYOIlzDrDpew",
+      "rec1yUQ4Ax1a1KYYN",
+      "recQjQJxIlYCeezxS",
+      "recfgNCGmokjqKmwj"
+    ],
+    "L2": [
+      "recsYDMhlsvf0evey",
+      "rect0UsScpJXUMwZW"
+    ],
+    "L3": [
+      "recP5CVYGcnNeaeeB",
+      "recf8V6lzJWvKi8nj"
+    ],
+    "L4": [
+      "recBGnVCKb1TCkfWn"
+    ]
+  },
+  {
+    "id": "recd4MZmY0WgzaYpA",
+    "Name": "xsd",
+    "Primitive Types": [
+      "recvcIdfYnNsbYMjA",
+      "recBmQQIfmdtWYxwt",
+      "recDOwliBj6wXOVvr"
+    ],
+    "Types": [
+      "recXcIEiFI9At1Lmy",
+      "recAVGedvb8RIhXlO",
+      "recVetc550qD3y4wY",
+      "recNwGO72LHmrOf4d",
+      "rec7eOec4jDRNNe0Z"
+    ]
+  }
+]

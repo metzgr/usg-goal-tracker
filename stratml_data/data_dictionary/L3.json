@@ -1,0 +1,134 @@
+[
+  {
+    "id": "rec1RmIHWRoKuQC4U",
+    "Name": "Stakeholder",
+    "Definition": "An individual whose interests may be affected by or whose action may be required to achieve a goal or objective.",
+    "⬇️ L4": [
+      "recqdkON9KqiSPfHy",
+      "recBGnVCKb1TCkfWn"
+    ],
+    "⬇️ L2": [
+      "reccDsAC1D6HDiJr7"
+    ],
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L6": [
+      "rec6NR23sEohWAzF5"
+    ],
+    "⬆️ L7": [
+      "recDW6FDzOyWKJUYo"
+    ],
+    "Attributes": [
+      "rec0JnTQB1N4JCvmK"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recBwt7UINSwCOVa3",
+    "Name": "SWOT",
+    "Definition": "Strengths, weaknesses, opportunities, and threats.",
+    "⬇️ L2": [
+      "recbAzkwcu1dAJjQM",
+      "recyOPFhEPV0lEFht",
+      "rec6Val7hLKBNLAn8",
+      "recKJirjFGX7en6M7"
+    ]
+  },
+  {
+    "id": "recP5CVYGcnNeaeeB",
+    "Name": "Division",
+    "⬇️ L2": [
+      "recm5bCdQ7nQptdkA"
+    ],
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "rec9AynicQQDMJj1D",
+      "recP2ldCUcwqFkPm1",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "recdczpaWKHp9W8sL",
+    "Name": "AdministrativeInformation",
+    "Definition": "Useful information that is not essential and thus not part of the core of the plans or reports.",
+    "⬇️ L2": [
+      "recR5lRmAUwLvq7SP"
+    ],
+    "⬇️ L1": [
+      "recRNOTSbR3n649i9",
+      "recL0JH7RWO1laLlA",
+      "recuxTpm3ClZoM7oI",
+      "recowWpG6jJG7cFSE"
+    ],
+    "⬆️ L9": [
+      "rec9XGBRagtFwrpUK",
+      "reca5nvpjCLijBDYe"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recf8V6lzJWvKi8nj",
+    "Name": "Subdivision",
+    "⬇️ L2": [
+      "recm5bCdQ7nQptdkA"
+    ],
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "rec9AynicQQDMJj1D",
+      "recP2ldCUcwqFkPm1",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "recfuUqkOu7ARiWZa",
+    "Name": "ActualResult",
+    "Definition": "A result achieved on or before a specified date.",
+    "⬇️ L4": [
+      "recNKwlMiDsGXoeD3"
+    ],
+    "⬇️ L2": [
+      "rec9HikxJnL6j5ctP"
+    ],
+    "⬇️ L1": [
+      "recRNOTSbR3n649i9",
+      "recL0JH7RWO1laLlA",
+      "rec7emU71L4nixJjV",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recgz95mw9Ebu60qf",
+    "Name": "TargetResult",
+    "Definition": "A result to be achieved on or before a specified date.",
+    "⬇️ L4": [
+      "recNKwlMiDsGXoeD3"
+    ],
+    "⬇️ L2": [
+      "rec9HikxJnL6j5ctP"
+    ],
+    "⬇️ L1": [
+      "recRNOTSbR3n649i9",
+      "recL0JH7RWO1laLlA",
+      "rec7emU71L4nixJjV",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  }
+]

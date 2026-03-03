@@ -1,0 +1,105 @@
+[
+  {
+    "id": "rec3YYkcey5hv6tZt",
+    "Name": "StakeholderTypeType",
+    "Enumeration": [
+      "Person",
+      "Organization",
+      "Generic_Group"
+    ],
+    "Definition": "An attribute indicating whether the stakeholder is an individual person, an organization, or a generic group of people.",
+    "Type L1": [
+      "recvcIdfYnNsbYMjA"
+    ],
+    "Associated Type": [
+      "reciCnOKiujZTOPFE"
+    ]
+  },
+  {
+    "id": "rec3r6Q5a9L67YOQM",
+    "Name": "ValueChainStageType",
+    "Enumeration": [
+      "Outcome",
+      "Output",
+      "Output_Processing",
+      "Input",
+      "Input_Processing"
+    ],
+    "Type L1": [
+      "recvcIdfYnNsbYMjA"
+    ],
+    "Associated Type": [
+      "recSqSwCr4ILpoZB7"
+    ]
+  },
+  {
+    "id": "rec4nb0DLmFSqXKEN",
+    "Name": "Type",
+    "Enumeration": [
+      "Strategic_Plan",
+      "Performance_Plan",
+      "Performance_Report"
+    ],
+    "Type L1": [
+      "recvcIdfYnNsbYMjA"
+    ],
+    "Associated Type": [
+      "recsJKfjEebjlmHKH"
+    ]
+  },
+  {
+    "id": "rec7Xab27tNtJ3SZl",
+    "Name": "DateTypeType",
+    "Type L1": [
+      "recBmQQIfmdtWYxwt"
+    ],
+    "Associated Type": [
+      "recxBBiNDoNQR8ZTT"
+    ],
+    "Type L2": [
+      "recwAxP7xnzZUqU7M"
+    ]
+  },
+  {
+    "id": "recS0MAs6ozxBGG0D",
+    "Name": "PerformanceIndicatorTypeType",
+    "Enumeration": [
+      "Quantitative",
+      "Qualitative"
+    ],
+    "Type L1": [
+      "recvcIdfYnNsbYMjA"
+    ],
+    "Associated Type": [
+      "recf1ResmmnSiM2pY"
+    ]
+  },
+  {
+    "id": "rectKkhKVXd2pO4Lp",
+    "Name": "NumberOfUnitsTypeType",
+    "Type L1": [
+      "recDOwliBj6wXOVvr"
+    ],
+    "Associated Type": [
+      "rec7L2DJmtTd20pNT"
+    ],
+    "Type L2": [
+      "recwAxP7xnzZUqU7M"
+    ]
+  },
+  {
+    "id": "recwKEkzcoWD8zqYo",
+    "Name": "RelationshipTypeType",
+    "Enumeration": [
+      "Broader_Than",
+      "Peer_To",
+      "Narrower_Than"
+    ],
+    "Type L1": [
+      "recvcIdfYnNsbYMjA"
+    ],
+    "Associated Type": [
+      "rec0GTIRdgUKi2m4H"
+    ]
+  }
+]

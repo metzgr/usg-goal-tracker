@@ -1,0 +1,533 @@
+[
+  {
+    "id": "rec1dB5EiY944tDvo",
+    "Name": "Keyness",
+    "Definition": "An attribute enabling designation of the importance of a performance indicator, such as for monitoring by the top manage ers of the organization.",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "rec7eOec4jDRNNe0Z"
+    ],
+    "Enumeration": [
+      "To_Be_Determined",
+      "Key",
+      "Secondary",
+      "Ancillary"
+    ]
+  },
+  {
+    "id": "rec1yUQ4Ax1a1KYYN",
+    "Name": "MiddleInitial",
+    "⬆️ L1": [
+      "rect0UsScpJXUMwZW"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "rec21P6HDxxNilEpt",
+    "Name": "GivenName",
+    "Definition": "The given name of the person submitting the plan or report.",
+    "⬆️ L1": [
+      "recR5lRmAUwLvq7SP",
+      "reccOO8Ul2uaFjNT8"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "rec3ClACFCedG0KNG",
+    "Name": "File",
+    "⬆️ L1": [
+      "recsYDMhlsvf0evey"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "rec58XpzzIdBNqAQk",
+    "Name": "DescriptorName",
+    "Definition": "A word (i.e., a noun or adjective), phrase, letter (e.g. a grade) or other type of rating applied to designate a type of descriptor.",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "rec6bFmgdWPIYWh8b",
+    "Name": "SequenceIndicator",
+    "Definition": "An alphanumeric identifier applied to an element to designate its order in a series.",
+    "⬆️ L5": [
+      "recaDFudGFLmB3Uhw"
+    ],
+    "⬆️ L6": [
+      "rec6NR23sEohWAzF5"
+    ],
+    "⬆️ L7": [
+      "recDW6FDzOyWKJUYo"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "rec7emU71L4nixJjV",
+    "Name": "NumberOfUnits",
+    "Definition": "A numeric value (number) associated with a type of measurement.",
+    "⬆️ L3": [
+      "recfuUqkOu7ARiWZa",
+      "recgz95mw9Ebu60qf"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "rec7L2DJmtTd20pNT"
+    ]
+  },
+  {
+    "id": "rec9AynicQQDMJj1D",
+    "Name": "Acronym",
+    "Definition": "An abbreviation of a proper name usually composed of the first letters of each word in the name.",
+    "⬆️ L2": [
+      "recqdkON9KqiSPfHy"
+    ],
+    "⬆️ L3": [
+      "recP5CVYGcnNeaeeB",
+      "recf8V6lzJWvKi8nj"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recChdqDgzL3LsGOS",
+    "Name": "Surname",
+    "Definition": "The family name of the person submitting the plan or report.",
+    "⬆️ L1": [
+      "recR5lRmAUwLvq7SP",
+      "reccOO8Ul2uaFjNT8"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recL0JH7RWO1laLlA",
+    "Name": "EndDate",
+    "Definition": "The year, month, and day the element with which it is associated is projected to cease, if it is not subsequently extended. Typically the end of a calendar or fiscal year.",
+    "⬆️ L2": [
+      "recBGnVCKb1TCkfWn",
+      "recNKwlMiDsGXoeD3"
+    ],
+    "⬆️ L3": [
+      "recfuUqkOu7ARiWZa",
+      "recgz95mw9Ebu60qf",
+      "recdczpaWKHp9W8sL"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recxBBiNDoNQR8ZTT"
+    ]
+  },
+  {
+    "id": "recMAuSkX0fs6ttMn",
+    "Name": "Name",
+    "Definition": "A word or short phrase intended to identify a concept within the context in which it is being applied.",
+    "⬆️ L1": [
+      "recnmc8HEUnGghjMe",
+      "reccDsAC1D6HDiJr7",
+      "recKSlCZ7V4U9DGYC",
+      "recjiMUhMml1wOif0",
+      "recU1WE4ejOsWxxwM",
+      "recbAzkwcu1dAJjQM",
+      "recyOPFhEPV0lEFht",
+      "rec6Val7hLKBNLAn8",
+      "recKJirjFGX7en6M7",
+      "recsYDMhlsvf0evey"
+    ],
+    "⬆️ L2": [
+      "recqdkON9KqiSPfHy",
+      "recBGnVCKb1TCkfWn"
+    ],
+    "⬆️ L3": [
+      "rec1RmIHWRoKuQC4U",
+      "recP5CVYGcnNeaeeB",
+      "recf8V6lzJWvKi8nj"
+    ],
+    "⬆️ L6": [
+      "rec6NR23sEohWAzF5"
+    ],
+    "⬆️ L7": [
+      "recDW6FDzOyWKJUYo"
+    ],
+    "⬆️ L9": [
+      "reca5nvpjCLijBDYe",
+      "rec9XGBRagtFwrpUK"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recMqenoH3OHstE5G",
+    "Name": "Impact",
+    "Definition": "An attribute documenting the scope of the effect of a management challenge, if it were to occur.",
+    "⬆️ L1": [
+      "recjiMUhMml1wOif0"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "rec7eOec4jDRNNe0Z"
+    ],
+    "Enumeration": [
+      "High",
+      "Medium",
+      "Low",
+      "To_Be_Determined"
+    ]
+  },
+  {
+    "id": "recNq3o47UmJALXuJ",
+    "Name": "UnitOfMeasurement",
+    "Definition": "The scale by which measurements are divided into increments.",
+    "⬆️ L5": [
+      "recaDFudGFLmB3Uhw"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recNzCuXGhBhfKl9f",
+    "Name": "OtherInformation",
+    "Definition": "Additional explanation or guidance that is not expressly addressed in other elements of the schema.",
+    "⬆️ L5": [
+      "recaDFudGFLmB3Uhw"
+    ],
+    "⬆️ L6": [
+      "rec6NR23sEohWAzF5"
+    ],
+    "⬆️ L7": [
+      "recDW6FDzOyWKJUYo"
+    ],
+    "⬆️ L9": [
+      "reca5nvpjCLijBDYe",
+      "rec9XGBRagtFwrpUK"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recP2ldCUcwqFkPm1",
+    "Name": "Identifier",
+    "Definition": "A string of alphanumeric characters by which the information contained within an element is distinguished from other versions of the same information as well as information contained in other instances of the same element.",
+    "⬆️ L1": [
+      "recR5lRmAUwLvq7SP",
+      "recnmc8HEUnGghjMe",
+      "recmA2SWXFavwRHns",
+      "recm5bCdQ7nQptdkA",
+      "recU1WE4ejOsWxxwM",
+      "reccOO8Ul2uaFjNT8"
+    ],
+    "⬆️ L2": [
+      "recqdkON9KqiSPfHy",
+      "recBGnVCKb1TCkfWn"
+    ],
+    "⬆️ L5": [
+      "recaDFudGFLmB3Uhw"
+    ],
+    "⬆️ L3": [
+      "recP5CVYGcnNeaeeB",
+      "recf8V6lzJWvKi8nj"
+    ],
+    "⬆️ L6": [
+      "rec6NR23sEohWAzF5"
+    ],
+    "⬆️ L7": [
+      "recDW6FDzOyWKJUYo"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recNwGO72LHmrOf4d"
+    ]
+  },
+  {
+    "id": "recQjQJxIlYCeezxS",
+    "Name": "Honorific",
+    "⬆️ L1": [
+      "rect0UsScpJXUMwZW"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "recRNOTSbR3n649i9",
+    "Name": "StartDate",
+    "Definition": "The year, month and day the element with which it is associated is scheduled to begin.",
+    "⬆️ L2": [
+      "recBGnVCKb1TCkfWn",
+      "recNKwlMiDsGXoeD3"
+    ],
+    "⬆️ L3": [
+      "recfuUqkOu7ARiWZa",
+      "recgz95mw9Ebu60qf",
+      "recdczpaWKHp9W8sL"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recxBBiNDoNQR8ZTT"
+    ]
+  },
+  {
+    "id": "recT5eL4vx0w8TYpc",
+    "Name": "ReferentIdentifier",
+    "Definition": "The Identifier of the target (object) of a relationship.",
+    "⬆️ L1": [
+      "recnmc8HEUnGghjMe"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recT8d8Dy959N78gW",
+    "Name": "EmailAddress",
+    "Definition": "The email address of the person submitting the plan or report.",
+    "⬆️ L1": [
+      "recR5lRmAUwLvq7SP",
+      "reccOO8Ul2uaFjNT8",
+      "rect0UsScpJXUMwZW"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recZgwPQITk46fwjz",
+    "Name": "MeasurementDimension",
+    "Definition": "The aspect of reality to be measured.",
+    "⬆️ L5": [
+      "recaDFudGFLmB3Uhw"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recdRfUsRCLbYH7Hc",
+    "Name": "PhoneNumber",
+    "Definition": "The telephone number of the person submitting the plan.",
+    "⬆️ L1": [
+      "recR5lRmAUwLvq7SP",
+      "reccOO8Ul2uaFjNT8"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recfgNCGmokjqKmwj",
+    "Name": "Suffix",
+    "⬆️ L1": [
+      "rect0UsScpJXUMwZW"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "recfyp4k0WFhWdDK8",
+    "Name": "WebAddress",
+    "Definition": "The URL where the authoritative source of additional information can be found.",
+    "⬆️ L1": [
+      "recU1WE4ejOsWxxwM",
+      "reccOO8Ul2uaFjNT8"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recgdZYOIlzDrDpew",
+    "Name": "LastName",
+    "⬆️ L1": [
+      "rect0UsScpJXUMwZW"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "recowWpG6jJG7cFSE",
+    "Name": "Source",
+    "Definition": "The Web address (URL) for the authoritative source of this document.",
+    "⬆️ L3": [
+      "recdczpaWKHp9W8sL"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recpetbV4Gjphrovu",
+    "Name": "RoleType",
+    "Definition": "An attribute designating whether a stakeholder is a prospective beneficiary or a performer of actions required to achieve an objective, or both a performer and a beneficiary.",
+    "⬆️ L1": [
+      "reccDsAC1D6HDiJr7"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "rec7eOec4jDRNNe0Z"
+    ],
+    "Enumeration": [
+      "Performer",
+      "Beneficiary"
+    ]
+  },
+  {
+    "id": "recqeY1FvoASwZ2eR",
+    "Name": "Description",
+    "Definition": "A sentence or short paragraph defining and explaining a concept.",
+    "⬆️ L1": [
+      "recnmc8HEUnGghjMe",
+      "recmA2SWXFavwRHns",
+      "reccDsAC1D6HDiJr7",
+      "recm5bCdQ7nQptdkA",
+      "recKSlCZ7V4U9DGYC",
+      "recjiMUhMml1wOif0",
+      "recbAzkwcu1dAJjQM",
+      "recyOPFhEPV0lEFht",
+      "rec6Val7hLKBNLAn8",
+      "recKJirjFGX7en6M7"
+    ],
+    "⬆️ L2": [
+      "recqdkON9KqiSPfHy"
+    ],
+    "⬆️ L3": [
+      "rec1RmIHWRoKuQC4U",
+      "recfuUqkOu7ARiWZa",
+      "recgz95mw9Ebu60qf",
+      "recP5CVYGcnNeaeeB",
+      "recf8V6lzJWvKi8nj"
+    ],
+    "⬆️ L6": [
+      "rec6NR23sEohWAzF5"
+    ],
+    "⬆️ L7": [
+      "recDW6FDzOyWKJUYo"
+    ],
+    "⬆️ L9": [
+      "reca5nvpjCLijBDYe",
+      "rec9XGBRagtFwrpUK"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "rect2tEmC9rH5IZKL",
+    "Name": "AltText",
+    "⬆️ L1": [
+      "recsYDMhlsvf0evey"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "rectcmEyk45AkhZRX",
+    "Name": "DescriptorValue",
+    "Definition": "A noun, adjective, phrase, letter grade, or other type of rating assigned to a descriptor.",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recXcIEiFI9At1Lmy"
+    ]
+  },
+  {
+    "id": "recuxTpm3ClZoM7oI",
+    "Name": "PublicationDate",
+    "Definition": "The day, month, and year a plan or report was published in its current form.",
+    "⬆️ L3": [
+      "recdczpaWKHp9W8sL"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Type": [
+      "recxBBiNDoNQR8ZTT"
+    ]
+  },
+  {
+    "id": "recxvGpK6y23Bq6rB",
+    "Name": "FirstName",
+    "⬆️ L1": [
+      "rect0UsScpJXUMwZW"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  }
+]

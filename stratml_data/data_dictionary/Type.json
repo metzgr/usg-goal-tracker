@@ -1,0 +1,257 @@
+[
+  {
+    "id": "rec0GTIRdgUKi2m4H",
+    "ID": "stratml:RelationshipType",
+    "Type L3": [
+      "recwKEkzcoWD8zqYo"
+    ],
+    "Attributes": [
+      "recE820lR3NzAPMXr"
+    ],
+    "Enumeration": [
+      "Broader_Than",
+      "Peer_To",
+      "Narrower_Than"
+    ],
+    "Group": "Simple",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "RelationshipType",
+    "L2": "Relationship"
+  },
+  {
+    "id": "rec53YvimJ5XPNSDd",
+    "ID": "stratml:GoalType",
+    "Group": "Complex",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "GoalType"
+  },
+  {
+    "id": "rec7L2DJmtTd20pNT",
+    "ID": "stratml:NumberOfUnitsType",
+    "Type L3": [
+      "rectKkhKVXd2pO4Lp"
+    ],
+    "Group": "Simple",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "NumberOfUnitsType",
+    "L1": [
+      "rec7emU71L4nixJjV"
+    ]
+  },
+  {
+    "id": "rec7eOec4jDRNNe0Z",
+    "ID": "xsd:string-restricted",
+    "Group": "Primitive",
+    "Source": [
+      "recd4MZmY0WgzaYpA"
+    ],
+    "Name": "string-restricted",
+    "L1": [
+      "recpetbV4Gjphrovu",
+      "recMqenoH3OHstE5G",
+      "rec1dB5EiY944tDvo"
+    ]
+  },
+  {
+    "id": "recAVGedvb8RIhXlO",
+    "ID": "xsd:date",
+    "Group": "Primitive",
+    "Source": [
+      "recd4MZmY0WgzaYpA"
+    ],
+    "Name": "date",
+    "Type L1": [
+      "recBmQQIfmdtWYxwt"
+    ]
+  },
+  {
+    "id": "recNwGO72LHmrOf4d",
+    "ID": "xsd:ID",
+    "Group": "Primitive",
+    "Source": [
+      "recd4MZmY0WgzaYpA"
+    ],
+    "Name": "ID",
+    "Type L1": [
+      "recIU3CjB59kljWlg"
+    ],
+    "L1": [
+      "recP2ldCUcwqFkPm1"
+    ]
+  },
+  {
+    "id": "recSqSwCr4ILpoZB7",
+    "ID": "stratml:ValueChainStageType",
+    "Type L3": [
+      "rec3r6Q5a9L67YOQM"
+    ],
+    "Attributes": [
+      "recDHZgFFtbVs4k3k"
+    ],
+    "Enumeration": [
+      "Outcome",
+      "Output",
+      "Output_Processing",
+      "Input",
+      "Input_Processing"
+    ],
+    "Group": "Simple",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "ValueChainStageType"
+  },
+  {
+    "id": "recVetc550qD3y4wY",
+    "ID": "xsd:decimal",
+    "Group": "Primitive",
+    "Source": [
+      "recd4MZmY0WgzaYpA"
+    ],
+    "Name": "decimal",
+    "Type L1": [
+      "recDOwliBj6wXOVvr"
+    ]
+  },
+  {
+    "id": "recXcIEiFI9At1Lmy",
+    "ID": "xsd:string",
+    "Group": "Primitive",
+    "Source": [
+      "recd4MZmY0WgzaYpA"
+    ],
+    "Name": "string",
+    "Type L1": [
+      "recvcIdfYnNsbYMjA"
+    ],
+    "L1": [
+      "rec9AynicQQDMJj1D",
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR",
+      "recNzCuXGhBhfKl9f",
+      "rec21P6HDxxNilEpt",
+      "recChdqDgzL3LsGOS",
+      "recdRfUsRCLbYH7Hc",
+      "recT8d8Dy959N78gW",
+      "recowWpG6jJG7cFSE",
+      "rec58XpzzIdBNqAQk",
+      "rectcmEyk45AkhZRX",
+      "recT5eL4vx0w8TYpc",
+      "recNq3o47UmJALXuJ",
+      "recZgwPQITk46fwjz",
+      "rec6bFmgdWPIYWh8b",
+      "recfyp4k0WFhWdDK8"
+    ],
+    "L2": "Descriptor"
+  },
+  {
+    "id": "recf1ResmmnSiM2pY",
+    "ID": "stratml:PerformanceIndicatorType",
+    "Type L3": [
+      "recS0MAs6ozxBGG0D"
+    ],
+    "Attributes": [
+      "reczFbdNhKKz2KpxG"
+    ],
+    "Enumeration": [
+      "Quantitative",
+      "Qualitative"
+    ],
+    "Group": "Simple",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "PerformanceIndicatorType"
+  },
+  {
+    "id": "recgPAocVSALnBv6N",
+    "ID": "stratml:AdministrativeInformationType",
+    "Group": "Complex",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "AdministrativeInformationType"
+  },
+  {
+    "id": "reciCnOKiujZTOPFE",
+    "ID": "stratml:StakeholderTypeType",
+    "Type L3": [
+      "rec3YYkcey5hv6tZt"
+    ],
+    "Attributes": [
+      "rec0JnTQB1N4JCvmK"
+    ],
+    "Enumeration": [
+      "Person",
+      "Organization",
+      "Generic_Group"
+    ],
+    "Group": "Simple",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "StakeholderTypeType"
+  },
+  {
+    "id": "recjxaWDRkHVLTLeh",
+    "ID": "stratml:ObjectiveType",
+    "Group": "Complex",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "ObjectiveType"
+  },
+  {
+    "id": "recrJI4eNy8uCX8vP",
+    "ID": "stratml:ContactInformationType",
+    "Group": "Complex",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "ContactInformationType",
+    "L2": "Submitter"
+  },
+  {
+    "id": "recsJKfjEebjlmHKH",
+    "ID": "stratml:Type",
+    "Type L3": [
+      "rec4nb0DLmFSqXKEN"
+    ],
+    "Attributes": [
+      "recHMlmPqEg8rwJeK"
+    ],
+    "Enumeration": [
+      "Strategic_Plan",
+      "Performance_Plan",
+      "Performance_Report"
+    ],
+    "Group": "Simple",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "Type"
+  },
+  {
+    "id": "recxBBiNDoNQR8ZTT",
+    "ID": "stratml:DateTypeType",
+    "Type L3": [
+      "rec7Xab27tNtJ3SZl"
+    ],
+    "Group": "Simple",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "Name": "DateTypeType",
+    "L1": [
+      "recRNOTSbR3n649i9",
+      "recL0JH7RWO1laLlA",
+      "recuxTpm3ClZoM7oI"
+    ]
+  }
+]

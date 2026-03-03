@@ -1,0 +1,260 @@
+[
+  {
+    "id": "rec6Val7hLKBNLAn8",
+    "Name": "Opportunity",
+    "Definition": "A condition upon which an organization may wish to capitalize to benefit its stakeholders.",
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L3": [
+      "recBwt7UINSwCOVa3"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "rec9HikxJnL6j5ctP",
+    "Name": "Descriptor",
+    "Definition": "An evaluative characterization of a result that is qualitative, i.e., not subject to measurement on a numeric scale by observation and may be subject to human judgment.",
+    "⬆️ L3": [
+      "recfuUqkOu7ARiWZa",
+      "recgz95mw9Ebu60qf"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recKJirjFGX7en6M7",
+    "Name": "Threat",
+    "Definition": "A condition that may negatively impact the achievement of a goal.",
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L3": [
+      "recBwt7UINSwCOVa3"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recKSlCZ7V4U9DGYC",
+    "Name": "Value",
+    "Definition": "A principle that is important and helps to define the essential character of the organization.",
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L8": [
+      "rec70kugGNdSVx65q"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recNEwVJEF0iyMIxy",
+    "Name": "MeasurementInstance",
+    "Definition": "A measurement at a point in time.",
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recR5lRmAUwLvq7SP",
+    "Name": "Submitter",
+    "Definition": "The person submitting the plan or report in StratML format.",
+    "⬇️ L1": [
+      "recP2ldCUcwqFkPm1",
+      "rec21P6HDxxNilEpt",
+      "recChdqDgzL3LsGOS",
+      "recdRfUsRCLbYH7Hc",
+      "recT8d8Dy959N78gW"
+    ],
+    "⬆️ L3": [
+      "recdczpaWKHp9W8sL"
+    ],
+    "⬆️ L9": [
+      "rec9XGBRagtFwrpUK"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recU1WE4ejOsWxxwM",
+    "Name": "Category",
+    "Definition": "The term selected from a controlled vocabulary in order to distinguish an item from others in its set.",
+    "⬇️ L1": [
+      "recP2ldCUcwqFkPm1",
+      "recMAuSkX0fs6ttMn",
+      "recfyp4k0WFhWdDK8"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recbAzkwcu1dAJjQM",
+    "Name": "Strength",
+    "Definition": "A positive aspect of an organization that may provide a competitive advantage.",
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L3": [
+      "recBwt7UINSwCOVa3"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "reccDsAC1D6HDiJr7",
+    "Name": "Role",
+    "Definition": "A complex element containing other elements enabling the naming, description, and categorization of different kinds of interests individuals and groups may have in the achievement of goals and objectives.",
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR",
+      "recpetbV4Gjphrovu"
+    ],
+    "⬆️ L3": [
+      "rec1RmIHWRoKuQC4U"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "reccOO8Ul2uaFjNT8",
+    "Name": "PointOfContact",
+    "Definition": "The person or office to be contacted for further information or to submit comments.",
+    "⬇️ L1": [
+      "recP2ldCUcwqFkPm1",
+      "rec21P6HDxxNilEpt",
+      "recChdqDgzL3LsGOS",
+      "recdRfUsRCLbYH7Hc",
+      "recT8d8Dy959N78gW",
+      "recfyp4k0WFhWdDK8"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recjiMUhMml1wOif0",
+    "Name": "ManagementChallenge",
+    "Definition": "A relatively difficult issue to be addressed or obstacle to be overcome in order to achieve an objective.",
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR",
+      "recMqenoH3OHstE5G"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recm5bCdQ7nQptdkA",
+    "Name": "Mission",
+    "Definition": "A brief description of the basic purpose of the organization.",
+    "⬇️ L1": [
+      "recP2ldCUcwqFkPm1",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L3": [
+      "recP5CVYGcnNeaeeB",
+      "recf8V6lzJWvKi8nj"
+    ],
+    "⬆️ L8": [
+      "rec70kugGNdSVx65q"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ],
+    "L4": [
+      "recqdkON9KqiSPfHy"
+    ]
+  },
+  {
+    "id": "recmA2SWXFavwRHns",
+    "Name": "Vision",
+    "Definition": "A concise and inspirational statement implicitly relating an organization's purpose to its values, thus motivating its actions toward a future state it strives to achieve.",
+    "⬇️ L1": [
+      "recP2ldCUcwqFkPm1",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L8": [
+      "rec70kugGNdSVx65q"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recnmc8HEUnGghjMe",
+    "Name": "Relationship",
+    "Definition": "A conceptual association between two elements.",
+    "⬇️ L1": [
+      "recP2ldCUcwqFkPm1",
+      "recT5eL4vx0w8TYpc",
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L5": [
+      "recaDFudGFLmB3Uhw"
+    ],
+    "Attributes": [
+      "recE820lR3NzAPMXr"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  },
+  {
+    "id": "recsYDMhlsvf0evey",
+    "Name": "Avatar",
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "rec3ClACFCedG0KNG",
+      "rect2tEmC9rH5IZKL"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "rect0UsScpJXUMwZW",
+    "Name": "Person",
+    "⬇️ L1": [
+      "recxvGpK6y23Bq6rB",
+      "rec1yUQ4Ax1a1KYYN",
+      "recgdZYOIlzDrDpew",
+      "recQjQJxIlYCeezxS",
+      "recfgNCGmokjqKmwj",
+      "recT8d8Dy959N78gW"
+    ],
+    "Source": [
+      "rec8Gq4i0CrqAGmt8"
+    ]
+  },
+  {
+    "id": "recyOPFhEPV0lEFht",
+    "Name": "Weakness",
+    "Definition": "A negative aspect of an organization that may place it at a competitive disadvantage.",
+    "⬇️ L1": [
+      "recMAuSkX0fs6ttMn",
+      "recqeY1FvoASwZ2eR"
+    ],
+    "⬆️ L3": [
+      "recBwt7UINSwCOVa3"
+    ],
+    "Source": [
+      "rec0tHhtmwhX78kWC"
+    ]
+  }
+]
