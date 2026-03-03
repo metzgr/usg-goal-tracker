@@ -43,37 +43,61 @@
   {
     "id": "recGpiVdPQNl5BdaS",
     "name": "ambulance",
-    "type": "artwork"
+    "type": "artwork",
+    "goal": [
+      "recv3RdkGyhKSmyFW"
+    ]
   },
   {
     "id": "recJOV69ely3GZoiG",
     "name": "usa",
-    "type": "artwork"
+    "type": "artwork",
+    "goal": [
+      "rec3pwstGEdlniM0Z"
+    ]
   },
   {
     "id": "recWhG2fbg2npIAm0",
     "name": "highway",
-    "type": "artwork"
+    "type": "artwork",
+    "goal": [
+      "recDRfppFmammenys"
+    ]
   },
   {
     "id": "recCGrYtm9rObObnB",
     "name": "veteran",
-    "type": "artwork"
+    "type": "artwork",
+    "goal": [
+      "rec20NnLLgfzOONhn"
+    ]
   },
   {
     "id": "reckc8Nzc8rshhsPH",
     "name": "hands",
-    "type": "artwork"
+    "type": "artwork",
+    "goal": [
+      "recp4mYs8lfTXgODy"
+    ]
   },
   {
     "id": "recKMY7mXEsi14pEz",
     "name": "hand",
-    "type": "artwork"
+    "type": "artwork",
+    "goal": [
+      "recNgSktwVkdpd9xs"
+    ]
   },
   {
     "id": "recNw5hnF9HrSRsQb",
     "name": "pills",
-    "type": "artwork"
+    "type": "artwork",
+    "goal": [
+      "recbpmX2BkgzoBbYh"
+    ],
+    "strategicPlan": [
+      "recfvMFWPJFzQ9z6G"
+    ]
   },
   {
     "id": "recCsZfBFhkzRri9U",

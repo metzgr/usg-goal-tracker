@@ -1,152 +1,69 @@
 [
   {
-    "id": "recOMj2QaHVSXQHj9",
-    "name": "Strategic Plan",
+    "id": "recfvMFWPJFzQ9z6G",
+    "name": "National Drug Control Strategy",
     "status": "Active",
     "org": [
-      "recnGvKRcRqww0bnX"
+      "recO4JsgoCAvHOFAd"
     ],
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
+    "startDate": "2018-01-01",
+    "endDate": "2025-12-31",
     "goal": [
-      "recE1G2OnThbIl1Ll",
-      "rec2hvyBWPQ9yhrRD",
-      "rec0F4EOzhyOjvyEY"
+      "recbpmX2BkgzoBbYh",
+      "recv3RdkGyhKSmyFW",
+      "rec3pwstGEdlniM0Z",
+      "recDRfppFmammenys",
+      "rec20NnLLgfzOONhn",
+      "recp4mYs8lfTXgODy",
+      "recNgSktwVkdpd9xs"
     ],
     "type": "strategic-plan",
     "orgName": [
-      "U.S. Department of Agriculture"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "USDA"
+      "EOP"
     ],
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "goalCount": 3,
+    "startFiscalYear": 2018,
+    "endFiscalYear": 2026,
+    "goalCount": 7,
     "image": [
-      "recVAZIfBVTCQwHs6"
+      "recNw5hnF9HrSRsQb"
     ],
-    "objectiveCount": 9,
-    "indicatorCount": 54,
-    "indicatorImprovedCount": 45,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "metricCount": 27,
-    "projectCount": 27,
-    "milestoneCount": 81,
-    "targetCount": 153,
+    "objectiveCount": 25,
+    "indicatorCount": 262,
+    "indicatorImprovedCount": 1,
+    "indicatorImprovedPercent": 0.003816793893129771,
+    "previousIndicatorImprovedCount": 98,
+    "metricCount": 262,
     "objective": [
-      "recfAQYbny7DCPEM4",
-      "recHZLLc4moS1ibxF",
-      "rec6THtOL8btFpEwr",
-      "recSqdkx59sseUzOG",
-      "recJicCfV8as3YKaj",
-      "recZsNyiRvvIX89b7",
-      "recgHH8RgUd7Cyslv",
-      "recfWXIi30dJP3OVD",
-      "recu1AVwIy36Aggsb"
+      "rec9y9YR8VhK3vxrJ",
+      "recn0kbf4SAtf679L",
+      "recjvdKDgDgncQPWF",
+      "recQ7wOuNciGvpJPP",
+      "recvuQba2lmIUYdeC",
+      "recBprHgagXGjv2MH",
+      "recZ7db8ahIL5ypaM",
+      "rec9oVBRy5Ii9jYrU",
+      "recpJ11YZh1ZwMRY9",
+      "recKyu5SnsVZ6QCNm",
+      "recek1BKPspx2cx4o",
+      "recI2x4cZZLBrqUDy",
+      "recpkwyqxEBZozKnw",
+      "recUwYBZVHQNogejq",
+      "recqBdOYi54YS6vNQ",
+      "recLwSOZL5J4PCxgw",
+      "recPaGOpnTKlEKpQg",
+      "recdMIstHAIQCZw03",
+      "recGNpTzJom17c8KP",
+      "reccmDKBrl3ElQjLJ",
+      "recLbDi5993ggRuZY",
+      "rec2cSvXfawl5or1H",
+      "recNdH9tQRWTS9nBL",
+      "rec076Garh7cKcEaa",
+      "recyT3PtVpXsLTvhY"
     ],
     "objectType": "Plan",
-    "previousIndicatorImprovedCount": 42,
-    "views": 81995
-  },
-  {
-    "id": "recfde4xeJB6AjiKp",
-    "name": "Strategic Plan",
-    "status": "Active",
-    "org": [
-      "recHD6eR7iIOtErtj"
-    ],
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
-    "goal": [
-      "reckzwb3ajnkrFaPr",
-      "reclbSVnJ5w3IDoMT",
-      "reciWMgbpWKFIDQMw"
-    ],
-    "type": "strategic-plan",
-    "orgName": [
-      "U.S. Department of Housing and Urban Development"
-    ],
-    "orgAcronym": [
-      "HUD"
-    ],
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "goalCount": 3,
-    "image": [
-      "recy0JHpNRKuJGJQR"
-    ],
-    "objectiveCount": 9,
-    "indicatorCount": 54,
-    "indicatorImprovedCount": 46,
-    "indicatorImprovedPercent": 0.8518518518518519,
-    "metricCount": 27,
-    "projectCount": 27,
-    "milestoneCount": 81,
-    "targetCount": 153,
-    "objective": [
-      "reco6RoVs4PVij103",
-      "recxTdSe1wXzyowT7",
-      "recLt14H2Wv50N3lK",
-      "recrlqJt7tnW1Vcze",
-      "recZOQ4cGcLP607QY",
-      "recLzJlyPEBorWLfB",
-      "rec9IPBrrr4ARyt7R",
-      "recFIhqaeqd95S7CT",
-      "rec7k4JsI939KhQRn"
-    ],
-    "objectType": "Plan",
-    "previousIndicatorImprovedCount": 45,
-    "views": 820
-  },
-  {
-    "id": "recOkgPAU7Ek1YAZh",
-    "name": "Strategic Plan",
-    "status": "Active",
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
-    "goal": [
-      "recpHCd3DDokR8jMV",
-      "recgQ7Lm3qWG8O8O2",
-      "rechpz3iEn2BuEgnB"
-    ],
-    "type": "strategic-plan",
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "goalCount": 3,
-    "image": [
-      "recNgFvd5CI9i3gxY"
-    ],
-    "objectiveCount": 9,
-    "indicatorCount": 54,
-    "indicatorImprovedCount": 48,
-    "indicatorImprovedPercent": 0.8888888888888888,
-    "metricCount": 27,
-    "projectCount": 27,
-    "milestoneCount": 81,
-    "targetCount": 153,
-    "objective": [
-      "recW2KnyGL8XYrWhN",
-      "rec9z8QkPLIvv6uJx",
-      "recEngWK4nzWVwc9P",
-      "rectM8MJnZp9mVty0",
-      "recbknOEqBD0Q0Hfn",
-      "recrYPbtlu7U3iGTd",
-      "recseVsEFhV5mgZaM",
-      "recRhda9ucVb6cJvt",
-      "recxeYkf0GRg4paQS"
-    ],
-    "objectType": "Plan",
-    "previousIndicatorImprovedCount": 45,
-    "views": 9579
+    "views": 12887
   }
 ]

@@ -1,1907 +1,3226 @@
 [
   {
-    "id": "recfAQYbny7DCPEM4",
-    "name": "Cut Burdensome Regulations on Producers",
+    "id": "rec9y9YR8VhK3vxrJ",
+    "name": "The number of states operating a recovery-ready workplace initiative is increased 75 percent by 2025",
     "sequence": 1,
     "orgName": [
-      "U.S. Department of Agriculture"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "USDA"
+      "EOP"
     ],
     "goal": [
-      "recE1G2OnThbIl1Ll"
+      "rec20NnLLgfzOONhn"
     ],
     "plan": [
-      "recOMj2QaHVSXQHj9"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "recFwgTwvR502jZQQ",
-      "recRv7EC5VjLRtSkp",
-      "recziteF01wdwpBSu"
+      "recVDLafWTdD4XwIL",
+      "rec2qQLGFUER0xayy",
+      "rec4j10E0z7fShLCm",
+      "recEqoOUMpQF11ake",
+      "recZAoN6kn6CFj9VL",
+      "rec0ycUImuvh7PmSm",
+      "receghYlnoF5a1nYV",
+      "recmbEwu64daSOROo"
     ],
     "goalName": [
-      "Stand Behind American Farmers"
+      "Recovery efforts in the United States are increased"
     ],
     "goalSequence": [
-      1
+      5
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 2,
-    "metricResultTrendImprovedPercent": 0.6666666666666666,
-    "metricAvgPercentProgress": 0.5266666666666667,
-    "metricMostRecentTargetDirection": [
-      "Increase",
-      "Increase",
-      "Increase"
-    ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recgtgh9fijU48h1u",
-      "recqnPckBm7HYlh8C",
-      "rece9eU0yTmuHrqRU"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.4444444444444444,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 4,
-    "indicatorImprovedPercent": 0.6666666666666666,
-    "goalSubtitle": [
-      "Make it easier to grow, sell, and succeed."
-    ],
-    "targetCount": 24,
-    "org": [
-      "recnGvKRcRqww0bnX"
-    ],
-    "fpiProgram": [
-      "rec34ykrSrCcONh31",
-      "recjWwDvYCVjZjsoA"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recW2KnyGL8XYrWhN",
-    "name": "Optimize Underused Federal Space",
-    "sequence": 1,
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "goal": [
-      "recpHCd3DDokR8jMV"
-    ],
-    "plan": [
-      "recOkgPAU7Ek1YAZh"
-    ],
-    "metric": [
-      "recLVnXE52MD7UdxL",
-      "rec6nNeIMURO0WZKU",
-      "rec3YkEQBM4tAUXu3"
-    ],
-    "goalName": [
-      "Cut Waste in Federal Buildings"
-    ],
-    "goalSequence": [
-      1
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
-    "metricMostRecentTargetDirection": [
-      "Increase",
-      "Increase",
-      "Increase"
-    ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "rec0UKAluZ5z4b7Aq",
-      "recDtk1JJWDIe12gh",
-      "recTbgPXXWmE1tMX3"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Shrink the government’s real estate footprint and lower costs."
-    ],
-    "targetCount": 24,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "reco6RoVs4PVij103",
-    "name": "Shift Decision-Making to the Local Level",
-    "sequence": 1,
-    "orgName": [
-      "U.S. Department of Housing and Urban Development"
-    ],
-    "orgAcronym": [
-      "HUD"
-    ],
-    "goal": [
-      "reckzwb3ajnkrFaPr"
-    ],
-    "plan": [
-      "recfde4xeJB6AjiKp"
-    ],
-    "metric": [
-      "recH44ZTcvJQEg2jS",
-      "recvH40jaqJvHAJVH",
-      "recK0sIRwJ6gXSgY8"
-    ],
-    "goalName": [
-      "Put Local Communities in Charge"
-    ],
-    "goalSequence": [
-      1
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
-    "metricMostRecentTargetDirection": [
-      "Increase",
-      "Increase",
-      "Increase"
-    ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "reco86HPI56Ls3Z9b",
-      "recg41tci7IhNIAXL",
-      "recIvrAQQBzqdIsCN"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 5,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "goalSubtitle": [
-      "Give states and towns more control over housing decisions."
-    ],
-    "targetCount": 24,
-    "org": [
-      "recHD6eR7iIOtErtj"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recHZLLc4moS1ibxF",
-    "name": "Expand Market Access for U.S. Agriculture",
-    "sequence": 2,
-    "orgName": [
-      "U.S. Department of Agriculture"
-    ],
-    "orgAcronym": [
-      "USDA"
-    ],
-    "goal": [
-      "recE1G2OnThbIl1Ll"
-    ],
-    "plan": [
-      "recOMj2QaHVSXQHj9"
-    ],
-    "metric": [
-      "recKxFS9YfC5NRo6E",
-      "recJpyQ6IbaP5EeLz",
-      "recXejjzkYd5Uad6H"
-    ],
-    "goalName": [
-      "Stand Behind American Farmers"
-    ],
-    "goalSequence": [
-      1
-    ],
-    "metricCount": 3,
+    "metricCount": 8,
     "metricResultTrendImprovedCount": 0,
     "metricResultTrendImprovedPercent": 0,
-    "metricAvgPercentProgress": 1.83,
     "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Increase",
       "Increase",
       "Increase"
     ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recSpqBMrC6VK40F1",
-      "recz4jkGgh86grBIk",
-      "recXCyej5MvqEw6iy"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 3,
-    "indicatorImprovedPercent": 0.5,
-    "goalSubtitle": [
-      "Make it easier to grow, sell, and succeed."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 8,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 1,
     "org": [
-      "recnGvKRcRqww0bnX"
+      "recO4JsgoCAvHOFAd"
     ],
-    "fpiProgram": [
-      "recTvZ0Jx1ZCIZ1eq",
-      "recsonjNmOkq8RhiC",
-      "rec9Xf61Z1XRIqon8",
-      "rec61CrJZglzICjLg"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "rec9z8QkPLIvv6uJx",
-    "name": "Speed Up Disposal of Excess Properties",
+    "id": "recn0kbf4SAtf679L",
+    "name": "The number of peer-led recovery community organizations is increased by 25 percent by 2025",
     "sequence": 2,
     "orgName": [
-      "General Services Administration"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "GSA"
+      "EOP"
     ],
     "goal": [
-      "recpHCd3DDokR8jMV"
+      "rec20NnLLgfzOONhn"
     ],
     "plan": [
-      "recOkgPAU7Ek1YAZh"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "recMDRxtzSIH8gYdJ",
-      "recNER90ePiGKOs4E",
-      "recXWQPcumOtqjYyE"
+      "rec2qQLGFUER0xayy",
+      "rec4j10E0z7fShLCm",
+      "recEqoOUMpQF11ake",
+      "recZAoN6kn6CFj9VL",
+      "rec0ycUImuvh7PmSm",
+      "receghYlnoF5a1nYV",
+      "recmbEwu64daSOROo",
+      "recLYTke0XUYejxt3",
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec4kt6wXyZPcakeC",
+      "recEcyZs2dEuuYqym",
+      "recIhYEpqQGFEHhtX",
+      "recOMlVlHPZezX3zd",
+      "recRCk9UkExSNMEiI",
+      "recbYmRWkSrGRURPB",
+      "recbeAxyDr38QyMOk",
+      "recdgXNV70hOPY6UJ",
+      "recoVG2rBJWtpzdwk"
     ],
     "goalName": [
-      "Cut Waste in Federal Buildings"
+      "Recovery efforts in the United States are increased"
+    ],
+    "goalSequence": [
+      5
+    ],
+    "metricCount": 52,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 52,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 25,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recjvdKDgDgncQPWF",
+    "name": "The number of recovery high schools is increased by 10 percent by 2025",
+    "sequence": 3,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "rec20NnLLgfzOONhn"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "recPcKwg8kBKNhQWH"
+    ],
+    "goalName": [
+      "Recovery efforts in the United States are increased"
+    ],
+    "goalSequence": [
+      5
+    ],
+    "metricCount": 9,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 9,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 1,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recQ7wOuNciGvpJPP",
+    "name": "The number of collegiate recovery programs is increased by 25 percent by 2025",
+    "sequence": 4,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "rec20NnLLgfzOONhn"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec3xRe4DBxzRb6rP"
+    ],
+    "goalName": [
+      "Recovery efforts in the United States are increased"
+    ],
+    "goalSequence": [
+      5
+    ],
+    "metricCount": 9,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 9,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 1,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recvuQba2lmIUYdeC",
+    "name": "The number of certified recovery residences is increased by 25 percent by 2025",
+    "sequence": 5,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "rec20NnLLgfzOONhn"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "recBL1iUNVH2cAdKT"
+    ],
+    "goalName": [
+      "Recovery efforts in the United States are increased"
+    ],
+    "goalSequence": [
+      5
+    ],
+    "metricCount": 9,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 9,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 1,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recBprHgagXGjv2MH",
+    "name": "The number of counties with high overdose death rates which have at least one syringe services program (SSP) is increased by 85 percent by 2025",
+    "sequence": 1,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "rec3pwstGEdlniM0Z"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec4kt6wXyZPcakeC",
+      "recEcyZs2dEuuYqym",
+      "recIhYEpqQGFEHhtX",
+      "recOMlVlHPZezX3zd",
+      "recRCk9UkExSNMEiI",
+      "recbYmRWkSrGRURPB",
+      "recbeAxyDr38QyMOk",
+      "recdgXNV70hOPY6UJ",
+      "recoVG2rBJWtpzdwk",
+      "recOQK3BdpNfMqT30",
+      "rec9oxGVn4JFtRn9W",
+      "recWswGrumqpXkJCr",
+      "recYAI5YGhvAaooB0",
+      "recelXVbPU0ZG55nj",
+      "recsmnN4hZOJWkRil",
+      "recvW2t7JcTEnDPvz",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK"
+    ],
+    "goalName": [
+      "Harm Reduction efforts are increased in the United States"
+    ],
+    "goalSequence": [
+      3
+    ],
+    "metricCount": 29,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 29,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 13,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recZ7db8ahIL5ypaM",
+    "name": "The percentage of SSPs that offer some type of drug safety checking support service, including, but not limited to fentanyl test strips, is increased by 25 percent by 2025",
+    "sequence": 2,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "rec3pwstGEdlniM0Z"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec4kt6wXyZPcakeC",
+      "recEcyZs2dEuuYqym",
+      "recIhYEpqQGFEHhtX",
+      "recOMlVlHPZezX3zd",
+      "recRCk9UkExSNMEiI",
+      "recbYmRWkSrGRURPB",
+      "recbeAxyDr38QyMOk",
+      "recdgXNV70hOPY6UJ",
+      "recoVG2rBJWtpzdwk",
+      "rec9oxGVn4JFtRn9W",
+      "recWswGrumqpXkJCr",
+      "recYAI5YGhvAaooB0",
+      "recelXVbPU0ZG55nj",
+      "recsmnN4hZOJWkRil",
+      "recvW2t7JcTEnDPvz",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "rec595kp1d2wj9RzB"
+    ],
+    "goalName": [
+      "Harm Reduction efforts are increased in the United States"
+    ],
+    "goalSequence": [
+      3
+    ],
+    "metricCount": 64,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 64,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 28,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "rec9oVBRy5Ii9jYrU",
+    "name": "Treatment admissions for the populations most at risk of overdose death is increased by 100 percent by 2025",
+    "sequence": 1,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recDRfppFmammenys"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec4kt6wXyZPcakeC",
+      "recEcyZs2dEuuYqym",
+      "recIhYEpqQGFEHhtX",
+      "recOMlVlHPZezX3zd",
+      "recRCk9UkExSNMEiI",
+      "recbYmRWkSrGRURPB",
+      "recbeAxyDr38QyMOk",
+      "recdgXNV70hOPY6UJ",
+      "recoVG2rBJWtpzdwk",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recWrSTJRVUZmPeJ1",
+      "recNJZEb9J5xa24Hh",
+      "recoUYBfhTXLkcj2A",
+      "rec1aaFcNTsYiT3qt",
+      "rec9tCTo9IvuAysbL",
+      "recTk0JkI7YT2GJow",
+      "rec0GYON5qqHuOXIM",
+      "recdOcIZQaU9R1JHH",
+      "recxQiLkUOe8BYUUQ",
+      "rec3AeIV40lra9KaR",
+      "rec7DkZI637wgK1W0",
+      "recDmuIKknPXmI4rc",
+      "recRk1d0MNxvnppgl",
+      "recYmrVM3130dvdQa",
+      "rec3cX9LkZ5UdQAMw",
+      "rec9gGgXjBJTLJcQm",
+      "recPzqDfHJYdEhHJQ",
+      "recOXYIdhqWFxUB91",
+      "rece9Vqxr4381V90G",
+      "recjr0AQU0SNYkJfg",
+      "reckb7YwW5u50IdgZ",
+      "reclDh7n5dSSAOuwO",
+      "recA83SdmDz8HwxSo",
+      "recaPKvBhllUXaWtf",
+      "recGdL1OI9dEMYJlT",
+      "recpt0z7M6LxqbK4l"
+    ],
+    "goalName": [
+      "Treatment efforts in the United States are increased"
+    ],
+    "goalSequence": [
+      4
+    ],
+    "metricCount": 83,
+    "metricResultTrendImprovedCount": 1,
+    "metricResultTrendImprovedPercent": 0.012048192771084338,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 83,
+    "indicatorImprovedCount": 1,
+    "indicatorImprovedPercent": 0.012048192771084338,
+    "previousIndicatorImprovedCount": 33,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recpJ11YZh1ZwMRY9",
+    "name": "The projected shortfall in the qualified workforce of behavioral health  providers (including addiction professionals) funded by federal programs in the United States is reduced by 70 percent by 2025",
+    "sequence": 2,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recDRfppFmammenys"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec2qQLGFUER0xayy",
+      "rec4j10E0z7fShLCm",
+      "recEqoOUMpQF11ake",
+      "recZAoN6kn6CFj9VL",
+      "rec0ycUImuvh7PmSm",
+      "receghYlnoF5a1nYV",
+      "recmbEwu64daSOROo",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec4kt6wXyZPcakeC",
+      "recEcyZs2dEuuYqym",
+      "recIhYEpqQGFEHhtX",
+      "recOMlVlHPZezX3zd",
+      "recRCk9UkExSNMEiI",
+      "recbYmRWkSrGRURPB",
+      "recbeAxyDr38QyMOk",
+      "recdgXNV70hOPY6UJ",
+      "recoVG2rBJWtpzdwk",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "rec3AeIV40lra9KaR",
+      "rec7DkZI637wgK1W0",
+      "recDmuIKknPXmI4rc",
+      "recRk1d0MNxvnppgl",
+      "recYmrVM3130dvdQa",
+      "recvhllhQwREuVCJI",
+      "rec3oVWn2H9HEpPkb",
+      "recUoYP63q5ARzWFc",
+      "reclPwIxYub8WnwNJ",
+      "recutiLZsW0wQdCD9"
+    ],
+    "goalName": [
+      "Treatment efforts in the United States are increased"
+    ],
+    "goalSequence": [
+      4
+    ],
+    "metricCount": 66,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 66,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 27,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recKyu5SnsVZ6QCNm",
+    "name": "The number of targets identified in counternarcotics Executive Orders and related asset freezes and seizures made by law enforcement is increased by 365 percent by 2025",
+    "sequence": 1,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recNgSktwVkdpd9xs"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recjBWWbbOL6V2cfl",
+      "recL7MIYR98GFyTwT",
+      "recZ1CKNSqEvsAX2S",
+      "rec0CpvTA6eY6R4ap",
+      "recb7PXdxYYwNiKu6",
+      "recQbGV0m68ynpmna",
+      "recbxPYHNOg58t5FI",
+      "recxz8qlnhVxsIvfV",
+      "recxB47BcsGrwgig1",
+      "rec7FIwxuvexBTgnp",
+      "recDnPgIjxh78Uw4L",
+      "recU02IOdPb9Cufmn",
+      "rec0sXHWwsLNqJKtJ",
+      "reccmdjomFJxgnSoS",
+      "recjbLFiVCv1K03aK",
+      "recvWlI7EC7bsuwEY",
+      "rec41M8if1mhFjf9P",
+      "recJ2VriYnuoO8MAJ",
+      "recQUGrcNhqOvPBAX",
+      "recuw10EQnJYxZdEa",
+      "rec6EGUpkfgn2VwTg",
+      "recItKCi2ER5lM328",
+      "recX8QyHDzOBPlVFy",
+      "recRLMvf03a0axBM1",
+      "recWALDMymwHHjcqE",
+      "recjWXY7JpkCc1kFj",
+      "recpGVFyfeP4xVFJY",
+      "recAxFBeOvoPSNneL",
+      "recBn5TEf4OykzylR",
+      "recJnjSe5f7ajw8P5",
+      "recRAQoeom5lvmOrZ",
+      "recXpbWK8fZ0oFcDB",
+      "recYUAHLUaynTBY8U",
+      "reclOhZDaK6T7bQgK",
+      "recuRVd6wMtpK2zdF",
+      "recx1CkjZCrk335Cx",
+      "recATp5ONoop0p6qS",
+      "rec2Ezt2uvER18cmR",
+      "reciKzj1FYPKfsLHc",
+      "rectqxg8Cq86HR2h4",
+      "recMk0pA2bScd38TP"
+    ],
+    "goalName": [
+      "The supply of illicit substances into the United States is reduced"
+    ],
+    "goalSequence": [
+      7
+    ],
+    "metricCount": 43,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Maintain",
+      "Increase",
+      "Decrease",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 43,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 21,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recek1BKPspx2cx4o",
+    "name": "The number of defendants convicted in active OCDETF investigations that incorporate FinCEN data is increased by 14 percent by 2025",
+    "sequence": 2,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recNgSktwVkdpd9xs"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recQbGV0m68ynpmna",
+      "recbxPYHNOg58t5FI",
+      "recxz8qlnhVxsIvfV",
+      "recxB47BcsGrwgig1",
+      "rec41M8if1mhFjf9P",
+      "recJ2VriYnuoO8MAJ",
+      "recQUGrcNhqOvPBAX",
+      "recuw10EQnJYxZdEa",
+      "recRLMvf03a0axBM1",
+      "recWALDMymwHHjcqE",
+      "recjWXY7JpkCc1kFj",
+      "recpGVFyfeP4xVFJY",
+      "recAxFBeOvoPSNneL",
+      "recBn5TEf4OykzylR",
+      "recJnjSe5f7ajw8P5",
+      "recRAQoeom5lvmOrZ",
+      "recXpbWK8fZ0oFcDB",
+      "recYUAHLUaynTBY8U",
+      "reclOhZDaK6T7bQgK",
+      "recuRVd6wMtpK2zdF",
+      "recx1CkjZCrk335Cx",
+      "recATp5ONoop0p6qS",
+      "recymSmCyO2x0iL3T",
+      "recJqNbxabiWTkOso",
+      "recMXhctRskAZBYJ2",
+      "reclXGioaMp5nIE0G",
+      "recywyf7FAE1PBkUh",
+      "recz8aDEIfJOSR2mO",
+      "rec1XQW0uzhrLKLby",
+      "rec1iVh0RaNGsB7gX",
+      "recJEUkAafhFnvuYv",
+      "recJhfNRmZmot5Eln",
+      "recLXGr0DnlqAFnhn",
+      "recQGXu27ORR6XxCM",
+      "recUdHpxfrF0UIp8a",
+      "rec05e7CO6jNSijvQ",
+      "recd68zSyuSAtXxjx",
+      "recDyZOvx8K4N5YNt",
+      "recNNmieDYS8YfLjK",
+      "recNncDGN1JSDtCTH",
+      "recmU7MXRUhzlOQDw",
+      "recpzVBk1TtIfPseW",
+      "rectHvpgf17bzjOo5",
+      "rec4PGoHemf8lsRb5",
+      "recUBRD37NpuD3xM2",
+      "reci3CvhobjvH0kf3",
+      "recspplcfTTdGpfGf",
+      "recA31uQijBv5WjuU",
+      "rec4MW7MzDOY8mUkA"
+    ],
+    "goalName": [
+      "The supply of illicit substances into the United States is reduced"
+    ],
+    "goalSequence": [
+      7
+    ],
+    "metricCount": 51,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 51,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 25,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recI2x4cZZLBrqUDy",
+    "name": "The percentage of active priority OCDETF investigations linked to the Sinaloa or Jalisco New Generation (CJNG) cartels, or their enablers (such as illicit financiers) is increased by 25 percent by 2025",
+    "sequence": 3,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recNgSktwVkdpd9xs"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recQbGV0m68ynpmna",
+      "recbxPYHNOg58t5FI",
+      "recxz8qlnhVxsIvfV",
+      "recxB47BcsGrwgig1",
+      "rec41M8if1mhFjf9P",
+      "recJ2VriYnuoO8MAJ",
+      "recQUGrcNhqOvPBAX",
+      "recuw10EQnJYxZdEa",
+      "recRLMvf03a0axBM1",
+      "recWALDMymwHHjcqE",
+      "recjWXY7JpkCc1kFj",
+      "recpGVFyfeP4xVFJY",
+      "recAxFBeOvoPSNneL",
+      "recBn5TEf4OykzylR",
+      "recJnjSe5f7ajw8P5",
+      "recRAQoeom5lvmOrZ",
+      "recXpbWK8fZ0oFcDB",
+      "recYUAHLUaynTBY8U",
+      "reclOhZDaK6T7bQgK",
+      "recuRVd6wMtpK2zdF",
+      "recx1CkjZCrk335Cx",
+      "recATp5ONoop0p6qS",
+      "rec1XQW0uzhrLKLby",
+      "rec1iVh0RaNGsB7gX",
+      "recJEUkAafhFnvuYv",
+      "recJhfNRmZmot5Eln",
+      "recLXGr0DnlqAFnhn",
+      "recQGXu27ORR6XxCM",
+      "recUdHpxfrF0UIp8a",
+      "rec05e7CO6jNSijvQ",
+      "recd68zSyuSAtXxjx",
+      "rec4PGoHemf8lsRb5",
+      "recUBRD37NpuD3xM2",
+      "reci3CvhobjvH0kf3",
+      "recspplcfTTdGpfGf",
+      "recA31uQijBv5WjuU",
+      "rec4MW7MzDOY8mUkA",
+      "recSFLlWszxf6zE8C"
+    ],
+    "goalName": [
+      "The supply of illicit substances into the United States is reduced"
+    ],
+    "goalSequence": [
+      7
+    ],
+    "metricCount": 40,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 40,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 19,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recpkwyqxEBZozKnw",
+    "name": "Potential production of cocaine is decreased by 10 percent by 2025",
+    "sequence": 4.1,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recNgSktwVkdpd9xs"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recQbGV0m68ynpmna",
+      "recbxPYHNOg58t5FI",
+      "recxz8qlnhVxsIvfV",
+      "recxB47BcsGrwgig1",
+      "rec41M8if1mhFjf9P",
+      "recJ2VriYnuoO8MAJ",
+      "recQUGrcNhqOvPBAX",
+      "recuw10EQnJYxZdEa",
+      "recUBRD37NpuD3xM2",
+      "reci3CvhobjvH0kf3",
+      "recspplcfTTdGpfGf",
+      "recA31uQijBv5WjuU",
+      "rec4MW7MzDOY8mUkA",
+      "recEi2PLGXPdRb1sn",
+      "recnqYBXscbNUa9PZ",
+      "reczbehpliXvbJwNs",
+      "rec54qFd7Hi34eEUf",
+      "rec6Pdw97OnbGSbNp",
+      "recJTCDYe8fwfw2XF",
+      "recMWWvjljL0nBhAC",
+      "rechk1hdumZdI2LUj",
+      "rec3hdA9dlexBV05h",
+      "recNXks2l1AJ1iZ1I",
+      "recAWds9zCLGfaawy",
+      "recGemhDBwT3mVWH6",
+      "recMTXvHOfKZ4KGMe",
+      "recVh9ZIBMU4runRo",
+      "recex7bhRAWvzogoy",
+      "reclOMdw4eMrxbSUY",
+      "recoQlZ9tuVIMmbDQ",
+      "recv2J2tGivVZ6UTp",
+      "recVD4P8khMOnMll1",
+      "reciHkSTK2NMkan6h",
+      "recvFuJglIEcJwmA4"
+    ],
+    "goalName": [
+      "The supply of illicit substances into the United States is reduced"
+    ],
+    "goalSequence": [
+      7
+    ],
+    "metricCount": 36,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Maintain",
+      "Increase",
+      "Decrease",
+      "Decrease",
+      "Decrease",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Decrease",
+      "Increase"
+    ],
+    "indicatorCount": 36,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 21,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recUwYBZVHQNogejq",
+    "name": "The number of incident reports for precursor chemicals sourced from China or India reported by North American countries increases by 125 percent by 2025",
+    "sequence": 5,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recNgSktwVkdpd9xs"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recQbGV0m68ynpmna",
+      "recbxPYHNOg58t5FI",
+      "recxz8qlnhVxsIvfV",
+      "recxB47BcsGrwgig1",
+      "rec41M8if1mhFjf9P",
+      "recJ2VriYnuoO8MAJ",
+      "recQUGrcNhqOvPBAX",
+      "recuw10EQnJYxZdEa",
+      "recRLMvf03a0axBM1",
+      "recWALDMymwHHjcqE",
+      "recjWXY7JpkCc1kFj",
+      "recpGVFyfeP4xVFJY",
+      "recAxFBeOvoPSNneL",
+      "recUBRD37NpuD3xM2",
+      "reci3CvhobjvH0kf3",
+      "recspplcfTTdGpfGf",
+      "recA31uQijBv5WjuU",
+      "rec4MW7MzDOY8mUkA",
+      "recOo6zHAvbPuQb52"
+    ],
+    "goalName": [
+      "The supply of illicit substances into the United States is reduced"
+    ],
+    "goalSequence": [
+      7
+    ],
+    "metricCount": 21,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 21,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 12,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recqBdOYi54YS6vNQ",
+    "name": "Potential production of heroin is decreased by 30 percent by 2025",
+    "sequence": 4.2,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recNgSktwVkdpd9xs"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recQbGV0m68ynpmna",
+      "recbxPYHNOg58t5FI",
+      "recxz8qlnhVxsIvfV",
+      "recxB47BcsGrwgig1",
+      "rec41M8if1mhFjf9P",
+      "recJ2VriYnuoO8MAJ",
+      "recQUGrcNhqOvPBAX",
+      "recuw10EQnJYxZdEa",
+      "recUBRD37NpuD3xM2",
+      "reci3CvhobjvH0kf3",
+      "recspplcfTTdGpfGf",
+      "recA31uQijBv5WjuU",
+      "rec4MW7MzDOY8mUkA",
+      "recnqYBXscbNUa9PZ",
+      "reczbehpliXvbJwNs",
+      "rec54qFd7Hi34eEUf",
+      "rec6Pdw97OnbGSbNp",
+      "recJTCDYe8fwfw2XF",
+      "recMWWvjljL0nBhAC",
+      "rechk1hdumZdI2LUj",
+      "rec3hdA9dlexBV05h",
+      "recNXks2l1AJ1iZ1I",
+      "recAWds9zCLGfaawy",
+      "recGemhDBwT3mVWH6",
+      "recMTXvHOfKZ4KGMe",
+      "recVh9ZIBMU4runRo",
+      "recex7bhRAWvzogoy",
+      "reclOMdw4eMrxbSUY",
+      "recoQlZ9tuVIMmbDQ",
+      "recv2J2tGivVZ6UTp",
+      "recVD4P8khMOnMll1",
+      "reciHkSTK2NMkan6h",
+      "recvFuJglIEcJwmA4",
+      "recy4DctRZsnpSBVS"
+    ],
+    "goalName": [
+      "The supply of illicit substances into the United States is reduced"
+    ],
+    "goalSequence": [
+      7
+    ],
+    "metricCount": 36,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
+    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Maintain",
+      "Increase",
+      "Decrease",
+      "Decrease",
+      "Decrease",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase"
+    ],
+    "indicatorCount": 36,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 21,
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Objective"
+  },
+  {
+    "id": "recLwSOZL5J4PCxgw",
+    "name": "The number of drug overdose deaths is reduced by 13 percent by 2025",
+    "sequence": 1,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "goal": [
+      "recbpmX2BkgzoBbYh"
+    ],
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "metric": [
+      "rec2qQLGFUER0xayy",
+      "rec4j10E0z7fShLCm",
+      "recEqoOUMpQF11ake",
+      "recZAoN6kn6CFj9VL",
+      "rec0ycUImuvh7PmSm",
+      "receghYlnoF5a1nYV",
+      "recmbEwu64daSOROo",
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec4kt6wXyZPcakeC",
+      "recEcyZs2dEuuYqym",
+      "recIhYEpqQGFEHhtX",
+      "recOMlVlHPZezX3zd",
+      "recRCk9UkExSNMEiI",
+      "recbYmRWkSrGRURPB",
+      "recbeAxyDr38QyMOk",
+      "recdgXNV70hOPY6UJ",
+      "recoVG2rBJWtpzdwk",
+      "rec9oxGVn4JFtRn9W",
+      "recWswGrumqpXkJCr",
+      "recYAI5YGhvAaooB0",
+      "recelXVbPU0ZG55nj",
+      "recsmnN4hZOJWkRil",
+      "recvW2t7JcTEnDPvz",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recNJZEb9J5xa24Hh",
+      "recoUYBfhTXLkcj2A",
+      "rec1aaFcNTsYiT3qt",
+      "rec9tCTo9IvuAysbL",
+      "recTk0JkI7YT2GJow",
+      "rec0GYON5qqHuOXIM",
+      "rec3cX9LkZ5UdQAMw",
+      "rec9gGgXjBJTLJcQm",
+      "recPzqDfHJYdEhHJQ",
+      "recOXYIdhqWFxUB91",
+      "rece9Vqxr4381V90G",
+      "recjr0AQU0SNYkJfg",
+      "reckb7YwW5u50IdgZ",
+      "reclDh7n5dSSAOuwO",
+      "recA83SdmDz8HwxSo",
+      "rec3oVWn2H9HEpPkb",
+      "recUoYP63q5ARzWFc",
+      "reclPwIxYub8WnwNJ",
+      "recutiLZsW0wQdCD9",
+      "rec41M8if1mhFjf9P",
+      "recJ2VriYnuoO8MAJ",
+      "recQUGrcNhqOvPBAX",
+      "recuw10EQnJYxZdEa",
+      "recIzIG4RDg7hqExb",
+      "rec70ChxZ77un3974",
+      "recWWFCh8nOoWeYmw",
+      "recwzBcHxQNfgysiB",
+      "reczLggGRWiVkUnsr",
+      "rec3tFUnjFUxPF3pg",
+      "rec9suMco7UWfjy48",
+      "recM0dooNr9225zcC",
+      "reciirBnUcHhUiR8J",
+      "recgmAX5S2eBM12Wu",
+      "recgu1QYvEutAydD5",
+      "recgJhwB0jhTlKFwG",
+      "reckzCSAN6b7S6SXj",
+      "recFvGOndh4QeWJZr",
+      "rec8ljGB7pLpOgF9k",
+      "recEaap6XDj3PEI3r",
+      "recShvGN8IEc6Iwfz",
+      "rec7ceRaH0BdKRoCH",
+      "recjybHKFVMZedGMP",
+      "recwD2jkhm6mIhaZN",
+      "rec1nvGolaY3DvTVw",
+      "rec3OkYT49YqFUHPi",
+      "rec3rUlZ861UlSPYJ",
+      "recYnvAPdQRvMQUC2",
+      "recjRRLF1hg1zHLaq",
+      "recnmWnIu4rF2DNwA",
+      "recyGOfbzYtk4vO9E",
+      "recbItJhOZxwlS9f2",
+      "rec34RKD8LYZD7XBF",
+      "recVMJjO21mPWtKEb",
+      "reciCBOeQCoPLuqJh",
+      "recxNZMI7sYYev18t",
+      "recYIREHo6clAZURK",
+      "recuCkmhOYZqp2EcQ",
+      "recAA5Fn5S9U9Vlvh",
+      "rec7Yg0qKUMKmPYNR"
+    ],
+    "goalName": [
+      "Illicit substance use is reduced in the United States"
     ],
     "goalSequence": [
       1
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricCount": 129,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Decrease",
-      "Decrease"
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase"
     ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "reckpCoXuuN5AFZn5",
-      "recH9vSxO1vbbY65z",
-      "rec8DsqKNylC0fsRX"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 5,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "goalSubtitle": [
-      "Shrink the government’s real estate footprint and lower costs."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 129,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 50,
     "org": [
-      "recaTbkkzqqA7qzsJ"
+      "recO4JsgoCAvHOFAd"
     ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "recxTdSe1wXzyowT7",
-    "name": "Reduce Federal Rules and Requirements",
-    "sequence": 2,
+    "id": "recPaGOpnTKlEKpQg",
+    "name": "The percentage of people meeting criteria for cocaine use disorder is reduced by 25 percent by 2025",
+    "sequence": 2.1,
     "orgName": [
-      "U.S. Department of Housing and Urban Development"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "HUD"
+      "EOP"
     ],
     "goal": [
-      "reckzwb3ajnkrFaPr"
+      "recbpmX2BkgzoBbYh"
     ],
     "plan": [
-      "recfde4xeJB6AjiKp"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "recENH1xiv11OJTUE",
-      "recIPS60JkNoqjSzz",
-      "recbDsGEhK3efdF26"
+      "rec2qQLGFUER0xayy",
+      "rec4j10E0z7fShLCm",
+      "recEqoOUMpQF11ake",
+      "recZAoN6kn6CFj9VL",
+      "rec0ycUImuvh7PmSm",
+      "receghYlnoF5a1nYV",
+      "recmbEwu64daSOROo",
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec9oxGVn4JFtRn9W",
+      "recWswGrumqpXkJCr",
+      "recYAI5YGhvAaooB0",
+      "recelXVbPU0ZG55nj",
+      "recsmnN4hZOJWkRil",
+      "recvW2t7JcTEnDPvz",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recoUYBfhTXLkcj2A",
+      "rec1aaFcNTsYiT3qt",
+      "rec9tCTo9IvuAysbL",
+      "recTk0JkI7YT2GJow",
+      "rec0GYON5qqHuOXIM",
+      "rec3cX9LkZ5UdQAMw",
+      "rec9gGgXjBJTLJcQm",
+      "recPzqDfHJYdEhHJQ",
+      "recaPKvBhllUXaWtf",
+      "recGdL1OI9dEMYJlT",
+      "recpt0z7M6LxqbK4l",
+      "rec3oVWn2H9HEpPkb",
+      "recUoYP63q5ARzWFc",
+      "reclPwIxYub8WnwNJ",
+      "recutiLZsW0wQdCD9",
+      "rec7FIwxuvexBTgnp",
+      "recDnPgIjxh78Uw4L",
+      "recU02IOdPb9Cufmn",
+      "rec0sXHWwsLNqJKtJ",
+      "reccmdjomFJxgnSoS",
+      "recjbLFiVCv1K03aK",
+      "recvWlI7EC7bsuwEY",
+      "rec70ChxZ77un3974",
+      "recWWFCh8nOoWeYmw",
+      "recwzBcHxQNfgysiB",
+      "reczLggGRWiVkUnsr",
+      "recFvGOndh4QeWJZr",
+      "recbItJhOZxwlS9f2",
+      "recdl5wtt53RT1RmM",
+      "recR5WHGvpe6oX6KX",
+      "recUgveYOg6aDz6MD",
+      "recYl0UxxLGHxHjou",
+      "reccFazrykXpjB29Z",
+      "rechrIkRjY8lFCK8n",
+      "reclGj3V4Ls9rITMB",
+      "recno7bqU1yCARRPd",
+      "recu1q6OZAtbRjTbO",
+      "recANjkYnB6DpXSMw",
+      "rect5KgnfG8j9TKS7"
     ],
     "goalName": [
-      "Put Local Communities in Charge"
+      "Illicit substance use is reduced in the United States"
     ],
     "goalSequence": [
       1
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricCount": 100,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Decrease",
-      "Decrease"
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
     ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recUMNyVkatPnY31W",
-      "recp2a6cWtElHSHSk",
-      "rec1SRyOvMuqYfyuQ"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.4444444444444444,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 5,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "goalSubtitle": [
-      "Give states and towns more control over housing decisions."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 100,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 32,
     "org": [
-      "recHD6eR7iIOtErtj"
+      "recO4JsgoCAvHOFAd"
     ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "rec6THtOL8btFpEwr",
-    "name": "Strengthen Risk and Disaster Support",
-    "sequence": 3,
+    "id": "recdMIstHAIQCZw03",
+    "name": "The percentage of people meeting criteria for opioid use disorder is reduced by 25 percent by 2025",
+    "sequence": 2.2,
     "orgName": [
-      "U.S. Department of Agriculture"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "USDA"
+      "EOP"
     ],
     "goal": [
-      "recE1G2OnThbIl1Ll"
+      "recbpmX2BkgzoBbYh"
     ],
     "plan": [
-      "recOMj2QaHVSXQHj9"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "recgtdDHapmiVg98T",
-      "reccphKdNbpm5RJsP",
-      "recHxohM5W22iCHkU"
+      "rec2qQLGFUER0xayy",
+      "rec4j10E0z7fShLCm",
+      "recEqoOUMpQF11ake",
+      "recZAoN6kn6CFj9VL",
+      "rec0ycUImuvh7PmSm",
+      "receghYlnoF5a1nYV",
+      "recmbEwu64daSOROo",
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec9oxGVn4JFtRn9W",
+      "recWswGrumqpXkJCr",
+      "recYAI5YGhvAaooB0",
+      "recelXVbPU0ZG55nj",
+      "recsmnN4hZOJWkRil",
+      "recvW2t7JcTEnDPvz",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recoUYBfhTXLkcj2A",
+      "rec1aaFcNTsYiT3qt",
+      "rec9tCTo9IvuAysbL",
+      "recTk0JkI7YT2GJow",
+      "rec0GYON5qqHuOXIM",
+      "rec3cX9LkZ5UdQAMw",
+      "rec9gGgXjBJTLJcQm",
+      "recPzqDfHJYdEhHJQ",
+      "recaPKvBhllUXaWtf",
+      "recGdL1OI9dEMYJlT",
+      "recpt0z7M6LxqbK4l",
+      "rec3oVWn2H9HEpPkb",
+      "recUoYP63q5ARzWFc",
+      "reclPwIxYub8WnwNJ",
+      "recutiLZsW0wQdCD9",
+      "rec7FIwxuvexBTgnp",
+      "recDnPgIjxh78Uw4L",
+      "recU02IOdPb9Cufmn",
+      "rec0sXHWwsLNqJKtJ",
+      "reccmdjomFJxgnSoS",
+      "recjbLFiVCv1K03aK",
+      "recvWlI7EC7bsuwEY",
+      "rec70ChxZ77un3974",
+      "recWWFCh8nOoWeYmw",
+      "recwzBcHxQNfgysiB",
+      "reczLggGRWiVkUnsr",
+      "recFvGOndh4QeWJZr",
+      "recbItJhOZxwlS9f2",
+      "recR5WHGvpe6oX6KX",
+      "recUgveYOg6aDz6MD",
+      "recYl0UxxLGHxHjou",
+      "reccFazrykXpjB29Z",
+      "rechrIkRjY8lFCK8n",
+      "reclGj3V4Ls9rITMB",
+      "recno7bqU1yCARRPd",
+      "recu1q6OZAtbRjTbO",
+      "recANjkYnB6DpXSMw",
+      "rect5KgnfG8j9TKS7",
+      "recELTIZJkwsbAjDZ"
     ],
     "goalName": [
-      "Stand Behind American Farmers"
+      "Illicit substance use is reduced in the United States"
     ],
     "goalSequence": [
       1
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
+    "metricCount": 100,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase"
     ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "rec6YnbScYx5FaQBS",
-      "rec7HshaBPopqbWyZ",
-      "recl45y5Tc7p2Ny5R"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.2222222222222222,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 5,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "goalSubtitle": [
-      "Make it easier to grow, sell, and succeed."
-    ],
-    "targetCount": 3,
+    "indicatorCount": 100,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 32,
     "org": [
-      "recnGvKRcRqww0bnX"
+      "recO4JsgoCAvHOFAd"
     ],
-    "fpiProgram": [
-      "receHH7RnoDzVqQg8",
-      "recXCv6bEs6WiKD5l"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "recEngWK4nzWVwc9P",
-    "name": "Lower Energy and Maintenance Costs",
-    "sequence": 3,
+    "id": "recGNpTzJom17c8KP",
+    "name": "The percentage of people meeting criteria for methamphetamine use disorder is reduced by 25 percent by 2025",
+    "sequence": 2.3,
     "orgName": [
-      "General Services Administration"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "GSA"
+      "EOP"
     ],
     "goal": [
-      "recpHCd3DDokR8jMV"
+      "recbpmX2BkgzoBbYh"
     ],
     "plan": [
-      "recOkgPAU7Ek1YAZh"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "rec5D999C2vTUHpeN",
-      "recximCdRT6DK6BAK",
-      "reclfP4JSP0MU24KW"
+      "rec2qQLGFUER0xayy",
+      "rec4j10E0z7fShLCm",
+      "recEqoOUMpQF11ake",
+      "recZAoN6kn6CFj9VL",
+      "rec0ycUImuvh7PmSm",
+      "receghYlnoF5a1nYV",
+      "recmbEwu64daSOROo",
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec9oxGVn4JFtRn9W",
+      "recWswGrumqpXkJCr",
+      "recYAI5YGhvAaooB0",
+      "recelXVbPU0ZG55nj",
+      "recsmnN4hZOJWkRil",
+      "recvW2t7JcTEnDPvz",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recoUYBfhTXLkcj2A",
+      "rec1aaFcNTsYiT3qt",
+      "rec9tCTo9IvuAysbL",
+      "recTk0JkI7YT2GJow",
+      "rec0GYON5qqHuOXIM",
+      "rec3cX9LkZ5UdQAMw",
+      "rec9gGgXjBJTLJcQm",
+      "recPzqDfHJYdEhHJQ",
+      "recaPKvBhllUXaWtf",
+      "recGdL1OI9dEMYJlT",
+      "recpt0z7M6LxqbK4l",
+      "rec3oVWn2H9HEpPkb",
+      "recUoYP63q5ARzWFc",
+      "reclPwIxYub8WnwNJ",
+      "recutiLZsW0wQdCD9",
+      "rec7FIwxuvexBTgnp",
+      "recDnPgIjxh78Uw4L",
+      "recU02IOdPb9Cufmn",
+      "rec0sXHWwsLNqJKtJ",
+      "reccmdjomFJxgnSoS",
+      "recjbLFiVCv1K03aK",
+      "recvWlI7EC7bsuwEY",
+      "rec70ChxZ77un3974",
+      "recWWFCh8nOoWeYmw",
+      "recwzBcHxQNfgysiB",
+      "reczLggGRWiVkUnsr",
+      "recFvGOndh4QeWJZr",
+      "recbItJhOZxwlS9f2",
+      "recR5WHGvpe6oX6KX",
+      "recUgveYOg6aDz6MD",
+      "recYl0UxxLGHxHjou",
+      "reccFazrykXpjB29Z",
+      "rechrIkRjY8lFCK8n",
+      "reclGj3V4Ls9rITMB",
+      "recno7bqU1yCARRPd",
+      "recu1q6OZAtbRjTbO",
+      "recANjkYnB6DpXSMw",
+      "rect5KgnfG8j9TKS7",
+      "recM2GMegYChjJDwf"
     ],
     "goalName": [
-      "Cut Waste in Federal Buildings"
+      "Illicit substance use is reduced in the United States"
     ],
     "goalSequence": [
       1
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
+    "metricCount": 100,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recSqEfZqXM9FIVhE",
-      "recD1u3fGJ9LCXGEd",
-      "recvRYDgYwPUg7Q3E"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Shrink the government’s real estate footprint and lower costs."
-    ],
-    "targetCount": 3,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recLt14H2Wv50N3lK",
-    "name": "Reward Results, Not Red Tape",
-    "sequence": 3,
-    "orgName": [
-      "U.S. Department of Housing and Urban Development"
-    ],
-    "orgAcronym": [
-      "HUD"
-    ],
-    "goal": [
-      "reckzwb3ajnkrFaPr"
-    ],
-    "plan": [
-      "recfde4xeJB6AjiKp"
-    ],
-    "metric": [
-      "recvaOhfjUlickFpm",
-      "recWFsfcqFRgw6yXe",
-      "recmQvjm1uBCKWOwU"
-    ],
-    "goalName": [
-      "Put Local Communities in Charge"
-    ],
-    "goalSequence": [
-      1
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
-    "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recBkBANWfQC83kGt",
-      "receiBFzkOdq55FWZ",
-      "recomFZgdaMjz3CgV"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.2222222222222222,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 5,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "goalSubtitle": [
-      "Give states and towns more control over housing decisions."
-    ],
-    "targetCount": 3,
-    "org": [
-      "recHD6eR7iIOtErtj"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recSqdkx59sseUzOG",
-    "name": "Expand High-Speed Internet in Rural Areas",
-    "sequence": 1,
-    "orgName": [
-      "U.S. Department of Agriculture"
-    ],
-    "orgAcronym": [
-      "USDA"
-    ],
-    "goal": [
-      "rec2hvyBWPQ9yhrRD"
-    ],
-    "plan": [
-      "recOMj2QaHVSXQHj9"
-    ],
-    "metric": [
-      "reci6SgvEYDWSGuK1",
-      "recS1XUn6HedOcCxY",
-      "recw5fW7yVApDrX1n"
-    ],
-    "goalName": [
-      "Grow the Rural Economy"
-    ],
-    "goalSequence": [
-      2
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
-    "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Increase",
       "Increase",
       "Increase"
     ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recZ8AbBiL3Pwjp6p",
-      "reccMsZ1ViLOdyXlg",
-      "recIwbKGssSaxOlzn"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.4444444444444444,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Support small towns with jobs, tools, and broadband."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 100,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 32,
     "org": [
-      "recnGvKRcRqww0bnX"
+      "recO4JsgoCAvHOFAd"
     ],
-    "fpiProgram": [
-      "rec34ykrSrCcONh31",
-      "recjWwDvYCVjZjsoA"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "recrlqJt7tnW1Vcze",
-    "name": "Speed Up Application and Approval Times",
+    "id": "reccmDKBrl3ElQjLJ",
+    "name": "Eighty percent of all treatment courts will be trained and will implement practices to increase equity by 2025",
     "sequence": 1,
     "orgName": [
-      "U.S. Department of Housing and Urban Development"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "HUD"
+      "EOP"
     ],
     "goal": [
-      "reclbSVnJ5w3IDoMT"
+      "recp4mYs8lfTXgODy"
     ],
     "plan": [
-      "recfde4xeJB6AjiKp"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "recpd4R9aW33RwPLq",
-      "rec9NsBjKtzYkHO98",
-      "recLaGvkkkKPaqF9i"
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "recOXYIdhqWFxUB91",
+      "rece9Vqxr4381V90G",
+      "recjr0AQU0SNYkJfg",
+      "reckb7YwW5u50IdgZ",
+      "reclDh7n5dSSAOuwO",
+      "recA83SdmDz8HwxSo",
+      "recF906hnPPbHidc4"
     ],
     "goalName": [
-      "Make Housing Aid Simple and Fast"
+      "Criminal justice reform efforts include drug policy matters"
     ],
     "goalSequence": [
-      2
+      6
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricCount": 34,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Increase",
       "Increase",
       "Increase"
     ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recZzHWJ35Gx7NSHZ",
-      "recabfikTkjYUT7NZ",
-      "recmUqXCaQGJlH2MD"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Cut red tape so help gets to people quicker."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 34,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 15,
     "org": [
-      "recHD6eR7iIOtErtj"
+      "recO4JsgoCAvHOFAd"
     ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "rectM8MJnZp9mVty0",
-    "name": "Centralize Government Procurement",
-    "sequence": 1,
+    "id": "recLbDi5993ggRuZY",
+    "name": "The percentage of Bureau of Prisons (BOP) inmates diagnosed with an opioid use disorder who are given access to medications for opioid use disorder (MOUD) is increased to 100 percent by 2025",
+    "sequence": 2.1,
     "orgName": [
-      "General Services Administration"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "GSA"
+      "EOP"
     ],
     "goal": [
-      "recgQ7Lm3qWG8O8O2"
+      "recp4mYs8lfTXgODy"
     ],
     "plan": [
-      "recOkgPAU7Ek1YAZh"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "recUHgQbbA0yelZcx",
-      "rec2UVGPEsAbTGwfb",
-      "rec9Db5aoUZueJlrR"
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rectuDwQiLEIjHOLg"
     ],
     "goalName": [
-      "Save Money with Smarter Buying"
+      "Criminal justice reform efforts include drug policy matters"
     ],
     "goalSequence": [
-      2
+      6
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricCount": 9,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
       "Increase",
       "Increase",
       "Increase"
     ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recRxiOFDiKADke5f",
-      "rec2Fw2jiGaMY6YqZ",
-      "rec4eJmjQ2vD0bHqW"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.5555555555555555,
-    "projectResultTrendImprovedCount": 1,
-    "projectResultTrendImprovedPercent": 0.3333333333333333,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 4,
-    "indicatorImprovedPercent": 0.6666666666666666,
-    "goalSubtitle": [
-      "Buy in bulk and broker deals that work for taxpayers."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 9,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 1,
     "org": [
-      "recaTbkkzqqA7qzsJ"
+      "recO4JsgoCAvHOFAd"
     ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "recJicCfV8as3YKaj",
-    "name": "Support Small Businesses and Local Jobs",
-    "sequence": 2,
+    "id": "rec2cSvXfawl5or1H",
+    "name": "The percentage of state prison programs offering medications for opioid use disorder (MOUD) is increased by 50 percent",
+    "sequence": 2.2,
     "orgName": [
-      "U.S. Department of Agriculture"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "USDA"
+      "EOP"
     ],
     "goal": [
-      "rec2hvyBWPQ9yhrRD"
+      "recp4mYs8lfTXgODy"
     ],
     "plan": [
-      "recOMj2QaHVSXQHj9"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "reclxsPODoHt1GtK2",
-      "recRWsuOQgcYovG2m",
-      "recxc8jsp6Bo6AkSL"
+      "recrTYRrtMcyvkBf8"
     ],
     "goalName": [
-      "Grow the Rural Economy"
+      "Criminal justice reform efforts include drug policy matters"
     ],
     "goalSequence": [
-      2
+      6
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricCount": 1,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
-      "Decrease",
-      "Decrease",
-      "Decrease"
+      "Increase"
     ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "reczZGCygu1onwS1x",
-      "recL4QdHYjTyxJtRt",
-      "rectnQfqauvl8TJoG"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Support small towns with jobs, tools, and broadband."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 1,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 0,
     "org": [
-      "recnGvKRcRqww0bnX"
+      "recO4JsgoCAvHOFAd"
     ],
-    "fpiProgram": [
-      "recTvZ0Jx1ZCIZ1eq",
-      "recsonjNmOkq8RhiC",
-      "rec9Xf61Z1XRIqon8",
-      "rec61CrJZglzICjLg"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "recZOQ4cGcLP607QY",
-    "name": "Cut Complex Rules and Requirements",
-    "sequence": 2,
+    "id": "recNdH9tQRWTS9nBL",
+    "name": "The percentage of local jail facilities offering medications for opioid use disorder (MOUD) is increased by 50 percent",
+    "sequence": 2.3,
     "orgName": [
-      "U.S. Department of Housing and Urban Development"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "HUD"
+      "EOP"
     ],
     "goal": [
-      "reclbSVnJ5w3IDoMT"
+      "recp4mYs8lfTXgODy"
     ],
     "plan": [
-      "recfde4xeJB6AjiKp"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "rec1deqrvOrUyylqh",
-      "recXLFZrwS6G7iQOM",
-      "recPLDnv66Xs3XhCy"
+      "recpAUflDFsRRqlob"
     ],
     "goalName": [
-      "Make Housing Aid Simple and Fast"
+      "Criminal justice reform efforts include drug policy matters"
     ],
     "goalSequence": [
-      2
+      6
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricCount": 1,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
-      "Decrease",
-      "Decrease",
-      "Decrease"
+      "Increase"
     ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recl63SIL0JYRmzKW",
-      "recs87oEnHv68eWu3",
-      "recDVyMWBBpb71BvC"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Cut red tape so help gets to people quicker."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 1,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 0,
     "org": [
-      "recHD6eR7iIOtErtj"
+      "recO4JsgoCAvHOFAd"
     ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "recbknOEqBD0Q0Hfn",
-    "name": "Cut Waste and Fraud in Federal Purchasing",
-    "sequence": 2,
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "goal": [
-      "recgQ7Lm3qWG8O8O2"
-    ],
-    "plan": [
-      "recOkgPAU7Ek1YAZh"
-    ],
-    "metric": [
-      "recDlV7NIlxbt5zUB",
-      "recOA7CK8UNAxTWaA",
-      "recUaCtFWHE85Ujq6"
-    ],
-    "goalName": [
-      "Save Money with Smarter Buying"
-    ],
-    "goalSequence": [
-      2
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
-    "metricMostRecentTargetDirection": [
-      "Decrease",
-      "Decrease",
-      "Decrease"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "rec2deBAwjhlAkabV",
-      "recpFy9PxRhvukoiv",
-      "recS3sprdjjFttqiC"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.1111111111111111,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Buy in bulk and broker deals that work for taxpayers."
-    ],
-    "targetCount": 24,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recZsNyiRvvIX89b7",
-    "name": "Improve Infrastructure to Attract Investment",
-    "sequence": 3,
-    "orgName": [
-      "U.S. Department of Agriculture"
-    ],
-    "orgAcronym": [
-      "USDA"
-    ],
-    "goal": [
-      "rec2hvyBWPQ9yhrRD"
-    ],
-    "plan": [
-      "recOMj2QaHVSXQHj9"
-    ],
-    "metric": [
-      "recjyf0y2pRIOW7qg",
-      "rec0PpdOpWN97jwcY",
-      "recUtm64fOIY3zLnn"
-    ],
-    "goalName": [
-      "Grow the Rural Economy"
-    ],
-    "goalSequence": [
-      2
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
-    "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recZSruHw573meHdB",
-      "reczL8jHtw2QOpOQO",
-      "recz8kGGnqWEq5wC9"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.2222222222222222,
-    "projectResultTrendImprovedCount": 1,
-    "projectResultTrendImprovedPercent": 0.3333333333333333,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 4,
-    "indicatorImprovedPercent": 0.6666666666666666,
-    "goalSubtitle": [
-      "Support small towns with jobs, tools, and broadband."
-    ],
-    "targetCount": 3,
-    "org": [
-      "recnGvKRcRqww0bnX"
-    ],
-    "fpiProgram": [
-      "receHH7RnoDzVqQg8",
-      "recg0hP80HdKpNmhf"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recLzJlyPEBorWLfB",
-    "name": "Make Programs Easier to Manage Locally",
-    "sequence": 3,
-    "orgName": [
-      "U.S. Department of Housing and Urban Development"
-    ],
-    "orgAcronym": [
-      "HUD"
-    ],
-    "goal": [
-      "reclbSVnJ5w3IDoMT"
-    ],
-    "plan": [
-      "recfde4xeJB6AjiKp"
-    ],
-    "metric": [
-      "recwTSyFh1djV2zKv",
-      "recjxeUPZxy4xqOjr",
-      "recHzNPtMAiaYhGZX"
-    ],
-    "goalName": [
-      "Make Housing Aid Simple and Fast"
-    ],
-    "goalSequence": [
-      2
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
-    "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recxlfJJiJotV7Sax",
-      "rec2nZWHrAqYjYqXa",
-      "recpf07LhdBhmEO3O"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 1,
-    "projectResultTrendImprovedPercent": 0.3333333333333333,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 4,
-    "indicatorImprovedPercent": 0.6666666666666666,
-    "goalSubtitle": [
-      "Cut red tape so help gets to people quicker."
-    ],
-    "targetCount": 3,
-    "org": [
-      "recHD6eR7iIOtErtj"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recrYPbtlu7U3iGTd",
-    "name": "Consolidate Common Purchases Across Agencies",
-    "sequence": 3,
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "goal": [
-      "recgQ7Lm3qWG8O8O2"
-    ],
-    "plan": [
-      "recOkgPAU7Ek1YAZh"
-    ],
-    "metric": [
-      "recMZddgHEmjnfPZv",
-      "recgcZ5rlSQCpnmuw",
-      "rec564srTcqs3VdCX"
-    ],
-    "goalName": [
-      "Save Money with Smarter Buying"
-    ],
-    "goalSequence": [
-      2
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
-    "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "rec0HfucYuleRP8RM",
-      "recIBbhS8WkQ28lPj",
-      "recxi4ARPtykjjPzk"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Buy in bulk and broker deals that work for taxpayers."
-    ],
-    "targetCount": 3,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recgHH8RgUd7Cyslv",
-    "name": "Cut Fraud and Program Misuse",
+    "id": "rec076Garh7cKcEaa",
+    "name": "Past 30-day alcohol use among young people aged 12-17 is reduced by 10  percent by 2025",
     "sequence": 1,
     "orgName": [
-      "U.S. Department of Agriculture"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "USDA"
+      "EOP"
     ],
     "goal": [
-      "rec0F4EOzhyOjvyEY"
+      "recv3RdkGyhKSmyFW"
     ],
     "plan": [
-      "recOMj2QaHVSXQHj9"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "reczs3R36Zp10dKHQ",
-      "recUaYjZA9Y3RPBgb",
-      "recHHX5991zvQTQbb"
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "recOXYIdhqWFxUB91",
+      "rece9Vqxr4381V90G",
+      "recjr0AQU0SNYkJfg",
+      "reckb7YwW5u50IdgZ",
+      "reclDh7n5dSSAOuwO",
+      "recA83SdmDz8HwxSo",
+      "recj67IPju5PidbgC",
+      "rec6G1kLJsRwRxHC0",
+      "recQdW210ISpdk7fB",
+      "recgtOdnEPc2Ph5CC",
+      "recr2x77MXShImNth",
+      "recEArzwU2dhK1Ods",
+      "recVmkkopMTN0BLtd",
+      "recckkpBuCkLtfksw"
     ],
     "goalName": [
-      "Make Nutrition Programs Work Smarter"
+      "Prevention efforts are increased in the United States"
     ],
     "goalSequence": [
-      3
+      2
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricCount": 51,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Increase",
       "Increase",
       "Increase"
     ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "reccE3LBp69cBh0L5",
-      "recdNuNK0N0ji4xeC",
-      "recne8s1VMuykclur"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.4444444444444444,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Reduce fraud and help families become more self-reliant."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 51,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 22,
     "org": [
-      "recnGvKRcRqww0bnX"
+      "recO4JsgoCAvHOFAd"
     ],
-    "fpiProgram": [
-      "recmDRfr3hFuJuks3",
-      "recWUMVrdUbAblFjC"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   },
   {
-    "id": "rec9IPBrrr4ARyt7R",
-    "name": "Link Housing Support to Work and Education",
-    "sequence": 1,
+    "id": "recyT3PtVpXsLTvhY",
+    "name": "Past 30-day use of an e-cigarette among middle and high school students is reduced by 15 percent by 2025",
+    "sequence": 2,
     "orgName": [
-      "U.S. Department of Housing and Urban Development"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "HUD"
+      "EOP"
     ],
     "goal": [
-      "reciWMgbpWKFIDQMw"
+      "recv3RdkGyhKSmyFW"
     ],
     "plan": [
-      "recfde4xeJB6AjiKp"
+      "recfvMFWPJFzQ9z6G"
     ],
     "metric": [
-      "recH1N9jwZjZ1iHrk",
-      "rec9ySMWKw9AqE6Su",
-      "recWLLkdBOjXcsu1O"
+      "rec3LGDyYKfEouni7",
+      "rec9zEYd96bakIozN",
+      "recu4RoIBYV8jDhPU",
+      "recy3NKuzTksMe3hb",
+      "recLR5YOXoyo291BC",
+      "reccGSmOfcZGpnmpM",
+      "recwaXceo7iv91hlF",
+      "recxzowGKIJlk5xka",
+      "rec2mw22pjwEHCGmm",
+      "rec2nldJOjRhePTgu",
+      "rec4kyodo2yUevqDu",
+      "rec7Udj18Wrc2Yigp",
+      "recCQj0zZjLoVUDcw",
+      "recGN7HVOw8e97ymY",
+      "recH1VQnJPxIO1wMO",
+      "recIGmLoQ6M5kKWNz",
+      "recJkrpPkVZqzANPl",
+      "recKL3y6IuHIRsvYm",
+      "recKzfEpMtkncxtWO",
+      "recNNMEi80dPCZXpY",
+      "recQprKaXv7tZjtv7",
+      "recSkfwnHITYoXOBR",
+      "recXc03mWT9XwliMW",
+      "recYJLDePDEedkKwc",
+      "recYdWiQvGQQz6qA5",
+      "recZLADVsSIUF1miq",
+      "recZwxXemNpeppLAM",
+      "recdrkPd6IHP38q0T",
+      "recdrGkzOLfFAKGtz",
+      "recmXjDWAyKqaeT0B",
+      "recr9DNWBdg35WsI5",
+      "recsqZY3ydjccfWFt",
+      "rect06Azlts1zIps6",
+      "recwEyi0RHubmuZe4",
+      "recxmaNmDW9rddM3q",
+      "rec14zfKbY6kCRdUb",
+      "rec8Pfhqy528PATc7",
+      "recBu1xDHj3qhznrQ",
+      "recOnobPeYK1OcT8m",
+      "recTpn0pGY3yrqLvV",
+      "recjR39mJiuV0LXJ2",
+      "reclkQy6fDIVpNtpu",
+      "recsgFBLaLXWUyNX8",
+      "recuIoetxX6JLBZ8c",
+      "reczOE4THxyNKnLqe",
+      "recAti1h40ej6tuwu",
+      "rec8QwQo6o5nw0Ffc",
+      "recQQ3VrWIuUdFlkK",
+      "rec6G1kLJsRwRxHC0",
+      "recQdW210ISpdk7fB",
+      "recgtOdnEPc2Ph5CC",
+      "recr2x77MXShImNth",
+      "recEArzwU2dhK1Ods",
+      "recVmkkopMTN0BLtd",
+      "recckkpBuCkLtfksw",
+      "rec4QXkQ5xP1cTIFw"
     ],
     "goalName": [
-      "Help Families Build Independence"
+      "Prevention efforts are increased in the United States"
     ],
     "goalSequence": [
-      3
+      2
     ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
+    "metricCount": 56,
+    "metricResultTrendImprovedCount": 0,
+    "metricResultTrendImprovedPercent": 0,
     "metricMostRecentTargetDirection": [
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Maintain",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Decrease",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
+      "Increase",
       "Increase",
       "Increase",
       "Increase"
     ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recI4NcglELoqbQ6r",
-      "rec6QpHHQsjduUPuK",
-      "recBPgV3AISCNX1HB"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.5555555555555555,
-    "projectResultTrendImprovedCount": 1,
-    "projectResultTrendImprovedPercent": 0.3333333333333333,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 4,
-    "indicatorImprovedPercent": 0.6666666666666666,
-    "goalSubtitle": [
-      "Use housing programs to support work and self-sufficiency."
-    ],
-    "targetCount": 24,
+    "indicatorCount": 56,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 22,
     "org": [
-      "recHD6eR7iIOtErtj"
+      "recO4JsgoCAvHOFAd"
     ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recseVsEFhV5mgZaM",
-    "name": "Scale AI Tools Across Government",
-    "sequence": 1,
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "goal": [
-      "rechpz3iEn2BuEgnB"
-    ],
-    "plan": [
-      "recOkgPAU7Ek1YAZh"
-    ],
-    "metric": [
-      "recxFQfkk9jWXvoWe",
-      "rec4Mx1Pfo7mFrERN",
-      "recjDVHXffW9ejd9f"
-    ],
-    "goalName": [
-      "Use AI to Speed Up Services"
-    ],
-    "goalSequence": [
-      3
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
-    "metricMostRecentTargetDirection": [
-      "Increase",
-      "Increase",
-      "Increase"
-    ],
-    "increaseTargetDirectionCount": 3,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 1,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recrmx924M8iq7Yjm",
-      "rec1wJwuRBIQ3T2zo",
-      "rec6uAcIlozKRNGqE"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.4444444444444444,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 5,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "goalSubtitle": [
-      "Harness AI to match the speed of industry."
-    ],
-    "targetCount": 24,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recfWXIi30dJP3OVD",
-    "name": "Simplify Access and Delivery",
-    "sequence": 2,
-    "orgName": [
-      "U.S. Department of Agriculture"
-    ],
-    "orgAcronym": [
-      "USDA"
-    ],
-    "goal": [
-      "rec0F4EOzhyOjvyEY"
-    ],
-    "plan": [
-      "recOMj2QaHVSXQHj9"
-    ],
-    "metric": [
-      "recaOZutLhCARxZ8l",
-      "recBY4R0eunqwiWj1",
-      "recy30u2WNOJoaSLV"
-    ],
-    "goalName": [
-      "Make Nutrition Programs Work Smarter"
-    ],
-    "goalSequence": [
-      3
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
-    "metricMostRecentTargetDirection": [
-      "Decrease",
-      "Decrease",
-      "Decrease"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recrvmSZ6dwENQ41l",
-      "recaVQJsCyFk3ePnX",
-      "recMN0VpRhSjmrC74"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.2222222222222222,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 5,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "goalSubtitle": [
-      "Reduce fraud and help families become more self-reliant."
-    ],
-    "targetCount": 24,
-    "org": [
-      "recnGvKRcRqww0bnX"
-    ],
-    "fpiProgram": [
-      "recH5ccbX3SMGqJFf",
-      "recBI3RvJUmz8HpuR",
-      "recdbXfB19aXjb2mc"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recFIhqaeqd95S7CT",
-    "name": "Transition Families Off Long-Term Assistance",
-    "sequence": 2,
-    "orgName": [
-      "U.S. Department of Housing and Urban Development"
-    ],
-    "orgAcronym": [
-      "HUD"
-    ],
-    "goal": [
-      "reciWMgbpWKFIDQMw"
-    ],
-    "plan": [
-      "recfde4xeJB6AjiKp"
-    ],
-    "metric": [
-      "recs9KrdapXvk9Gg0",
-      "recjqA80I0tmTblok",
-      "recvVYJerXpZBqSut"
-    ],
-    "goalName": [
-      "Help Families Build Independence"
-    ],
-    "goalSequence": [
-      3
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
-    "metricMostRecentTargetDirection": [
-      "Decrease",
-      "Decrease",
-      "Decrease"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "rec3ldjtkGq0q4nn0",
-      "reca8UBZpfLokp6XV",
-      "recIGuTP6xecZFfnA"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.2222222222222222,
-    "projectResultTrendImprovedCount": 2,
-    "projectResultTrendImprovedPercent": 0.6666666666666666,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 5,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "goalSubtitle": [
-      "Use housing programs to support work and self-sufficiency."
-    ],
-    "targetCount": 24,
-    "org": [
-      "recHD6eR7iIOtErtj"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recRhda9ucVb6cJvt",
-    "name": "Speed Up Government Response Times",
-    "sequence": 2,
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "goal": [
-      "rechpz3iEn2BuEgnB"
-    ],
-    "plan": [
-      "recOkgPAU7Ek1YAZh"
-    ],
-    "metric": [
-      "recP4QV6W115uw7so",
-      "recuU8U02Eqr9PT2N",
-      "reclikXrIYSPidv5A"
-    ],
-    "goalName": [
-      "Use AI to Speed Up Services"
-    ],
-    "goalSequence": [
-      3
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 0.55,
-    "metricMostRecentTargetDirection": [
-      "Decrease",
-      "Decrease",
-      "Decrease"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 3,
-    "maintainAtOrAboveTargetDirectionCount": 0,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 1,
-    "percentMaintainAtOrABoveTargetDirection": 0,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recZjgmn2hREWK3o6",
-      "rec5JejFPAVbisnsV",
-      "recKIoZk3rxvjlBon"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.2222222222222222,
-    "projectResultTrendImprovedCount": 1,
-    "projectResultTrendImprovedPercent": 0.3333333333333333,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 4,
-    "indicatorImprovedPercent": 0.6666666666666666,
-    "goalSubtitle": [
-      "Harness AI to match the speed of industry."
-    ],
-    "targetCount": 24,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 3,
-    "previousIndicatorImprovedCount": 6,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recu1AVwIy36Aggsb",
-    "name": "Align Support with Work and Wellness",
-    "sequence": 3,
-    "orgName": [
-      "U.S. Department of Agriculture"
-    ],
-    "orgAcronym": [
-      "USDA"
-    ],
-    "goal": [
-      "rec0F4EOzhyOjvyEY"
-    ],
-    "plan": [
-      "recOMj2QaHVSXQHj9"
-    ],
-    "metric": [
-      "recnp2PLQrMvKv9DM",
-      "recnajsS4M8LUNOzx",
-      "recNMNKlYTuLvvJNN"
-    ],
-    "goalName": [
-      "Make Nutrition Programs Work Smarter"
-    ],
-    "goalSequence": [
-      3
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
-    "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recU0gPlYUoBB8g1W",
-      "recE2WnzHzurnzyIV",
-      "rec24vKfOa2AQ17mC"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Reduce fraud and help families become more self-reliant."
-    ],
-    "targetCount": 3,
-    "org": [
-      "recnGvKRcRqww0bnX"
-    ],
-    "fpiProgram": [
-      "recmDRfr3hFuJuks3",
-      "recZxb6UBtJ7GvRH9",
-      "recH0MVkpHagpgM1S"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "rec7k4JsI939KhQRn",
-    "name": "Align Programs Around Personal Responsibility",
-    "sequence": 3,
-    "orgName": [
-      "U.S. Department of Housing and Urban Development"
-    ],
-    "orgAcronym": [
-      "HUD"
-    ],
-    "goal": [
-      "reciWMgbpWKFIDQMw"
-    ],
-    "plan": [
-      "recfde4xeJB6AjiKp"
-    ],
-    "metric": [
-      "recTfcwcZ8vPXnFv7",
-      "rec9ntW2YPwd4HJUG",
-      "rec8mLXEc5NqDLwRD"
-    ],
-    "goalName": [
-      "Help Families Build Independence"
-    ],
-    "goalSequence": [
-      3
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
-    "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recIMKXYxhCn8lCVN",
-      "recptUB2a4rWY7eZz",
-      "recktYDhtsoDD663w"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.2222222222222222,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Use housing programs to support work and self-sufficiency."
-    ],
-    "targetCount": 3,
-    "org": [
-      "recHD6eR7iIOtErtj"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
-  },
-  {
-    "id": "recxeYkf0GRg4paQS",
-    "name": "Test AI Where It Can Save the Most",
-    "sequence": 3,
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "goal": [
-      "rechpz3iEn2BuEgnB"
-    ],
-    "plan": [
-      "recOkgPAU7Ek1YAZh"
-    ],
-    "metric": [
-      "rec0BrOeNntixgZUP",
-      "recIHqxyoMghgW6J3",
-      "recTikCoOvJs1UwPD"
-    ],
-    "goalName": [
-      "Use AI to Speed Up Services"
-    ],
-    "goalSequence": [
-      3
-    ],
-    "metricCount": 3,
-    "metricResultTrendImprovedCount": 3,
-    "metricResultTrendImprovedPercent": 1,
-    "metricAvgPercentProgress": 1.1,
-    "metricMostRecentTargetDirection": [
-      "Maintain at or above",
-      "Maintain at or above",
-      "Maintain at or above"
-    ],
-    "increaseTargetDirectionCount": 0,
-    "decreaseTargetDirectionCount": 0,
-    "maintainAtOrAboveTargetDirectionCount": 3,
-    "maintainAtOrBelowTargetDirectionCount": 0,
-    "percentIncreaseTargetDirection": 0,
-    "percentDecreaseTargetDirection": 0,
-    "percentMaintainAtOrABoveTargetDirection": 1,
-    "percentMaintainAtOrBelowTargetDirection": 0,
-    "project": [
-      "recT6kfyYixVt2QG1",
-      "recErkqmN8uXhME4r",
-      "recIDqloLl2sSMVT4"
-    ],
-    "projectCount": 3,
-    "milestoneCount": 9,
-    "projectAvgPercentProgress": 0.3333333333333333,
-    "projectResultTrendImprovedCount": 3,
-    "projectResultTrendImprovedPercent": 1,
-    "indicatorCount": 6,
-    "indicatorImprovedCount": 6,
-    "indicatorImprovedPercent": 1,
-    "goalSubtitle": [
-      "Harness AI to match the speed of industry."
-    ],
-    "targetCount": 3,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Objective",
-    "previousMetricResultTrendImprovedCount": 0,
-    "previousIndicatorImprovedCount": 3,
-    "previousProjectResultTrendImprovedCount": 3
+    "objectType": "Objective"
   }
 ]

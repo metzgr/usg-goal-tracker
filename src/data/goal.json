@@ -1,380 +1,307 @@
 [
   {
-    "id": "recE1G2OnThbIl1Ll",
-    "name": "Stand Behind American Farmers",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
+    "id": "rec20NnLLgfzOONhn",
+    "name": "Recovery efforts in the United States are increased",
+    "startDate": "2018-01-01",
+    "endDate": "2025-12-31",
     "plan": [
-      "recOMj2QaHVSXQHj9"
+      "recfvMFWPJFzQ9z6G"
     ],
     "image": [
-      "rectq3GGTbU7127Za"
+      "recCGrYtm9rObObnB"
     ],
-    "sequence": 1,
+    "sequence": 5,
     "orgName": [
-      "U.S. Department of Agriculture"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "USDA"
+      "EOP"
     ],
     "objective": [
-      "recfAQYbny7DCPEM4",
-      "recHZLLc4moS1ibxF",
-      "rec6THtOL8btFpEwr"
+      "rec9y9YR8VhK3vxrJ",
+      "recn0kbf4SAtf679L",
+      "recjvdKDgDgncQPWF",
+      "recQ7wOuNciGvpJPP",
+      "recvuQba2lmIUYdeC"
     ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 12,
-    "indicatorImprovedPercent": 0.6666666666666666,
-    "subtitle": "Make it easier to grow, sell, and succeed.",
-    "milestoneCount": 27,
-    "targetCount": 51,
+    "objectiveCount": 5,
+    "startFiscalYear": 2018,
+    "endFiscalYear": 2026,
+    "metricCount": 56,
+    "indicatorCount": 56,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 25,
+    "description": "",
     "org": [
-      "recnGvKRcRqww0bnX"
+      "recO4JsgoCAvHOFAd"
     ],
     "objectType": "Goal",
-    "previousIndicatorImprovedCount": 12,
     "tag": [
-      "rec5gvnlTZPbu9jam"
+      "rechjnlecyevuey9y",
+      "recRhBLhHLDsVaprf"
     ],
-    "views": 9957
+    "views": 42375,
+    "status": "Active"
   },
   {
-    "id": "reckzwb3ajnkrFaPr",
-    "name": "Put Local Communities in Charge",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
+    "id": "rec3pwstGEdlniM0Z",
+    "name": "Harm Reduction efforts are increased in the United States",
+    "startDate": "2018-01-01",
+    "endDate": "2025-12-31",
     "plan": [
-      "recfde4xeJB6AjiKp"
+      "recfvMFWPJFzQ9z6G"
     ],
     "image": [
-      "recGa3vOzfSg17vKw"
-    ],
-    "sequence": 1,
-    "orgName": [
-      "U.S. Department of Housing and Urban Development"
-    ],
-    "orgAcronym": [
-      "HUD"
-    ],
-    "objective": [
-      "reco6RoVs4PVij103",
-      "recxTdSe1wXzyowT7",
-      "recLt14H2Wv50N3lK"
-    ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 15,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "subtitle": "Give states and towns more control over housing decisions.",
-    "milestoneCount": 27,
-    "targetCount": 51,
-    "org": [
-      "recHD6eR7iIOtErtj"
-    ],
-    "objectType": "Goal",
-    "previousIndicatorImprovedCount": 15,
-    "views": 3143
-  },
-  {
-    "id": "recpHCd3DDokR8jMV",
-    "name": "Cut Waste in Federal Buildings",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
-    "plan": [
-      "recOkgPAU7Ek1YAZh"
-    ],
-    "image": [
-      "rec3qi4z8w6MaROAS"
-    ],
-    "sequence": 1,
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "objective": [
-      "recW2KnyGL8XYrWhN",
-      "rec9z8QkPLIvv6uJx",
-      "recEngWK4nzWVwc9P"
-    ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 17,
-    "indicatorImprovedPercent": 0.9444444444444444,
-    "subtitle": "Shrink the government’s real estate footprint and lower costs.",
-    "milestoneCount": 27,
-    "targetCount": 51,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Goal",
-    "previousIndicatorImprovedCount": 15,
-    "views": 730
-  },
-  {
-    "id": "rec2hvyBWPQ9yhrRD",
-    "name": "Grow the Rural Economy",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
-    "plan": [
-      "recOMj2QaHVSXQHj9"
-    ],
-    "image": [
-      "recJrUepwePgHaI3G"
-    ],
-    "sequence": 2,
-    "orgName": [
-      "U.S. Department of Agriculture"
-    ],
-    "orgAcronym": [
-      "USDA"
-    ],
-    "objective": [
-      "recSqdkx59sseUzOG",
-      "recJicCfV8as3YKaj",
-      "recZsNyiRvvIX89b7"
-    ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 16,
-    "indicatorImprovedPercent": 0.8888888888888888,
-    "subtitle": "Support small towns with jobs, tools, and broadband.",
-    "milestoneCount": 27,
-    "targetCount": 51,
-    "org": [
-      "recnGvKRcRqww0bnX"
-    ],
-    "objectType": "Goal",
-    "previousIndicatorImprovedCount": 15,
-    "tag": [
-      "rec5gvnlTZPbu9jam"
-    ],
-    "views": 68240
-  },
-  {
-    "id": "reclbSVnJ5w3IDoMT",
-    "name": "Make Housing Aid Simple and Fast",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
-    "plan": [
-      "recfde4xeJB6AjiKp"
-    ],
-    "image": [
-      "recSBmOQs7T3CBnMN"
-    ],
-    "sequence": 2,
-    "orgName": [
-      "U.S. Department of Housing and Urban Development"
-    ],
-    "orgAcronym": [
-      "HUD"
-    ],
-    "objective": [
-      "recrlqJt7tnW1Vcze",
-      "recZOQ4cGcLP607QY",
-      "recLzJlyPEBorWLfB"
-    ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 16,
-    "indicatorImprovedPercent": 0.8888888888888888,
-    "subtitle": "Cut red tape so help gets to people quicker.",
-    "milestoneCount": 27,
-    "targetCount": 51,
-    "org": [
-      "recHD6eR7iIOtErtj"
-    ],
-    "objectType": "Goal",
-    "previousIndicatorImprovedCount": 15,
-    "views": 6943
-  },
-  {
-    "id": "recgQ7Lm3qWG8O8O2",
-    "name": "Save Money with Smarter Buying",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
-    "plan": [
-      "recOkgPAU7Ek1YAZh"
-    ],
-    "image": [
-      "recuKg2hDELRvvDIy"
-    ],
-    "sequence": 2,
-    "orgName": [
-      "General Services Administration"
-    ],
-    "orgAcronym": [
-      "GSA"
-    ],
-    "objective": [
-      "rectM8MJnZp9mVty0",
-      "recbknOEqBD0Q0Hfn",
-      "recrYPbtlu7U3iGTd"
-    ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 16,
-    "indicatorImprovedPercent": 0.8888888888888888,
-    "subtitle": "Buy in bulk and broker deals that work for taxpayers.",
-    "milestoneCount": 27,
-    "targetCount": 51,
-    "org": [
-      "recaTbkkzqqA7qzsJ"
-    ],
-    "objectType": "Goal",
-    "previousIndicatorImprovedCount": 15,
-    "views": 19
-  },
-  {
-    "id": "rec0F4EOzhyOjvyEY",
-    "name": "Make Nutrition Programs Work Smarter",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
-    "plan": [
-      "recOMj2QaHVSXQHj9"
-    ],
-    "image": [
-      "recAFzgPHduvPwdND"
+      "recJOV69ely3GZoiG"
     ],
     "sequence": 3,
     "orgName": [
-      "U.S. Department of Agriculture"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "USDA"
+      "EOP"
     ],
     "objective": [
-      "recgHH8RgUd7Cyslv",
-      "recfWXIi30dJP3OVD",
-      "recu1AVwIy36Aggsb"
+      "recBprHgagXGjv2MH",
+      "recZ7db8ahIL5ypaM"
     ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 17,
-    "indicatorImprovedPercent": 0.9444444444444444,
-    "subtitle": "Reduce fraud and help families become more self-reliant.",
-    "milestoneCount": 27,
-    "targetCount": 51,
+    "objectiveCount": 2,
+    "startFiscalYear": 2018,
+    "endFiscalYear": 2026,
+    "metricCount": 65,
+    "indicatorCount": 65,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 28,
+    "description": "",
     "org": [
-      "recnGvKRcRqww0bnX"
+      "recO4JsgoCAvHOFAd"
     ],
     "objectType": "Goal",
-    "previousIndicatorImprovedCount": 15,
     "tag": [
-      "rec5gvnlTZPbu9jam"
+      "rechjnlecyevuey9y",
+      "recRhBLhHLDsVaprf"
     ],
-    "views": 4794
+    "views": 29141,
+    "status": "Active"
   },
   {
-    "id": "reciWMgbpWKFIDQMw",
-    "name": "Help Families Build Independence",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
+    "id": "recDRfppFmammenys",
+    "name": "Treatment efforts in the United States are increased",
+    "startDate": "2018-01-01",
+    "endDate": "2025-12-31",
     "plan": [
-      "recfde4xeJB6AjiKp"
+      "recfvMFWPJFzQ9z6G"
     ],
     "image": [
-      "recl18Ji2eUMd7gzN"
+      "recWhG2fbg2npIAm0"
     ],
-    "sequence": 3,
+    "sequence": 4,
     "orgName": [
-      "U.S. Department of Housing and Urban Development"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "HUD"
+      "EOP"
     ],
     "objective": [
-      "rec9IPBrrr4ARyt7R",
-      "recFIhqaeqd95S7CT",
-      "rec7k4JsI939KhQRn"
+      "rec9oVBRy5Ii9jYrU",
+      "recpJ11YZh1ZwMRY9"
     ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 15,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "subtitle": "Use housing programs to support work and self-sufficiency.",
-    "milestoneCount": 27,
-    "targetCount": 51,
+    "objectiveCount": 2,
+    "startFiscalYear": 2018,
+    "endFiscalYear": 2026,
+    "metricCount": 95,
+    "indicatorCount": 95,
+    "indicatorImprovedCount": 1,
+    "indicatorImprovedPercent": 0.010526315789473684,
+    "previousIndicatorImprovedCount": 35,
+    "description": "",
     "org": [
-      "recHD6eR7iIOtErtj"
+      "recO4JsgoCAvHOFAd"
     ],
     "objectType": "Goal",
-    "previousIndicatorImprovedCount": 15,
-    "views": 9578
+    "tag": [
+      "rechjnlecyevuey9y",
+      "recRhBLhHLDsVaprf"
+    ],
+    "views": 427,
+    "status": "Active"
   },
   {
-    "id": "rechpz3iEn2BuEgnB",
-    "name": "Use AI to Speed Up Services",
-    "startDate": "2025-10-01",
-    "endDate": "2030-09-30",
+    "id": "recNgSktwVkdpd9xs",
+    "name": "The supply of illicit substances into the United States is reduced",
+    "startDate": "2018-01-01",
+    "endDate": "2025-12-31",
     "plan": [
-      "recOkgPAU7Ek1YAZh"
+      "recfvMFWPJFzQ9z6G"
     ],
     "image": [
-      "recCsZfBFhkzRri9U"
+      "recKMY7mXEsi14pEz"
     ],
-    "sequence": 3,
+    "sequence": 7,
     "orgName": [
-      "General Services Administration"
+      "Executive Office of the President"
     ],
     "orgAcronym": [
-      "GSA"
+      "EOP"
     ],
     "objective": [
-      "recseVsEFhV5mgZaM",
-      "recRhda9ucVb6cJvt",
-      "recxeYkf0GRg4paQS"
+      "recKyu5SnsVZ6QCNm",
+      "recek1BKPspx2cx4o",
+      "recI2x4cZZLBrqUDy",
+      "recpkwyqxEBZozKnw",
+      "recUwYBZVHQNogejq",
+      "recqBdOYi54YS6vNQ"
     ],
-    "objectiveCount": 3,
-    "startFiscalYear": 2026,
-    "endFiscalYear": 2030,
-    "metricCount": 9,
-    "projectCount": 9,
-    "indicatorCount": 18,
-    "indicatorImprovedCount": 15,
-    "indicatorImprovedPercent": 0.8333333333333334,
-    "subtitle": "Harness AI to match the speed of industry.",
-    "milestoneCount": 27,
-    "targetCount": 51,
+    "objectiveCount": 6,
+    "startFiscalYear": 2018,
+    "endFiscalYear": 2026,
+    "metricCount": 94,
+    "indicatorCount": 94,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 42,
+    "description": "",
     "org": [
-      "recaTbkkzqqA7qzsJ"
+      "recO4JsgoCAvHOFAd"
     ],
     "objectType": "Goal",
-    "previousIndicatorImprovedCount": 15,
-    "views": 7129
+    "tag": [
+      "rechjnlecyevuey9y",
+      "rec9vzysyOXqVhYrA"
+    ],
+    "views": 58037,
+    "status": "Active"
+  },
+  {
+    "id": "recbpmX2BkgzoBbYh",
+    "name": "Illicit substance use is reduced in the United States",
+    "startDate": "2018-01-01",
+    "endDate": "2025-12-31",
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "image": [
+      "recNw5hnF9HrSRsQb"
+    ],
+    "sequence": 1,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "objective": [
+      "recLwSOZL5J4PCxgw",
+      "recPaGOpnTKlEKpQg",
+      "recdMIstHAIQCZw03",
+      "recGNpTzJom17c8KP"
+    ],
+    "objectiveCount": 4,
+    "startFiscalYear": 2018,
+    "endFiscalYear": 2026,
+    "metricCount": 152,
+    "indicatorCount": 152,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 58,
+    "description": "",
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Goal",
+    "tag": [
+      "rechjnlecyevuey9y",
+      "recRhBLhHLDsVaprf"
+    ],
+    "views": 83961,
+    "status": "Active"
+  },
+  {
+    "id": "recp4mYs8lfTXgODy",
+    "name": "Criminal justice reform efforts include drug policy matters",
+    "startDate": "2018-01-01",
+    "endDate": "2025-12-31",
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "image": [
+      "reckc8Nzc8rshhsPH"
+    ],
+    "sequence": 6,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "objective": [
+      "reccmDKBrl3ElQjLJ",
+      "recLbDi5993ggRuZY",
+      "rec2cSvXfawl5or1H",
+      "recNdH9tQRWTS9nBL"
+    ],
+    "objectiveCount": 4,
+    "startFiscalYear": 2018,
+    "endFiscalYear": 2026,
+    "metricCount": 45,
+    "indicatorCount": 45,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 16,
+    "description": "",
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Goal",
+    "tag": [
+      "rechjnlecyevuey9y",
+      "rec9vzysyOXqVhYrA"
+    ],
+    "views": 68800,
+    "status": "Active"
+  },
+  {
+    "id": "recv3RdkGyhKSmyFW",
+    "name": "Prevention efforts are increased in the United States",
+    "startDate": "2018-01-01",
+    "endDate": "2025-12-31",
+    "plan": [
+      "recfvMFWPJFzQ9z6G"
+    ],
+    "image": [
+      "recGpiVdPQNl5BdaS"
+    ],
+    "sequence": 2,
+    "orgName": [
+      "Executive Office of the President"
+    ],
+    "orgAcronym": [
+      "EOP"
+    ],
+    "objective": [
+      "rec076Garh7cKcEaa",
+      "recyT3PtVpXsLTvhY"
+    ],
+    "objectiveCount": 2,
+    "startFiscalYear": 2018,
+    "endFiscalYear": 2026,
+    "metricCount": 63,
+    "indicatorCount": 63,
+    "indicatorImprovedCount": 0,
+    "indicatorImprovedPercent": 0,
+    "previousIndicatorImprovedCount": 23,
+    "description": "",
+    "org": [
+      "recO4JsgoCAvHOFAd"
+    ],
+    "objectType": "Goal",
+    "tag": [
+      "rechjnlecyevuey9y",
+      "recRhBLhHLDsVaprf"
+    ],
+    "views": 27151,
+    "status": "Active"
   }
 ]
