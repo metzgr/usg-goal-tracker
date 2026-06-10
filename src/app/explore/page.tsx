@@ -132,7 +132,7 @@ const col2: Card[] = [
     dateLabel: "2024–24",
     title: "Facilitate Rural Prosperity and Economic Development",
     artwork: "rectq3GGTbU7127Za", // farmer — matches "Stand Behind American Farmers" on /explore
-    ...multi,
+    ...usda,
     tags: ["Agriculture", "Priority 1"],
   },
   {
@@ -156,6 +156,8 @@ const col2: Card[] = [
     title: "Safeguard and Improve National and Global Health Conditions and Outcomes",
     artwork: "recGpiVdPQNl5BdaS", // ambulance
     ...multi,
+    ownerSub: "HHS · DHS · DOD · VA…",
+    seals: ["hhs", "dhs", "dod", "va"],
     tags: ["Priority 2", "Priority 3"],
   },
   {
@@ -168,7 +170,9 @@ const col2: Card[] = [
     indicators: 100,
     improved: 64,
     previousImproved: 61,
-    ...usda,
+    ownerLabel: "HUD",
+    ownerSub: "U.S. Department of Housing and Urban Development",
+    seals: ["hud"],
   },
 ];
 
