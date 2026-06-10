@@ -1,0 +1,14 @@
+---
+applications:
+  - name: usagoals
+    memory: 2G
+    disk_quota: 3G
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+    command: npm run start
+    routes:
+      - route: usagoals.app.cloud.gov
+    env:
+      # Install devDependencies (typescript, tailwind, eslint) so `next build` runs at staging.
+      NPM_CONFIG_PRODUCTION: false
