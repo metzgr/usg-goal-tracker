@@ -3,7 +3,7 @@ import "./globals.css";
 import { NavigationProvider } from "src/context/navigation-context";
 
 export const metadata: Metadata = {
-  title: "Performance.gov",
+  title: "USA Goals",
   description: "The U.S. government's goal tracker",
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="https://use.typekit.net/rdu1aqt.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/gmm6bgq.css" />
       </head>
       <body className="antialiased">
         <NavigationProvider>

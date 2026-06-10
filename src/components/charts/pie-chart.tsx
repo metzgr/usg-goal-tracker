@@ -88,7 +88,7 @@ export default function PieChart({
         .attr("y", 0)
         .attr("width", patternTileWidth)
         .attr("height", patternTileHeight)
-        .attr("fill", "var(--color-orange-200)");
+        .attr("fill", "#F9DBAF");
 
       if (patternOption === "tile") {
         // Adjust image size for tile option.
@@ -117,8 +117,8 @@ export default function PieChart({
       }
     }
 
-    // Create a pie generator.
-    const pie = d3.pie();
+    // Create a pie generator: start at 12 o'clock and fill counter-clockwise.
+    const pie = d3.pie().sort(null).startAngle(0).endAngle(-2 * Math.PI);
 
     // Create an arc generator for the pie slices.
     // Outer radius is set to (radius - 6) to leave a white border.
@@ -138,7 +138,7 @@ export default function PieChart({
         if (i === 0 && artwork) {
           return `url(#${patternId})`;
         }
-        return i === 0 ? "var(--color-orange-200)" : "white";
+        return i === 0 ? "#F9DBAF" : "white";
       })
       .attr("stroke", "none");
   }, [dimensions, artwork, patternOption, totalIndicators, indicatorsProgressed]);

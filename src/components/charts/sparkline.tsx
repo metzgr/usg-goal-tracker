@@ -29,7 +29,7 @@ export function Sparkline({
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
 
-    const actualColor = mostRecentResultTrend === "Worsened" ? "#D92D20" : "#444CE7";
+    const actualColor = mostRecentResultTrend === "Worsened" ? "#D92D20" : "#04236B";
     const hasTargets = data.some(d => typeof d.targetResult === "number");
 
     const x = d3

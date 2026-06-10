@@ -4,12 +4,14 @@ interface ActiveFiltersProps {
   activeFilters: string[];
   setActiveFilters: (filters: string[]) => void;
   resultCount: number;
+  resultNoun?: string;
 }
 
 function ActiveFilters({
   activeFilters,
   setActiveFilters,
   resultCount,
+  resultNoun = "results",
 }: ActiveFiltersProps) {
   const removeFilter = (filter: string) => {
     setActiveFilters(activeFilters.filter((f) => f !== filter));
@@ -20,7 +22,7 @@ function ActiveFilters({
     <div className="h-4 flex justify-between items-center px-4">
       <div className="">
       <span className="text-[13px] text-gray-700">
-        {resultCount} results
+        {resultCount} {resultNoun}
       </span>
       </div>
       <div className="flex items-center gap-1.5">

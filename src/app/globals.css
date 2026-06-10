@@ -107,7 +107,7 @@
 }
 
 :root {
-  --font-century-old-style: "Century Old Style Std", Georgia, serif;
+  --font-century-old-style: "century-old-style-std", Georgia, serif;
   --font-gt-america: "GT America", Arial, sans-serif;
   --radius: 0.625rem;
   --background: oklch(1 0 0);

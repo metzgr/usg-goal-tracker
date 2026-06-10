@@ -91,7 +91,7 @@ export default function TargetLineChart({ dataActuals, dataTargets }: TargetLine
       // Draw Actuals line with highlight effect (thick line)
       svg
         .append("path")
-        .datum(lastActuals)
+        .datum(trimmedActuals)
         .attr("fill", "none")
         .attr("stroke", "#D92D20")
         .attr("stroke-width", 10)

@@ -65,8 +65,8 @@ export default function SunburstChart({
       .attr("fill", d => {
         const topLevel = d.ancestors().find(a => a.depth === 1);
         const trend = topLevel?.data.name ?? "No Data";
-        if (trend === "Improved" && d.depth === 1) return "url(#analyze-pattern-improved)";
-        if (trend === "Improved" && d.depth === 2) return "#444CE7";
+        if (trend === "Improved" && d.depth === 1) return "#04236B";
+        if (trend === "Improved" && d.depth === 2) return "#04236B";
         if (trend === "Worsened") return "#D92D20";
         return "#a3a3a3";
       })
@@ -96,7 +96,7 @@ export default function SunburstChart({
       .attr("font-weight", "700")
       .attr("fill", d => {
         const trend = d.ancestors().find(a => a.depth === 1)?.data.name ?? "No Data";
-        return trend === "Worsened" ? "#fff" : "#fff";
+        return trend === "Improved" ? "#fff" : "#fff";
       })
       .text(d => d.data.name);
 

@@ -5,7 +5,7 @@ export default function UsgBanner() {
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
           <p className="text-[12px] text-gray-200 flex items-center leading-0">
             <img className="mr-[6px] inline size-[14px]" src="/icons/us_flag.svg" alt="U.S. Flag" />
-            An official website of the U.S. government
+            An experimental prototype by Ivan Metzger
           </p>
       
         </div>

@@ -11,6 +11,7 @@ import {
 } from "@/components/base/table";
 
 import { Sparkline } from "@/components/charts/sparkline";
+import CardPreviewAvatar from "@/components/cards/cardPreviewAvatar";
 
 import metricResults from "@/data/metricResult.json";
 
@@ -20,13 +21,12 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
       <TableCaption>All Metrics</TableCaption>
       <TableHeader className="">
         <TableRow className="sticky top-0 z-10 bg-white border-gray-800">
-        <TableHead className="border-b-[3px] border-gray-800">Objective</TableHead>
-         
+          <TableHead className="border-b-[3px] border-gray-800">Owner</TableHead>
+          <TableHead className="border-b-[3px] border-gray-800">Objective</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Metric</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Target</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Actual</TableHead>
           <TableHead className="border-b-[3px] border-gray-800">Trend</TableHead>
-          <TableHead className="border-b-[3px] border-gray-800">Owner</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -48,6 +48,12 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
 
           return (
             <TableRow key={m.id}>
+              <TableCell className="font-medium whitespace-nowrap">
+                <div className="flex items-center gap-2">
+                  <CardPreviewAvatar orgs={m.orgAcronym} size="sm" />
+                  <span>{m.orgAcronym}</span>
+                </div>
+              </TableCell>
               <TableCell className="max-w-[225px]">{m.objectiveName}</TableCell>
               <TableCell className="max-w-[350px]">{m.name}</TableCell>
               <TableCell>{m.mostRecentTargetDirection} {m.targetDirectionStringInsert} {m.mostRecentTargetResult}</TableCell>
@@ -61,7 +67,6 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
                   <span className="text-sm text-gray-500 italic">No data</span>
                 )}
               </TableCell>
-              <TableCell className="font-medium">{m.orgAcronym}</TableCell>
              </TableRow>
           );
         })}

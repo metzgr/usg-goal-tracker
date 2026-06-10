@@ -43,7 +43,7 @@ export default function BubbleChart({
       .append("rect")
       .attr("width", patternTileWidth)
       .attr("height", patternTileHeight)
-      .attr("fill", "#444CE7");
+      .attr("fill", "#F9DBAF"); // peach tile bg so the inter-tile gap lines vanish
     
     const imgWidth = patternTileWidth - margin;
     const imgHeight = patternTileHeight - margin;
@@ -52,7 +52,7 @@ export default function BubbleChart({
     
     pattern
       .append("image")
-      .attr("xlink:href", "/artwork/pattern/yellow-arrow-2.jpg")
+      .attr("xlink:href", "/artwork/pattern/red-arrow-1.jpg")
       .attr("x", offsetXPattern)
       .attr("y", offsetYPattern)
       .attr("width", imgWidth)
@@ -101,7 +101,7 @@ export default function BubbleChart({
     node.append("circle")
       .attr("r", 0)
       .attr("fill", d => {
-        if (d.data.trend === "Improved") return "url(#analyze-pattern-improved)";
+        if (d.data.trend === "Improved") return "#04236B";
         if (d.data.trend === "Worsened") return "#D92D20";
         return color(d.data.trend);
       })
@@ -115,7 +115,7 @@ export default function BubbleChart({
       .attr("text-anchor", "middle")
       .attr("dy", "0.35em")
       .attr("fill", "none")
-      .attr("stroke", d => d.data.trend === "Improved" ? "#444CE7" : "none")
+      .attr("stroke", d => d.data.trend === "Improved" ? "#04236B" : "none")
       .attr("stroke-width", d => d.data.trend === "Improved" ? 8 : 0)
       .attr("font-size", d => Math.min(72, Math.max(10, d.r * 0.6)))
       .attr("font-weight", "900")

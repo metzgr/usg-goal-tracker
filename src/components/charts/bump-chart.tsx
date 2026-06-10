@@ -151,7 +151,7 @@ export default function BumpChart({ data, width = 400, height = 400 }: Props) {
       .join("rect")
       .attr("x", d => x1(d.trend))
       .attr("width", barWidth)
-      .attr("fill", d => d.trend === "Improved" ? "#444CE7" : d.trend === "Worsened" ? "#D92D20" : "#aaa")
+      .attr("fill", d => d.trend === "Improved" ? "#04236B" : d.trend === "Worsened" ? "#D92D20" : "#aaa")
       .attr("y", innerHeight)
       .attr("height", 0)
       .transition()

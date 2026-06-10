@@ -1,494 +1,566 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
-import Link from 'next/link';
+import React, { useState } from "react";
 import Header from "@/components/custom/header";
-import FiltersBar from "@/components/filters/filters-bar";
-import SunburstChart from "@/components/charts/sunburst-chart";
-import BubbleChart from "@/components/charts/bubble-chart";
-import BumpChart from "@/components/charts/bump-chart";
-import metrics from "@/data/metric.json";
-import metricResults from "@/data/metricResult.json";
-import plans from "@/data/plan.json";
-import tags from "@/data/tag.json";
-import { ActiveFilters } from "@/components/filters/active-filters";
-import FilterTabs from "@/components/filters/filter-tabs";
 import Placard from "@/components/base/placard";
-import Badge from "@/components/base/badge";
-import planData from "@/data/plan.json";
-import goalData from "@/data/goal.json";
-import metricData from "@/data/metric.json";
-import CardPreviewBody from "@/components/cards/cardPreviewBody";
-import { Card, CardHeader, CardTitle, CardDescription, CardAction, CardContent, CardFooter } from "@/components/cards/previewCard";
-import CardPreviewTitle from "@/components/cards/cardPreviewTitle";
-import CardPreviewFooter from "@/components/cards/cardPreviewFooter";
+import LineChart from "@/components/charts/line-chart";
+import PieChart from "@/components/charts/pie-chart";
+import Artwork from "@/components/charts/artwork";
+import ProgressBarChart from "@/components/charts/progress-bar-chart";
 import CardPreviewAvatar from "@/components/cards/cardPreviewAvatar";
-import {
-  Pagination,
-  PaginationContent,
-  PaginationEllipsis,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from "@/components/ui/pagination";
+import FilterSidebar from "@/components/filters/filter-sidebar";
+import { DropdownButton } from "@/components/base/button";
+
+/* ------------------------------------------------------------------ */
+/*  Fake data — recreates the Explore mockup card-for-card             */
+/* ------------------------------------------------------------------ */
+
+type Owner = { acronym: string; name: string };
+
+type BaseCard = {
+  kind: "plan" | "indicator" | "goal" | "collection";
+  badge: string;
+  dateLabel: string;
+  title: string;
+  // footer
+  ownerLabel: string; // "USDA" or "Multiple Owners"
+  ownerSub: string; // "U.S. Department of Agriculture" or "ONDCP · DHS · DHS · DHS · DHS"
+  seals: string[]; // seal acronyms that have a png in /avatars/seals
+  overflow?: number; // "+5"
+};
+
+type PlanCard = BaseCard & {
+  kind: "plan";
+  planTitlePrefix?: string; // e.g. "USDA"
+  pattern: string; // /artwork/pattern/<pattern>.jpg
+  patternOption?: "tile" | "fill"; // "tile" (default) repeats; "fill" stretches one image over the slice
+  indicators: number;
+  improved: number;
+  previousImproved: number;
+};
+
+type IndicatorCard = BaseCard & {
+  kind: "indicator";
+  headline: string; // "89%", "80K", "80.1K"
+  change: { value: string; direction: "up" | "down" } | null;
+  actuals: number[];
+  targets: number[]; // [] = no targets (actuals-only chart)
+  progress: {
+    targetLevel: number;
+    result: number;
+    targetResult: number;
+    percent: number;
+  } | null;
+};
+
+type ArtCard = BaseCard & {
+  kind: "goal" | "collection";
+  artwork: string; // /artwork/goal/<artwork>.jpg
+};
+
+type Card = PlanCard | IndicatorCard | ArtCard;
+
+const usda = { ownerLabel: "USDA", ownerSub: "U.S. Department of Agriculture", seals: ["usda"] };
+const multi = {
+  ownerLabel: "Multiple Owners",
+  ownerSub: "ONDCP · DHS · DHS · DHS · DHS…",
+  seals: ["dhs", "dod", "hhs", "va"],
+  overflow: 5,
+};
+
+/* ----- Column 1 ----- */
+const col1: Card[] = [
+  {
+    kind: "plan",
+    badge: "Plan",
+    dateLabel: "2025–28",
+    title: "AGENCY STRATEGIC PLAN",
+    planTitlePrefix: "USDA",
+    pattern: "recVAZIfBVTCQwHs6", // wheat
+    indicators: 100,
+    improved: 64,
+    previousImproved: 61,
+    ...usda,
+  },
+  {
+    kind: "indicator",
+    badge: "Indicator",
+    dateLabel: "2024–24",
+    title: "American households with consistent, dependable access to food",
+    headline: "89%",
+    change: { value: "20.3K", direction: "down" },
+    actuals: [62, 74, 58, 80, 66, 72, 41],
+    targets: [55, 55, 55, 55, 55, 55, 55],
+    progress: { targetLevel: 7, result: 89, targetResult: 100, percent: 32 },
+    ...usda,
+  },
+  {
+    kind: "indicator",
+    badge: "Indicator",
+    dateLabel: "2024–24",
+    title: "Number of kidney transplants performed",
+    headline: "80K",
+    change: { value: "20.3K", direction: "up" },
+    actuals: [28, 52, 38, 64, 48, 70, 86],
+    targets: [80, 80, 80, 80, 80, 80, 80],
+    progress: { targetLevel: 7, result: 80, targetResult: 100, percent: 32 },
+    ownerLabel: "HHS",
+    ownerSub: "U.S. Department of Health and Human Services",
+    seals: ["hhs"],
+  },
+  {
+    kind: "collection",
+    badge: "Collection",
+    dateLabel: "2024–24",
+    title: "U.S. Social Indicators",
+    artwork: "usa",
+    ...multi,
+  },
+];
+
+/* ----- Column 2 ----- */
+const col2: Card[] = [
+  {
+    kind: "goal",
+    badge: "Goal",
+    dateLabel: "2024–24",
+    title: "Facilitate Rural Prosperity and Economic Development",
+    artwork: "rectq3GGTbU7127Za", // farmer — matches "Stand Behind American Farmers" on /explore
+    ...multi,
+  },
+  {
+    kind: "plan",
+    badge: "Plan",
+    dateLabel: "2024–24",
+    title: "TRUMP 47 PRESIDENT'S MANAGEMENT AGENDA",
+    pattern: "hand",
+    patternOption: "fill",
+    indicators: 100,
+    improved: 72,
+    previousImproved: 69,
+    ownerLabel: "OMB",
+    ownerSub: "Office of Management and Budget",
+    seals: ["omb"],
+  },
+  {
+    kind: "goal",
+    badge: "Goal",
+    dateLabel: "2024–24",
+    title: "Safeguard and Improve National and Global Health Conditions and Outcomes",
+    artwork: "recGpiVdPQNl5BdaS", // ambulance
+    ...multi,
+  },
+  {
+    kind: "plan",
+    badge: "Plan",
+    dateLabel: "2024–24",
+    title: "AGENCY STRATEGIC PLAN",
+    planTitlePrefix: "HUD",
+    pattern: "recy0JHpNRKuJGJQR", // house
+    indicators: 100,
+    improved: 64,
+    previousImproved: 61,
+    ...usda,
+  },
+];
+
+/* ----- Column 3 ----- */
+const col3: Card[] = [
+  {
+    kind: "indicator",
+    badge: "Indicator",
+    dateLabel: "2024–24",
+    title: "Consumer Price Index",
+    headline: "80.1K",
+    change: { value: "4.1K", direction: "up" },
+    actuals: [70, 40, 52, 30, 58, 48, 64],
+    targets: [], // actuals-only
+    progress: null,
+    ownerLabel: "DOL",
+    ownerSub: "U.S. Department of Labor",
+    seals: ["dol"],
+  },
+  {
+    kind: "goal",
+    badge: "Goal",
+    dateLabel: "2024–24",
+    title: "Veteran Customer Experience",
+    artwork: "veteran",
+    ownerLabel: "Multiple Owners",
+    ownerSub: "DOD · VA",
+    seals: ["dod", "va"],
+  },
+  {
+    kind: "plan",
+    badge: "Plan",
+    dateLabel: "2024–24",
+    title: "NATIONAL DRUG CONTROL STRATEGY",
+    pattern: "pills",
+    patternOption: "fill",
+    indicators: 100,
+    improved: 58,
+    previousImproved: 55,
+    ownerLabel: "ONDCP",
+    ownerSub: "Office of National Drug Control Policy",
+    seals: ["dhs", "doj"],
+  },
+  {
+    kind: "goal",
+    badge: "Goal",
+    dateLabel: "2024–24",
+    title: "Combat Human Trafficking",
+    artwork: "hands",
+    ownerLabel: "DHS",
+    ownerSub: "U.S. Department of Homeland Security",
+    seals: ["dhs"],
+  },
+  {
+    kind: "indicator",
+    badge: "Indicator",
+    dateLabel: "2024–24",
+    title: "Number of people experiencing homelessness",
+    headline: "80K",
+    change: { value: "20.3K", direction: "up" },
+    actuals: [30, 55, 40, 66, 50, 72, 84],
+    targets: [80, 80, 80, 80, 80, 80, 80],
+    progress: { targetLevel: 7, result: 80, targetResult: 100, percent: 32 },
+    ownerLabel: "HUD",
+    ownerSub: "U.S. Department of Housing and Urban Development",
+    seals: ["hud"],
+  },
+];
+
+/* ------------------------------------------------------------------ */
+/*  Card chrome                                                        */
+/* ------------------------------------------------------------------ */
+
+function CardBadge({ children }: { children: React.ReactNode }) {
+  return (
+    <span className="inline-flex items-center gap-x-1.5 rounded-full px-[10px] text-sm/5 py-[2px] font-medium text-gray-700 ring-1 ring-inset ring-gray-300 group-hover:bg-gray-900 group-hover:ring-gray-900 group-hover:text-gray-100">
+      {children}
+    </span>
+  );
+}
+
+function CardTitle({ card }: { card: Card }) {
+  if (card.kind === "plan") {
+    const fontSize = "text-3xl";
+    return (
+      <h2 className={`mt-4 font-serif text-gray-950 ${fontSize} font-bold uppercase text-center`}>
+        {card.planTitlePrefix ? (
+          <>
+            <span>
+              {card.planTitlePrefix} <span className="text-gray-400 font-normal">\</span>{" "}
+            </span>
+            {card.title}
+          </>
+        ) : (
+          card.title
+        )}
+      </h2>
+    );
+  }
+  const size = card.kind === "indicator" ? "text-xl leading-tight" : "text-2xl";
+  return <h2 className={`mt-4 font-serif text-gray-950 ${size} text-left`}>{card.title}</h2>;
+}
+
+function CardFooter({ card }: { card: Card }) {
+  return (
+    <>
+      <hr className="border-t-1 border-gray-200 mx-[1px] group-hover:border-gray-400 mt-4" />
+      <div className="px-6">
+        <div className="w-full flex justify-between items-center mt-3">
+          <div>
+            <p className="text-sm font-semibold text-gray-900">{card.ownerLabel}</p>
+            <p className="text-xs text-gray-600">{card.ownerSub}</p>
+          </div>
+          <div className="flex-1 flex justify-end items-center">
+            <CardPreviewAvatar orgs={card.seals} />
+            {card.overflow ? (
+              <span className="-ml-1 inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border border-gray-300 ring-[1.5px] ring-white text-[12px] font-medium text-gray-700">
+                <span className="relative -left-[1px] -top-[0.75px]">+{card.overflow}</span>
+              </span>
+            ) : null}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Card bodies                                                        */
+/* ------------------------------------------------------------------ */
+
+function PlanBody({ card }: { card: PlanCard }) {
+  const pct = card.indicators ? Math.round((card.improved / card.indicators) * 100) : 0;
+  const delta = card.improved - card.previousImproved;
+  return (
+    <div className="px-5">
+    <div className="px-6 py-4 bg-gray-50">
+      <div className="relative">
+        <div className="absolute top-0 left-0 right-0 flex justify-between">
+          <div>
+            <p className="text-[28px] leading-[1] font-black text-gray-950">{card.indicators}</p>
+            <p className="mt-[2px] text-xs font-medium text-gray-900">Indicators</p>
+          </div>
+          <div className="text-right">
+            <p className="text-[28px] leading-[1] font-black text-gray-950">{pct}%</p>
+            <p className="mt-[2px] text-xs font-medium text-gray-900">Improving</p>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center mt-2">
+        <div className="w-[188px] h-[188px]">
+          <PieChart
+            artwork={card.pattern}
+            patternOption={card.patternOption ?? "tile"}
+            indicatorsProgressed={card.improved}
+            totalIndicators={card.indicators}
+          />
+        </div>
+      </div>
+      <div className="flex justify-center mt-[10px]">
+        <p className="inline-flex items-center text-sm text-gray-950">
+          <svg className="mr-[2px] w-[16px] h-[16px] fill-[#F9DBAF]" viewBox="0 0 16 16" aria-hidden="true">
+            <circle cx="8" cy="8" r="4" className="stroke-gray-900" strokeWidth="1" />
+          </svg>
+          <span className="font-bold mr-[2px]">{card.improved}</span> (+{delta}) went in the right direction
+        </p>
+      </div>
+    </div>
+    </div>
+  );
+}
+
+function ChangeLabel({
+  change,
+  neutral = false,
+}: {
+  change: NonNullable<IndicatorCard["change"]>;
+  neutral?: boolean;
+}) {
+  const up = change.direction === "up";
+  // With no target, direction isn't good/bad — render brand black either way.
+  const color = neutral ? "text-gray-950" : up ? "text-indigo-600" : "text-red-600";
+  return (
+    <div className={`flex items-center ${color}`}>
+      <span className={`material-icons-sharp !text-[18px] ${up ? "rotate-[-90deg] mt-[4px]" : "rotate-[90deg] mt-[-4px]"}`}>
+        play_arrow
+      </span>
+      <span className="text-sm font-medium">{change.value}</span>
+    </div>
+  );
+}
+
+// Mirrors LineChart's actual-line coloring: indigo when the latest value moved
+// in the target's direction, red otherwise.
+function actualsMovedCorrectly(actuals: number[], targets: number[]): boolean {
+  const a = actuals.slice(-7);
+  const t = targets.slice(-7);
+  if (a.length < 2 || t.length < 2) return false;
+  const last = a.length - 1;
+  const prev = a.length - 2;
+  const finalActual = a[last];
+  const prevActual = a[prev];
+  const finalTarget = t[last];
+  const prevTarget = t[prev];
+  if (finalTarget === prevTarget) {
+    return finalActual > prevActual && finalActual >= finalTarget;
+  }
+  const targetUp = finalTarget > prevTarget;
+  const targetDown = finalTarget < prevTarget;
+  return (targetUp && finalActual > prevActual) || (targetDown && finalActual < prevActual);
+}
+
+function IndicatorBody({ card }: { card: IndicatorCard }) {
+  const actualsColor =
+    card.targets.length > 0 && actualsMovedCorrectly(card.actuals, card.targets)
+      ? "fill-[#444ec7]"
+      : "fill-red-600";
+  return (
+    <div className="px-5">
+    <div className="px-6 py-4 bg-gray-50">
+      <div className="flex justify-between mb-[10px]">
+        <h5 className="text-[28px] leading-[1] font-black text-gray-950">{card.headline}</h5>
+        {card.change && <ChangeLabel change={card.change} neutral={card.targets.length === 0} />}
+      </div>
+      <LineChart dataActuals={card.actuals} dataTargets={card.targets} />
+      {card.targets.length > 0 ? (
+        <div className="flex justify-center mt-[10px]">
+          <p className="inline-flex items-center text-xs text-gray-950 mr-2">
+            <svg className="w-[16px] h-[16px] fill-gray-950" viewBox="0 0 16 16" aria-hidden="true">
+              <circle cx="8" cy="8" r="4" />
+            </svg>
+            <span className="font-medium">Targets</span>
+          </p>
+          <p className="inline-flex items-center text-xs text-gray-950">
+            <svg className={`w-[16px] h-[16px] ${actualsColor}`} viewBox="0 0 16 16" aria-hidden="true">
+              <circle cx="8" cy="8" r="4" />
+            </svg>
+            <span className="font-medium">Actuals</span>
+          </p>
+        </div>
+      ) : (
+        <div className="flex justify-center mt-[10px]">
+          <p className="inline-flex items-center text-xs text-gray-950">
+            <svg className="w-[16px] h-[16px] fill-red-600" viewBox="0 0 16 16" aria-hidden="true">
+              <circle cx="8" cy="8" r="4" className="stroke-indigo-600" strokeWidth="2" />
+            </svg>
+            <span className="font-medium">Actuals</span>
+          </p>
+        </div>
+      )}
+      {card.progress && (
+        <ProgressBarChart
+          mostRecentResult={card.progress.result}
+          mostRecentTargetLevel={card.progress.targetLevel}
+          mostRecentTargetResult={card.progress.targetResult}
+          mostRecentPercentProgress={card.progress.percent}
+        />
+      )}
+    </div>
+    </div>
+  );
+}
+
+function ArtBody({ card }: { card: ArtCard }) {
+  return (
+    <div className="px-6 py-0">
+      <Artwork artwork={card.artwork} />
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Card                                                               */
+/* ------------------------------------------------------------------ */
+
+function MockCard({ card }: { card: Card }) {
+  return (
+    <div className="break-inside-avoid mb-5">
+      <Placard>
+        <div className="group">
+          <div className="px-6">
+            <div className="flex items-top justify-between">
+              <CardBadge>{card.badge}</CardBadge>
+              <span className="text-sm text-gray-600">{card.dateLabel}</span>
+            </div>
+            <CardTitle card={card} />
+          </div>
+          <div className="mt-4">
+            {card.kind === "plan" && <PlanBody card={card} />}
+            {card.kind === "indicator" && <IndicatorBody card={card} />}
+            {(card.kind === "goal" || card.kind === "collection") && <ArtBody card={card} />}
+          </div>
+          <CardFooter card={card} />
+        </div>
+      </Placard>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Page                                                               */
+/* ------------------------------------------------------------------ */
+
+const TABS = ["Everything", "Agencies", "Plans", "Goals", "Indicators"];
 
 export default function ExplorePage() {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [statusOption, setStatusOption] = useState<"Active" | "Inactive">("Active");
-  const [sortOption, setSortOption] = useState("Trending");
-  const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("Everything");
-  const [currentPage, setCurrentPage] = useState(1);
-  const ITEMS_PER_PAGE = 9;
-  const possibleFilters = tags.map((t) => t.name);
-
-  const metricsWithTags = useMemo(() => {
-    return metrics.map((metric) => {
-      const matchingTag = tags.find(tag => tag.metric?.includes(metric.id));
-      return {
-        ...metric,
-        tag: matchingTag?.id ?? null,
-      };
-    });
-  }, [metrics, tags]);
-
-  // Map latest results by metric ID (used for charts, can be defined early)
-  const resultsByMetric = useMemo(() => {
-    return metricResults.reduce<Record<string, typeof metricResults[0]>>((acc, r) => {
-      const id = r.metric?.[0];
-      if (id) acc[id] = r;
-      return acc;
-    }, {});
-  }, [metricResults]);
-
-  // Pre-calculate enriched results for metric cards (performance optimization)
-  const enrichedMetricResultsById = useMemo(() => {
-    const map = new Map<string, { result: any[], targetResult: any[] }>();
-    const resultsGroupedByMetricId: Record<string, typeof metricResults> = {};
-
-    for (const r of metricResults) {
-      const metricId = r.metric?.[0];
-      if (metricId) {
-        if (!resultsGroupedByMetricId[metricId]) {
-          resultsGroupedByMetricId[metricId] = [];
-        }
-        resultsGroupedByMetricId[metricId].push(r);
-      }
-    }
-
-    for (const metricId in resultsGroupedByMetricId) {
-      const sortedResults = resultsGroupedByMetricId[metricId]
-        .sort((a, b) => new Date(a.endDate).getTime() - new Date(b.endDate).getTime());
-      map.set(metricId, {
-        result: sortedResults.map(r => r.result),
-        targetResult: sortedResults.map(r => r.targetResult),
-      });
-    }
-    return map;
-  }, [metricResults]);
-
-  // Centralized filtering and sorting logic
-  const itemsToDisplay = useMemo(() => {
-    // 1. Status Filtering
-    const activePlans = planData.filter(p => p.status === statusOption);
-    const activePlanIds = new Set(activePlans.map(p => p.id));
-
-    let statusFilteredItems = [
-      ...activePlans,
-      ...goalData.filter(g => (g.plan || []).some(planId => activePlanIds.has(planId))),
-      ...metricsWithTags.filter(m => (m.plan || []).some(planId => activePlanIds.has(planId)))
-    ];
-
-    // 2. Tag Filtering (Tag -> Goal relationship)
-    let tagFilteredItems = statusFilteredItems;
-    if (activeFilters.length > 0) {
-      const goalIdsToFilterBy = new Set<string>();
-      activeFilters.forEach(filterName => {
-        const tagObject = tags.find(t => t.name === filterName);
-        if (tagObject && 'goal' in tagObject && tagObject.goal && Array.isArray(tagObject.goal)) {
-          // Now that 'goal' is confirmed to exist and be an array, we can safely iterate.
-          // We might need to cast tagObject.goal if TS still infers it as 'unknown' or too broad after 'in' check.
-          (tagObject.goal as string[]).forEach((goalId: string) => goalIdsToFilterBy.add(goalId));
-        }
-      });
-
-      if (goalIdsToFilterBy.size > 0) {
-        tagFilteredItems = statusFilteredItems.filter(item => {
-          if (item.objectType === 'Plan') {
-            // Plan is kept if any of its goals are in goalIdsToFilterBy
-            return goalData.some(g => 
-              (g.plan || []).includes(item.id) && goalIdsToFilterBy.has(g.id)
-            );
-          }
-          if (item.objectType === 'Goal') {
-            return goalIdsToFilterBy.has(item.id);
-          }
-          if (item.objectType === 'Metric') {
-            let directTagMatch = false;
-            if ('tag' in item && item.tag && typeof item.tag === 'string') {
-              directTagMatch = activeFilters.some(name => {
-                const t = tags.find(tag => tag.name === name);
-                return t?.id === item.tag; // item.tag is known to be a string here
-              });
-            }
-
-            let relatedToFilteredGoal = false;
-            // Ensure 'goal' exists on item, is not null/undefined, and is an array before trying to use .some()
-            if ('goal' in item && item.goal && Array.isArray(item.goal)) {
-              relatedToFilteredGoal = (item.goal as string[]).some((goalId: string) => goalIdsToFilterBy.has(goalId));
-            }
-            return relatedToFilteredGoal || directTagMatch;
-          }
-          return false; // Should not happen if objectType is always set
-        });
-      } else {
-        // If activeFilters are present but no matching tags/goals found, show nothing from tag filtering step
-        tagFilteredItems = [];
-      }
-    }
-
-    // 3. Search Filtering
-    const trimmedQuery = searchQuery.trim().toLowerCase();
-    let searchFilteredItems = tagFilteredItems;
-    if (trimmedQuery) {
-      searchFilteredItems = tagFilteredItems.filter(item => {
-        const nameMatch = item.name?.toLowerCase().includes(trimmedQuery);
-        let orgMatch = false;
-        let orgNameMatch = false;
-
-        if (Array.isArray(item.org)) {
-          orgMatch = item.org.some(o => typeof o === 'string' && o.toLowerCase().includes(trimmedQuery));
-        } else if (item.org) {
-          orgMatch = (item.org as string).toLowerCase().includes(trimmedQuery);
-        }
-
-        if (Array.isArray(item.orgName)) {
-          orgNameMatch = item.orgName.some(on => typeof on === 'string' && on.toLowerCase().includes(trimmedQuery));
-        } else if (item.orgName) {
-          orgNameMatch = (item.orgName as string).toLowerCase().includes(trimmedQuery);
-        }
-        
-        // For Metrics, also check orgAcronym (assuming it's specific to metrics)
-        if (item.objectType === 'Metric' && Array.isArray(item.orgAcronym)) {
-            const acronymMatch = item.orgAcronym.some(acronym => typeof acronym === 'string' && acronym.toLowerCase().includes(trimmedQuery));
-            return nameMatch || orgMatch || orgNameMatch || acronymMatch;
-        }
-
-        return nameMatch || orgMatch || orgNameMatch;
-      });
-    }
-
-    // 4. Sorting
-    let sortedItems = [...searchFilteredItems];
-    if (sortOption === "A-Z") {
-      sortedItems.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (sortOption === "Z-A") {
-      sortedItems.sort((a, b) => b.name.localeCompare(a.name));
-    } else if (sortOption === "Trending") {
-      sortedItems.sort((a, b) => {
-        const viewsA = (a as any).views || 0;
-        const viewsB = (b as any).views || 0;
-        if (viewsB !== viewsA) return viewsB - viewsA;
-        return a.name.localeCompare(b.name);
-      });
-    }
-
-    return sortedItems;
-  }, [planData, goalData, metricsWithTags, statusOption, activeFilters, tags, searchQuery, sortOption, resultsByMetric]);
-
-  // These are the tabs generated based on the content of itemsToDisplay
-  const dynamicTabs = useMemo(() => {
-    const counts: Record<string, number> = {
-      Everything: itemsToDisplay.length, // Initialize with the total count for 'All'
-    };
-    itemsToDisplay.forEach(item => {
-      const type = item.objectType as string;
-      counts[type] = (counts[type] || 0) + 1;
-    });
-    const generatedTabs = Object.entries(counts)
-      .map(([label, count]) => {
-        let displayLabel = label;
-        if (label === 'Plan') displayLabel = 'Plans';
-        else if (label === 'Goal') displayLabel = 'Goals';
-        else if (label === 'Metric') displayLabel = 'Metrics';
-        return { name: displayLabel, count, originalLabel: label };
-      })
-      .filter(tab => tab.originalLabel !== 'Everything' && tab.count > 0);
-
-    const tabOrder = ["Plans", "Goals", "Metrics"];
-    generatedTabs.sort((a, b) => tabOrder.indexOf(a.name) - tabOrder.indexOf(b.name));
-
-    return [
-      { name: "Everything", count: itemsToDisplay.length, originalLabel: "Everything" },
-      ...generatedTabs
-    ];
-  }, [itemsToDisplay]);
-
-  const currentTabResultCount = useMemo(() => {
-    const tabInfo = dynamicTabs.find(tab => tab.name === activeTab);
-    return tabInfo ? tabInfo.count : 0;
-  }, [dynamicTabs, activeTab]);
-
-  // Build the two‐level hierarchy for the sunburst
-  const hierarchyData = useMemo(() => {
-    const grouped: Record<string, Record<string, number>> = {};
-
-    for (const m of itemsToDisplay) {
-      if (m.objectType === 'Metric') {
-        const res = resultsByMetric[m.id];
-        const trend = res?.resultTrend || "No Data";
-        const org = m.orgAcronym?.[0] ?? "Unknown";
-
-        if (!grouped[trend]) grouped[trend] = {};
-        grouped[trend][org] = (grouped[trend][org] || 0) + 1;
-      }
-    }
-
-    return {
-      name: "All Metrics",
-      children: Object.entries(grouped).map(([trend, orgs]) => ({
-        name: trend,
-        children: Object.entries(orgs).map(([org, count]) => ({
-          name: org,
-          value: count,
-        })),
-      })),
-    };
-  }, [itemsToDisplay, resultsByMetric]);
-
-  const bubbleChartData = useMemo(() => {
-    const trendCounts: Record<string, number> = {};
-    for (const m of itemsToDisplay) {
-      if (m.objectType === 'Metric') {
-        const trend = resultsByMetric[m.id]?.resultTrend ?? "No Data";
-        trendCounts[trend] = (trendCounts[trend] || 0) + 1;
-      }
-    }
-    return Object.entries(trendCounts).map(([trend, count]) => ({ trend, count }));
-  }, [itemsToDisplay, resultsByMetric]);
-
-  const bumpChartData = useMemo(() => {
-    const map = new Map<string, { trend: string; date: string; count: number }>();
-
-    for (const res of metricResults) {
-      const id = res.metric?.[0];
-      if (!id || !res.fiscalYear || !res.fiscalQuarter || !res.resultTrend) continue;
-
-      const metric = metricsWithTags.find(m => m.id === id);
-      if (!metric) continue;
-
-      const matchesStatus = (metric.plan || []).some(planId => {
-        const plan = plans.find(p => p.id === planId);
-        return plan?.status === statusOption;
-      });
-      if (!matchesStatus) continue;
-
-      const matchesTags =
-        activeFilters.length === 0 ||
-        activeFilters.some(name => {
-          const tag = tags.find(t => t.name === name);
-          return tag?.id === metric.tag;
-        });
-      if (!matchesTags) continue;
-
-      const matchesSearch = metric.name.toLowerCase().includes(searchQuery.toLowerCase());
-      if (!matchesSearch) continue;
-
-      const date = `${res.fiscalYear}-Q${res.fiscalQuarter}`;
-      const key = `${res.resultTrend}__${date}`;
-
-      if (!map.has(key)) {
-        map.set(key, { trend: res.resultTrend, date, count: 1 });
-      } else {
-        map.get(key)!.count += 1;
-      }
-    }
-    const result = Array.from(map.values());
-    return result;
-  }, [searchQuery, statusOption, activeFilters, metricResults, plans, tags, metricsWithTags]);
-
-  const finalItemsForGrid = useMemo(() => {
-    if (activeTab === "Everything") {
-      return itemsToDisplay;
-    }
-    let singularActiveTab = activeTab;
-    if (activeTab === "Plans") singularActiveTab = "Plan";
-    else if (activeTab === "Goals") singularActiveTab = "Goal";
-    else if (activeTab === "Metrics") singularActiveTab = "Metric";
-    return itemsToDisplay.filter(item => item.objectType === singularActiveTab);
-  }, [itemsToDisplay, activeTab]);
-
-  const totalPages = useMemo(() => {
-    return Math.ceil(finalItemsForGrid.length / ITEMS_PER_PAGE);
-  }, [finalItemsForGrid, ITEMS_PER_PAGE]);
-
-  const paginatedItems = useMemo(() => {
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-    const endIndex = startIndex + ITEMS_PER_PAGE;
-    return finalItemsForGrid.slice(startIndex, endIndex);
-  }, [finalItemsForGrid, currentPage, ITEMS_PER_PAGE]);
-
-  useEffect(() => {
-    setCurrentPage(1); // Reset to first page when filters or tabs change
-  }, [finalItemsForGrid]); // finalItemsForGrid changes when filters/tabs change
+  const [view, setView] = useState<"grid" | "list">("grid");
 
   return (
     <div>
       <Header activeItem="Explore" />
 
-      <FiltersBar
-        searchQuery={searchQuery}
-        onSearchChange={setSearchQuery}
-        statusOption={statusOption}
-        onStatusClick={() => { /* Placeholder: Implement status dropdown toggle or selection logic */ }}
-        sortOption={sortOption}
-        onSortClick={() => {}}
-        possibleFilters={possibleFilters}
-        activeFilters={activeFilters}
-        setActiveFilters={setActiveFilters} // Added missing setActiveFilters prop for FiltersBar
-        placeholder="Search priorities of the U.S. government"
-      />
-      {/* display selected tag pills */}
-      <ActiveFilters
-        activeFilters={activeFilters}
-        setActiveFilters={setActiveFilters}
-        resultCount={currentTabResultCount} 
-      />
-<div className="bg-[#F5F5F5] flex justify-center">
-  <FilterTabs tabs={dynamicTabs} activeTab={activeTab} setActiveTab={setActiveTab} />
-</div>
-    <main className="bg-[#F5F5F5] px-8 py-[28px]">
-      {(finalItemsForGrid && finalItemsForGrid.length > 0) && (
-        <>
+      {/* Top filter bar */}
+      <div className="flex items-center space-x-4 p-4 bg-white">
+        <FilterSidebar possibleFilters={[]} activeFilters={[]} setActiveFilters={() => {}} />
+        <div className="flex-1">
+          <div className="grid w-full grid-cols-1">
+            <input
+              type="search"
+              placeholder="Search the U.S. government at work"
+              className="col-start-1 row-start-1 block w-full rounded-[3px] bg-gray-50 py-1.5 pr-3 pl-13.5 text-base text-gray-950 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-950 font-bold placeholder:font-bold placeholder:text-[16px] focus:outline-2 focus:-outline-offset-2 focus:outline-gray-600 sm:text-[16px]/6 h-[48px]"
+            />
+            <img
+              src="/icons/search-icon.svg"
+              alt="Magnify glass"
+              width={20}
+              height={20}
+              className="pointer-events-none col-start-1 row-start-1 ml-7 self-center"
+            />
+          </div>
+        </div>
+        <DropdownButton label="Status" value="Active" onClick={() => {}} icon="/icons/arrow-dropdown.svg" />
+        <DropdownButton label="Sort" value="Popular" onClick={() => {}} icon="/icons/arrow-dropdown.svg" />
+        {/* grid / list toggle */}
+        <div className="flex items-center rounded-md ring-1 ring-inset ring-gray-300 overflow-hidden">
+          <button
+            onClick={() => setView("grid")}
+            aria-label="Grid view"
+            className={`p-2 ${view === "grid" ? "bg-gray-100 text-gray-950" : "text-gray-500"}`}
+          >
+            <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+              <rect x="3" y="3" width="6" height="6" rx="1" />
+              <rect x="11" y="3" width="6" height="6" rx="1" />
+              <rect x="3" y="11" width="6" height="6" rx="1" />
+              <rect x="11" y="11" width="6" height="6" rx="1" />
+            </svg>
+          </button>
+          <button
+            onClick={() => setView("list")}
+            aria-label="List view"
+            className={`p-2 ${view === "list" ? "bg-gray-100 text-gray-950" : "text-gray-500"}`}
+          >
+            <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+              <rect x="3" y="4" width="14" height="2.5" rx="1" />
+              <rect x="3" y="9" width="14" height="2.5" rx="1" />
+              <rect x="3" y="14" width="14" height="2.5" rx="1" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* Tabs */}
+      <div className="bg-[#F5F5F5] flex justify-center pt-[28px]">
+        <div className="flex gap-4">
+          {TABS.map((tab) => {
+            const isActive = tab === activeTab;
+            return (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`relative px-[16px] py-1 rounded-full text-[15px] leading-[36px] font-medium transition ${
+                  isActive ? "bg-white text-gray-950" : "text-gray-600 hover:bg-white hover:text-gray-950"
+                }`}
+              >
+                {tab}
+                {tab === "Everything" && <sup className="ml-[2px] text-[10px] text-gray-500">123</sup>}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Grid */}
+      <main className="bg-[#F5F5F5] px-8 py-[28px]">
         <div className="max-w-[1280px] mx-auto">
-          <div className="columns-3 gap-5">
-          {paginatedItems.map((item, idx) => {
-            {/* The duplicate mapping and div structure was removed here, assuming it was an error from previous merge conflicts. Review if this was intended. */}
-            
-  let enrichedData: any = item;
-  if (item.objectType === "Metric") {
-    const metricId = item.id;
-    const precalculatedResults = enrichedMetricResultsById.get(metricId);
-    enrichedData = {
-      ...item,
-      result: precalculatedResults ? precalculatedResults.result : [],
-      targetResult: precalculatedResults ? precalculatedResults.targetResult : [],
-    };
-  }
-  if (item.objectType === "Goal") {
-    return (
-      <Link key={item.id || idx} href={`/goal/${item.id}`} passHref legacyBehavior>
-        <a className="break-inside-avoid mb-5 block cursor-pointer">
-          <Placard>
-            {/* Card content remains the same */}
-            <Card className="group">
-              <CardHeader>
-                <div className="flex items-top justify-between">
-                  <Badge>{item.objectType}</Badge>
-                  <span className="text-sm text-gray-600">
-                    {item.startDate ? new Date(item.startDate).getFullYear() : ""}&ndash;{item.endDate ? new Date(item.endDate).getFullYear() : ""}
-                  </span>
-                </div>
-                <CardPreviewTitle
-                  name={item.name}
-                  startDate={item.startDate}
-                  endDate={item.endDate}
-                  objectType={item.objectType}
-                  orgAcronym={Array.isArray(item.orgAcronym) ? item.orgAcronym[0] : item.orgAcronym}
-                />
-                <CardDescription></CardDescription>
-              </CardHeader>
-              <CardContent>
-                <CardPreviewBody data={enrichedData} />
-              </CardContent>
-              <hr className="border-t-1 border-gray-200 mx-[1px] group-hover:border-gray-400 mt-4" />
-              <CardFooter>
-                <CardPreviewFooter
-                  orgs={Array.isArray(item.orgAcronym) ? item.orgAcronym : (item.orgAcronym ? [item.orgAcronym] : [])}
-                  orgNames={Array.isArray(item.orgName) ? item.orgName : (item.orgName ? [item.orgName] : [])}
-                />
-              </CardFooter>
-            </Card>
-          </Placard>
-        </a>
-      </Link>
-    );
-  }
-  // For other item types, render without Link
-  return (
-    <div key={item.id || idx} className="break-inside-avoid mb-5">
-      <Placard>
-      <Card className="group">
-        <CardHeader>
-          <div className="flex items-top justify-between">
-            <Badge>{item.objectType}</Badge>
-            <span className="text-sm text-gray-600">
-              {item.startDate ? new Date(item.startDate).getFullYear() : ""}&ndash;{item.endDate ? new Date(item.endDate).getFullYear() : ""}
-            </span>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 items-start">
+            <div>{col1.map((c, i) => <MockCard key={`c1-${i}`} card={c} />)}</div>
+            <div>{col2.map((c, i) => <MockCard key={`c2-${i}`} card={c} />)}</div>
+            <div>{col3.map((c, i) => <MockCard key={`c3-${i}`} card={c} />)}</div>
           </div>
-          <CardPreviewTitle
-            name={item.name}
-            startDate={item.startDate}
-            endDate={item.endDate}
-            objectType={item.objectType}
-            orgAcronym={Array.isArray(item.orgAcronym) ? item.orgAcronym[0] : item.orgAcronym}
-          />
-          <CardDescription></CardDescription>
-        </CardHeader>
-        <CardContent>
-          <CardPreviewBody data={enrichedData} />
-        </CardContent>
-        <hr className="border-t-1 border-gray-200 mx-[1px] group-hover:border-gray-400 mt-4" />
-        <CardFooter>
-          <CardPreviewFooter
-            orgs={Array.isArray(item.orgAcronym) ? item.orgAcronym : (item.orgAcronym ? [item.orgAcronym] : [])}
-            orgNames={Array.isArray(item.orgName) ? item.orgName : (item.orgName ? [item.orgName] : [])}
-          />
-        </CardFooter>
-      </Card>
-      </Placard>
-    </div>
-  );
-})}
-            </div>
-          </div>
-          </>
-        )}
-        {totalPages > 1 && (
-          <div className="mt-8 flex justify-center">
-            <Pagination>
-              <PaginationContent>
-                <PaginationItem>
-                  <PaginationPrevious 
-                    href="#"
-                    onClick={(e: React.MouseEvent) => { e.preventDefault(); setCurrentPage(prev => Math.max(1, prev - 1)); }}
-                    className={currentPage === 1 ? "pointer-events-none opacity-50" : undefined}
-                  />
-                </PaginationItem>
-                {[...Array(totalPages).keys()].map(pageNumber => (
-                  <PaginationItem key={pageNumber + 1}>
-                    <PaginationLink 
-                      href="#" 
-                      onClick={(e: React.MouseEvent) => { e.preventDefault(); setCurrentPage(pageNumber + 1); }}
-                      isActive={currentPage === pageNumber + 1}
-                    >
-                      {pageNumber + 1}
-                    </PaginationLink>
-                  </PaginationItem>
-                ))}
-                {/* Basic ellipsis and next logic for now, can be expanded */}
-                <PaginationItem>
-                  <PaginationNext 
-                    href="#"
-                    onClick={(e: React.MouseEvent) => { e.preventDefault(); setCurrentPage(prev => Math.min(totalPages, prev + 1)); }}
-                    className={currentPage === totalPages ? "pointer-events-none opacity-50" : undefined}
-                  />
-                </PaginationItem>
-              </PaginationContent>
-            </Pagination>
-          </div>
-        )}
+        </div>
+
+        {/* More button */}
+        <div className="mt-6 flex justify-center">
+          <button className="inline-flex items-center gap-2 rounded-full bg-gray-900 text-white text-sm font-medium px-5 py-2.5 hover:bg-gray-800">
+            <span className="material-icons-sharp !text-[18px]">add_circle_outline</span>
+            More
+          </button>
+        </div>
       </main>
     </div>
   );

@@ -20,7 +20,6 @@ function Navigation({ activeItem }: NavigationProps) {
           </NavbarItem>
         </NavbarSection>
       </div>
-      <img src="/icons/share-arrow.svg" alt="Share" className="h-[30px]" />
     </Navbar>
   );
 }
