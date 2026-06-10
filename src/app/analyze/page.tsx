@@ -178,8 +178,8 @@ export default function AnalyzePage() {
       <div className="px-5">
         <Badge>Status</Badge>
         <div className="bg-gray-50 mt-4 px-6 py-4 flex justify-center" style={{ flexDirection: "column", alignItems: "center" }}>
-          <div className="w-full aspect-square"><BubbleChart data={bubbleChartData} /></div>
-          <div className="flex justify-center mt-[10px]">
+          <div className="w-full max-w-[360px] aspect-square mx-auto flex items-center justify-center"><BubbleChart data={bubbleChartData} /></div>
+          <div className="flex justify-center mt-5 mb-2">
             <p className="inline-flex items-center text-xs text-gray-950 mr-2">
               <svg className="w-[16px] h-[16px] fill-[#04236B]" viewBox="0 0 16 16" aria-hidden="true">
                 <circle cx="8" cy="8" r="4" />
@@ -197,16 +197,16 @@ export default function AnalyzePage() {
       </div>
     </Placard>
   </div>
-<div className="md:pt-2 bg-white"><Placard><div className="px-5"><Badge>Trend</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex flex-col items-center"><div className="w-full aspect-square"><BumpChart data={bumpChartData} /></div>
+<div className="md:pt-2 bg-white"><Placard><div className="px-5"><Badge>Trend</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex flex-col items-center"><div className="w-full max-w-[360px] aspect-square mx-auto flex items-center justify-center"><BumpChart data={bumpChartData} /></div>
 
-<div className="flex justify-center mt-[10px]"><p className="inline-flex items-center text-xs text-gray-950 mr-2"><svg className="w-[16px] h-[16px] fill-[#04236B]" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Improved</span></p><p className="inline-flex items-center text-xs text-gray-950"><svg className="w-[16px] h-[16px] fill-red-600" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Worsened</span></p></div>
+<div className="flex justify-center mt-5 mb-2"><p className="inline-flex items-center text-xs text-gray-950 mr-2"><svg className="w-[16px] h-[16px] fill-[#04236B]" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Improved</span></p><p className="inline-flex items-center text-xs text-gray-950"><svg className="w-[16px] h-[16px] fill-red-600" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Worsened</span></p></div>
 
 
 </div></div></Placard></div>
-<div className="md:pt-2 bg-white"><Placard><div className="px-5"><Badge>Owners</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex flex-col items-center"><div className="w-full aspect-square"><SunburstChart data={hierarchyData} /></div>
+<div className="md:pt-2 bg-white"><Placard><div className="px-5"><Badge>Owners</Badge><div className="bg-gray-50 mt-4 px-6 py-4 flex flex-col items-center"><div className="w-full max-w-[360px] aspect-square mx-auto flex items-center justify-center"><SunburstChart data={hierarchyData} /></div>
 
 
-<div className="flex justify-center mt-[10px]"><p className="inline-flex items-center text-xs text-gray-950 mr-2"><svg className="w-[16px] h-[16px] fill-[#04236B]" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Improved</span></p><p className="inline-flex items-center text-xs text-gray-950"><svg className="w-[16px] h-[16px] fill-red-600" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Worsened</span></p></div>
+<div className="flex justify-center mt-5 mb-2"><p className="inline-flex items-center text-xs text-gray-950 mr-2"><svg className="w-[16px] h-[16px] fill-[#04236B]" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Improved</span></p><p className="inline-flex items-center text-xs text-gray-950"><svg className="w-[16px] h-[16px] fill-red-600" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4"></circle></svg><span className="font-medium">Worsened</span></p></div>
 
 
 </div></div></Placard></div>
