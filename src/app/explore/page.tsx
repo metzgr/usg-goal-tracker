@@ -256,7 +256,7 @@ function CardTitle({ card }: { card: Card }) {
   if (card.kind === "plan") {
     const fontSize = "text-3xl";
     return (
-      <h2 className={`mt-4 font-serif text-gray-950 ${fontSize} font-bold uppercase text-center`}>
+      <h2 className={`mt-4 font-serif tracking-[-0.015em] text-gray-950 ${fontSize} font-bold uppercase text-center`}>
         {card.planTitlePrefix ? (
           <>
             <span>
@@ -552,7 +552,7 @@ export default function ExplorePage() {
       />
 
       {/* Tabs */}
-      <div className="bg-[#F5F5F5] flex justify-center pt-[28px]">
+      <div className="bg-[#F5F5F5] flex justify-center pt-[16px]">
         <div className="flex gap-4">
           {TABS.map((tab) => {
             const isActive = tab === activeTab;

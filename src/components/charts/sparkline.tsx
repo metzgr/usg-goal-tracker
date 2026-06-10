@@ -99,7 +99,7 @@ export function Sparkline({
     const tooltip = d3
       .select(svg.node()?.parentNode)
       .append("div")
-      .attr("class", "d3tooltip absolute z-10 px-[5px] py-[5px] transition-opacity duration-300 bg-white")
+      .attr("class", "d3tooltip absolute z-10 w-max max-w-none whitespace-nowrap px-[5px] py-[5px] transition-opacity duration-300 bg-white")
       .style("pointer-events", "none")
       .style("opacity", 0);
 
