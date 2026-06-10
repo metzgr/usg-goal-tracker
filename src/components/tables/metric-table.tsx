@@ -7,7 +7,6 @@ import {
   TableRow,
   TableCell,
   TableHead,
-  TableCaption,
 } from "@/components/base/table";
 
 import { Sparkline } from "@/components/charts/sparkline";
@@ -17,8 +16,7 @@ import metricResults from "@/data/metricResult.json";
 
 export function MetricTable({ metrics }: { metrics: any[] }) {
   return (
-    <Table className="overflow-auto">
-      <TableCaption>All Metrics</TableCaption>
+    <Table>
       <TableHeader className="">
         <TableRow className="sticky top-0 z-10 bg-white border-gray-800">
           <TableHead className="border-b-[3px] border-gray-800">Owner</TableHead>
@@ -54,9 +52,9 @@ export function MetricTable({ metrics }: { metrics: any[] }) {
                   <span>{m.orgAcronym}</span>
                 </div>
               </TableCell>
-              <TableCell className="max-w-[225px]">{m.objectiveName}</TableCell>
-              <TableCell className="max-w-[350px]">{m.name}</TableCell>
-              <TableCell>{m.mostRecentTargetDirection} {m.targetDirectionStringInsert} {m.mostRecentTargetResult}</TableCell>
+              <TableCell className="max-w-[225px] whitespace-normal">{m.objectiveName}</TableCell>
+              <TableCell className="max-w-[350px] whitespace-normal">{m.name}</TableCell>
+              <TableCell className="whitespace-normal">{m.mostRecentTargetDirection} {m.targetDirectionStringInsert} {m.mostRecentTargetResult}</TableCell>
               <TableCell>{m.mostRecentResult}</TableCell>
               <TableCell>
                 {results.length > 0 ? (

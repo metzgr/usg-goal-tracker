@@ -496,11 +496,11 @@ export default function ExplorePage() {
         <DropdownButton label="Status" value="Active" onClick={() => {}} icon="/icons/arrow-dropdown.svg" />
         <DropdownButton label="Sort" value="Popular" onClick={() => {}} icon="/icons/arrow-dropdown.svg" />
         {/* grid / list toggle */}
-        <div className="flex items-center rounded-md ring-1 ring-inset ring-gray-300 overflow-hidden">
+        <div className="flex items-center h-[48px] rounded-[3px] ring-1 ring-inset ring-gray-300 overflow-hidden bg-white">
           <button
             onClick={() => setView("grid")}
             aria-label="Grid view"
-            className={`p-2 ${view === "grid" ? "bg-gray-100 text-gray-950" : "text-gray-500"}`}
+            className={`h-full px-3 flex items-center justify-center cursor-pointer border-r border-gray-300 hover:text-gray-950 ${view === "grid" ? "text-gray-950" : "text-gray-400"}`}
           >
             <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
               <rect x="3" y="3" width="6" height="6" rx="1" />
@@ -512,12 +512,15 @@ export default function ExplorePage() {
           <button
             onClick={() => setView("list")}
             aria-label="List view"
-            className={`p-2 ${view === "list" ? "bg-gray-100 text-gray-950" : "text-gray-500"}`}
+            className={`h-full px-3 flex items-center justify-center cursor-pointer hover:text-gray-950 ${view === "list" ? "text-gray-950" : "text-gray-400"}`}
           >
             <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-              <rect x="3" y="4" width="14" height="2.5" rx="1" />
-              <rect x="3" y="9" width="14" height="2.5" rx="1" />
-              <rect x="3" y="14" width="14" height="2.5" rx="1" />
+              <rect x="3" y="4" width="3" height="3" rx="0.5" />
+              <rect x="8" y="4.75" width="9" height="1.5" rx="0.75" />
+              <rect x="3" y="9" width="3" height="3" rx="0.5" />
+              <rect x="8" y="9.75" width="9" height="1.5" rx="0.75" />
+              <rect x="3" y="14" width="3" height="3" rx="0.5" />
+              <rect x="8" y="14.75" width="9" height="1.5" rx="0.75" />
             </svg>
           </button>
         </div>
@@ -532,7 +535,7 @@ export default function ExplorePage() {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`relative px-[16px] py-1 rounded-full text-[15px] leading-[36px] font-medium transition ${
+                className={`relative cursor-pointer px-[16px] py-1 rounded-full text-[15px] leading-[36px] font-medium transition ${
                   isActive ? "bg-white text-gray-950" : "text-gray-600 hover:bg-white hover:text-gray-950"
                 }`}
               >
