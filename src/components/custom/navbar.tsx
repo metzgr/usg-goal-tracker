@@ -61,10 +61,10 @@ export const NavbarItem = forwardRef<HTMLSpanElement, NavbarItemProps>(function 
       {current && (
         <motion.span
           layoutId="current-indicator"
-          className="absolute inset-x-0 -bottom-[19px] h-[3px] bg-gray-950"
+          className="absolute inset-x-0 -bottom-[17px] h-[3px] bg-gray-950"
         />
       )}
-      <span className="absolute inset-x-0 -bottom-[19px] h-[3px] bg-gray-950 opacity-0 group-hover:opacity-100" />
+      <span className="absolute inset-x-0 -bottom-[17px] h-[3px] bg-gray-950 opacity-0 group-hover:opacity-100" />
       {'href' in props ? (
         <Link {...props} className={classes} data-current={current ? 'true' : undefined} ref={ref}>
           <TouchTarget>{children}</TouchTarget>

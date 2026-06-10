@@ -212,7 +212,7 @@ export default function AnalyzePage() {
 </div></div></Placard></div>
 </div>
 
-<Placard><div className="px-5"><MetricTable metrics={displayedMetrics} /></div></Placard>
+<MetricTable metrics={displayedMetrics} />
           </>
         )}
       </main>
