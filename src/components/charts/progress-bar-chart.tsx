@@ -79,44 +79,43 @@ export default function ProgressBarChart({
       .attr("class", "h-full bg-green-700 relative")
       .style("width", barWidth);
 
-    setTimeout(() => {
-      const barRect = progressBar.node()?.getBoundingClientRect();
-      if (!barRect) return;
+    // The bar's right edge, expressed the same way as its width — deterministic and
+    // layout-independent (no getBoundingClientRect timing, so it matches in prod too).
+    const barRightEdge = barWidth;
 
-      if (progressPercent < 86) {
-        container
-          .classed("bg-green-striped", false)
-          .classed("bg-green-700", false)
-          .classed("bg-gray-200", true);
-        let label = container.select("span.progress-label");
-        if (label.empty()) {
-          label = container
-            .append("span")
-            .attr("class", "progress-label absolute font-medium text-sm text-green-800 leading-1 pt-[6px] ml-[9px]");
-        }
-        label
-          .text(`${Math.round(rawProgressPercent)}%`)
-          .style("left", `${barRect.width}px`)
-          .style("top", "calc(50% - 0.5rem)");
-      } else {
-        container.select("span.progress-label").remove();
-        container.classed("bg-green-striped", false);
+    if (progressPercent < 86) {
+      container
+        .classed("bg-green-striped", false)
+        .classed("bg-green-700", false)
+        .classed("bg-gray-200", true);
+      let label = container.select("span.progress-label");
+      if (label.empty()) {
+        label = container
+          .append("span")
+          .attr("class", "progress-label absolute font-medium text-sm text-green-800 leading-1 pt-[6px] ml-[9px]");
       }
+      label
+        .text(`${Math.round(rawProgressPercent)}%`)
+        .style("left", barRightEdge)
+        .style("top", "calc(50% - 0.5rem)");
+    } else {
+      container.select("span.progress-label").remove();
+      container.classed("bg-green-striped", false);
+    }
 
-      if (hasCap) {
-        container
-          .append("svg")
-          .attr("width", capWidth)
-          .attr("height", capHeight)
-          .attr("viewBox", `0 0 ${capWidth} ${capHeight}`)
-          .style("position", "absolute")
-          .style("left", `${barRect.width}px`)
-          .style("top", "6px")
-          .append("polygon")
-          .attr("points", `0,0 ${capWidth},${capHeight / 2} 0,${capHeight}`)
-          .attr("fill", "#067647");
-      }
-    }, 0);
+    if (hasCap) {
+      container
+        .append("svg")
+        .attr("width", capWidth)
+        .attr("height", capHeight)
+        .attr("viewBox", `0 0 ${capWidth} ${capHeight}`)
+        .style("position", "absolute")
+        .style("left", barRightEdge)
+        .style("top", "6px")
+        .append("polygon")
+        .attr("points", `0,0 ${capWidth},${capHeight / 2} 0,${capHeight}`)
+        .attr("fill", "#067647");
+    }
   }, [progressPercent, dimensions, hasTarget, rawProgressPercent, progressRatio]);
 
   return (

@@ -3,7 +3,7 @@
 
 import React from "react";
 import { FilterButton } from "@/components/base/button";
-import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle } from "@/components/filters/sheet";
+import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetFooter } from "@/components/filters/sheet";
 import { Checkbox } from "@/components/filters/checkbox";
 import { Label } from "@/components/filters/label";
 import { ScrollArea } from "@/components/filters/scroll-area";
@@ -35,7 +35,7 @@ export default function FilterScreen({ possibleFilters, activeFilters, setActive
         <SheetHeader>
           <SheetTitle>Filters</SheetTitle>
         </SheetHeader>
-        <ScrollArea className="h-64">
+        <ScrollArea className="flex-1">
           <div className="p-4 space-y-2">
             {possibleFilters.map((filter) => (
               <div key={filter} className="flex items-center space-x-2">
@@ -49,14 +49,14 @@ export default function FilterScreen({ possibleFilters, activeFilters, setActive
           </div>
         </ScrollArea>
         {activeFilters.length > 0 && (
-          <div className="p-4">
+          <SheetFooter className="border-t border-gray-200">
             <button
               onClick={() => setActiveFilters([])}
-              className="bg-red-500 text-white px-2 py-1 rounded w-full"
+              className="flex w-full items-center justify-center rounded-[3px] bg-gray-950 px-3 py-2 text-sm font-medium text-white hover:bg-gray-800 cursor-pointer"
             >
-              Clear All
+              Clear all
             </button>
-          </div>
+          </SheetFooter>
         )}
       </SheetContent>
     </Sheet>

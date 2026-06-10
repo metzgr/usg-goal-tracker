@@ -9,6 +9,7 @@ import Artwork from "@/components/charts/artwork";
 import ProgressBarChart from "@/components/charts/progress-bar-chart";
 import CardPreviewAvatar from "@/components/cards/cardPreviewAvatar";
 import FilterSidebar from "@/components/filters/filter-sidebar";
+import { ActiveFilters } from "@/components/filters/active-filters";
 import { DropdownButton } from "@/components/base/button";
 
 /* ------------------------------------------------------------------ */
@@ -27,7 +28,11 @@ type BaseCard = {
   ownerSub: string; // "U.S. Department of Agriculture" or "ONDCP · DHS · DHS · DHS · DHS"
   seals: string[]; // seal acronyms that have a png in /avatars/seals
   overflow?: number; // "+5"
+  tags?: string[]; // filter tags (from tag.json) — used to test the Filter sidebar
 };
+
+// Available filters (from src/data/tag.json)
+const FILTERS = ["Agriculture", "Priority 1", "Priority 2", "Priority 3"];
 
 type PlanCard = BaseCard & {
   kind: "plan";
@@ -115,6 +120,7 @@ const col1: Card[] = [
     title: "U.S. Social Indicators",
     artwork: "usa",
     ...multi,
+    tags: ["Agriculture", "Priority 1"],
   },
 ];
 
@@ -127,6 +133,7 @@ const col2: Card[] = [
     title: "Facilitate Rural Prosperity and Economic Development",
     artwork: "rectq3GGTbU7127Za", // farmer — matches "Stand Behind American Farmers" on /explore
     ...multi,
+    tags: ["Agriculture", "Priority 1"],
   },
   {
     kind: "plan",
@@ -149,6 +156,7 @@ const col2: Card[] = [
     title: "Safeguard and Improve National and Global Health Conditions and Outcomes",
     artwork: "recGpiVdPQNl5BdaS", // ambulance
     ...multi,
+    tags: ["Priority 2", "Priority 3"],
   },
   {
     kind: "plan",
@@ -189,6 +197,7 @@ const col3: Card[] = [
     ownerLabel: "Multiple Owners",
     ownerSub: "DOD · VA",
     seals: ["dod", "va"],
+    tags: ["Priority 1"],
   },
   {
     kind: "plan",
@@ -213,6 +222,7 @@ const col3: Card[] = [
     ownerLabel: "DHS",
     ownerSub: "U.S. Department of Homeland Security",
     seals: ["dhs"],
+    tags: ["Priority 2", "Priority 3"],
   },
   {
     kind: "indicator",
@@ -469,27 +479,35 @@ const TABS = ["Everything", "Agencies", "Plans", "Goals", "Indicators"];
 export default function ExplorePage() {
   const [activeTab, setActiveTab] = useState("Everything");
   const [view, setView] = useState<"grid" | "list">("grid");
+  const [activeFilters, setActiveFilters] = useState<string[]>([]);
+
+  // A card passes the filter if no filters are active, or its tags intersect the active filters.
+  const matchesFilters = (card: Card) =>
+    activeFilters.length === 0 || (card.tags ?? []).some((t) => activeFilters.includes(t));
+
+  const filteredCols = [col1, col2, col3].map((col) => col.filter(matchesFilters));
+  const resultCount = filteredCols.reduce((n, col) => n + col.length, 0);
 
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Header activeItem="Explore" />
 
       {/* Top filter bar */}
       <div className="flex items-center space-x-4 p-4 bg-white">
-        <FilterSidebar possibleFilters={[]} activeFilters={[]} setActiveFilters={() => {}} />
+        <FilterSidebar possibleFilters={FILTERS} activeFilters={activeFilters} setActiveFilters={setActiveFilters} />
         <div className="flex-1">
           <div className="grid w-full grid-cols-1">
             <input
               type="search"
-              placeholder="Search the U.S. government at work"
-              className="col-start-1 row-start-1 block w-full rounded-[3px] bg-gray-50 py-1.5 pr-3 pl-13.5 text-base text-gray-950 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-950 font-bold placeholder:font-bold placeholder:text-[16px] focus:outline-2 focus:-outline-offset-2 focus:outline-gray-600 sm:text-[16px]/6 h-[48px]"
+              placeholder="Search the Great Experiment at work"
+              className="peer col-start-1 row-start-1 block w-full rounded-[3px] bg-gray-50 py-1.5 pr-3 pl-[60px] text-[18px] tracking-tight text-gray-950 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 font-serif italic font-normal placeholder:font-serif placeholder:italic placeholder:font-normal placeholder:text-[18px] focus:outline-2 focus:-outline-offset-2 focus:outline-gray-600 sm:text-[18px]/6 h-[48px]"
             />
             <img
               src="/icons/search-icon.svg"
               alt="Magnify glass"
               width={20}
               height={20}
-              className="pointer-events-none col-start-1 row-start-1 ml-7 self-center"
+              className="pointer-events-none col-start-1 row-start-1 ml-7 self-center opacity-40 peer-focus:opacity-100 transition-opacity"
             />
           </div>
         </div>
@@ -526,6 +544,13 @@ export default function ExplorePage() {
         </div>
       </div>
 
+      {/* Selected filter pills + result count */}
+      <ActiveFilters
+        activeFilters={activeFilters}
+        setActiveFilters={setActiveFilters}
+        resultCount={resultCount}
+      />
+
       {/* Tabs */}
       <div className="bg-[#F5F5F5] flex justify-center pt-[28px]">
         <div className="flex gap-4">
@@ -548,22 +573,24 @@ export default function ExplorePage() {
       </div>
 
       {/* Grid */}
-      <main className="bg-[#F5F5F5] px-8 py-[28px]">
+      <main className="flex-1 bg-[#F5F5F5] px-8 py-[28px]">
         <div className="max-w-[1280px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 items-start">
-            <div>{col1.map((c, i) => <MockCard key={`c1-${i}`} card={c} />)}</div>
-            <div>{col2.map((c, i) => <MockCard key={`c2-${i}`} card={c} />)}</div>
-            <div>{col3.map((c, i) => <MockCard key={`c3-${i}`} card={c} />)}</div>
+            <div>{filteredCols[0].map((c, i) => <MockCard key={`c1-${i}`} card={c} />)}</div>
+            <div>{filteredCols[1].map((c, i) => <MockCard key={`c2-${i}`} card={c} />)}</div>
+            <div>{filteredCols[2].map((c, i) => <MockCard key={`c3-${i}`} card={c} />)}</div>
           </div>
         </div>
 
-        {/* More button */}
-        <div className="mt-6 flex justify-center">
-          <button className="inline-flex items-center gap-2 rounded-full bg-gray-900 text-white text-sm font-medium px-5 py-2.5 hover:bg-gray-800">
-            <span className="material-icons-sharp !text-[18px]">add_circle_outline</span>
-            More
-          </button>
-        </div>
+        {/* More button — hidden while filtering */}
+        {activeFilters.length === 0 && (
+          <div className="mt-6 flex justify-center">
+            <button className="inline-flex items-center gap-2 rounded-full bg-gray-900 text-white text-sm font-medium px-5 py-2.5 hover:bg-gray-800 cursor-pointer">
+              <span className="material-icons-sharp !text-[18px]">add_circle_outline</span>
+              More
+            </button>
+          </div>
+        )}
       </main>
     </div>
   );

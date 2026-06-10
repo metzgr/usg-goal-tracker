@@ -27,7 +27,7 @@ export default function FiltersBar({
   possibleFilters,
   activeFilters,
   setActiveFilters,
-  placeholder = "Search the U.S. government at work",
+  placeholder = "Search the Great Experiment at work",
 }: FiltersBarProps) {
   return (
     <div className="flex items-center space-x-4 p-4 bg-white">
@@ -48,14 +48,14 @@ export default function FiltersBar({
                 placeholder={placeholder}
                 value={searchQuery}
                 onChange={(e) => onSearchChange(e.target.value)}
-                className="col-start-1 row-start-1 block w-full rounded-[3px] bg-gray-50 py-1.5 pr-3 pl-13.5 text-base text-gray-950 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-950 font-bold placeholder:font-bold placeholder:text-[16px] focus:outline-2 focus:-outline-offset-2 focus:outline-gray-600 sm:text-[16px]/6 h-[48px]"
+                className="peer col-start-1 row-start-1 block w-full rounded-[3px] bg-gray-50 py-1.5 pr-3 pl-[60px] text-[18px] tracking-tight text-gray-950 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 font-serif italic font-normal placeholder:font-serif placeholder:italic placeholder:font-normal placeholder:text-[18px] focus:outline-2 focus:-outline-offset-2 focus:outline-gray-600 sm:text-[18px]/6 h-[48px]"
               />
               <img
                 src="/icons/search-icon.svg"
                 alt="Magnify glass"
                 width={20}
                 height={20}
-                className="pointer-events-none col-start-1 row-start-1 ml-7 self-center"
+                className="pointer-events-none col-start-1 row-start-1 ml-7 self-center opacity-40 peer-focus:opacity-100 transition-opacity"
               />
             </div>
           </div>
